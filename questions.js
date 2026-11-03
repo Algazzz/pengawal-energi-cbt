@@ -3890,5 +3890,655 @@ window.QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "explain": "Selisih terukur − teoritis = 4.080 − 4.200 = −120 liter; penyebabnya harus diperiksa, bukan langsung diasumsikan pelanggaran.",
   "src": "tambahan-github"
+ },
+ {
+  "q": "BPH Migas terutama memiliki fungsi apa?",
+  "options": [
+   "Mengelola seluruh kegiatan pengeboran minyak",
+   "Mengatur dan mengawasi penyediaan serta distribusi BBM",
+   "Menetapkan kurikulum perguruan tinggi energi",
+   "Menjadi operator setiap SPBU di Indonesia"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "BPH Migas berfungsi melakukan pengaturan dan pengawasan penyediaan serta pendistribusian BBM dan pengangkutan gas melalui pipa."
+ },
+ {
+  "q": "Yang termasuk kegiatan usaha hilir migas adalah ...",
+  "options": [
+   "Eksplorasi dan survei seismik",
+   "Pengeboran dan penyelesaian sumur",
+   "Pengolahan, pengangkutan, penyimpanan, dan niaga",
+   "Estimasi cadangan hidrokarbon"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Kegiatan hilir mencakup pengolahan, pengangkutan, penyimpanan, dan niaga produk migas."
+ },
+ {
+  "q": "Manakah contoh Jenis BBM Tertentu (JBT)?",
+  "options": [
+   "Pertamax Turbo",
+   "Pertamax",
+   "Dexlite",
+   "Minyak Solar dan minyak tanah"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "JBT mencakup Minyak Solar dan minyak tanah, sesuai rujukan Kementerian ESDM."
+ },
+ {
+  "q": "Contoh Jenis BBM Khusus Penugasan (JBKP) yang digunakan saat ini ialah ...",
+  "options": [
+   "Pertalite",
+   "Pertamax Turbo",
+   "Dexlite",
+   "Avtur"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Pertalite dikelompokkan sebagai JBKP dan menerima kompensasi negara."
+ },
+ {
+  "q": "Perbedaan paling tepat antara JBT Solar dan JBKP Pertalite dalam penjelasan kebijakan pemerintah adalah ...",
+  "options": [
+   "Keduanya selalu dijual sebagai BBM industri",
+   "JBT Solar disubsidi; JBKP Pertalite mendapat kompensasi",
+   "JBT Solar tidak perlu diawasi",
+   "JBKP Pertalite hanya untuk pesawat"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Pemerintah membedakan subsidi JBT dan kompensasi pada JBKP."
+ },
+ {
+  "q": "Mengapa Pengawal Energi dibutuhkan di tingkat SPBU?",
+  "options": [
+   "Menggantikan seluruh operator SPBU",
+   "Mengatur harga minyak dunia",
+   "Memperkuat pengawasan distribusi BBM yang tepat sasaran",
+   "Mengubah BBM menjadi gas"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Program bertujuan memperkuat pengawasan distribusi terutama BBM yang terkait subsidi dan kompensasi."
+ },
+ {
+  "q": "Dalam program BBM Satu Harga, singkatan 3T mengacu pada ...",
+  "options": [
+   "Tertinggal, terdepan, terluar",
+   "Tepat, tertib, terukur",
+   "Terbuka, terpadu, terpercaya",
+   "Terbesar, terkuat, terbaik PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "3T adalah tertinggal, terdepan, dan terluar."
+ },
+ {
+  "q": "Dasar hukum utama tentang Minyak dan Gas Bumi yang sering menjadi rujukan adalah ...",
+  "options": [
+   "UU No. 20 Tahun 2003",
+   "UU No. 11 Tahun 2008",
+   "UU No. 25 Tahun 2009",
+   "UU No. 22 Tahun 2001"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "UU No. 22 Tahun 2001 mengatur minyak dan gas bumi."
+ },
+ {
+  "q": "Perpres 191 Tahun 2014 terutama mengatur ...",
+  "options": [
+   "Organisasi kampus migas",
+   "Sertifikasi operator pembangkit",
+   "Penyediaan, pendistribusian, dan harga jual eceran BBM",
+   "Pajak kendaraan bermotor"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Judul resmi Perpres 191/2014 menyebut penyediaan, pendistribusian dan harga jual eceran BBM."
+ },
+ {
+  "q": "Perpres yang mengubah Perpres 191 Tahun 2014 pada 2018 ialah ...",
+  "options": [
+   "Perpres 43 Tahun 2018",
+   "Perpres 11 Tahun 2018",
+   "Perpres 90 Tahun 2018",
+   "Perpres 121 Tahun 2018"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Perpres 43/2018 adalah perubahan atas Perpres 191/2014."
+ },
+ {
+  "q": "Peraturan BPH Migas 2 Tahun 2023 berkaitan dengan ...",
+  "options": [
+   "Eksplorasi cekungan",
+   "Penerbitan surat rekomendasi pembelian JBT dan JBKP",
+   "Pengadaan bahan bangunan",
+   "Perizinan pesawat udara"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Peraturan BPH Migas 2/2023 mengatur surat rekomendasi pembelian JBT dan JBKP."
+ },
+ {
+  "q": "Peraturan yang mengubah sebagian ketentuan Peraturan BPH Migas 2/2023 adalah ...",
+  "options": [
+   "Peraturan BPH Migas 1/2019",
+   "Peraturan BPH Migas 6/2020",
+   "Peraturan BPH Migas 4/2025",
+   "Peraturan BPH Migas 7/2018"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Peraturan BPH Migas 4/2025 merupakan perubahan peraturan rekomendasi tersebut."
+ },
+ {
+  "q": "QR Code tidak sesuai dengan nomor polisi kendaraan. Respons verifikasi awal yang paling tepat adalah ...",
+  "options": [
+   "Membiarkan karena kode bisa dipindahkan",
+   "Menyebarkan foto pemilik kendaraan ke publik",
+   "Langsung menyatakan pengemudi bersalah",
+   "Menghentikan validasi yang tidak sesuai dan melaporkan menurut SOP"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Ketidaksesuaian identitas harus diverifikasi dan dilaporkan menurut SOP, tanpa menyimpulkan pidana secara sepihak."
+ },
+ {
+  "q": "Aplikasi XStar BPH Migas berhubungan dengan ...",
+  "options": [
+   "Penerbitan dan pengelolaan surat rekomendasi",
+   "Pemrograman sistem pengeboran lepas pantai",
+   "Perhitungan kadar oktan di laboratorium",
+   "Penjualan tiket kereta PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "XStar dipakai untuk dukungan penerbitan surat rekomendasi pembelian JBT/JBKP."
+ },
+ {
+  "q": "Pihak penerbit surat rekomendasi pembelian JBT/JBKP sesuai mekanisme XStar adalah ...",
+  "options": [
+   "Operator nozzle secara pribadi",
+   "Perangkat daerah/OPD yang berwenang",
+   "Pengemudi mana saja",
+   "Penyedia jasa internet"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Surat rekomendasi diterbitkan pemerintah daerah melalui OPD yang berwenang."
+ },
+ {
+  "q": "Satu kendaraan membeli Solar subsidi secara berulang dengan identitas QR berbeda. Hal yang paling layak dilakukan adalah ...",
+  "options": [
+   "Mengabaikan karena transaksi masing-masing terbayar",
+   "Menghapus data transaksi",
+   "Memeriksa pola, identitas, dan dokumentasi pendukung",
+   "Membenarkan transaksi tanpa pencatatan"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Transaksi berulang dan identitas berbeda dapat menjadi indikasi anomali yang memerlukan verifikasi berbasis bukti."
+ },
+ {
+  "q": "Komponen bukti yang baik untuk laporan pengawasan SPBU adalah ...",
+  "options": [
+   "Rumor tanpa waktu dan tempat",
+   "Opini pribadi tentang pengemudi",
+   "Unggahan media sosial tanpa konteks",
+   "Waktu, lokasi, data transaksi, dan hasil verifikasi"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Laporan yang dapat ditindaklanjuti perlu data objektif, konteks, serta jejak verifikasi."
+ },
+ {
+  "q": "Manakah kombinasi pengelompokan BBM yang tepat?",
+  "options": [
+   "JBT = Solar; JBKP = Pertalite",
+   "JBT = Pertamax; JBKP = Dexlite",
+   "JBT = Avtur; JBKP = Pertamax",
+   "JBT = Pertamax Turbo; JBKP = Avgas"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Solar masuk JBT; Pertalite masuk JBKP."
+ },
+ {
+  "q": "Konsumen akhir dalam konteks penyaluran BBM ialah pihak yang ...",
+  "options": [
+   "Membeli untuk menjual kembali demi keuntungan",
+   "Memakai BBM untuk kebutuhan sendiri, bukan dijual kembali",
+   "Selalu bertindak sebagai agen distribusi",
+   "Mempunyai terminal BBM"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Pengguna akhir menggunakan BBM dan bukan membeli untuk dijual kembali."
+ },
+ {
+  "q": "Fungsi utama APAR di area SPBU adalah ...",
+  "options": [
+   "Memantau suhu tangki setiap detik",
+   "Memeriksa nomor polisi kendaraan",
+   "Menangani kebakaran tahap awal bila aman dan petugas terlatih",
+   "Mengukur volume stok di dispenser"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "APAR digunakan pada penanggulangan kebakaran dini sesuai jenisnya dan hanya apabila kondisi memungkinkan."
+ },
+ {
+  "q": "Bahaya utama di sekitar dispenser BBM berkaitan dengan ...",
+  "options": [
+   "Uap bahan bakar dan sumber penyalaan",
+   "Gelombang suara dari kendaraan",
+   "Perubahan warna seragam petugas",
+   "Ketinggian papan harga PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Uap bahan bakar yang mudah terbakar dapat tersulut sumber penyalaan."
+ },
+ {
+  "q": "Jika ditemukan tumpahan BBM di dekat dispenser, langkah paling tepat adalah ...",
+  "options": [
+   "Terus melayani semua kendaraan",
+   "Membilas secepatnya ke drainase umum",
+   "Menyalakan alat listrik dekat tumpahan",
+   "Amankan lokasi, cegah sumber api, dan ikuti prosedur penanganan tumpahan"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Area tumpahan harus diamankan, aktivitas berbahaya dihentikan, dan penanganan mengikuti prosedur keselamatan."
+ },
+ {
+  "q": "Perlengkapan yang sesuai untuk personel lapangan di SPBU antara lain ...",
+  "options": [
+   "Sandal terbuka",
+   "Sepatu keselamatan dan rompi sesuai risiko kerja",
+   "Aksesori longgar di dekat peralatan",
+   "Headphone penutup kedua telinga saat inspeksi"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "APD dipilih mengikuti penilaian risiko, misalnya sepatu keselamatan dan rompi kerja."
+ },
+ {
+  "q": "Sebelum pengisian BBM, operator perlu memastikan ...",
+  "options": [
+   "Seluruh penumpang merekam video",
+   "Dispenser tidak memiliki catatan penjualan",
+   "Tidak ada merokok, mesin menyala, atau sumber api di dekat area",
+   "Petugas memindahkan APAR ke kantor"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Pedoman keselamatan SPBU menekankan pengendalian sumber api, termasuk kendaraan dan merokok."
+ },
+ {
+  "q": "Jika petugas menerima tawaran uang agar mengabaikan temuan, pilihan yang paling sesuai integritas kerja adalah ...",
+  "options": [
+   "Menolak, menjaga bukti, dan melaporkan sesuai aturan",
+   "Menerima asal nominal kecil",
+   "Menerima lalu menghapus transaksi",
+   "Membiarkan bila tidak ada kamera"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Petugas harus independen, menolak gratifikasi, dan melaporkan sesuai jalur resmi."
+ },
+ {
+  "q": "Laporan warga mengenai penjualan BBM bersubsidi tidak wajar sebaiknya ...",
+  "options": [
+   "Langsung diumumkan sebagai fakta final",
+   "Dicatat dan diverifikasi dengan data serta prosedur resmi",
+   "Dibuang karena belum terbukti",
+   "Diubah agar sesuai dugaan petugas"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Aduan adalah petunjuk awal, bukan bukti final; dibutuhkan verifikasi."
+ },
+ {
+  "q": "Mengapa pencatatan tanggal dan waktu transaksi diperlukan?",
+  "options": [
+   "Agar laporan terlihat lebih panjang",
+   "Agar nilai jual naik otomatis",
+   "Untuk menelusuri kronologi dan mendeteksi pola transaksi",
+   "Supaya tidak perlu mencatat volume"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Timestamp memudahkan audit jejak transaksi dan analisis pola."
+ },
+ {
+  "q": "Apa yang bukan kewenangan wajar seorang verifikator lapangan dalam simulasi ini?",
+  "options": [
+   "Memeriksa ketidaksesuaian data",
+   "Menyusun laporan temuan",
+   "Meminta klarifikasi menurut prosedur",
+   "Menjatuhkan hukuman pidana sendiri PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Penjatuhan hukuman pidana merupakan kewenangan lembaga penegak hukum dan pengadilan, bukan verifikator."
+ },
+ {
+  "q": "Stok awal 5.000 liter, pasokan 3.000 liter, penjualan 6.200 liter. Stok teoritis akhir adalah ...",
+  "options": [
+   "1.800 liter",
+   "2.200 liter",
+   "3.800 liter",
+   "4.200 liter"
+  ],
+  "answer": 0,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "Stok akhir = 5.000 + 3.000 - 6.200 = 1.800 liter."
+ },
+ {
+  "q": "Realisasi penyaluran 180.000 liter dari kuota 200.000 liter. Persentase realisasi adalah ...",
+  "options": [
+   "80%",
+   "90%",
+   "95%",
+   "110%"
+  ],
+  "answer": 1,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "180.000 / 200.000 x 100% = 90%."
+ },
+ {
+  "q": "Volume 1,5 kiloliter setara dengan ...",
+  "options": [
+   "15 liter",
+   "150 liter",
+   "1.500 liter",
+   "15.000 liter"
+  ],
+  "answer": 2,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "Satu kiloliter = 1.000 liter; 1,5 kL = 1.500 liter."
+ },
+ {
+  "q": "Penjualan pada sistem 4.000 liter sedangkan laporan manual 3.900 liter. Selisih absolutnya adalah ...",
+  "options": [
+   "25 liter",
+   "50 liter",
+   "75 liter",
+   "100 liter"
+  ],
+  "answer": 3,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "Selisih absolut = |4.000 - 3.900| = 100 liter."
+ },
+ {
+  "q": "Dari target 15.000 liter, terealisasi 12.000 liter. Tingkat capaian adalah ...",
+  "options": [
+   "80%",
+   "85%",
+   "90%",
+   "95%"
+  ],
+  "answer": 0,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "12.000 / 15.000 x 100% = 80%."
+ },
+ {
+  "q": "Sebesar 20% dari kuota 7.500 liter adalah ...",
+  "options": [
+   "1.250 liter",
+   "1.500 liter",
+   "1.750 liter",
+   "2.000 liter"
+  ],
+  "answer": 1,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "0,2 x 7.500 = 1.500 liter."
+ },
+ {
+  "q": "Penjualan harian berturut-turut 1.200, 1.600, dan 1.400 liter. Rata-ratanya adalah ...",
+  "options": [
+   "1.300 liter",
+   "1.350 liter",
+   "1.400 liter",
+   "1.450 liter PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 2,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "(1.200 + 1.600 + 1.400) / 3 = 1.400 liter per hari."
+ },
+ {
+  "q": "Sebuah SPBU beroperasi selama 3 giliran, masing-masing 6 jam. Total jam operasi adalah ...",
+  "options": [
+   "12 jam",
+   "15 jam",
+   "16 jam",
+   "18 jam"
+  ],
+  "answer": 3,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "3 x 6 = 18 jam."
+ },
+ {
+  "q": "Empat persen dari 2.500 liter adalah ...",
+  "options": [
+   "100 liter",
+   "125 liter",
+   "150 liter",
+   "200 liter"
+  ],
+  "answer": 0,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "0,04 x 2.500 = 100 liter."
+ },
+ {
+  "q": "Lima catatan transaksi terdiri atas dua catatan duplikat dari transaksi yang sudah tercatat. Banyak transaksi unik adalah ...",
+  "options": [
+   "2 transaksi",
+   "3 transaksi",
+   "4 transaksi",
+   "5 transaksi"
+  ],
+  "answer": 1,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "Jika dua dari lima adalah catatan duplikat, ada 3 transaksi unik."
+ },
+ {
+  "q": "Stok awal 10.000 liter ditambah pengiriman 7.000 liter dan penjualan 12.500 liter. Stok akhir adalah ...",
+  "options": [
+   "3.500 liter",
+   "4.000 liter",
+   "4.500 liter",
+   "5.500 liter"
+  ],
+  "answer": 2,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "10.000 + 7.000 - 12.500 = 4.500 liter."
+ },
+ {
+  "q": "Kuota 8.000 liter dan realisasi 9.600 liter. Persentase kelebihan terhadap kuota adalah ...",
+  "options": [
+   "10%",
+   "15%",
+   "18%",
+   "20%"
+  ],
+  "answer": 3,
+  "cat": "Basic Science",
+  "src": "modul-latihan-pdf",
+  "explain": "Kelebihan = 1.600 liter; 1.600 / 8.000 x 100% = 20%."
+ },
+ {
+  "q": "Operator menyebut QR Code tidak sesuai nomor polisi tetapi tetap memproses pembelian. Sikap verifikator adalah ...",
+  "options": [
+   "Menerima tanpa mengecek",
+   "Mendokumentasikan ketidaksesuaian dan meminta penjelasan sesuai SOP",
+   "Menghapus catatan agar tidak terjadi konflik",
+   "Membagikan data pribadi pengemudi secara umum"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Ketidaksesuaian harus ditelusuri dengan bukti dan jalur pelaporan yang tepat."
+ },
+ {
+  "q": "Terdapat lonjakan penjualan BBM pada satu jam tanpa perubahan operasi yang tercatat. Langkah analis yang paling tepat ialah ...",
+  "options": [
+   "Langsung menyimpulkan tindak pidana",
+   "Mengabaikan karena tren dapat naik turun",
+   "Menguji data pembanding, identitas transaksi, dan kemungkinan salah input",
+   "Mengubah nilai agar grafik normal PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Anomali membutuhkan pembandingan data dan pengecekan kualitas data sebelum disimpulkan."
+ },
+ {
+  "q": "Seseorang merokok di dekat titik pengisian. Tindakan awal yang benar adalah ...",
+  "options": [
+   "Menunda respons sampai kendaraan selesai",
+   "Memotret sambil terus mengisi",
+   "Mendekatkan bahan bakar untuk menunjukkan bahaya",
+   "Hentikan kegiatan yang berbahaya dan minta sumber api dimatikan sesuai SOP"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Sumber penyalaan di area pengisian harus segera dikendalikan demi keselamatan."
+ },
+ {
+  "q": "Dua laporan memiliki angka berbeda. Petugas belum mengetahui angka yang benar. Apa prinsip laporan yang tepat?",
+  "options": [
+   "Tuliskan perbedaan, sumber, dan status verifikasi secara terbuka",
+   "Pilih angka yang terlihat paling menguntungkan",
+   "Hapus data yang berbeda tanpa jejak",
+   "Gabungkan angka agar terlihat cocok"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Transparansi sumber dan status verifikasi menjaga akuntabilitas laporan."
+ },
+ {
+  "q": "Seorang Analis diminta menilai pola penjualan selama 30 hari. Pendekatan paling tepat adalah ...",
+  "options": [
+   "Memilih satu hari dengan penjualan tertinggi",
+   "Membuat deret waktu, membandingkan tren, dan menelusuri anomali",
+   "Mengabaikan perubahan antarhari",
+   "Mengandalkan ingatan operator saja"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Deret waktu dan evaluasi anomali merupakan pendekatan dasar analisis penyaluran."
+ },
+ {
+  "q": "Aktivitas yang paling khas untuk simulasi peran Verifikator Lapangan ialah ...",
+  "options": [
+   "Menyusun proyeksi ekonomi nasional",
+   "Mengembangkan sumur eksplorasi baru",
+   "Pengecekan transaksi serta kondisi lapangan sesuai SOP",
+   "Menetapkan vonis hukum"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Verifikator lapangan memerlukan kemampuan pemeriksaan faktual dan pelaporan di lokasi."
+ },
+ {
+  "q": "Fungsi Excel yang menjumlahkan volume hanya untuk jenis produk tertentu sesuai kriteria adalah ...",
+  "options": [
+   "AVERAGE",
+   "LEFT",
+   "NOW",
+   "SUMIF"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "SUMIF menjumlahkan nilai yang memenuhi satu kriteria."
+ },
+ {
+  "q": "Fungsi Excel yang menghitung banyaknya baris memenuhi satu kondisi adalah ...",
+  "options": [
+   "COUNTIF",
+   "SUM",
+   "MAX",
+   "ROUND"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "COUNTIF menghitung sel dalam rentang yang memenuhi kriteria."
+ },
+ {
+  "q": "Seorang petugas menemukan identitas konsumen di sistem tidak sesuai dengan dokumen. Langkah terbaik ialah ...",
+  "options": [
+   "Tetap mengesahkan karena sistem sudah terisi",
+   "Meminta verifikasi/perbaikan melalui jalur yang berwenang",
+   "Mengganti data tanpa jejak persetujuan",
+   "Menggunakan data konsumen lain PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Perbedaan identitas harus diperbaiki dengan prosedur resmi dan jejak audit."
+ },
+ {
+  "q": "Jika satu kesimpulan hanya didasarkan pada sebuah foto tanpa waktu dan lokasi, analis sebaiknya ...",
+  "options": [
+   "Menganggap sudah cukup",
+   "Menyebut sebagai bukti pasti pelanggaran",
+   "Menambahkan verifikasi konteks, metadata, dan sumber pembanding",
+   "Mengunggah langsung sebagai pelanggaran final PENGAWAL ENERGI 2026 / MODUL LATIHAN"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "modul-latihan-pdf",
+  "explain": "Foto tunggal yang tidak terverifikasi tidak cukup untuk membuktikan pelanggaran secara meyakinkan. BAGIAN IV - REFERENSI RESMI Utamakan sumber pemerintah di bawah. Tautan disediakan agar kamu dapat membaca dokumen asli. Regulasi dibaca bersama ketentuan perubahan yang berlaku. 01. Portal Pengawal Energi - PEM Akamigas Pengumuman peserta dan panduan resmi. 02. Panduan Alur Pendaftaran - PEM Akamigas Informasi posisi, "
  }
 ];
