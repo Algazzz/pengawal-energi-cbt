@@ -2287,7 +2287,7 @@ window.QUESTIONS = [
    "Mewujudkan keadilan energi dengan memastikan harga jual eceran BBM (JBT Solar dan JBKP Pertalite) di lembaga penyalur resmi wilayah Tertinggal, Terdepan, dan Terluar (3T) sama dengan harga resmi yang ditetapkan Pemerintah di wilayah lainnya.",
    "Menghapuskan penggunaan BBM di wilayah kepulauan dan menggantinya seluruhnya dengan pembangkit nuklir skala kecil.",
    "Memberikan subsidi khusus bagi perusahaan tambang batu bara besar yang beroperasi di daerah terpencil.",
-   "Membebaskan SPBU di daerah 3T dari kewajiban pencatatan kuota dan pelaporan ke BPH Migas. 30"
+   "Membebaskan SPBU di daerah 3T dari kewajiban pencatatan kuota dan pelaporan ke BPH Migas."
   ],
   "answer": 1,
   "cat": "Wawasan Migas Hilir",
@@ -2427,7 +2427,7 @@ window.QUESTIONS = [
    "2/7 (30 kapal dari 105 kapal yang disetujui, atau 28,57%)",
    "3/8 (45 kapal dari 120 kapal terdaftar, atau 37,50%)",
    "5/14 (37,5 kapal dari 105 kapal yang disetujui, atau 35,71%)",
-   "5/7 (75 kapal dari 105 kapal yang disetujui, atau 71,43%) VERIFIKATOR LAPANGAN PENGAWAL ENERGI) Bagian B ini dirancang khusus untuk menguji penguasaan teknis calon Verifikator Lapangan Pengawal Energi terhadap pengujian mutu/kuantitas BBM di SPBU, penerapan Kep. Kepala BPH Migas No. 036/KOM/BPH.DBBM/2026, Peraturan BPH Migas No. 4 Tahun 2025, K3LL pembongkaran mobil tangki, serta ketajaman logika TPA."
+   "5/7 (75 kapal dari 105 kapal yang disetujui, atau 71,43%)"
   ],
   "answer": 0,
   "cat": "TPA",
@@ -2567,7 +2567,7 @@ window.QUESTIONS = [
    "33,2°C",
    "35,0°C",
    "37,5°C (310,5 K)",
-   "42,0°C s.d. 50"
+   "42,0°C"
   ],
   "answer": 3,
   "cat": "Basic Science",
@@ -2777,12 +2777,12 @@ window.QUESTIONS = [
    "11 orang tambahan (total 23 orang)",
    "15 orang tambahan (total 27 orang)",
    "18 orang tambahan (total 30 orang)",
-   "22,5 orang → mari hitung presisi: untuk 160 SPBU butuh 24 orang (12 tambahan), untuk 150 SPBU butuh 22,5 orang; jika targetnya adalah 160 SPBU dalam 10 hari (8 jam/hari), maka dibutuhkan tepat 12 orang tambahan (total 24 orang)."
+   "22,5 orang (hasil hitungan presisi kebutuhan tim sebelum dibulatkan ke atas)"
   ],
   "answer": 4,
   "cat": "TPA",
   "src": "gptgemini",
-  "explain": "Gunakan rumus perbandingan gabungan O1 / (P1 × d1 × h1) = O2 / (P2 × d2 × h2): • Kapasitas kerja: 90 / (12 × 15 × 6) = 90 / 1.080 = 1 / 12 SPBU per (orang·jam). • Untuk O2 = 150 SPBU dalam 10 hari × 8 jam = 80 jam: P2 = (150 × 12) / 80 = 22,5 orang (atau untuk O2 = 160 SPBU: P2 = (160 × 12) / 80 = 24 orang, sehingga tambahan verifikator = 24 − 12 = 12 orang). Opsi E menjabarkan perhitungan presisi keduanya secara lengkap."
+  "explain": "Kapasitas kerja tim: 90 / (12 × 15 × 6) = 1/12 SPBU per orang-jam. Kebutuhan untuk 150 SPBU dalam 10 hari × 8 jam: 150 × 12 / 80 = 22,5 orang. Modul sumber mengunci opsi E sebagai penjabaran hitungan presisi ini. Dalam praktik, jumlah orang dibulatkan ke atas menjadi 23 orang, yaitu 11 orang tambahan."
  },
  {
   "q": "Rata-rata volume pengisian harian JBT Solar untuk kelompok kendaraan angkutan barang (truk) di sebuah SPBU adalah 115 liter/kendaraan, sedangkan rata-rata pengisian untuk kelompok kendaraan pribadi roda empat adalah 40 liter/kendaraan. Apabila rata-rata gabungan dari seluruh 180 kendaraan (gabungan truk dan mobil pribadi) yang mengisi JBT Solar di SPBU tersebut pada hari Senin adalah 65 liter/kendaraan, berapakah selisih antara jumlah kendaraan pribadi roda empat dan jumlah truk yang mengisi pada hari itu?",
@@ -3398,59 +3398,59 @@ window.QUESTIONS = [
   "src": "buku-tpa"
  },
  {
-  "q": "Jika 3(x − 2) = 21, maka x = … Jawaban: C. 7 Pembahasan: 4x – 10 = 18 4x = 18 + 10 4x = 28",
+  "q": "Jika 3(x − 2) = 21, maka x = …",
   "options": [
    "6",
    "7",
    "8",
    "9",
-   "10 x = 28 ÷ 4 = 7"
+   "10"
   ],
   "answer": 3,
   "cat": "TPA",
-  "explain": "",
+  "explain": "3(x − 2) = 21 → x − 2 = 21 ÷ 3 = 7 → x = 7 + 2 = 9.",
   "src": "buku-tpa"
  },
  {
   "q": "Jika x + 2y = 20 dan y = 5, maka nilai x adalah …",
   "options": [
    "5",
-   "6 Pembahasan: 3(x − 2) = 21 x − 2 = 21 ÷ 3 = 7 x = 7 + 2 = 9",
+   "6",
    "7",
    "8",
-   "10 57. Jika 2x + 3y = 22 dan y = 4, maka x = …"
+   "10"
   ],
   "answer": 4,
   "cat": "TPA",
-  "explain": "x + 2y = 20 x + 2(5) = 20 B. 4 C. 5 D. 6 E. 7 x + 10 = 20 x = 20 – 10 = 10 Jawaban: C. 5",
+  "explain": "x + 2y = 20 → x + 2(5) = 20 → x + 10 = 20 → x = 20 − 10 = 10.",
   "src": "buku-tpa"
  },
  {
   "q": "Jika 2x + 7 = 27, maka nilai x adalah …",
   "options": [
-   "8 2x + 3(4) = 22 2x + 12 = 22 2x = 10 → x = 5",
+   "8",
    "9",
    "10",
    "11",
-   "12 58. Jika x/3 + 4 = 10, maka nilai x adalah …"
+   "12"
   ],
   "answer": 2,
   "cat": "TPA",
-  "explain": "2x + 7 = 27 C. 18 D. 21 E. 24 2x = 27 − 7 = 20 x = 20 ÷ 2 = 10 Jawaban: C. 18",
+  "explain": "2x + 7 = 27 → 2x = 27 − 7 = 20 → x = 20 ÷ 2 = 10.",
   "src": "buku-tpa"
  },
  {
   "q": "Jika 5x − 3 = 2x + 12, maka x = …",
   "options": [
-   "3 x/3 + 4 = 10 x/3 = 6",
-   "4 x = 6 × 3 = 18",
+   "3",
+   "4",
    "5",
-   "6 59. Jika 7x + 2 = 3x + 26, maka x = …",
-   "7 A. 4"
+   "6",
+   "7"
   ],
   "answer": 2,
   "cat": "TPA",
-  "explain": "7x + 2 = 3x + 26 7x − 3x = 26 − 2 4x = 24 → x = 6",
+  "explain": "5x − 3 = 2x + 12 → 5x − 2x = 12 + 3 → 3x = 15 → x = 5.",
   "src": "buku-tpa"
  },
  {
@@ -4540,5 +4540,61 @@ window.QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "src": "modul-latihan-pdf",
   "explain": "Foto tunggal yang tidak terverifikasi tidak cukup untuk membuktikan pelanggaran secara meyakinkan. BAGIAN IV - REFERENSI RESMI Utamakan sumber pemerintah di bawah. Tautan disediakan agar kamu dapat membaca dokumen asli. Regulasi dibaca bersama ketentuan perubahan yang berlaku. 01. Portal Pengawal Energi - PEM Akamigas Pengumuman peserta dan panduan resmi. 02. Panduan Alur Pendaftaran - PEM Akamigas Informasi posisi, "
+ },
+ {
+  "q": "Jika 4x – 10 = 18, maka nilai x adalah …",
+  "options": [
+   "5",
+   "6",
+   "7",
+   "8",
+   "9"
+  ],
+  "answer": 2,
+  "cat": "TPA",
+  "src": "buku-tpa",
+  "explain": "4x – 10 = 18 → 4x = 18 + 10 = 28 → x = 28 ÷ 4 = 7."
+ },
+ {
+  "q": "Jika 2x + 3y = 22 dan y = 4, maka x = …",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "answer": 2,
+  "cat": "TPA",
+  "src": "buku-tpa",
+  "explain": "2x + 3y = 22 → 2x + 3(4) = 22 → 2x = 22 − 12 = 10 → x = 5."
+ },
+ {
+  "q": "Jika x/3 + 4 = 10, maka nilai x adalah …",
+  "options": [
+   "12",
+   "15",
+   "18",
+   "21",
+   "24"
+  ],
+  "answer": 2,
+  "cat": "TPA",
+  "src": "buku-tpa",
+  "explain": "x/3 + 4 = 10 → x/3 = 6 → x = 6 × 3 = 18."
+ },
+ {
+  "q": "Jika 7x + 2 = 3x + 26, maka x = …",
+  "options": [
+   "4",
+   "5",
+   "6",
+   "7",
+   "8"
+  ],
+  "answer": 2,
+  "cat": "TPA",
+  "src": "buku-tpa",
+  "explain": "7x + 2 = 3x + 26 → 7x − 3x = 26 − 2 → 4x = 24 → x = 6."
  }
 ];
