@@ -1,4 +1,4 @@
-window.QUESTIONS = [
+const QUESTIONS = [
  {
   "q": "Kegiatan usaha hilir migas menurut UU 22/2001 berintikan pada...",
   "options": [
@@ -4791,5 +4791,971 @@ window.QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "src": "v6-exa",
   "explain": "Rantai LPG 3 kg: SPBE → agen → pangkalan → konsumen. Pangkalan adalah penjual terakhir ke konsumen terdaftar dan diawasi antara lain oleh pemerintah daerah."
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam industri minyak dan gas bumi, terdapat perbedaan mendasar antara kegiatan usaha hulu dan hilir. Suatu perusahaan melakukan eksplorasi untuk menemukan cadangan minyak bumi, mengebor sumur produksi, dan mengangkat minyak mentah dari reservoir. Setelah itu, perusahaan lain mengolah minyak mentah menjadi bensin dan solar untuk dipasarkan kepada masyarakat. Pernyataan yang paling tepat mengenai kedua kegiatan tersebut adalah ....",
+  "answer": 1,
+  "explain": "Kegiatan usaha hulu migas mencakup eksplorasi dan eksploitasi. Eksplorasi dilakukan untuk menemukan cadangan migas, sedangkan eksploitasi mencakup rangkaian kegiatan untuk menghasilkan migas dari wilayah kerja. Kegiatan usaha hilir meliputi pengolahan, pengangkutan, penyimpanan, dan niaga minyak dan gas bumi. Dalam contoh tersebut, eksplorasi dan produksi minyak mentah merupakan kegiatan hulu. Pengolahan minyak mentah menjadi bensin dan solar serta kegiatan niaganya termasuk kegiatan hilir. Poin penting: Pahami pembagian kegiatan usaha hulu dan hilir karena keduanya merupakan konsep dasar industri migas.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Eksplorasi dan produksi termasuk kegiatan hilir, sedangkan pengolahan minyak mentah termasuk kegiatan hulu.",
+   "Eksplorasi dan produksi termasuk kegiatan hulu, sedangkan pengolahan dan niaga BBM termasuk kegiatan hilir.",
+   "Seluruh kegiatan tersebut termasuk kegiatan hulu karena menggunakan minyak bumi sebagai bahan utama.",
+   "Eksplorasi termasuk kegiatan hilir apabila dilakukan untuk memenuhi kebutuhan energi dalam negeri.",
+   "Kegiatan hulu hanya mencakup pengeboran, sedangkan eksplorasi dan produksi termasuk kegiatan hilir."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah kilang menerima minyak mentah dari beberapa wilayah produksi. Minyak mentah tersebut kemudian diproses untuk menghasilkan berbagai produk, seperti bensin, solar, minyak tanah, dan LPG. Apabila kilang mengalami gangguan operasional sehingga produksi bensin dan solar menurun, dampak yang paling tepat terhadap rantai pasok energi adalah ....",
+  "answer": 2,
+  "explain": "Kilang merupakan bagian penting dari rantai pasok BBM karena mengolah minyak mentah menjadi produk yang dapat digunakan oleh konsumen. Ketika produksi kilang menurun, ketersediaan produk BBM dari sumber tersebut dapat berkurang. Kondisi ini perlu diantisipasi melalui pengelolaan persediaan, penyesuaian distribusi, atau pemanfaatan sumber pasokan lain yang tersedia. Minyak mentah tidak dapat langsung diperlakukan sebagai bensin atau solar karena karakteristik dan spesifikasinya berbeda. Poin penting: Gangguan pada satu bagian rantai pasok dapat memengaruhi ketersediaan produk pada tahap berikutnya.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Kegiatan eksplorasi minyak bumi otomatis berhenti karena seluruh produksi hulu bergantung pada kilang.",
+   "Pasokan BBM pasti tetap normal karena kegiatan pengolahan tidak berhubungan dengan ketersediaan produk akhir.",
+   "Ketersediaan produk BBM dari kilang dapat menurun sehingga kebutuhan distribusi perlu diantisipasi melalui pengelolaan stok dan sumber pasokan lainnya.",
+   "Seluruh minyak mentah yang belum diolah dapat langsung dipasarkan sebagai bensin dan solar tanpa proses tambahan.",
+   "Gangguan kilang hanya memengaruhi kegiatan eksplorasi dan tidak berdampak pada penyaluran BBM."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam kegiatan pengawasan distribusi BBM, seorang petugas menemukan indikasi bahwa penyaluran BBM tertentu tidak sesuai dengan ketentuan yang berlaku. Petugas tersebut perlu memahami lembaga yang mempunyai fungsi pengaturan dan pengawasan terhadap kegiatan hilir migas sesuai kewenangannya. Lembaga yang paling tepat untuk dikaitkan dengan fungsi tersebut adalah ....",
+  "answer": 1,
+  "explain": "BPH Migas merupakan badan yang memiliki fungsi pengaturan dan pengawasan kegiatan usaha hilir minyak dan gas bumi sesuai ketentuan peraturan perundang- undangan. Dalam konteks distribusi BBM, fungsi tersebut berkaitan dengan pengaturan dan pengawasan penyediaan serta pendistribusian jenis BBM tertentu dan jenis BBM khusus penugasan sesuai kewenangannya. Sementara itu, SKK Migas berperan dalam pengelolaan kegiatan usaha hulu migas berdasarkan kerangka kelembagaan yang berlaku. Poin penting: Jangan tertukar antara fungsi BPH Migas pada sektor hilir dan fungsi SKK Migas pada sektor hulu.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "SKK Migas, karena seluruh pengawasan distribusi BBM merupakan bagian dari pengelolaan kegiatan eksplorasi.",
+   "Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas), sesuai tugas dan kewenangannya dalam pengaturan serta pengawasan kegiatan hilir migas.",
+   "Badan Pusat Statistik, karena seluruh penyimpangan distribusi BBM harus ditangani melalui penghitungan statistik.",
+   "Kementerian Perindustrian, karena seluruh kegiatan pengangkutan dan penyaluran BBM berada di bawah kewenangannya.",
+   "Badan Nasional Penanggulangan Bencana, karena distribusi BBM selalu termasuk kegiatan penanggulangan bencana."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Perhatikan urutan kegiatan berikut. 1. BBM disimpan pada fasilitas penyimpanan. 2. BBM diangkut menuju fasilitas penyaluran. 3. BBM disalurkan kepada konsumen melalui sarana penyalur. 4. BBM diproduksi melalui proses pengolahan di kilang. Urutan yang paling logis untuk menggambarkan rantai pasok BBM hasil pengolahan kilang adalah ....",
+  "answer": 3,
+  "explain": "Urutan yang paling logis adalah: 1. Pengolahan minyak mentah menghasilkan produk BBM. 2. BBM ditempatkan pada fasilitas penyimpanan. 3. BBM diangkut menuju fasilitas penyaluran yang dituju. 4. BBM disalurkan kepada konsumen. Dengan demikian, urutan yang sesuai adalah 4–1–2–3. Dalam praktiknya, pola logistik dapat bervariasi. Sebagian produk dapat dipindahkan langsung ke fasilitas lain tanpa melewati tahapan penyimpanan tertentu, bergantung pada konfigurasi sistem distribusinya. Poin penting: Memahami urutan rantai pasok membantu mengidentifikasi titik yang berpotensi mengalami keterlambatan, kekurangan stok, atau ketidaksesuaian data.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "1 – 4 – 3 – 2.",
+   "2 – 3 – 1 – 4.",
+   "3 – 2 – 4 – 1.",
+   "4 – 1 – 2 – 3.",
+   "4 – 3 – 2 – 1."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas baru berpendapat bahwa minyak mentah yang keluar dari sumur produksi dapat langsung digunakan oleh kendaraan bermotor sebagai pengganti bensin atau solar tanpa melalui proses pengolahan. Penilaian teknis yang paling tepat terhadap pendapat tersebut adalah ....",
+  "answer": 2,
+  "explain": "Minyak mentah merupakan campuran berbagai senyawa hidrokarbon yang berasal dari reservoir bawah permukaan bumi. Komposisinya bervariasi, bergantung pada sumbernya. Bensin dan solar merupakan produk dengan karakteristik serta spesifikasi tertentu yang dirancang untuk penggunaan masing-masing. Pengolahan minyak mentah di kilang melibatkan proses seperti distilasi dan berbagai proses lanjutan untuk menghasilkan produk yang memenuhi spesifikasi yang diperlukan. Oleh karena itu, minyak mentah tidak dapat begitu saja dianggap setara dengan bensin atau solar siap pakai. Poin penting: Bedakan bahan baku minyak bumi dengan produk hasil pengolahannya.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Benar, karena minyak mentah dan bensin memiliki karakteristik pembakaran yang selalu sama.",
+   "Benar, selama minyak mentah dicampur dengan air dalam jumlah tertentu.",
+   "Salah, karena minyak mentah merupakan campuran hidrokarbon yang karakteristiknya berbeda dari produk BBM siap pakai dan umumnya perlu diolah terlebih dahulu.",
+   "Salah, karena minyak mentah hanya dapat digunakan sebagai bahan bakar pembangkit listrik dan tidak dapat diolah menjadi BBM.",
+   "Benar, karena seluruh kendaraan bermotor dirancang untuk menggunakan minyak mentah secara langsung."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah terminal BBM memiliki stok yang cukup untuk memenuhi kebutuhan penyaluran berdasarkan rencana operasional. Namun, sejumlah SPBU mengalami keterlambatan penerimaan BBM karena armada pengangkut tidak dapat beroperasi sesuai jadwal. Berdasarkan informasi tersebut, sumber masalah yang paling langsung adalah ....",
+  "answer": 1,
+  "explain": "Dalam kasus ini, stok tersedia di terminal, tetapi BBM terlambat sampai ke SPBU karena kendala armada pengangkut. Hal tersebut menunjukkan adanya gangguan pada tahap pengangkutan dan logistik distribusi. Ketersediaan stok di satu titik tidak otomatis menjamin produk tersedia di seluruh titik penyaluran. Pengelolaan rantai pasok harus memperhatikan persediaan, kapasitas transportasi, jadwal pengiriman, dan kebutuhan setiap wilayah. Poin penting: Bedakan masalah ketersediaan stok dengan masalah kelancaran distribusi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Penurunan cadangan minyak bumi pada tahap eksplorasi.",
+   "Gangguan pada tahap pengangkutan dan logistik distribusi.",
+   "Penurunan kualitas minyak mentah di wilayah produksi.",
+   "Penghentian seluruh kegiatan usaha hulu migas.",
+   "Perubahan komposisi kimia BBM akibat kegiatan eksplorasi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam kegiatan hilir migas, gas bumi dan LPG sering dianggap sebagai produk yang sama karena keduanya digunakan sebagai sumber energi. Padahal, keduanya memiliki perbedaan komposisi dan karakteristik. Pernyataan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Gas bumi umumnya didominasi metana, meskipun komposisinya dapat berbeda-beda bergantung pada sumbernya. LPG atau Liquefied Petroleum Gas terutama terdiri atas propana, butana, atau campuran keduanya. LPG dapat diperoleh melalui pengolahan gas bumi maupun pengolahan minyak bumi. Perbedaan komposisi tersebut memengaruhi sifat fisik, cara penyimpanan, transportasi, serta penggunaannya. Poin penting: Jangan menyamakan gas bumi dengan LPG hanya karena keduanya berbentuk gas pada kondisi tertentu dan sama-sama digunakan sebagai sumber energi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Gas bumi selalu terdiri atas propana dan butana, sedangkan LPG selalu terdiri atas metana murni.",
+   "Gas bumi dan LPG merupakan istilah yang sepenuhnya identik sehingga tidak perlu dibedakan dalam kegiatan industri.",
+   "Gas bumi umumnya didominasi metana, sedangkan LPG terutama terdiri atas hidrokarbon seperti propana dan butana.",
+   "LPG hanya dapat diperoleh dari sumur gas dan tidak dapat dihasilkan melalui pengolahan minyak bumi.",
+   "Gas bumi tidak dapat digunakan sebagai sumber energi karena seluruh komponennya harus diubah menjadi bensin."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah fasilitas penyimpanan BBM menerima pasokan dari beberapa pengiriman. Dalam satu periode, jumlah BBM yang masuk lebih besar daripada jumlah BBM yang keluar untuk penyaluran. Jika tidak terdapat kehilangan produk, koreksi pencatatan, atau perubahan lain yang memengaruhi perhitungan, kesimpulan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Persediaan akhir dapat dihitung dengan persamaan dasar: Persediaan Akhir = Persediaan Awal + Penerimaan − Pengeluaran Jika penerimaan lebih besar daripada pengeluaran, dan tidak terdapat kehilangan, koreksi, atau perubahan lain, persediaan akhir akan lebih besar daripada persediaan awal. Namun, kenaikan persediaan tidak otomatis membuktikan bahwa seluruh pencatatan telah benar. Dalam pemeriksaan nyata, data administrasi tetap perlu dibandingkan dengan hasil pengukuran fisik dan dokumen pendukung. Poin penting: Kuasai hubungan antara penerimaan, pengeluaran, dan saldo persediaan untuk memahami pengelolaan stok BBM.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Persediaan akhir pasti lebih rendah daripada persediaan awal.",
+   "Persediaan akhir secara perhitungan akan lebih tinggi daripada persediaan awal.",
+   "Jumlah persediaan tidak dapat berubah karena penyimpanan hanya berfungsi sebagai tempat transit.",
+   "Seluruh BBM yang masuk harus dianggap telah disalurkan kepada konsumen.",
+   "Selisih tersebut membuktikan bahwa telah terjadi penyalahgunaan BBM."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pemerintah berupaya menjaga agar kebutuhan BBM masyarakat dapat dipenuhi secara berkelanjutan. Dalam konteks pengelolaan sektor energi, pendekatan yang paling tepat untuk mendukung tujuan tersebut adalah ....",
+  "answer": 2,
+  "explain": "Ketahanan pasokan energi tidak hanya ditentukan oleh jumlah sumber daya atau produksi. Sistem tersebut juga bergantung pada kemampuan pengolahan, penyimpanan, pengangkutan, distribusi, dan pengawasan. Perencanaan yang terintegrasi membantu mengantisipasi gangguan pasokan, ketimpangan distribusi, dan kebutuhan energi yang berbeda antarwilayah. Pengawasan tetap diperlukan untuk memastikan kegiatan berjalan sesuai ketentuan dan mendukung penyaluran yang tepat sasaran. Poin penting: Ketahanan energi memerlukan koordinasi berbagai bagian rantai pasok, bukan hanya peningkatan produksi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Mengutamakan peningkatan produksi tanpa memperhatikan penyimpanan, pengangkutan, dan distribusi.",
+   "Memusatkan seluruh pasokan pada satu wilayah tanpa mempertimbangkan kebutuhan daerah lain.",
+   "Mengintegrasikan perencanaan pasokan, pengelolaan stok, distribusi, dan pengawasan sesuai kewenangan masing-masing lembaga.",
+   "Menghapus seluruh proses pemeriksaan distribusi agar pengiriman BBM dapat berlangsung lebih cepat.",
+   "Menganggap ketersediaan minyak mentah selalu menjamin ketersediaan BBM di setiap SPBU."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Suatu wilayah terpencil mengalami keterlambatan pasokan BBM secara berulang. Hasil pemeriksaan awal menunjukkan bahwa stok di fasilitas pemasok masih tersedia, tetapi waktu pengiriman sering bertambah akibat keterbatasan akses jalan dan kondisi cuaca. Langkah analisis yang paling tepat untuk mengidentifikasi akar masalah adalah ....",
+  "answer": 3,
+  "explain": "Permasalahan dalam kasus ini berkaitan dengan hambatan logistik, meskipun stok di fasilitas pemasok tersedia.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyimpulkan bahwa stok nasional tidak mencukupi tanpa memeriksa data tambahan.",
+   "Menghentikan seluruh pengiriman hingga kondisi distribusi kembali normal tanpa menyusun rencana alternatif.",
+   "Memusatkan pemeriksaan hanya pada kualitas BBM tanpa mengevaluasi transportasi dan kondisi wilayah.",
+   "Mengevaluasi pola permintaan, kapasitas transportasi, waktu tempuh, kondisi akses, dan pola persediaan untuk menyusun alternatif distribusi.",
+   "Menganggap keterlambatan sebagai bukti bahwa telah terjadi penyelewengan BBM."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas Pengawal Energi sedang mempelajari klasifikasi BBM untuk memahami mekanisme pengawasan distribusi. Ia menemukan tiga kategori BBM, yaitu Jenis BBM Tertentu (JBT), Jenis BBM Khusus Penugasan (JBKP), dan Jenis BBM Umum (JBU). Pernyataan yang paling tepat mengenai klasifikasi tersebut adalah ....",
+  "answer": 1,
+  "explain": "JBT, JBKP, dan JBU merupakan kategori BBM yang berbeda dalam kerangka pengaturan hilir migas di Indonesia.  JBT (Jenis BBM Tertentu) merupakan BBM yang penggunaannya dan penyalurannya diatur berdasarkan ketentuan pemerintah. Contohnya mencakup minyak tanah dan minyak solar sesuai klasifikasi yang berlaku.  JBKP (Jenis BBM Khusus Penugasan) merupakan jenis BBM yang penyediaan dan pendistribusiannya ditugaskan pemerintah kepada badan usaha sesuai ketentuan. Contoh yang dikenal adalah bensin RON 90.  JBU (Jenis BBM Umum) merupakan jenis BBM di luar kategori JBT dan JBKP yang diatur dalam kerangka kegiatan usaha hilir migas. Klasifikasi dan ketentuan produk dapat berubah mengikuti regulasi. Oleh karena itu, petugas harus memeriksa ketentuan yang berlaku, bukan hanya mengandalkan nama produk atau kebiasaan di lapangan. Inti materi: Ketiga kategori tersebut tidak boleh dipertukarkan karena memiliki dasar pengaturan yang berbeda.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "JBT merupakan BBM yang seluruh harganya ditentukan oleh mekanisme pasar, sedangkan JBU merupakan BBM yang selalu mendapatkan subsidi pemerintah.",
+   "JBT, JBKP, dan JBU merupakan kategori BBM yang memiliki pengertian serta pengaturan berbeda, sehingga klasifikasinya harus mengacu pada ketentuan perundang-undangan.",
+   "JBKP merupakan seluruh BBM yang dijual di SPBU, sedangkan JBT hanya mencakup BBM untuk kendaraan dinas pemerintah.",
+   "JBU merupakan BBM yang hanya boleh digunakan oleh industri, sedangkan JBT dan JBKP hanya digunakan untuk kendaraan pribadi.",
+   "JBT dan JBKP merupakan istilah yang identik sehingga tidak perlu dibedakan dalam pengawasan distribusi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam suatu kegiatan verifikasi, petugas menemukan penyaluran minyak solar yang masuk dalam kategori Jenis BBM Tertentu. Petugas harus memahami bahwa pengaturan penyaluran BBM tersebut berkaitan dengan kebijakan pemerintah mengenai penyediaan dan pendistribusian energi. Pernyataan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Minyak solar yang termasuk JBT berada dalam kerangka pengaturan khusus. Penyalurannya tidak dapat diperlakukan sama dengan seluruh produk BBM yang dijual berdasarkan mekanisme umum. Petugas perlu memahami ketentuan mengenai konsumen pengguna, tata cara penyaluran, serta mekanisme pengawasan yang berlaku. Pilihan B tidak tepat karena tidak setiap produk yang disebut solar otomatis memiliki klasifikasi JBT. Klasifikasi harus ditentukan berdasarkan produk dan ketentuan resmi yang berlaku. Inti materi: Identifikasi JBT harus didasarkan pada klasifikasi dan regulasi, bukan semata-mata nama produk.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Minyak solar yang termasuk JBT dapat disalurkan tanpa memperhatikan ketentuan konsumen pengguna.",
+   "Seluruh produk minyak solar otomatis menjadi JBT, tanpa memperhatikan klasifikasi produk dan ketentuan yang berlaku.",
+   "Penyaluran minyak solar yang termasuk JBT harus mengikuti ketentuan mengenai konsumen pengguna, penyediaan, pendistribusian, dan pengawasan yang berlaku.",
+   "Status JBT hanya ditentukan oleh warna bahan bakar dan tidak berkaitan dengan pengaturan pemerintah.",
+   "BBM yang termasuk JBT hanya dapat digunakan untuk kegiatan eksplorasi minyak bumi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pemerintah menugaskan badan usaha untuk menyediakan dan mendistribusikan jenis BBM tertentu sesuai kebijakan energi nasional. Dalam pelaksanaannya, penyaluran harus memperhatikan wilayah penugasan dan ketentuan yang ditetapkan pemerintah. Konsep tersebut paling tepat menggambarkan ....",
+  "answer": 2,
+  "explain": "JBKP merupakan kategori BBM yang berkaitan dengan penugasan pemerintah kepada badan usaha untuk penyediaan dan pendistribusian sesuai ketentuan. Dalam memahami JBKP, petugas perlu membedakan tiga hal: 1. Status produk dalam klasifikasi BBM. 2. Penugasan kepada badan usaha. 3. Ketentuan wilayah dan mekanisme pendistribusian. Ketiganya berkaitan, tetapi tidak boleh dianggap sebagai satu pengertian yang sama. Tidak semua BBM yang diatur pemerintah merupakan JBKP. JBT dan JBKP memiliki klasifikasi tersendiri. Inti materi: Kata penugasan dalam JBKP merupakan bagian penting dari karakteristik pengaturannya.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "JBU, karena seluruh produk BBM umum wajib disalurkan berdasarkan penugasan khusus pemerintah.",
+   "JBT, karena seluruh BBM yang diatur pemerintah pasti merupakan BBM khusus penugasan.",
+   "JBKP, karena kategori ini berkaitan dengan penyediaan dan pendistribusian BBM berdasarkan penugasan pemerintah sesuai ketentuan.",
+   "BBM industri, karena seluruh produk untuk kegiatan industri termasuk kategori khusus penugasan.",
+   "Minyak mentah, karena seluruh minyak bumi yang belum diolah harus didistribusikan berdasarkan penugasan pemerintah."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam mempelajari kebijakan energi, seorang peserta menemukan bahwa pemerintah dapat menerapkan kebijakan subsidi maupun kompensasi dalam penyediaan BBM. Ia kemudian menyimpulkan bahwa kedua istilah tersebut selalu memiliki mekanisme keuangan yang identik. Penilaian yang paling tepat terhadap kesimpulan tersebut adalah ....",
+  "answer": 2,
+  "explain": "Subsidi dan kompensasi tidak boleh dianggap identik. Secara umum, subsidi merupakan dukungan pemerintah yang diberikan berdasarkan skema dan ketentuan tertentu. Sementara itu, kompensasi berkaitan dengan pembayaran atau penggantian sesuai mekanisme kebijakan yang berlaku, misalnya dalam konteks penugasan penyediaan BBM. Mekanisme, penerima, dasar perhitungan, dan proses pembayarannya harus dipahami berdasarkan peraturan serta kebijakan yang relevan. Petugas Pengawal Energi perlu membedakan klasifikasi BBM dari mekanisme dukungan pemerintah terhadap penyediaan atau pendistribusiannya. Inti materi: Klasifikasi BBM, kebijakan harga, subsidi, dan kompensasi merupakan konsep yang saling berkaitan, tetapi tidak identik.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Benar, karena subsidi dan kompensasi selalu dibayarkan langsung kepada setiap konsumen BBM.",
+   "Benar, karena kedua istilah tersebut hanya merupakan nama berbeda untuk kebijakan yang sama.",
+   "Salah, karena subsidi dan kompensasi merupakan konsep kebijakan yang berbeda, dengan mekanisme yang bergantung pada dasar hukum dan skema yang berlaku.",
+   "Salah, karena subsidi hanya dapat diberikan kepada badan usaha hulu migas, sedangkan kompensasi hanya diberikan kepada konsumen industri.",
+   "Benar, karena seluruh produk JBT, JBKP, dan JBU selalu memperoleh subsidi sekaligus kompensasi dalam jumlah yang sama."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menemukan dua informasi teknis pada produk BBM, yaitu angka oktan atau Research Octane Number (RON) pada bensin dan angka setana pada bahan bakar diesel. Pernyataan yang paling tepat adalah ....",
+  "answer": 0,
+  "explain": "RON merupakan ukuran ketahanan bensin terhadap ketukan atau knocking pada mesin bensin. Semakin tinggi RON, semakin tinggi ketahanan bensin terhadap ketukan dalam kondisi pengujian yang ditetapkan. Angka setana berkaitan dengan karakteristik penyalaan bahan bakar diesel, khususnya kecenderungan bahan bakar untuk menyala setelah diinjeksikan ke dalam ruang bakar mesin diesel. Kedua parameter tersebut memiliki fungsi yang berbeda dan tidak dapat dipertukarkan. RON juga tidak secara langsung menunjukkan kandungan energi per liter. Nilai energi dipengaruhi oleh komposisi dan karakteristik bahan bakar. Inti materi: Pahami fungsi parameter teknis BBM, bukan hanya menghafal angka yang tertera pada produk.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "RON mengukur kemampuan bensin menahan ketukan pada mesin bensin, sedangkan angka setana berkaitan dengan kualitas penyalaan bahan bakar diesel.",
+   "RON mengukur kandungan sulfur pada solar, sedangkan angka setana mengukur warna bensin.",
+   "RON dan angka setana merupakan satuan identik yang dapat dipertukarkan untuk semua jenis BBM.",
+   "Angka setana hanya digunakan untuk bensin, sedangkan RON hanya digunakan untuk minyak tanah.",
+   "RON yang lebih tinggi selalu berarti kandungan energi per liter lebih tinggi pada semua produk BBM."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas melakukan pemeriksaan terhadap dua produk berikut. Produk X: Bensin dengan RON 90 yang ditetapkan sebagai BBM khusus penugasan sesuai ketentuan yang berlaku. Produk Y: Bensin dengan RON lebih tinggi yang dipasarkan sebagai BBM umum. Kesimpulan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Klasifikasi BBM tidak ditentukan hanya berdasarkan jenis mesin yang menggunakan produk tersebut atau lokasi penjualannya. Dalam contoh ini, Produk X secara eksplisit dinyatakan telah ditetapkan sebagai BBM khusus penugasan. Dengan demikian, klasifikasinya mengikuti penetapan tersebut. Produk Y dapat termasuk JBU apabila memang dipasarkan dalam kategori BBM umum sesuai ketentuan yang berlaku. RON merupakan parameter teknis bensin, sedangkan JBT, JBKP, dan JBU merupakan kategori dalam kerangka pengaturan BBM. Inti materi: Bedakan spesifikasi teknis produk dari kategori hukum dan kebijakan distribusinya.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Produk X dan Produk Y pasti termasuk JBT karena keduanya merupakan bensin.",
+   "Produk X dapat dikategorikan sebagai JBKP sesuai penetapannya, sedangkan Produk Y dapat termasuk JBU sesuai klasifikasi dan ketentuan yang berlaku.",
+   "Produk X dan Produk Y pasti termasuk JBKP karena keduanya dijual di SPBU.",
+   "Produk Y termasuk JBT karena memiliki RON lebih tinggi daripada Produk X.",
+   "Klasifikasi kedua produk hanya ditentukan oleh harga jual eceran, tanpa memperhatikan penetapan dan ketentuan pemerintah."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ketika memeriksa dokumen penyaluran, seorang petugas menemukan produk yang disebut sebagai minyak solar. Dokumen tersebut tidak menjelaskan secara memadai klasifikasi produk dan dasar penyalurannya. Tindakan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Nama produk saja belum tentu cukup untuk menentukan status hukum, ketentuan konsumen pengguna, dan mekanisme penyalurannya. Petugas harus memeriksa informasi yang relevan, seperti identitas produk, dokumen pengiriman, catatan penyaluran, serta ketentuan yang menjadi dasar distribusi. Jika informasi belum memadai, petugas perlu meminta klarifikasi atau melakukan verifikasi tambahan sesuai prosedur. Kesimpulan mengenai pelanggaran harus didasarkan pada bukti yang cukup dan ketentuan yang relevan. Inti materi: Pemeriksaan yang akurat mengharuskan petugas membedakan dugaan awal dari kesimpulan yang telah didukung bukti.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menyimpulkan bahwa produk tersebut merupakan JBT karena semua minyak solar memiliki status yang sama.",
+   "Mengabaikan kekurangan dokumen karena nama produk sudah cukup untuk menentukan seluruh ketentuan penyaluran.",
+   "Memastikan identitas dan klasifikasi produk, memeriksa dokumen pendukung, serta mencocokkannya dengan ketentuan penyaluran yang berlaku.",
+   "Mengubah klasifikasi produk berdasarkan perkiraan petugas agar pemeriksaan dapat segera diselesaikan.",
+   "Menyimpulkan telah terjadi pelanggaran sebelum memeriksa dokumen dan bukti lainnya."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pemerintah mengatur penyaluran jenis BBM tertentu untuk mendukung tujuan kebijakan energi dan memastikan distribusi berjalan sesuai ketentuan. Dalam konteks tersebut, pendekatan pengawasan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Pengaturan BBM tertentu tidak hanya berkaitan dengan ketersediaan produk. Pengawasan juga perlu memperhatikan kesesuaian konsumen pengguna, mekanisme distribusi, dan ketentuan yang berlaku. Ketersediaan stok merupakan salah satu aspek penting, tetapi tidak cukup untuk memastikan bahwa penyaluran telah sesuai aturan. Misalnya, stok yang mencukupi tidak otomatis membuktikan bahwa BBM telah disalurkan kepada pengguna yang memenuhi ketentuan. Inti materi: Pengawasan BBM harus memperhatikan aspek ketersediaan, ketepatan penyaluran, dan kepatuhan terhadap regulasi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menganggap seluruh konsumen memiliki hak yang sama terhadap setiap jenis BBM tanpa mempertimbangkan ketentuan pengguna.",
+   "Memastikan penyaluran mengikuti klasifikasi produk, ketentuan konsumen pengguna, serta mekanisme distribusi yang berlaku.",
+   "Membatasi pengawasan hanya pada harga jual tanpa memeriksa kesesuaian penyaluran.",
+   "Menganggap ketersediaan stok sebagai satu-satunya indikator keberhasilan distribusi.",
+   "Mengizinkan perubahan klasifikasi BBM oleh penyalur tanpa dasar hukum agar distribusi lebih fleksibel."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam latihan CBT, seorang peserta memperoleh pernyataan berikut: 1. RON merupakan parameter teknis bensin. 2. JBT merupakan kategori BBM dalam kerangka pengaturan pemerintah. 3. Harga jual eceran merupakan satu-satunya penentu klasifikasi BBM. 4. JBKP berkaitan dengan penugasan penyediaan dan pendistribusian BBM sesuai ketentuan. Pernyataan yang tepat adalah ....",
+  "answer": 2,
+  "explain": "Pernyataan 1 benar karena RON merupakan parameter teknis yang digunakan untuk mengukur ketahanan bensin terhadap ketukan. Pernyataan 2 benar karena JBT merupakan kategori BBM dalam kerangka pengaturan pemerintah. Pernyataan 3 salah karena harga jual eceran bukan satu-satunya penentu klasifikasi. Penetapan dan pengaturan produk juga harus diperhatikan. Pernyataan 4 benar karena JBKP berkaitan dengan penugasan penyediaan dan pendistribusian BBM sesuai ketentuan. Dengan demikian, pernyataan yang tepat adalah 1, 2, dan 4. Inti materi: Klasifikasi hukum, spesifikasi teknis, dan harga BBM merupakan tiga aspek yang perlu dibedakan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Hanya pernyataan 1 dan 3.",
+   "Hanya pernyataan 2 dan 3.",
+   "Hanya pernyataan 1, 2, dan 4.",
+   "Hanya pernyataan 3 dan 4.",
+   "Semua pernyataan benar."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan distribusi, seorang petugas menerima laporan bahwa suatu SPBU menyalurkan BBM yang diduga tidak sesuai dengan ketentuan peruntukannya. Namun, laporan tersebut hanya menyebutkan nama produk dan tidak menyertakan dokumen pendukung yang cukup. Langkah yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Laporan awal merupakan informasi yang dapat menjadi dasar untuk melakukan pemeriksaan, tetapi belum tentu cukup untuk membuktikan pelanggaran.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menetapkan adanya pelanggaran berdasarkan laporan awal tanpa pemeriksaan lebih lanjut.",
+   "Menghentikan seluruh penyaluran BBM di SPBU tersebut tanpa mempertimbangkan prosedur dan bukti yang tersedia.",
+   "Memeriksa klasifikasi produk, dokumen penyaluran, ketentuan konsumen pengguna, serta bukti transaksi sebelum menarik kesimpulan.",
+   "Menganggap laporan tidak relevan karena seluruh BBM yang dijual di SPBU pasti merupakan JBU.",
+   "Mengubah kategori BBM dalam dokumen agar sesuai dengan jenis produk yang diperkirakan petugas."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah badan usaha menyalurkan BBM melalui rangkaian fasilitas penyimpanan, transportasi, dan lembaga penyalur. Dalam evaluasi operasional, ditemukan bahwa stok BBM di terminal tersedia dalam jumlah memadai, tetapi sejumlah SPBU mengalami kekosongan stok karena keterlambatan pengiriman. Berdasarkan kondisi tersebut, kesimpulan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Distribusi BBM merupakan rangkaian kegiatan yang menghubungkan sumber pasokan dengan konsumen akhir. Ketersediaan produk di terminal hanyalah salah satu unsur dalam rantai pasok. Kelancaran distribusi juga dipengaruhi oleh: 1. Ketersediaan armada pengangkut. 2. Jadwal pengiriman. 3. Kondisi infrastruktur dan jalur transportasi. 4. Kapasitas penyimpanan di SPBU. 5. Perencanaan kebutuhan setiap wilayah. Dalam kasus tersebut, masalah yang paling langsung terlihat adalah keterlambatan pengiriman. Oleh karena itu, evaluasi perlu difokuskan pada proses pengangkutan dan penyaluran sebelum menarik kesimpulan mengenai penyebab lainnya. Inti materi: Ketersediaan stok dan kelancaran distribusi merupakan dua aspek berbeda yang harus dianalisis secara bersamaan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Ketersediaan stok di terminal membuktikan bahwa distribusi BBM telah berjalan optimal.",
+   "Kekosongan stok di SPBU pasti disebabkan oleh kekurangan produksi minyak mentah pada kegiatan hulu.",
+   "Ketersediaan stok di terminal belum menjamin kelancaran distribusi karena efektivitas pengangkutan dan penyaluran juga menentukan ketersediaan BBM di SPBU.",
+   "Kekosongan stok di SPBU membuktikan bahwa seluruh stok terminal telah disalahgunakan.",
+   "Gangguan pengiriman tidak berpengaruh terhadap ketersediaan BBM selama stok nasional masih mencukupi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah terminal BBM memiliki persediaan awal sebesar 1.250.000 liter. Dalam satu periode, terminal menerima tambahan pasokan sebanyak 875.000 liter dan menyalurkan 1.460.000 liter kepada pihak penerima. Dengan asumsi tidak terdapat kehilangan produk, koreksi pencatatan, atau penyesuaian lainnya, berapakah persediaan akhir terminal?",
+  "answer": 2,
+  "explain": "Gunakan rumus: Persediaan Akhir = Persediaan Awal + Penerimaan − Pengeluaran Diketahui:  Persediaan awal = 1.250.000 liter  Penerimaan = 875.000 liter  Pengeluaran = 1.460.000 liter Perhitungan: Persediaan Akhir = 1.250.000 + 875.000 − 1.460.000 Persediaan Akhir = 2.125.000 − 1.460.000 Persediaan Akhir = 665.000 liter Dengan demikian, jawaban yang benar adalah C. Inti materi: Kemampuan menghitung saldo persediaan penting untuk memeriksa konsistensi data penerimaan dan pengeluaran BBM.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "565.000 liter",
+   "625.000 liter",
+   "665.000 liter",
+   "725.000 liter",
+   "785.000 liter"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Suatu wilayah memperoleh alokasi penyaluran BBM sebesar 8.400 kiloliter untuk periode tertentu. Hingga akhir periode evaluasi, realisasi penyaluran tercatat sebesar 7.140 kiloliter. Berapakah persentase realisasi penyaluran terhadap alokasi yang ditetapkan?",
+  "answer": 3,
+  "explain": "Rumus persentase realisasi: Persentase Realisasi = (Realisasi Penyaluran ÷ Alokasi) × 100% Diketahui:  Alokasi = 8.400 kiloliter  Realisasi = 7.140 kiloliter Perhitungan: Persentase Realisasi = (7.140 ÷ 8.400) × 100% Persentase Realisasi = 0,85 × 100% Persentase Realisasi = 85% Artinya, realisasi penyaluran mencapai 85% dari alokasi yang ditetapkan. Selisih antara alokasi dan realisasi adalah 1.260 kiloliter. Namun, persentase tersebut belum cukup untuk menyimpulkan bahwa penyaluran sudah optimal atau belum. Evaluasi lebih lanjut perlu mempertimbangkan kebutuhan aktual, ketersediaan stok, dan kondisi distribusi. Inti materi: Persentase realisasi menunjukkan tingkat penggunaan alokasi, tetapi tidak otomatis menggambarkan keberhasilan distribusi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "75%",
+   "80%",
+   "82,5%",
+   "85%",
+   "90%"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan distribusi BBM yang diatur penggunaannya, seorang petugas menemukan transaksi yang diduga tidak sesuai dengan ketentuan konsumen pengguna. Dokumen transaksi tersedia, tetapi belum cukup untuk memastikan apakah penyaluran tersebut telah memenuhi persyaratan. Tindakan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Penyaluran yang tepat sasaran berarti penyaluran dilakukan sesuai ketentuan yang berlaku, termasuk persyaratan konsumen pengguna apabila dipersyaratkan untuk jenis BBM tersebut. Pencatatan transaksi dalam sistem tidak dengan sendirinya membuktikan bahwa transaksi telah memenuhi seluruh ketentuan. Petugas perlu memeriksa: 1. Identitas atau kategori konsumen. 2. Jenis BBM yang disalurkan. 3. Dokumen pendukung transaksi. 4. Ketentuan penyaluran yang relevan. 5. Kesesuaian data dalam sistem dengan bukti pendukung. Kesimpulan harus dibuat berdasarkan hasil pemeriksaan, bukan hanya nilai transaksi atau dugaan awal. Inti materi: Ketepatan sasaran harus dinilai berdasarkan kesesuaian penyaluran dengan ketentuan, bukan semata-mata keberadaan transaksi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menganggap transaksi sah karena telah tercatat dalam sistem penjualan.",
+   "Menganggap transaksi melanggar aturan hanya karena nilai transaksinya besar.",
+   "Memverifikasi identitas atau kategori konsumen, dokumen pendukung, dan ketentuan penyaluran yang berlaku sebelum mengambil kesimpulan.",
+   "Mengabaikan transaksi karena pemeriksaan hanya berfokus pada jumlah stok.",
+   "Menetapkan pelanggaran berdasarkan perkiraan petugas tanpa memerlukan bukti tambahan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah wilayah mengalami peningkatan permintaan BBM menjelang hari libur panjang. Pada saat yang sama, distribusi dari terminal utama mengalami keterlambatan akibat gangguan transportasi. Jika Anda diminta memberikan rekomendasi awal untuk mengurangi risiko kekosongan stok, langkah yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Dalam kondisi permintaan meningkat dan transportasi terganggu, pengambilan keputusan harus didasarkan pada data operasional. Langkah awal yang tepat adalah: 1. Memeriksa stok aktual pada terminal dan SPBU. 2. Mengidentifikasi lokasi yang berisiko mengalami kekosongan. 3. Membandingkan kebutuhan aktual dengan pola permintaan. 4. Mengevaluasi kapasitas armada dan jadwal pengiriman. 5. Menentukan prioritas pengiriman berdasarkan kebutuhan dan ketentuan yang berlaku. Rekomendasi tersebut bertujuan memanfaatkan sumber daya distribusi secara efektif tanpa mengabaikan kebutuhan wilayah lain. Inti materi: Keputusan distribusi harus mempertimbangkan stok, permintaan, kapasitas logistik, dan prioritas kebutuhan secara bersamaan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menambah penyaluran tanpa memeriksa persediaan dan kapasitas penerimaan di setiap SPBU.",
+   "Menghentikan seluruh pengiriman sampai permintaan kembali normal.",
+   "Mengevaluasi stok aktual, pola permintaan, jadwal pengiriman, dan kapasitas transportasi untuk menentukan prioritas distribusi berdasarkan kebutuhan serta ketentuan yang berlaku.",
+   "Mengalihkan seluruh stok ke satu SPBU dengan penjualan tertinggi tanpa mempertimbangkan kebutuhan wilayah lain.",
+   "Menyimpulkan bahwa peningkatan permintaan merupakan satu-satunya penyebab gangguan distribusi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Berdasarkan laporan operasional, sebuah SPBU menerima BBM sebanyak 24.000 liter. Dalam periode yang sama, laporan penyaluran mencatat penjualan sebesar 20.500 liter. Stok awal yang tercatat sebelum penerimaan adalah 5.000 liter. Pada akhir periode, hasil pengukuran menunjukkan stok fisik sebesar 8.000 liter. Dengan asumsi seluruh angka menggunakan satuan yang sama dan tidak ada penyesuaian lain, berapakah selisih antara stok akhir berdasarkan pencatatan dan stok fisik?",
+  "answer": 0,
+  "explain": "Langkah pertama, hitung stok akhir berdasarkan pencatatan. Stok Akhir Tercatat = Stok Awal + Penerimaan − Penyaluran = 5.000 + 24.000 − 20.500 = 8.500 liter Stok fisik hasil pengukuran adalah 8.000 liter. Selisih: Selisih = Stok Fisik − Stok Akhir Tercatat = 8.000 − 8.500 = −500 liter Artinya, stok fisik 500 liter lebih rendah daripada stok tercatat. Dengan demikian, jawaban yang benar adalah A. Selisih tersebut perlu ditelusuri melalui pemeriksaan dokumen, catatan penerimaan dan penyaluran, serta hasil pengukuran fisik. Selisih tidak boleh langsung dianggap sebagai bukti penyalahgunaan. Inti materi: Ketidaksesuaian stok harus dihitung secara benar dan ditindaklanjuti melalui verifikasi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Stok fisik 500 liter lebih rendah daripada stok tercatat.",
+   "Stok fisik 500 liter lebih tinggi daripada stok tercatat.",
+   "Stok fisik 1.000 liter lebih rendah daripada stok tercatat.",
+   "Stok fisik 1.000 liter lebih tinggi daripada stok tercatat.",
+   "Tidak terdapat selisih antara stok fisik dan stok tercatat."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah SPBU memiliki kapasitas tangki penyimpanan terbatas. Dalam periode permintaan tinggi, jadwal pengiriman dari terminal tidak selalu dapat dipenuhi tepat waktu. Akibatnya, SPBU beberapa kali mengalami kekosongan stok meskipun pasokan di terminal mencukupi. Analisis yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Kapasitas penyimpanan memengaruhi jumlah BBM yang dapat disimpan sebagai persediaan operasional. Apabila kapasitas terbatas dan waktu pengiriman tidak menentu, SPBU memiliki ruang yang lebih kecil untuk mengantisipasi keterlambatan pasokan. Analisis perlu mempertimbangkan:  Kapasitas tangki yang tersedia.  Rata-rata penjualan dan pola permintaan.  Waktu tunggu pengiriman.  Frekuensi pengiriman.  Batas operasional dan ketentuan keselamatan. Peningkatan kapasitas bukan satu-satunya solusi. Penyesuaian jadwal pengiriman dan pengelolaan stok juga dapat membantu mengurangi risiko kekosongan. Inti materi: Pengelolaan stok harus memperhitungkan kapasitas penyimpanan dan ketidakpastian waktu pasokan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Kapasitas tangki tidak memiliki hubungan dengan risiko kekosongan stok.",
+   "Persediaan terminal yang mencukupi selalu menjamin stok SPBU tersedia sepanjang waktu.",
+   "Kapasitas penyimpanan dan waktu pengiriman perlu dianalisis bersama untuk menentukan kebutuhan persediaan dan jadwal pengisian ulang yang sesuai.",
+   "Satu-satunya solusi adalah meningkatkan kapasitas tangki tanpa mempertimbangkan aspek keselamatan dan kelayakan fasilitas.",
+   "Kekosongan stok membuktikan bahwa volume BBM yang disalurkan dari terminal selalu tidak sesuai."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah daerah terpencil mengalami keterlambatan pasokan BBM karena kondisi jalan memburuk dan kendaraan pengangkut tidak dapat mencapai lokasi penyalur sesuai jadwal. Stok di fasilitas pemasok masih tersedia, tetapi stok di lokasi tujuan terus menurun. Langkah yang paling tepat untuk menganalisis masalah tersebut adalah ....",
+  "answer": 1,
+  "explain": "Masalah yang dijelaskan menunjukkan adanya hambatan logistik antara fasilitas pemasok dan lokasi penyalur. Analisis harus mencakup: 1. Persediaan aktual di lokasi tujuan. 2. Tingkat konsumsi dan kebutuhan harian. 3. Kondisi jalan dan akses transportasi. 4. Estimasi waktu pengiriman. 5. Alternatif rute atau moda transportasi yang layak. 6. Kebutuhan koordinasi dengan pihak terkait. Rekomendasi distribusi harus mempertimbangkan kelayakan operasional, keselamatan, dan ketentuan yang berlaku. Inti materi: Stok yang tersedia di satu wilayah belum tentu dapat segera memenuhi kebutuhan wilayah lain jika terdapat hambatan logistik.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menganggap bahwa pasokan di fasilitas pemasok harus segera ditambah tanpa memeriksa hambatan transportasi.",
+   "Menilai stok di lokasi tujuan, pola permintaan, kondisi akses, waktu tempuh, dan kemungkinan alternatif distribusi yang layak.",
+   "Menghentikan pencatatan distribusi karena kondisi jalan berada di luar kendali petugas.",
+   "Mengalihkan seluruh stok ke daerah lain tanpa memperhitungkan kebutuhan daerah yang terdampak.",
+   "Menyimpulkan bahwa penyebab utama adalah penyalahgunaan BBM tanpa memeriksa data distribusi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam evaluasi bulanan, sebuah wilayah memiliki alokasi BBM sebesar 12.000 kiloliter. Realisasi penyalurannya mencapai 10.800 kiloliter. Pada periode yang sama, sejumlah SPBU melaporkan kekosongan stok selama beberapa hari. Kesimpulan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Persentase realisasi penyaluran adalah: Persentase Realisasi = (10.800 ÷ 12.000) × 100% = 90% Angka tersebut menunjukkan bahwa penyaluran mencapai 90% dari alokasi yang tersedia. Namun, angka agregat bulanan tidak menjelaskan secara lengkap kapan dan di mana kekosongan stok terjadi. Sebagai contoh, penyaluran yang terkonsentrasi pada awal periode tidak menjamin ketersediaan stok pada akhir periode. Distribusi yang tidak merata antarwilayah juga dapat menimbulkan kekosongan pada lokasi tertentu meskipun realisasi agregat cukup tinggi. Karena itu, evaluasi perlu memeriksa data harian, lokasi penyalur, pola permintaan, jadwal pengiriman, dan stok aktual. Inti materi: Indikator agregat perlu dianalisis bersama data operasional yang lebih terperinci.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Realisasi 90% membuktikan bahwa seluruh kebutuhan konsumen telah terpenuhi.",
+   "Kekosongan stok pasti menunjukkan bahwa alokasi wilayah terlalu kecil.",
+   "Realisasi 90% menunjukkan tingkat penggunaan alokasi, tetapi penyebab kekosongan stok perlu dianalisis berdasarkan distribusi waktu, lokasi, permintaan, dan ketersediaan stok.",
+   "Kekosongan stok tidak perlu diperiksa karena realisasi penyaluran sudah mencapai lebih dari 80%.",
+   "Realisasi di bawah 100% selalu membuktikan adanya kegagalan distribusi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah wilayah memiliki tiga SPBU dengan kondisi berikut. SPBU A: Stok diperkirakan cukup untuk 5 hari, permintaan stabil. SPBU B: Stok diperkirakan cukup untuk 1 hari, permintaan tinggi. SPBU C: Stok diperkirakan cukup untuk 3 hari, permintaan stabil. Pasokan baru tersedia dalam jumlah terbatas sehingga pengiriman harus dijadwalkan berdasarkan tingkat urgensi. Dengan asumsi ketiga SPBU berada dalam kondisi operasional yang sama dan tidak ada ketentuan prioritas khusus lainnya, keputusan awal yang paling rasional adalah ....",
+  "answer": 1,
+  "explain": "SPBU B memiliki risiko kekosongan paling tinggi karena stok diperkirakan hanya cukup untuk satu hari, sementara permintaannya tinggi. Dengan kondisi tersebut, SPBU B menjadi kandidat prioritas awal untuk pengiriman. Namun, keputusan akhir tetap perlu mempertimbangkan volume pasokan yang tersedia, kebutuhan aktual, waktu pengiriman, dan ketentuan distribusi yang berlaku. Pendekatan berbasis risiko bertujuan mencegah kekosongan stok sebelum terjadi, bukan sekadar menanggapi setelah stok habis.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Memprioritaskan SPBU A karena memiliki stok paling banyak.",
+   "Memprioritaskan SPBU B karena stoknya paling kritis dan permintaannya tinggi, sambil mengevaluasi kebutuhan SPBU lainnya.",
+   "Memprioritaskan SPBU C karena stoknya berada di antara SPBU A dan B.",
+   "Membagi pasokan secara sama rata tanpa memeriksa kebutuhan aktual setiap SPBU.",
+   "Menunda seluruh pengiriman hingga semua SPBU kehabisan stok."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam kegiatan pengawasan distribusi BBM, seorang petugas perlu memahami dasar hukum yang mengatur kegiatan usaha minyak dan gas bumi di Indonesia. Salah satu peraturan utama yang menjadi landasan pengaturan sektor migas adalah Undang- Undang Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi. Pernyataan yang paling tepat mengenai fungsi undang-undang tersebut adalah ....",
+  "answer": 1,
+  "explain": "Undang-Undang Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi merupakan salah satu landasan utama pengaturan kegiatan usaha migas di Indonesia. Secara umum, kegiatan usaha migas dibedakan menjadi kegiatan hulu dan hilir. Kegiatan hulu berkaitan dengan eksplorasi dan eksploitasi, sedangkan kegiatan hilir meliputi pengolahan, pengangkutan, penyimpanan, dan niaga. Pelaksanaan kegiatan tersebut juga berkaitan dengan peraturan pelaksana dan ketentuan lain yang relevan. Oleh karena itu, undang-undang ini tidak dapat dianggap sebagai satu-satunya dokumen yang mengatur seluruh rincian teknis distribusi BBM. Inti materi: Pahami undang-undang sebagai landasan hukum utama, serta peraturan pelaksana sebagai penjabaran ketentuan yang lebih spesifik.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Mengatur kegiatan eksplorasi saja dan tidak mencakup kegiatan usaha hilir migas.",
+   "Menjadi salah satu landasan hukum penyelenggaraan kegiatan usaha minyak dan gas bumi, termasuk kegiatan usaha hulu dan hilir.",
+   "Mengatur seluruh kegiatan distribusi BBM tanpa memerlukan peraturan pelaksana.",
+   "Menetapkan bahwa seluruh BBM yang dijual di Indonesia harus memperoleh subsidi pemerintah.",
+   "Menggantikan seluruh kewenangan pemerintah dalam pengawasan kegiatan usaha migas."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas sedang mempelajari regulasi yang berkaitan dengan penyediaan, pendistribusian, dan harga jual eceran BBM. Ia menemukan Peraturan Presiden Nomor 191 Tahun 2014. Pokok pengaturan yang paling tepat dikaitkan dengan peraturan tersebut adalah ....",
+  "answer": 1,
+  "explain": "Peraturan Presiden Nomor 191 Tahun 2014 mengatur penyediaan, pendistribusian, dan harga jual eceran BBM. Regulasi ini penting untuk memahami kerangka kebijakan BBM tertentu dan BBM khusus penugasan. Dalam mempelajarinya, peserta perlu memperhatikan perubahan peraturan dan ketentuan yang berlaku pada waktu pelaksanaan seleksi. Petugas tidak cukup hanya menghafal nomor peraturan. Pemahaman juga harus mencakup ruang lingkup pengaturan dan kaitannya dengan kegiatan penyaluran BBM. Inti materi: Pelajari Perpres Nomor 191 Tahun 2014 beserta perubahannya melalui JDIH Kementerian ESDM.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Tata cara penerimaan pegawai pemerintah di sektor energi.",
+   "Penyediaan, pendistribusian, dan harga jual eceran BBM sesuai ruang lingkup serta perubahan peraturan yang berlaku.",
+   "Penetapan seluruh standar keselamatan kerja pada kegiatan pertambangan mineral.",
+   "Pengaturan kegiatan ekspor seluruh komoditas energi tanpa membedakan jenis produknya.",
+   "Pengaturan tunggal mengenai eksplorasi dan pengeboran sumur minyak bumi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam kegiatan pengawasan, seorang petugas menemukan indikasi bahwa penyaluran BBM tertentu tidak mengikuti ketentuan yang berlaku. Ia perlu memahami peran lembaga yang memiliki fungsi pengaturan dan pengawasan kegiatan hilir migas sesuai kewenangannya. Pernyataan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "BPH Migas merupakan lembaga yang menjalankan fungsi pengaturan dan pengawasan kegiatan usaha hilir migas sesuai kewenangannya. Dalam konteks distribusi BBM, fungsi tersebut berkaitan dengan pengaturan dan pengawasan penyediaan serta pendistribusian JBT dan JBKP sesuai ketentuan yang berlaku. BPH Migas bukan badan usaha yang mengoperasikan seluruh SPBU dan bukan lembaga yang mengelola kegiatan eksplorasi serta eksploitasi hulu migas. Inti materi: Pahami perbedaan kewenangan regulator, pengawas, dan badan usaha pelaksana kegiatan operasional.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "BPH Migas bertugas mengelola seluruh kegiatan eksplorasi dan eksploitasi minyak bumi.",
+   "BPH Migas memiliki fungsi pengaturan dan pengawasan kegiatan hilir migas sesuai ketentuan perundang-undangan.",
+   "BPH Migas berwenang menetapkan seluruh kebijakan fiskal negara tanpa koordinasi dengan lembaga lain.",
+   "BPH Migas hanya bertugas melakukan penelitian laboratorium terhadap kualitas minyak mentah.",
+   "BPH Migas merupakan badan usaha yang secara langsung mengoperasikan seluruh SPBU di Indonesia."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan dokumen penyaluran, petugas menemukan dua produk BBM yang masuk dalam kategori berbeda, yaitu JBT dan JBKP. Petugas tersebut harus menentukan apakah kedua produk dapat diperlakukan menggunakan ketentuan yang identik. Pernyataan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "JBT dan JBKP memiliki klasifikasi serta kerangka pengaturan yang berbeda. Oleh karena itu, petugas harus memeriksa ketentuan yang relevan untuk setiap jenis BBM, termasuk persyaratan konsumen pengguna apabila berlaku, mekanisme penyaluran, dan ketentuan pengawasan. Tidak tepat jika seluruh ketentuan untuk JBT langsung diterapkan kepada JBKP tanpa memeriksa dasar hukumnya. Inti materi: Klasifikasi BBM menjadi dasar untuk menentukan ketentuan penyaluran yang relevan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "JBT dan JBKP selalu memiliki daftar konsumen pengguna yang identik.",
+   "JBT dan JBKP merupakan kategori yang berbeda sehingga pengaturan penyalurannya harus diperiksa berdasarkan ketentuan yang berlaku untuk masing-masing kategori.",
+   "JBKP tidak memerlukan pengaturan pemerintah karena seluruh penyalurannya mengikuti mekanisme pasar.",
+   "JBT dan JBKP hanya dibedakan berdasarkan warna produk BBM.",
+   "Semua ketentuan mengenai JBT otomatis berlaku untuk JBKP tanpa perlu memeriksa dasar hukumnya."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menerima laporan mengenai dugaan penyaluran BBM yang tidak sesuai ketentuan. Laporan tersebut belum disertai bukti lengkap, tetapi menyebutkan lokasi dan waktu kejadian secara jelas. Langkah yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Laporan awal dapat menjadi dasar untuk memulai pemeriksaan, tetapi tidak otomatis membuktikan terjadinya pelanggaran. Petugas perlu melakukan langkah-langkah berikut: 1. Memeriksa informasi lokasi dan waktu kejadian. 2. Mengumpulkan dokumen serta bukti pendukung yang relevan. 3. Memverifikasi data penyaluran dan identitas produk. 4. Mencocokkan temuan dengan ketentuan hukum yang berlaku. 5. Mendokumentasikan hasil pemeriksaan secara objektif. 6. Menyampaikan hasil sesuai prosedur pelaporan. Kesimpulan harus didasarkan pada bukti yang memadai dan ketentuan yang relevan. Inti materi: Penerapan regulasi harus dilakukan secara objektif, sistematis, dan dapat dipertanggungjawabkan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menyatakan pihak yang dilaporkan bersalah berdasarkan informasi awal.",
+   "Mengabaikan laporan karena belum disertai bukti lengkap.",
+   "Melakukan verifikasi awal, mengumpulkan bukti pendukung sesuai prosedur, dan mencocokkan temuan dengan ketentuan yang berlaku sebelum menyusun kesimpulan.",
+   "Mengubah dokumen penyaluran agar sesuai dengan ketentuan yang diperkirakan berlaku.",
+   "Mengumumkan dugaan pelanggaran kepada masyarakat sebelum proses verifikasi selesai."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam proses pemeriksaan, petugas menemukan transaksi BBM yang termasuk kategori dengan persyaratan konsumen pengguna tertentu. Penyalur menunjukkan bukti transaksi, tetapi belum menunjukkan dokumen yang cukup untuk membuktikan kesesuaian konsumen dengan ketentuan yang berlaku. Tindakan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Untuk jenis BBM yang memiliki ketentuan konsumen pengguna, verifikasi harus memastikan bahwa penyaluran memenuhi persyaratan yang berlaku. Bukti transaksi merupakan salah satu dokumen penting, tetapi belum tentu cukup untuk membuktikan seluruh aspek kepatuhan. Petugas perlu memeriksa dokumen pendukung yang dipersyaratkan, mencocokkannya dengan ketentuan yang relevan, serta mencatat setiap ketidaksesuaian yang ditemukan. Apabila bukti belum memadai, petugas perlu melakukan pemeriksaan tambahan sesuai prosedur sebelum menetapkan kesimpulan. Inti materi: Kepatuhan penyaluran tidak hanya dinilai dari pembayaran atau pencatatan transaksi, tetapi juga dari terpenuhinya persyaratan yang berlaku.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyatakan transaksi sah karena seluruh transaksi yang tercatat otomatis memenuhi ketentuan.",
+   "Memeriksa persyaratan konsumen pengguna, dokumen pendukung, dan ketentuan penyaluran yang berlaku sebelum menentukan hasil verifikasi.",
+   "Menganggap semua konsumen memenuhi syarat selama membayar sesuai harga yang ditetapkan.",
+   "Menetapkan pelanggaran tanpa meminta klarifikasi atau memeriksa dokumen lain yang relevan.",
+   "Mengubah kategori BBM agar transaksi tersebut dapat dianggap sesuai."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang peserta CBT mempelajari materi distribusi BBM dari dokumen yang diterbitkan beberapa tahun sebelumnya. Ia kemudian menemukan bahwa terdapat peraturan perubahan yang diterbitkan setelah dokumen tersebut. Pendekatan yang paling tepat untuk memastikan ketepatan pemahamannya adalah ....",
+  "answer": 2,
+  "explain": "Peraturan dapat mengalami perubahan, pencabutan, atau penyesuaian melalui peraturan lain. Oleh karena itu, peserta perlu memastikan status keberlakuan dokumen yang dipelajari. Langkah yang tepat meliputi: 1. Memeriksa peraturan induk. 2. Menelusuri peraturan perubahan. 3. Memeriksa ketentuan yang diubah atau dicabut. 4. Memastikan apakah terdapat aturan pelaksana yang relevan. 5. Menggunakan sumber resmi, seperti JDIH kementerian atau lembaga terkait. Tidak semua ketentuan dalam peraturan lama otomatis tidak berlaku hanya karena terdapat peraturan baru. Statusnya harus ditentukan berdasarkan hubungan hukum antarperaturan tersebut. Inti materi: Ketepatan memahami regulasi membutuhkan pemeriksaan versi dan status keberlakuan peraturan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Tetap menggunakan dokumen lama karena peraturan yang lebih lama selalu memiliki kedudukan lebih tinggi.",
+   "Mengabaikan peraturan perubahan karena materi distribusi BBM tidak pernah mengalami perubahan.",
+   "Memeriksa status keberlakuan peraturan, isi perubahan, dan hubungan antarketentuan melalui sumber hukum resmi.",
+   "Menggunakan ringkasan media sosial sebagai satu-satunya acuan karena lebih mudah dipahami.",
+   "Menganggap semua ketentuan dalam peraturan lama otomatis tidak berlaku setelah terbit satu peraturan baru."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan penyaluran BBM, seorang petugas menemukan data yang tidak sesuai dengan dokumen pendukung. Atasannya meminta agar ketidaksesuaian tersebut tidak dicatat supaya laporan terlihat baik. Tindakan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Pengawasan yang baik membutuhkan integritas, objektivitas, dan dokumentasi yang dapat dipertanggungjawabkan. Ketidaksesuaian data tidak boleh dihapus atau diubah hanya untuk membuat laporan terlihat baik. Petugas harus mencatat fakta yang ditemukan, memeriksa bukti pendukung, dan menyampaikan hasil melalui jalur pelaporan yang berlaku. Jika terdapat tekanan untuk mengubah temuan, petugas perlu mengikuti mekanisme eskalasi atau pelaporan yang tersedia. Inti materi: Kepatuhan terhadap prosedur dan integritas merupakan prinsip penting dalam pelaksanaan pengawasan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menghapus temuan karena instruksi atasan selalu mengesampingkan prosedur pemeriksaan.",
+   "Mengubah angka dalam laporan tanpa memeriksa bukti pendukung.",
+   "Mencatat ketidaksesuaian secara objektif, menyimpan bukti yang relevan, dan mengikuti mekanisme pelaporan sesuai prosedur.",
+   "Menyampaikan tuduhan kepada pihak luar tanpa melakukan dokumentasi.",
+   "Menghentikan seluruh pemeriksaan tanpa menyampaikan alasan atau hasilnya."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menemukan dugaan penyaluran BBM yang tidak sesuai dengan peruntukannya. Ia mengetahui bahwa terdapat beberapa peraturan yang berkaitan dengan klasifikasi BBM, konsumen pengguna, dan mekanisme penyaluran. Langkah analisis hukum yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Analisis hukum harus dimulai dengan identifikasi fakta dan klasifikasi produk yang diperiksa. Setelah itu, petugas perlu menentukan ketentuan yang relevan, memeriksa status keberlakuan peraturan, serta menilai apakah bukti yang tersedia mendukung dugaan ketidakpatuhan. Selisih stok atau ketidaksesuaian administratif dapat menjadi indikasi yang perlu diperiksa lebih lanjut. Namun, kondisi tersebut tidak otomatis membuktikan tindak pidana. Penetapan konsekuensi hukum harus mengikuti kewenangan, prosedur, dan ketentuan yang berlaku. Inti materi: Temuan lapangan harus dihubungkan dengan dasar hukum yang relevan dan bukti yang memadai.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menggunakan peraturan apa pun yang memberikan sanksi paling berat tanpa memeriksa relevansinya.",
+   "Menggunakan ketentuan yang paling sering disebut di media sosial.",
+   "Mengidentifikasi jenis BBM dan fakta kejadian, kemudian menentukan ketentuan yang relevan serta memeriksa status keberlakuannya.",
+   "Menetapkan pelanggaran hanya berdasarkan perbedaan antara stok awal dan stok akhir.",
+   "Menganggap seluruh ketidaksesuaian administratif otomatis merupakan tindak pidana."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam evaluasi distribusi BBM, suatu wilayah mengalami kekurangan pasokan pada sejumlah penyalur. Pada saat yang sama, ditemukan perbedaan antara data penyaluran dan dokumen pendukung. Sebagai bagian dari proses evaluasi, petugas harus memberikan rekomendasi yang memperhatikan aspek operasional dan kepatuhan terhadap regulasi. Rekomendasi yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Kasus tersebut mengandung dua persoalan yang perlu dianalisis secara terpisah tetapi saling berkaitan, yaitu kekurangan pasokan dan ketidaksesuaian dokumen.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Meningkatkan pengiriman tanpa memeriksa penyebab kekurangan pasokan atau ketidaksesuaian data.",
+   "Menghentikan seluruh distribusi di wilayah tersebut tanpa menilai tingkat risiko dan dasar kewenangannya.",
+   "Memeriksa data stok, jadwal pengiriman, realisasi penyaluran, dokumen pendukung, dan ketentuan yang berlaku sebelum menyusun rekomendasi tindak lanjut.",
+   "Menghapus data yang tidak sesuai agar laporan distribusi terlihat konsisten.",
+   "Menyimpulkan bahwa badan usaha telah melakukan pelanggaran tanpa memerlukan pemeriksaan lanjutan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas melakukan pemeriksaan terhadap persediaan BBM di sebuah SPBU. Berdasarkan catatan administrasi, stok akhir seharusnya sebesar 12.500 liter. Namun, hasil pengukuran fisik menunjukkan persediaan sebesar 11.900 liter. Petugas belum menemukan bukti yang menjelaskan perbedaan tersebut. Tindakan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Selisih stok tercatat dan stok fisik merupakan temuan yang perlu ditelusuri, tetapi belum otomatis membuktikan terjadinya penyalahgunaan. Langkah verifikasi yang tepat meliputi: 1. Memeriksa kembali catatan stok awal, penerimaan, dan penyaluran. 2. Memastikan metode serta waktu pengukuran fisik telah sesuai prosedur. 3. Memeriksa dokumen penerimaan dan penjualan. 4. Menelusuri kemungkinan adanya transaksi yang belum tercatat atau koreksi administrasi. 5. Mendokumentasikan hasil pemeriksaan dan bukti pendukung. Jika selisih tetap ditemukan setelah pemeriksaan, petugas harus mencatatnya sebagai temuan dan menindaklanjutinya sesuai prosedur yang berlaku. Inti materi: Selisih stok merupakan indikasi yang perlu diverifikasi, bukan dasar tunggal untuk menetapkan pelanggaran.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menyimpulkan bahwa pengelola SPBU melakukan penyalahgunaan BBM.",
+   "Mengubah catatan administrasi agar sama dengan hasil pengukuran fisik.",
+   "Mendokumentasikan selisih, memeriksa kembali metode pengukuran dan pencatatan, serta menelusuri dokumen penerimaan dan penyaluran sebelum menarik kesimpulan.",
+   "Mengabaikan selisih karena nilainya relatif kecil dibandingkan stok keseluruhan.",
+   "Menghentikan seluruh kegiatan operasional tanpa melakukan pemeriksaan lanjutan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan distribusi BBM, petugas menerima dokumen pengiriman yang mencantumkan volume 20.000 liter. Namun, dokumen penerimaan di lokasi tujuan hanya mencatat 19.500 liter. Belum tersedia informasi yang menjelaskan apakah selisih tersebut disebabkan oleh perbedaan waktu pencatatan, kesalahan administrasi, atau faktor operasional lainnya. Langkah yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Perbedaan antara volume yang dikirim dan volume yang diterima harus ditelusuri melalui proses rekonsiliasi dokumen. Petugas perlu memastikan bahwa kedua angka dibandingkan berdasarkan dasar pengukuran, satuan, waktu, dan kondisi yang sebanding. Pemeriksaan dapat mencakup:  Surat pengiriman atau dokumen angkutan.  Bukti penerimaan di lokasi tujuan.  Catatan pengukuran volume.  Waktu pengukuran dan pencatatan.  Catatan transaksi serta penyesuaian yang sah. Selisih 500 liter harus didokumentasikan dan dijelaskan berdasarkan bukti. Petugas tidak boleh langsung menyimpulkan adanya penggelapan sebelum penyebabnya diketahui. Inti materi: Rekonsiliasi dokumen diperlukan untuk memastikan konsistensi data pengiriman dan penerimaan BBM.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menetapkan bahwa pengangkut telah menggelapkan 500 liter BBM.",
+   "Mengubah dokumen penerimaan menjadi 20.000 liter tanpa pemeriksaan.",
+   "Memeriksa dokumen pengiriman dan penerimaan, catatan pengukuran, waktu transaksi, serta bukti pendukung lainnya untuk mengetahui penyebab selisih.",
+   "Menganggap dokumen pengiriman selalu benar dan dokumen penerimaan selalu salah.",
+   "Menghapus salah satu dokumen agar tidak terjadi perbedaan angka."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan rutin, seorang petugas menemukan pola transaksi yang tidak lazim pada sebuah penyalur BBM. Volume penyaluran pada beberapa hari tertentu meningkat tajam, tetapi dokumen pendukungnya tidak lengkap. Tindakan awal yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Pola transaksi yang tidak lazim dan dokumen yang tidak lengkap merupakan indikator risiko yang perlu diperiksa lebih lanjut. Petugas dapat membandingkan volume penyaluran harian, tren permintaan, catatan stok, dan kelengkapan dokumen untuk mengetahui apakah terdapat penjelasan yang wajar. Apabila ditemukan ketidaksesuaian, petugas perlu mendokumentasikan fakta dan bukti yang relevan serta mengikuti prosedur tindak lanjut. Peningkatan volume saja tidak membuktikan pelanggaran. Sebaliknya, pola transaksi yang tidak lazim tidak boleh diabaikan tanpa pemeriksaan. Inti materi: Indikator risiko membantu menentukan prioritas pemeriksaan, sedangkan kesimpulan harus didasarkan pada bukti.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menyatakan bahwa penyalur terbukti melakukan pelanggaran.",
+   "Mengabaikan transaksi karena peningkatan volume selalu menunjukkan peningkatan permintaan yang wajar.",
+   "Memverifikasi pola transaksi, membandingkan data dengan periode sebelumnya, memeriksa dokumen pendukung, dan mendokumentasikan ketidaksesuaian yang ditemukan.",
+   "Menghapus transaksi yang tidak lazim dari laporan bulanan.",
+   "Menyebarkan dugaan pelanggaran kepada masyarakat sebelum pemeriksaan selesai."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas memeriksa penyaluran BBM yang memiliki persyaratan konsumen pengguna tertentu. Sistem penjualan menunjukkan bahwa transaksi telah tercatat, tetapi dokumen yang tersedia belum cukup untuk memastikan kesesuaian konsumen dengan ketentuan yang berlaku. Langkah yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Pencatatan transaksi merupakan salah satu unsur administrasi, tetapi tidak selalu membuktikan bahwa penyaluran telah memenuhi seluruh persyaratan. Untuk BBM yang diatur berdasarkan kategori konsumen pengguna, petugas perlu memastikan bahwa penyaluran memenuhi ketentuan yang relevan. Verifikasi dapat meliputi pemeriksaan identitas atau kategori pengguna apabila dipersyaratkan, dokumen pendukung, jenis BBM, dan catatan transaksi. Jika informasi belum lengkap, hasil pemeriksaan harus mencatat keterbatasan bukti dan kebutuhan tindak lanjut. Inti materi: Ketepatan penyaluran harus dinilai berdasarkan ketentuan yang berlaku, bukan hanya keberadaan transaksi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyatakan penyaluran sesuai karena seluruh transaksi telah tercatat dalam sistem.",
+   "Memeriksa persyaratan konsumen pengguna, dokumen pendukung, dan ketentuan yang berlaku sebelum menetapkan hasil verifikasi.",
+   "Menetapkan pelanggaran tanpa melakukan pemeriksaan tambahan.",
+   "Menganggap bahwa pembayaran sesuai harga jual sudah cukup membuktikan kepatuhan.",
+   "Mengubah kategori transaksi agar sesuai dengan data yang tersedia."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat memeriksa sebuah SPBU, petugas menemukan ketidaksesuaian antara catatan administrasi dan dokumen pendukung. Pengelola SPBU meminta agar temuan tersebut tidak dicatat karena dikhawatirkan memengaruhi hasil evaluasi. Sikap profesional yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Petugas verifikasi harus menjaga integritas, objektivitas, dan akuntabilitas dalam menjalankan tugas. Temuan tidak boleh dihilangkan hanya karena terdapat permintaan dari pihak yang diperiksa. Data yang tidak sesuai harus dicatat berdasarkan fakta, disertai bukti yang relevan. Petugas juga harus menghindari tuduhan yang belum terbukti. Jika diperlukan, ketidaksesuaian dapat ditindaklanjuti melalui klarifikasi dan pemeriksaan tambahan sesuai prosedur. Inti materi: Integritas petugas tercermin dari kesediaan mencatat fakta secara jujur dan tidak memanipulasi hasil pemeriksaan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menghilangkan temuan agar hubungan dengan pengelola tetap baik.",
+   "Mencatat temuan secara objektif, menyimpan bukti pendukung, dan menyampaikan hasil melalui mekanisme pelaporan yang berlaku.",
+   "Mengubah dokumen agar semua angka terlihat sesuai.",
+   "Menyampaikan tuduhan kepada pihak lain tanpa menyimpan bukti.",
+   "Menghentikan pemeriksaan dan membiarkan pengelola menentukan hasilnya."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Setelah melakukan pemeriksaan, petugas menemukan tiga kondisi berikut: 1. Dokumen pengiriman tersedia dan lengkap. 2. Terdapat selisih antara stok tercatat dan stok fisik. 3. Penyebab selisih belum dapat dipastikan. Susunan laporan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Laporan hasil verifikasi harus dapat ditelusuri dan dipertanggungjawabkan. Isi laporan yang baik meliputi: 1. Identitas objek dan waktu pemeriksaan. 2. Tujuan serta ruang lingkup verifikasi. 3. Data administrasi dan hasil pemeriksaan fisik. 4. Perhitungan selisih yang ditemukan. 5. Dokumen dan bukti pendukung. 6. Penjelasan mengenai hal yang sudah dan belum dapat dipastikan. 7. Rekomendasi tindak lanjut sesuai prosedur. Karena penyebab selisih belum diketahui, laporan tidak boleh langsung menetapkan bahwa telah terjadi penyalahgunaan. Inti materi: Laporan verifikasi harus memisahkan fakta, analisis, kesimpulan sementara, dan rekomendasi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyatakan bahwa telah terjadi penyalahgunaan BBM dan mengabaikan fakta bahwa penyebab selisih belum diketahui.",
+   "Hanya mencantumkan dokumen yang lengkap tanpa menyebutkan selisih stok.",
+   "Menyajikan fakta pemeriksaan, data pembanding, besaran selisih, bukti pendukung, keterbatasan pemeriksaan, dan rekomendasi tindak lanjut.",
+   "Menuliskan kesimpulan berdasarkan perkiraan pribadi tanpa menjelaskan data yang digunakan.",
+   "Menghapus seluruh data yang tidak mendukung kesimpulan awal petugas."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menerima informasi mengenai tiga penyalur BBM. Penyalur A: Dokumen lengkap, stok sesuai, dan tidak ditemukan pola transaksi yang tidak lazim. Penyalur B: Terdapat selisih stok berulang dan dokumen penerimaan tidak lengkap. Penyalur C: Volume penjualan meningkat pada akhir pekan, tetapi pola tersebut konsisten dengan catatan permintaan sebelumnya. Jika sumber daya pemeriksaan terbatas, penyalur yang paling layak diprioritaskan untuk pemeriksaan lanjutan adalah ....",
+  "answer": 1,
+  "explain": "Penyalur B menunjukkan dua indikator risiko yang relevan, yaitu selisih stok berulang dan dokumen penerimaan yang tidak lengkap. Kombinasi indikator tersebut menjadi alasan yang rasional untuk memprioritaskan pemeriksaan lanjutan. Penyalur C menunjukkan peningkatan penjualan yang konsisten dengan pola permintaan sebelumnya. Kondisi ini tidak otomatis menunjukkan penyimpangan, meskipun tetap dapat dipantau sesuai pendekatan pengawasan berbasis risiko. Prioritas pemeriksaan tidak sama dengan penetapan kesalahan. Penyalur B tetap harus diperiksa secara objektif. Inti materi: Pendekatan berbasis risiko membantu mengarahkan sumber daya pemeriksaan kepada kondisi yang memerlukan perhatian lebih besar.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Penyalur A, karena dokumennya paling lengkap.",
+   "Penyalur B, karena terdapat beberapa indikator risiko yang perlu diverifikasi.",
+   "Penyalur C, karena setiap kenaikan volume pasti merupakan penyimpangan.",
+   "Semua penyalur harus diperiksa dengan tingkat prioritas identik tanpa mempertimbangkan risiko.",
+   "Tidak ada penyalur yang perlu diperiksa karena belum ada pelanggaran yang terbukti."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan distribusi, petugas menemukan bahwa dokumen penerimaan BBM tidak memuat informasi yang diperlukan untuk mencocokkan volume pengiriman dengan volume penerimaan. Pengelola menyatakan bahwa data tersebut dapat dilengkapi kemudian, tetapi belum memberikan bukti pendukung. Tindakan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Dokumen yang tidak lengkap dapat menghambat verifikasi dan mengurangi kemampuan petugas untuk memastikan kesesuaian transaksi. Petugas perlu mencatat kekurangan tersebut, meminta dokumen atau klarifikasi yang diperlukan, dan mengidentifikasi bagian pemeriksaan yang belum dapat diselesaikan. Informasi yang hilang tidak boleh diisi berdasarkan perkiraan pribadi. Kesimpulan harus disesuaikan dengan bukti yang tersedia. Jika dokumen tambahan kemudian diterima, petugas dapat melanjutkan verifikasi dan memperbarui hasil pemeriksaan sesuai prosedur. Inti materi: Kekurangan dokumen harus ditangani melalui permintaan bukti dan klarifikasi, bukan asumsi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyatakan bahwa dokumen pasti benar karena pengelola berjanji melengkapinya.",
+   "Mengabaikan kekurangan dokumen karena jumlah stok fisik terlihat normal.",
+   "Mencatat kekurangan dokumen, meminta klarifikasi atau bukti tambahan melalui prosedur yang berlaku, dan menunda kesimpulan pada aspek yang belum dapat diverifikasi.",
+   "Mengisi sendiri informasi yang hilang berdasarkan perkiraan.",
+   "Menetapkan tindak pidana tanpa memeriksa dokumen lainnya."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam sebuah pemeriksaan, petugas menemukan bahwa:  Data penerimaan BBM sesuai dengan dokumen pengiriman.  Data penyaluran dalam sistem berbeda dari rekapitulasi transaksi.  Stok fisik juga berbeda dari stok akhir berdasarkan pencatatan. Untuk menentukan penyebab masalah secara sistematis, langkah yang paling tepat adalah ....",
+  "answer": 3,
+  "explain": "Ketika terdapat beberapa sumber data yang tidak konsisten, petugas harus melakukan rekonsiliasi secara sistematis.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Mengutamakan stok fisik sebagai satu-satunya sumber informasi dan mengabaikan seluruh dokumen.",
+   "Mengutamakan sistem penjualan karena data digital selalu lebih akurat daripada dokumen dan pengukuran fisik.",
+   "Mengubah seluruh catatan agar sesuai dengan stok fisik tanpa menelusuri penyebab selisih.",
+   "Melakukan rekonsiliasi antara dokumen pengiriman, data penerimaan, transaksi penyaluran, rekapitulasi, dan pengukuran fisik untuk mengidentifikasi titik ketidaksesuaian.",
+   "Menyimpulkan adanya penyalahgunaan BBM karena terdapat lebih dari satu perbedaan data."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah penyalur BBM memiliki stok awal 24.500 liter. Selama satu hari, penyalur menerima tambahan 18.750 liter dan menyalurkan 31.600 liter kepada konsumen. Berdasarkan catatan transaksi, berapakah stok akhir yang seharusnya tercatat?",
+  "answer": 2,
+  "explain": "Rumus perhitungan stok akhir: Stok Akhir = Stok Awal + Penerimaan − Penyaluran Stok Akhir = 24.500 + 18.750 − 31.600 Stok Akhir = 43.250 − 31.600 Stok Akhir = 11.650 liter Dengan demikian, jawaban yang benar adalah C. Dalam administrasi distribusi BBM, perhitungan stok akhir harus didasarkan pada data penerimaan dan penyaluran yang telah diverifikasi. Kesalahan memasukkan satu transaksi dapat menyebabkan ketidaksesuaian antara catatan dan kondisi fisik.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "10.650 liter",
+   "11.150 liter",
+   "11.650 liter",
+   "12.150 liter",
+   "13.650 liter"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pada akhir periode pelaporan, sebuah penyalur memiliki data berikut:  Stok awal: 15.000 liter  Penerimaan: 27.000 liter  Penyaluran: 34.500 liter  Stok fisik hasil pengukuran: 6.900 liter Berdasarkan data tersebut, kesimpulan yang paling tepat adalah ....",
+  "answer": 1,
+  "explain": "Hitung stok akhir berdasarkan administrasi: Stok Akhir Tercatat = 15.000 + 27.000 − 34.500 Stok Akhir Tercatat = 42.000 − 34.500 Stok Akhir Tercatat = 7.500 liter Stok fisik = 6.900 liter Selisih = 7.500 − 6.900 = 600 liter Artinya, stok fisik 600 liter lebih rendah daripada stok tercatat. Selisih ini harus ditelusuri melalui pemeriksaan dokumen penerimaan, transaksi penyaluran, catatan koreksi, dan metode pengukuran fisik. Selisih tidak boleh langsung dianggap sebagai bukti penyalahgunaan sebelum penyebabnya diverifikasi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Stok fisik 600 liter lebih tinggi daripada stok tercatat.",
+   "Stok fisik 600 liter lebih rendah daripada stok tercatat.",
+   "Stok fisik 900 liter lebih rendah daripada stok tercatat.",
+   "Stok fisik sama dengan stok tercatat.",
+   "Stok tercatat lebih rendah 1.500 liter daripada stok fisik."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam laporan harian, sistem transaksi mencatat penyaluran sebanyak 12.450 liter. Sementara itu, rekapitulasi manual mencatat 12.150 liter. Setelah diperiksa, ditemukan satu transaksi sebesar 300 liter yang tercantum dalam sistem, tetapi belum masuk ke rekapitulasi manual. Tindakan administrasi yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Selisih kedua laporan adalah: 12.450 − 12.150 = 300 liter Karena ditemukan transaksi 300 liter yang tercatat dalam sistem tetapi belum masuk ke rekapitulasi manual, langkah yang tepat adalah memeriksa bukti transaksi tersebut dan memastikan keabsahannya. Jika transaksi terbukti valid, rekapitulasi manual harus diperbarui melalui mekanisme koreksi yang berlaku. Riwayat perubahan perlu dipertahankan agar proses administrasi dapat ditelusuri. Menghapus transaksi hanya untuk menyamakan angka atau mengambil rata-rata kedua data tidak dapat dibenarkan karena mengabaikan bukti transaksi yang sebenarnya.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menghapus transaksi 300 liter dari sistem agar kedua laporan sama.",
+   "Mengubah seluruh transaksi dalam sistem berdasarkan rekapitulasi manual.",
+   "Memverifikasi bukti transaksi 300 liter, memperbarui rekapitulasi sesuai prosedur, dan menyimpan jejak koreksi.",
+   "Menggunakan angka yang lebih kecil agar laporan terlihat konservatif.",
+   "Mengambil rata-rata kedua angka sebagai nilai penyaluran resmi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah penyalur memiliki alokasi penyaluran sebesar 80.000 liter untuk periode tertentu. Hingga akhir periode, penyaluran yang tercatat dan telah diverifikasi mencapai 68.000 liter. Berapakah persentase realisasi penyaluran terhadap alokasi tersebut?",
+  "answer": 3,
+  "explain": "Rumus: Persentase Realisasi = (Realisasi Penyaluran ÷ Alokasi) × 100% = (68.000 ÷ 80.000) × 100% = 0,85 × 100% = 85% Dengan demikian, persentase realisasi penyaluran adalah 85%. Angka realisasi harus ditafsirkan berdasarkan periode, jenis BBM, dan kategori alokasi yang dibandingkan. Realisasi 85% tidak dengan sendirinya menunjukkan pelanggaran atau keberhasilan, karena perlu dilihat pula kebutuhan, ketersediaan stok, dan ketentuan penyaluran yang berlaku.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "75%",
+   "80%",
+   "82,5%",
+   "85%",
+   "90%"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menginput penerimaan BBM sebanyak 16.800 liter ke dalam sistem. Setelah dicocokkan dengan dokumen penerimaan yang sah, ternyata volume yang benar adalah 18.600 liter. Apa tindakan yang paling tepat?",
+  "answer": 2,
+  "explain": "Kesalahan input sebesar: 18.600 − 16.800 = 1.800 liter Kesalahan tersebut memengaruhi perhitungan stok akhir dan berpotensi menimbulkan ketidaksesuaian dalam laporan. Petugas perlu melakukan langkah berikut: 1. Memastikan dokumen penerimaan yang menjadi dasar koreksi valid. 2. Mengoreksi angka sesuai mekanisme administrasi yang berlaku. 3. Mencatat alasan, waktu, dan pihak yang melakukan koreksi sesuai sistem yang digunakan. 4. Menghitung kembali stok akhir. 5. Memeriksa apakah laporan lain yang menggunakan data tersebut juga perlu diperbarui. Koreksi harus menjaga keterlacakan data. Mengubah angka tanpa jejak audit dapat mengurangi keandalan laporan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Membiarkan data karena perbedaannya hanya terdapat pada dua angka.",
+   "Mengganti data tanpa menyimpan catatan perubahan.",
+   "Melakukan koreksi berdasarkan dokumen pendukung, mencatat alasan perubahan, dan memastikan dampaknya terhadap laporan stok.",
+   "Mengubah volume penyaluran agar stok akhir terlihat sesuai.",
+   "Menghapus seluruh data penerimaan pada hari tersebut dan memasukkannya kembali tanpa pemeriksaan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Data penyaluran sebuah penyalur selama empat bulan adalah sebagai berikut:  Januari: 42.000 liter  Februari: 45.000 liter  Maret: 43.500 liter  April: 52.500 liter Pernyataan yang paling tepat berdasarkan data tersebut adalah ....",
+  "answer": 2,
+  "explain": "Perubahan penyaluran dari Maret ke April: 52.500 − 43.500 = 9.000 liter Persentase kenaikan: (9.000 ÷ 43.500) × 100% = 20,69% (dibulatkan dua angka desimal). Dengan demikian, penyaluran April meningkat sekitar 20,69% dibandingkan Maret. Pilihan A salah karena penyaluran turun dari Februari ke Maret. Data tren berguna untuk mengidentifikasi perubahan yang perlu dianalisis, tetapi kenaikan penyaluran tidak otomatis menunjukkan penyimpangan. Petugas perlu membandingkan tren tersebut dengan kebutuhan, ketersediaan pasokan, dan bukti transaksi.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Penyaluran selalu meningkat setiap bulan.",
+   "Penyaluran April meningkat 10% dibandingkan Maret.",
+   "Penyaluran April meningkat sekitar 20,69% dibandingkan Maret.",
+   "Penyaluran April turun sekitar 20,69% dibandingkan Maret.",
+   "Penyaluran Januari merupakan yang tertinggi selama periode tersebut."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah laporan distribusi BBM memuat jumlah penerimaan dan penyaluran, tetapi tidak mencantumkan periode pelaporan, identitas lokasi penyalur, serta sumber dokumen yang digunakan. Mengapa laporan tersebut belum memadai untuk proses verifikasi?",
+  "answer": 1,
+  "explain": "Laporan yang dapat diverifikasi harus memiliki informasi yang cukup untuk memastikan asal data, cakupan waktu, dan objek pemeriksaan. Periode pelaporan diperlukan agar angka dibandingkan pada rentang waktu yang benar. Identitas lokasi membantu memastikan bahwa data berasal dari penyalur yang tepat. Sumber dokumen membantu pemeriksa menelusuri bukti yang mendasari angka laporan. Laporan yang tidak lengkap berisiko menimbulkan kesalahan interpretasi, perbandingan yang tidak sepadan, atau kesulitan dalam pemeriksaan ulang. Inti materi: Kualitas laporan tidak hanya ditentukan oleh angka, tetapi juga oleh kelengkapan informasi dan keterlacakan sumber data.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Karena laporan distribusi seharusnya hanya memuat data stok fisik.",
+   "Karena tanpa informasi periode, lokasi, dan sumber data, angka sulit ditelusuri serta dibandingkan secara tepat.",
+   "Karena setiap laporan harus selalu menggunakan format tabel.",
+   "Karena laporan yang benar tidak boleh memuat jumlah penerimaan.",
+   "Karena informasi identitas lokasi hanya diperlukan untuk laporan keuangan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Rata-rata penyaluran sebuah penyalur adalah 2.400 liter per hari. Berdasarkan kebijakan operasional internal dalam skenario ini, penyalur menargetkan ketersediaan stok untuk lima hari. Stok fisik yang tersedia saat ini adalah 7.500 liter. Berapa tambahan stok yang diperlukan untuk mencapai target tersebut, dengan asumsi tidak ada penerimaan atau penyaluran lain selama perhitungan?",
+  "answer": 3,
+  "explain": "Target stok untuk lima hari: 2.400 × 5 = 12.000 liter Stok yang tersedia = 7.500 liter Tambahan stok yang diperlukan: 12.000 − 7.500 = 4.500 liter Jadi, tambahan stok yang diperlukan adalah 4.500 liter. Perhitungan ini merupakan simulasi kebutuhan operasional berdasarkan asumsi soal, bukan ketentuan resmi mengenai jumlah hari persediaan yang wajib dimiliki setiap penyalur. Dalam praktik, perencanaan stok harus mempertimbangkan kapasitas penyimpanan, jadwal pasokan, pola permintaan, dan ketentuan yang berlaku.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "2.500 liter",
+   "3.500 liter",
+   "4.000 liter",
+   "4.500 liter",
+   "12.000 liter"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Petugas menyusun laporan bulanan berdasarkan tiga sumber data: 1. Rekapitulasi transaksi yang belum diperiksa. 2. Dokumen penerimaan yang telah dicocokkan dengan catatan pengiriman. 3. Catatan koreksi volume yang tidak disertai alasan maupun bukti pendukung. Pendekatan yang paling tepat sebelum laporan difinalisasi adalah ....",
+  "answer": 2,
+  "explain": "Laporan final harus didasarkan pada data yang telah melalui pemeriksaan yang memadai. Dokumen penerimaan yang sudah dicocokkan dapat menjadi bukti pendukung, tetapi tetap perlu dihubungkan dengan catatan transaksi dan stok terkait. Rekapitulasi yang belum diperiksa harus diverifikasi. Catatan koreksi yang tidak disertai alasan atau bukti juga harus ditelusuri agar perubahan data dapat dipertanggungjawabkan. Jika suatu data belum dapat dipastikan, keterbatasannya harus dicatat dan ditindaklanjuti sesuai prosedur. Memilih angka terbesar atau terkecil tanpa dasar bukan metode verifikasi yang dapat diandalkan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menggabungkan seluruh data tanpa pemeriksaan agar laporan selesai tepat waktu.",
+   "Menggunakan rekapitulasi transaksi saja karena paling mudah diperoleh.",
+   "Memverifikasi transaksi, memastikan dokumen pendukung memadai, dan menelusuri catatan koreksi yang belum memiliki alasan atau bukti.",
+   "Menghapus semua data yang berbeda tanpa melakukan penelusuran.",
+   "Menggunakan angka terbesar sebagai bentuk kehati-hatian."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah laporan menyajikan data berikut:  Stok awal: 10.000 liter  Penerimaan: 25.000 liter  Penyaluran: 28.000 liter  Stok akhir tercatat: 8.000 liter  Stok fisik: 7.000 liter Seorang petugas menyimpulkan bahwa tidak ada kesalahan administrasi karena stok akhir tercatat sudah sesuai dengan perhitungan. Evaluasi yang paling tepat terhadap kesimpulan tersebut adalah ....",
+  "answer": 2,
+  "explain": "Periksa terlebih dahulu perhitungan stok akhir: Stok Akhir = Stok Awal + Penerimaan − Penyaluran = 10.000 + 25.000 − 28.000 = 35.000 − 28.000 = 7.000 liter Dengan demikian, stok akhir yang seharusnya berdasarkan angka tersebut adalah 7.000 liter, bukan 8.000 liter. Stok fisik juga tercatat sebesar 7.000 liter. Artinya, stok fisik sesuai dengan hasil perhitungan, tetapi tidak sesuai dengan angka stok akhir tercatat yang ditulis dalam laporan. Terdapat dua hal yang harus dibedakan: 1. Kesalahan perhitungan atau pencatatan stok akhir: angka 8.000 liter tidak sesuai dengan hasil rumus. 2. Selisih stok fisik terhadap hasil perhitungan: tidak ada selisih karena keduanya sama-sama 7.000 liter. Karena itu, kesimpulan yang tepat adalah bahwa terdapat kesalahan pada angka stok akhir tercatat dan laporan harus dikoreksi melalui prosedur yang berlaku. Catatan: Opsi C menyebut selisih 1.000 liter terhadap stok fisik, tetapi secara lebih tepat, selisih 1.000 liter terjadi antara angka stok akhir tercatat dalam laporan dan stok fisik. Hasil perhitungan stok akhir yang benar justru sama dengan stok fisik. Soal ini menguji kemampuan membedakan kesalahan pencatatan dari selisih fisik.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Kesimpulan benar karena perhitungan stok akhir sudah sesuai.",
+   "Kesimpulan benar karena stok fisik tidak perlu dibandingkan dengan stok tercatat.",
+   "Kesimpulan belum tepat karena meskipun perhitungan stok akhir tercatat benar, masih terdapat selisih 1.000 liter terhadap stok fisik yang harus ditelusuri.",
+   "Kesimpulan salah karena stok akhir seharusnya 7.000 liter berdasarkan rumus.",
+   "Kesimpulan benar apabila dokumen penerimaan tersedia."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah wilayah terpencil mengalami keterlambatan pasokan BBM akibat gangguan transportasi. Stok di lokasi penyalur diperkirakan hanya cukup untuk satu hari, sedangkan pengiriman berikutnya diperkirakan baru tiba tiga hari lagi. Pada saat yang sama, permintaan BBM meningkat karena kegiatan ekonomi masyarakat sedang berlangsung. Petugas harus menentukan langkah awal yang paling tepat.",
+  "answer": 2,
+  "explain": "Masalah utama dalam kasus ini adalah ketidakseimbangan antara ketersediaan stok, kebutuhan masyarakat, dan waktu kedatangan pasokan berikutnya. Langkah yang tepat harus mencakup beberapa aspek: 1. Memverifikasi jumlah stok yang benar-benar tersedia. 2. Menghitung perkiraan kebutuhan selama masa keterlambatan. 3. Mengidentifikasi kebutuhan prioritas sesuai ketentuan yang berlaku. 4. Berkoordinasi dengan pihak terkait untuk mencari alternatif pengiriman yang layak. 5. Memantau perkembangan stok dan penyaluran secara berkala. Menghentikan seluruh penyaluran dapat mengganggu kebutuhan masyarakat, sedangkan membiarkan penyaluran tanpa evaluasi berisiko menyebabkan stok habis sebelum pasokan berikutnya tiba. Inti materi: Penanganan gangguan pasokan harus menggabungkan pengendalian stok, koordinasi logistik, dan penyaluran yang sesuai ketentuan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Membiarkan penyaluran berjalan seperti biasa tanpa mengevaluasi kondisi stok.",
+   "Menghentikan seluruh penyaluran sampai pasokan baru tiba.",
+   "Memverifikasi stok aktual, memperkirakan kebutuhan prioritas, berkoordinasi dengan pihak terkait untuk mempercepat pasokan, dan memantau penyaluran berdasarkan ketentuan yang berlaku.",
+   "Meminta penyalur menaikkan harga agar permintaan masyarakat menurun.",
+   "Mengalihkan seluruh stok ke satu kelompok konsumen tanpa mempertimbangkan ketentuan penyaluran."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam pemeriksaan terhadap sebuah penyalur, petugas menemukan bahwa volume penyaluran meningkat tajam selama beberapa hari. Pada periode yang sama, stok fisik berkurang lebih cepat daripada pola biasanya. Namun, dokumen yang tersedia belum cukup untuk memastikan penyebab perubahan tersebut. Apa tindakan paling tepat?",
+  "answer": 2,
+  "explain": "Peningkatan penyaluran dan penurunan stok yang tidak biasa merupakan indikator risiko, tetapi belum cukup untuk menetapkan adanya pelanggaran. Petugas harus memeriksa apakah peningkatan tersebut dapat dijelaskan oleh perubahan permintaan, tambahan kegiatan ekonomi, perubahan pasokan, atau faktor lain yang dapat dibuktikan. Pemeriksaan perlu menghubungkan data penyaluran dengan penerimaan dan stok. Jika ditemukan transaksi tidak wajar atau dokumen tidak sesuai, temuan harus dicatat dan ditindaklanjuti melalui prosedur yang berlaku. Inti materi: Kesimpulan pengawasan harus didasarkan pada bukti yang telah diverifikasi, bukan dugaan semata.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menyimpulkan bahwa seluruh peningkatan penyaluran merupakan penyalahgunaan BBM.",
+   "Mengabaikan perubahan karena peningkatan penjualan selalu merupakan hal yang wajar.",
+   "Membandingkan data transaksi, stok, dokumen penerimaan, dan pola permintaan; meminta klarifikasi; serta mendokumentasikan indikasi yang memerlukan pemeriksaan lanjutan.",
+   "Mengubah laporan agar pola penyaluran kembali menyerupai periode sebelumnya.",
+   "Mengumumkan dugaan pelanggaran sebelum bukti diperiksa."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah penyalur memiliki stok BBM yang terbatas karena pengiriman terlambat. Terdapat beberapa kelompok konsumen dengan kebutuhan berbeda. Petugas diminta membantu mengevaluasi situasi agar penyaluran tetap sesuai ketentuan. Pendekatan yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Ketika stok terbatas, keputusan penyaluran harus tetap sesuai dengan ketentuan yang berlaku untuk jenis BBM dan kategori konsumennya. Petugas perlu mengetahui stok yang tersedia, kebutuhan penyaluran, persyaratan konsumen pengguna, dan aturan yang mengatur penyaluran. Dasar keputusan juga harus dapat dijelaskan dan didokumentasikan. Membagi stok sama rata tidak selalu tepat karena jenis BBM tertentu dapat memiliki ketentuan penyaluran yang berbeda. Demikian pula, besarnya pembelian tidak otomatis menjadi dasar prioritas. Inti materi: Penentuan prioritas harus mempertimbangkan aturan, kebutuhan, dan bukti yang tersedia.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyalurkan BBM hanya kepada konsumen yang membeli dalam jumlah terbesar.",
+   "Mengutamakan konsumen yang paling sering datang tanpa memeriksa kategori pengguna.",
+   "Menentukan prioritas berdasarkan ketentuan yang berlaku, memverifikasi kategori konsumen jika dipersyaratkan, serta mendokumentasikan dasar keputusan penyaluran.",
+   "Membagi stok sama rata kepada seluruh konsumen tanpa mempertimbangkan ketentuan khusus.",
+   "Menghentikan penyaluran kepada seluruh konsumen tanpa koordinasi atau penilaian lebih lanjut."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Petugas menerima laporan dari dua penyalur dalam satu wilayah. Penyalur A melaporkan penyaluran 18.000 liter, sedangkan Penyalur B melaporkan 21.000 liter. Berdasarkan catatan sebelumnya, pola penyaluran kedua lokasi relatif stabil. Tidak ada informasi yang cukup untuk menjelaskan kenaikan pada Penyalur B. Langkah analisis yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Perbedaan volume antarlokasi tidak otomatis menunjukkan penyimpangan. Setiap penyalur dapat memiliki tingkat permintaan, kapasitas, dan kondisi operasional yang berbeda. Petugas perlu membandingkan data berdasarkan periode yang sama dan memeriksa apakah perubahan volume didukung oleh bukti transaksi yang valid. Pemeriksaan dapat mencakup:  Tren penyaluran historis.  Stok awal dan stok akhir.  Dokumen penerimaan BBM.  Rincian transaksi penyaluran.  Perubahan permintaan dan kondisi operasional. Jika ditemukan ketidaksesuaian yang tidak dapat dijelaskan, petugas dapat melakukan pemeriksaan lanjutan. Inti materi: Perbandingan data harus mempertimbangkan konteks, bukan hanya besarnya angka.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menyimpulkan bahwa Penyalur B melakukan penyimpangan karena volume penyalurannya lebih besar.",
+   "Menetapkan Penyalur A sebagai penyalur yang benar karena volumenya lebih rendah.",
+   "Memeriksa tren historis, stok, dokumen penerimaan, rincian transaksi, dan kondisi permintaan pada kedua lokasi sebelum menarik kesimpulan.",
+   "Mengurangi laporan Penyalur B menjadi 18.000 liter agar kedua laporan sama.",
+   "Menggunakan rata-rata kedua laporan sebagai volume resmi wilayah."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah penyalur memiliki stok fisik 14.400 liter. Rata-rata penyaluran harian selama periode normal adalah 2.400 liter. Karena gangguan transportasi, pasokan diperkirakan terlambat selama empat hari. Dengan asumsi penyaluran tetap pada tingkat rata-rata tersebut dan tidak ada pasokan tambahan, berapa stok yang diperkirakan tersisa setelah empat hari?",
+  "answer": 2,
+  "explain": "Total perkiraan penyaluran selama empat hari: 2.400 × 4 = 9.600 liter Stok awal = 14.400 liter Perkiraan stok setelah empat hari: 14.400 − 9.600 = 4.800 liter Dengan demikian, jawaban yang benar adalah C. 4.800 liter. Perhitungan ini menunjukkan bahwa stok masih tersisa setelah empat hari, dengan asumsi penyaluran dan pasokan sesuai skenario. Dalam praktik, petugas juga perlu mempertimbangkan kemungkinan perubahan permintaan, kebutuhan prioritas, kapasitas penyimpanan, dan waktu kedatangan pasokan. Nilai sisa stok harus dihitung berdasarkan stok awal dikurangi total penyaluran selama periode keterlambatan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "2.400 liter",
+   "3.600 liter",
+   "4.800 liter",
+   "5.600 liter",
+   "9.600 liter"
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang petugas menemukan ketidaksesuaian antara catatan penyaluran dan bukti transaksi. Pihak yang diperiksa meminta petugas mengubah angka dalam laporan dengan alasan bahwa perbedaan tersebut hanya kesalahan kecil dan tidak perlu dicatat. Sikap yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Petugas harus menjaga integritas dan objektivitas. Ketidaksesuaian tidak boleh dihilangkan hanya karena ada tekanan dari pihak yang diperiksa. Apabila pihak yang diperiksa menyatakan bahwa terdapat kesalahan administrasi, petugas dapat meminta bukti pendukung dan melakukan verifikasi ulang. Koreksi dapat dilakukan jika memang dibenarkan oleh bukti dan mekanisme yang berlaku. Semua perubahan harus dapat ditelusuri. Tindakan tersebut melindungi keandalan laporan sekaligus memastikan bahwa pihak yang diperiksa mendapat kesempatan memberikan klarifikasi. Inti materi: Integritas berarti menjaga kebenaran data dan mengikuti prosedur, sekalipun menghadapi tekanan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Mengubah angka untuk menghindari konflik.",
+   "Menyetujui permintaan selama pihak yang diperiksa berjanji memperbaikinya kemudian.",
+   "Mempertahankan temuan berdasarkan bukti, melakukan klarifikasi, dan mencatat koreksi hanya jika didukung bukti serta mengikuti prosedur resmi.",
+   "Menghapus laporan dan menghentikan pemeriksaan.",
+   "Menyebarkan informasi tentang pihak yang diperiksa tanpa menyelesaikan verifikasi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam satu wilayah, terdapat tiga masalah berikut:  Lokasi A: Stok diperkirakan cukup untuk tujuh hari dan dokumen lengkap.  Lokasi B: Stok diperkirakan cukup untuk satu hari, sementara pengiriman berikutnya belum memiliki kepastian waktu.  Lokasi C: Stok diperkirakan cukup untuk empat hari, tetapi terdapat selisih pencatatan yang belum dijelaskan. Jika petugas harus menentukan urutan penanganan awal berdasarkan urgensi operasional, pilihan yang paling rasional adalah ....",
+  "answer": 1,
+  "explain": "Lokasi B memiliki risiko gangguan pasokan paling mendesak karena stok hanya cukup untuk satu hari dan waktu pengiriman belum pasti. Kondisi ini memerlukan verifikasi stok, koordinasi pasokan, serta pemantauan kebutuhan. Lokasi C juga perlu diperiksa karena terdapat selisih pencatatan yang belum dijelaskan. Namun, berdasarkan informasi yang tersedia, stoknya diperkirakan masih cukup untuk empat hari. Lokasi A memiliki stok yang diperkirakan cukup untuk tujuh hari dan dokumen lengkap, sehingga urgensi operasionalnya relatif lebih rendah. Urutan tersebut merupakan prioritas awal berdasarkan informasi dalam soal. Jika pemeriksaan tambahan menemukan risiko lain, urutan dapat disesuaikan. Inti materi: Prioritas penanganan ditentukan berdasarkan urgensi, dampak, dan bukti risiko, bukan semata-mata urutan laporan masuk.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Lokasi A, kemudian B, lalu C.",
+   "Lokasi B, kemudian C, lalu A.",
+   "Lokasi C, kemudian A, lalu B.",
+   "Lokasi A, kemudian C, lalu B.",
+   "Semua lokasi harus selalu diperlakukan identik tanpa mempertimbangkan kondisi."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah penyalur mengalami selisih stok selama tiga periode berturut-turut. Pada setiap periode, stok fisik lebih rendah daripada stok tercatat. Petugas menemukan bahwa sebagian transaksi penyaluran baru dimasukkan ke sistem pada akhir hari berikutnya. Kesimpulan dan tindakan awal yang paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Keterlambatan pencatatan dapat menyebabkan perbedaan antara stok yang dihitung berdasarkan sistem dan kondisi fisik pada waktu tertentu. Namun, temuan tersebut belum membuktikan bahwa keterlambatan input merupakan satu-satunya penyebab selisih. Petugas perlu: 1. Memeriksa waktu transaksi sebenarnya. 2. Membandingkan waktu transaksi dengan waktu input. 3. Memastikan seluruh transaksi sudah masuk ke periode pelaporan yang tepat. 4. Menghitung kembali stok dengan data yang telah diverifikasi. 5. Memeriksa kemungkinan penyebab lain apabila selisih masih terjadi. Selisih berulang perlu ditangani secara sistematis karena dapat menunjukkan kelemahan proses administrasi atau masalah lain yang membutuhkan pemeriksaan. Inti materi: Penyebab masalah harus diuji menggunakan data dan bukti, bukan ditetapkan berdasarkan dugaan awal.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Selisih pasti disebabkan oleh penyalahgunaan BBM.",
+   "Selisih pasti terjadi karena kesalahan pengukuran fisik.",
+   "Keterlambatan input transaksi merupakan salah satu kemungkinan penyebab yang perlu diuji dengan mencocokkan waktu transaksi, catatan penyaluran, dan stok; penyebab lain tetap harus diperiksa.",
+   "Seluruh transaksi yang dimasukkan terlambat harus dihapus.",
+   "Selisih dapat diabaikan karena terjadi berulang."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Petugas menerima laporan masyarakat bahwa BBM sulit diperoleh di suatu wilayah. Namun, data awal menunjukkan bahwa pengiriman ke wilayah tersebut telah dilakukan sesuai jadwal. Belum tersedia informasi yang cukup mengenai stok aktual dan pola penyaluran di lokasi. Langkah paling tepat adalah ....",
+  "answer": 2,
+  "explain": "Jadwal pengiriman yang terpenuhi tidak selalu menjamin bahwa BBM tersedia dalam jumlah yang memadai pada saat masyarakat membutuhkannya. Sebaliknya, laporan kelangkaan juga belum membuktikan adanya pelanggaran oleh penyalur. Petugas perlu memeriksa kondisi nyata di lapangan, termasuk stok aktual, volume penerimaan, volume penyaluran, jam pelayanan, pola permintaan, dan informasi lain yang relevan. Jika ditemukan ketidaksesuaian, petugas harus mendokumentasikan bukti dan menentukan tindak lanjut melalui mekanisme yang berlaku. Inti materi: Laporan masyarakat merupakan informasi awal yang perlu diverifikasi dengan data operasional dan pemeriksaan lapangan.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Menolak laporan karena jadwal pengiriman menunjukkan pasokan sudah tersedia.",
+   "Menyimpulkan bahwa penyalur sengaja menahan BBM berdasarkan laporan masyarakat saja.",
+   "Memverifikasi stok aktual, data penerimaan dan penyaluran, kondisi pelayanan, serta informasi masyarakat sebelum menentukan tindak lanjut.",
+   "Menghentikan seluruh pengiriman ke wilayah tersebut.",
+   "Menyatakan laporan masyarakat tidak benar tanpa melakukan pemeriksaan."
+  ]
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam satu periode pemeriksaan, petugas menemukan kondisi berikut: 1. Stok tercatat lebih tinggi daripada stok fisik. 2. Volume penyaluran meningkat dibandingkan periode sebelumnya. 3. Sebagian dokumen transaksi belum lengkap. 4. Pengelola menyatakan bahwa kenaikan penyaluran disebabkan oleh meningkatnya permintaan. Tindakan yang paling tepat untuk menyelesaikan pemeriksaan adalah ....",
+  "answer": 3,
+  "explain": "Kasus ini melibatkan beberapa indikator yang saling berkaitan. Karena itu, pemeriksaan tidak cukup dilakukan dengan menilai satu data secara terpisah. Petugas perlu menggabungkan:  Rekonsiliasi stok: menghitung stok akhir berdasarkan stok awal, penerimaan, dan penyaluran, kemudian membandingkannya dengan stok fisik.  Verifikasi dokumen: memastikan transaksi memiliki bukti yang memadai.  Analisis tren: membandingkan volume penyaluran dengan periode sebelumnya dan mencari penjelasan yang dapat dibuktikan.  Klarifikasi: meminta penjelasan pengelola dan memeriksa bukti pendukungnya.  Pelaporan: mencatat fakta, ketidaksesuaian, keterbatasan pemeriksaan, dan rekomendasi tindak lanjut. Peningkatan permintaan dapat menjadi penjelasan yang masuk akal, tetapi harus didukung data. Di sisi lain, adanya beberapa indikator risiko tidak otomatis membuktikan pelanggaran. Inti materi: Pemecahan masalah distribusi BBM membutuhkan analisis terpadu, verifikasi bukti, dan keputusan yang proporsional.",
+  "src": "kisikisi-esdm",
+  "options": [
+   "Langsung menetapkan adanya penyalahgunaan BBM karena semua indikator muncul bersamaan.",
+   "Menerima penjelasan pengelola tanpa memeriksa dokumen tambahan.",
+   "Memusatkan pemeriksaan hanya pada kenaikan penyaluran dan mengabaikan selisih stok.",
+   "Mengintegrasikan rekonsiliasi stok, verifikasi dokumen, analisis tren transaksi, dan klarifikasi pengelola; kemudian mendokumentasikan hasil serta menentukan tindak lanjut berdasarkan bukti.",
+   "Mengubah stok tercatat agar sesuai dengan stok fisik tanpa menelusuri penyebabnya."
+  ]
  }
 ];
