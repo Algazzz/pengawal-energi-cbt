@@ -4,7 +4,9 @@
   var HISTORY_KEY = 'pe_quiz_history';
 
   function bank() {
-    return Array.isArray(window.QUESTIONS) ? window.QUESTIONS : [];
+    var base = Array.isArray(window.QUESTIONS) ? window.QUESTIONS : [];
+    var extra = Array.isArray(window.EXTRA_QUESTIONS) ? window.EXTRA_QUESTIONS : [];
+    return base.concat(extra);
   }
 
   function shuffle(arr) {
