@@ -90,6 +90,7 @@
         q: q.q,
         cat: q.cat,
         explain: q.explain || '',
+        src: q.src || '',
         options: order.map(function (i) { return q.options[i]; }),
         answer: order.indexOf(q.answer)
       };
@@ -144,7 +145,7 @@
       btn.setAttribute('aria-checked', quiz.answers[quiz.idx] === i ? 'true' : 'false');
       var letter = document.createElement('span');
       letter.className = 'opt-letter';
-      letter.textContent = 'ABCD'[i] + '.';
+      letter.textContent = 'ABCDE'[i] + '.';
       btn.appendChild(letter);
       btn.appendChild(document.createTextNode(opt));
       btn.addEventListener('click', function () {
@@ -241,15 +242,15 @@
       div.className = 'review-item';
       var rq = document.createElement('p');
       rq.className = 'rq';
-      rq.textContent = (i + 1) + '. [' + item.cat + '] ' + item.q;
+      rq.textContent = (i + 1) + '. [' + item.cat + (item.src === 'gptgemini' ? ', kolaborasi GPT/Gemini' : '') + '] ' + item.q;
       div.appendChild(rq);
       var yours = document.createElement('p');
       var ya = quiz.answers[i];
-      yours.textContent = 'Jawabanmu: ' + (ya === null ? 'tidak dijawab' : 'ABCD'[ya] + '. ' + item.options[ya]);
+      yours.textContent = 'Jawabanmu: ' + (ya === null ? 'tidak dijawab' : 'ABCDE'[ya] + '. ' + item.options[ya]);
       yours.className = ya === item.answer ? 'ans-ok' : 'ans-bad';
       div.appendChild(yours);
       var key = document.createElement('p');
-      key.textContent = 'Kunci: ' + 'ABCD'[item.answer] + '. ' + item.options[item.answer];
+      key.textContent = 'Kunci: ' + 'ABCDE'[item.answer] + '. ' + item.options[item.answer];
       key.className = 'ans-ok';
       div.appendChild(key);
       if (item.explain) {

@@ -394,3 +394,5 @@ a:hover { color: var(--navy); }
   html { scroll-behavior: auto; }
   .progress-fill { transition: none; }
 }
+
+.ref-plain { font-weight: 700; color: var(--navy); }
