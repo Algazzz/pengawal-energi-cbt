@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Apa perbedaan utama JBT Minyak Solar dan JBKP Pertalite dalam klasifikasi penyaluran BBM?",
+    "options": [
+      "Solar termasuk JBT, sedangkan Pertalite termasuk JBKP",
+      "Solar termasuk JBKP, sedangkan Pertalite termasuk JBT",
+      "Keduanya termasuk BBM umum tanpa penugasan",
+      "Keduanya hanya diperuntukkan bagi industri besar"
+    ],
+    "answer": 0,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Minyak Solar tertentu termasuk JBT, sedangkan Pertalite ditetapkan sebagai JBKP."
+  },
+  {
+    "q": "Apa tujuan utama pengawasan penyaluran JBT Solar dan JBKP Pertalite di SPBU?",
+    "options": [
+      "Mempercepat semua transaksi tanpa verifikasi",
+      "Memastikan volume dan sasaran penyaluran sesuai ketentuan",
+      "Menentukan harga BBM secara mandiri oleh SPBU",
+      "Menghapus seluruh pencatatan transaksi"
+    ],
+    "answer": 1,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Pengawasan menilai ketepatan sasaran, volume, dan kepatuhan penyaluran terhadap ketentuan yang berlaku."
+  },
+  {
+    "q": "Saat uji petik, verifikator menemukan perbedaan antara catatan transaksi dan hasil pemeriksaan lapangan. Tindakan yang paling tepat adalah...",
+    "options": [
+      "Langsung menyimpulkan adanya tindak pidana",
+      "Mengabaikan selisih jika SPBU tetap beroperasi",
+      "Mendokumentasikan selisih, memeriksa sumber data, dan melaporkan sesuai prosedur",
+      "Mengubah data agar semua angka sama"
+    ],
+    "answer": 2,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Uji petik harus berbasis bukti; ketidaksesuaian dicatat dan ditelusuri sebelum ditarik kesimpulan."
+  },
+  {
+    "q": "Dalam rekonsiliasi stok atau material balance sederhana, persamaan stok akhir teoritis yang tepat adalah...",
+    "options": [
+      "Stok awal − penerimaan + penyaluran",
+      "Stok awal + penerimaan − penyaluran",
+      "Penerimaan + penyaluran − stok awal",
+      "Stok awal + penyaluran + penerimaan"
+    ],
+    "answer": 1,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Untuk periode yang sama, stok akhir teoritis dihitung dari stok awal ditambah penerimaan dikurangi penyaluran."
+  },
+  {
+    "q": "Stok awal Solar di SPBU adalah 9.000 liter, penerimaan 7.000 liter, dan penyaluran 10.500 liter. Berapa stok akhir teoritis?",
+    "options": [
+      "4.500 liter",
+      "5.000 liter",
+      "5.500 liter",
+      "6.500 liter"
+    ],
+    "answer": 2,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Material balance: 9.000 + 7.000 − 10.500 = 5.500 liter."
+  },
+  {
+    "q": "Apa fungsi utama aplikasi XStar BPH Migas?",
+    "options": [
+      "Mengatur harga harian seluruh produk BBM",
+      "Menerbitkan dan mengelola Surat Rekomendasi pembelian JBT dan JBKP",
+      "Mengukur tekanan seluruh tangki timbun secara langsung",
+      "Menggantikan semua dispenser di SPBU"
+    ],
+    "answer": 1,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "XStar merupakan aplikasi penerbitan dan pengelolaan Surat Rekomendasi pembelian JBT dan JBKP."
+  },
+  {
+    "q": "Siapa yang berwenang menerbitkan Surat Rekomendasi pembelian JBT/JBKP melalui XStar sesuai sektor pengguna?",
+    "options": [
+      "Setiap operator SPBU tanpa kewenangan khusus",
+      "Konsumen pengguna secara mandiri",
+      "Pemerintah daerah melalui perangkat daerah yang berwenang",
+      "Pengemudi mobil tangki"
+    ],
+    "answer": 2,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Surat Rekomendasi diterbitkan pemerintah daerah melalui OPD atau instansi pembina yang berwenang sesuai sektor."
+  },
+  {
+    "q": "Menurut penjelasan resmi XStar, pembelian JBT/JBKP menggunakan jerigen untuk sektor pengguna yang berhak dapat dilakukan apabila...",
+    "options": [
+      "Memiliki Surat Rekomendasi yang sesuai ketentuan",
+      "Membeli dalam jumlah berapa pun tanpa dokumen",
+      "Mendapat izin lisan dari sesama konsumen",
+      "Menggunakan dokumen milik konsumen lain"
+    ],
+    "answer": 0,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Pembelian menggunakan alat bantu seperti jerigen memerlukan Surat Rekomendasi bagi sektor yang berhak sesuai aturan."
+  },
+  {
+    "q": "Dalam uji petik pengawasan SPBU, pemeriksaan totalizer dispenser paling relevan untuk mengetahui...",
+    "options": [
+      "Warna fisik produk BBM",
+      "Volume kumulatif penyaluran yang tercatat pada alat",
+      "Jumlah petugas yang hadir",
+      "Jenis kendaraan yang parkir"
+    ],
+    "answer": 1,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Totalizer menunjukkan kuantitas terukur secara kumulatif dan dapat digunakan sebagai salah satu bahan pemeriksaan data penyaluran."
+  },
+  {
+    "q": "Stok akhir teoritis adalah 4.200 liter, tetapi hasil ukur stok akhir 4.080 liter. Apa kesimpulan awal yang paling tepat?",
+    "options": [
+      "Terdapat selisih kurang 120 liter yang perlu ditelusuri",
+      "Terbukti terjadi penggelapan 120 liter",
+      "Tidak ada selisih karena keduanya mendekati",
+      "SPBU otomatis harus ditutup permanen"
+    ],
+    "answer": 0,
+    "cat": "Wawasan Migas Hilir",
+    "explain": "Selisih terukur − teoritis = 4.080 − 4.200 = −120 liter; penyebabnya harus diperiksa, bukan langsung diasumsikan pelanggaran."
+  }
+]
