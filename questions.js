@@ -3734,20 +3734,6 @@ window.QUESTIONS = [
   "src": "buku-tpa"
  },
  {
-  "q": "Semua burung bisa terbang. Sebagian hewan yang bisa terbang adalah burung. Jadi ....",
-  "options": [
-   "Semua hewan yang bisa terbang adalah burung",
-   "Sebagian burung adalah hewan yang bisa terbang",
-   "Hewan yang tidak bisa terbang bukan burung",
-   "Sebagian hewan yang bisa terbang bukan burung",
-   "Semua hewan adalah burung yang bisa terbang"
-  ],
-  "answer": 0,
-  "cat": "TPA",
-  "explain": "terbang adalah burung Dari pernyataan \"Semua burung bisa terbang\" dan \"Sebagian hewan yang bisa terbang adalah burung\", kita dapat menyimpulkan bahwa semua hewan yang bisa terbang adalah burung. Oleh karena itu, jawaban yang paling tepat adalah: A. d. Tes logika umum Peserta perlu menalar secara cepat soal manakah pernyataan yang sifatnya logis.",
-  "src": "buku-tpa"
- },
- {
   "q": "Jika hujan turun, maka jalanan basah. Hari ini hujan turun. Apa kesimpulannya?",
   "options": [
    "Jalanan tetap kering",
