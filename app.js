@@ -1,21 +1,10 @@
 (function () {
   'use strict';
 
-  var CATS = ['Wawasan Migas Hilir', 'Basic Science', 'TPA'];
-  var CUSTOM_KEY = 'pe_custom_questions';
   var HISTORY_KEY = 'pe_quiz_history';
 
-  function loadCustom() {
-    try {
-      var raw = localStorage.getItem(CUSTOM_KEY);
-      var arr = raw ? JSON.parse(raw) : [];
-      return Array.isArray(arr) ? arr : [];
-    } catch (e) { return []; }
-  }
-
   function bank() {
-    var base = Array.isArray(window.QUESTIONS) ? window.QUESTIONS : [];
-    return base.concat(loadCustom());
+    return Array.isArray(window.QUESTIONS) ? window.QUESTIONS : [];
   }
 
   function shuffle(arr) {
@@ -322,84 +311,6 @@
       menuBtn.setAttribute('aria-expanded', 'false');
     }
   });
-
-  /* ---------- Copy prompt buttons ---------- */
-  document.querySelectorAll('.copy-btn').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var ta = $(btn.getAttribute('data-copy'));
-      if (!ta) return;
-      var done = function () {
-        var old = btn.textContent;
-        btn.textContent = 'Tersalin, tempel ke ChatGPT atau Gemini';
-        setTimeout(function () { btn.textContent = old; }, 2600);
-      };
-      if (navigator.clipboard && navigator.clipboard.writeText) {
-        navigator.clipboard.writeText(ta.value).then(done, function () {
-          ta.select(); document.execCommand('copy'); done();
-        });
-      } else {
-        ta.select(); document.execCommand('copy'); done();
-      }
-    });
-  });
-
-  /* ---------- Import custom questions ---------- */
-  var btnImport = $('btnImport');
-  if (btnImport) {
-    btnImport.addEventListener('click', function () {
-      var fb = $('importFeedback');
-      var raw = $('importBox').value.trim();
-      raw = raw.replace(/```json/gi, '').replace(/```/g, '').trim();
-      var data;
-      try { data = JSON.parse(raw); }
-      catch (e) {
-        fb.className = 'import-feedback err';
-        fb.textContent = 'JSON tidak valid. Pastikan keluaran AI disalin utuh, mulai dari [ sampai ].';
-        return;
-      }
-      if (!Array.isArray(data)) {
-        fb.className = 'import-feedback err';
-        fb.textContent = 'Format harus berupa array soal JSON.';
-        return;
-      }
-      var valid = [];
-      data.forEach(function (it) {
-        if (!it || typeof it.q !== 'string' || !Array.isArray(it.options)) return;
-        var opts = it.options.filter(function (o) { return typeof o === 'string' && o.trim(); });
-        if (opts.length < 4) return;
-        var ans = parseInt(it.answer, 10);
-        if (isNaN(ans) || ans < 0 || ans >= opts.length) return;
-        var cat = CATS.indexOf(it.cat) >= 0 ? it.cat : 'TPA';
-        valid.push({ q: it.q, options: opts.slice(0, 5), answer: ans, cat: cat, explain: typeof it.explain === 'string' ? it.explain : '', src: 'impor' });
-      });
-      if (!valid.length) {
-        fb.className = 'import-feedback err';
-        fb.textContent = 'Tidak ada soal yang memenuhi format. Periksa kembali bidang q, options, dan answer.';
-        return;
-      }
-      var custom = loadCustom().concat(valid);
-      try { localStorage.setItem(CUSTOM_KEY, JSON.stringify(custom)); }
-      catch (e) {
-        fb.className = 'import-feedback err';
-        fb.textContent = 'Penyimpanan browser penuh atau tidak tersedia, soal belum bisa disimpan.';
-        return;
-      }
-      fb.className = 'import-feedback ok';
-      fb.textContent = valid.length + ' soal berhasil diimpor. Total soal impor tersimpan: ' + custom.length + '. Soal-soal ini ikut muncul saat latihan.';
-      $('importBox').value = '';
-      refreshCounts();
-    });
-  }
-  var btnClear = $('btnClearCustom');
-  if (btnClear) {
-    btnClear.addEventListener('click', function () {
-      localStorage.removeItem(CUSTOM_KEY);
-      var fb = $('importFeedback');
-      fb.className = 'import-feedback ok';
-      fb.textContent = 'Semua soal impor sudah dihapus. Bank soal kembali ke soal bawaan.';
-      refreshCounts();
-    });
-  }
 
   refreshCounts();
   tickCountdown();

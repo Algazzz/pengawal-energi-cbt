@@ -16,7 +16,6 @@
       <a href="#materi">Materi</a>
       <a href="#referensi">Referensi</a>
       <a href="#latihan">Latihan CBT</a>
-      <a href="#kolaborasi">Kolaborasi AI</a>
       <a href="#setelah">Setelah CBT</a>
     </nav>
   </div>
@@ -335,46 +334,9 @@
   </div>
 </section>
 
-<section class="section section-alt" id="kolaborasi">
-  <div class="wrap">
-    <h2>Kolaborasi dengan ChatGPT dan Gemini</h2>
-    <p class="section-lead">Situs ini disusun oleh Muse. Kolaborasi pertamamu sudah masuk: 60 soal dari modul PDF ChatGPT dan Gemini serta 66 soal bersih dari buku latihan TPA yang kamu kirim sudah digabungkan ke bank soal bawaan situs (total 281 soal), dan di halaman pembahasan soal-soal itu bertanda "kolaborasi GPT/Gemini". Untuk menambah lagi, minta ChatGPT atau Gemini membuat soal dengan prompt siap salin di bawah ini, lalu tempel hasilnya kembali ke situs ini lewat formulir impor.</p>
-    <div class="kolab-grid">
-      <div class="kolab-card">
-        <h3>Langkah kolaborasi</h3>
-        <ol>
-          <li>Salin salah satu prompt di bawah ini.</li>
-          <li>Tempel di <a href="https://chatgpt.com/" target="_blank" rel="noopener">ChatGPT</a> atau <a href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini</a>, lalu jalankan.</li>
-          <li>Salin keluaran JSON yang mereka berikan.</li>
-          <li>Tempel ke formulir impor di halaman ini. Soal baru langsung bisa dipakai latihan.</li>
-        </ol>
-        <p class="kolab-note">Catatan kejujuran: keluaran AI lain bisa mengandung kunci yang keliru dan nomor peraturan yang belum terverifikasi. Di modul PDF kemarin, misalnya, ada soal bersandar pada nomor peraturan 2026 yang belum bisa aku pastikan keberadaannya di JDIH. Soal hitungan dan penalarannya sudah aku cek sampelnya dan kuncinya benar, tetapi untuk hafalan regulasi tetap pegang referensi resmi di situs ini.</p>
-      </div>
-      <div class="kolab-card">
-        <h3>Prompt siap salin</h3>
-        <label for="promptHilir">Prompt soal Wawasan Migas Hilir</label>
-        <textarea id="promptHilir" rows="6" readonly>Buatkan 10 soal pilihan ganda Bahasa Indonesia untuk latihan CBT posisi Verifikator Lapangan Pengawal Energi ESDM, materi Wawasan Migas Hilir: distribusi BBM JBT Solar dan JBKP Pertalite, pengawasan SPBU, uji petik dan material balance, Surat Rekomendasi XStar. Keluarkan HANYA JSON array dengan format persis: [{"q":"teks soal","options":["opsi A","opsi B","opsi C","opsi D"],"answer":0,"cat":"Wawasan Migas Hilir","explain":"penjelasan singkat"}]. answer adalah indeks opsi benar mulai dari 0. Tanpa teks pembuka atau penutup.</textarea>
-        <button class="btn btn-ghost copy-btn" data-copy="promptHilir" type="button">Salin prompt Hilir</button>
-        <label for="promptBasic">Prompt soal Basic Science</label>
-        <textarea id="promptBasic" rows="6" readonly>Buatkan 10 soal pilihan ganda Bahasa Indonesia untuk latihan CBT posisi Verifikator Lapangan Pengawal Energi ESDM, materi Basic Science level politeknik: matematika dasar, fisika fluida dan listrik, kimia hidrokarbon, dengan konteks pengukuran BBM di SPBU. Keluarkan HANYA JSON array dengan format persis: [{"q":"teks soal","options":["opsi A","opsi B","opsi C","opsi D"],"answer":0,"cat":"Basic Science","explain":"penjelasan singkat"}]. answer adalah indeks opsi benar mulai dari 0. Tanpa teks pembuka atau penutup.</textarea>
-        <button class="btn btn-ghost copy-btn" data-copy="promptBasic" type="button">Salin prompt Basic Science</button>
-        <label for="promptTpa">Prompt soal TPA</label>
-        <textarea id="promptTpa" rows="6" readonly>Buatkan 10 soal pilihan ganda Bahasa Indonesia untuk latihan Tes Potensi Akademik model OTO Bappenas: campuran sinonim, antonim, analogi kata, deret angka, dan silogisme. Keluarkan HANYA JSON array dengan format persis: [{"q":"teks soal","options":["opsi A","opsi B","opsi C","opsi D"],"answer":0,"cat":"TPA","explain":"penjelasan singkat"}]. answer adalah indeks opsi benar mulai dari 0. Tanpa teks pembuka atau penutup.</textarea>
-        <button class="btn btn-ghost copy-btn" data-copy="promptTpa" type="button">Salin prompt TPA</button>
-      </div>
-      <div class="kolab-card">
-        <h3>Impor soal dari ChatGPT atau Gemini</h3>
-        <label for="importBox">Tempel JSON soal di sini</label>
-        <textarea id="importBox" rows="8" placeholder="[{&quot;q&quot;:&quot;...&quot;,&quot;options&quot;:[&quot;...&quot;,&quot;...&quot;,&quot;...&quot;,&quot;...&quot;],&quot;answer&quot;:0,&quot;cat&quot;:&quot;TPA&quot;}]"></textarea>
-        <button class="btn btn-primary" id="btnImport" type="button">Impor ke bank soal</button>
-        <p class="import-feedback" id="importFeedback" aria-live="polite"></p>
-        <button class="btn btn-ghost" id="btnClearCustom" type="button">Hapus semua soal impor</button>
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="section" id="setelah">
+
+<section class="section section-alt" id="setelah">
   <div class="wrap">
     <h2>Setelah CBT</h2>
     <p class="section-lead">Hasil CBT diumumkan 10 Nov 2026 pukul 22.00 WIB. Bila lolos, dua tahap berikutnya sudah terjadwal: asesmen psikologi pada 12 Nov dan wawancara pada 13 sampai 15 Nov 2026. Menurut FAQ resmi, wawancara menilai motivasi dan wawasan hilir migas.</p>
@@ -411,7 +373,7 @@
 <footer class="site-footer">
   <div class="wrap">
     <p><strong>Tentang situs ini.</strong> Materi dan soal disusun dari paket belajar Pengawal Energi v1 sampai v5 (2 sampai 3 Nov 2026), bersumber dari FAQ resmi PEM Akamigas, publikasi BPH Migas, Ditjen Migas, dan BPSDM ESDM, dipantau dan dilengkapi memakai pencarian Exa. Situs ini alat belajar pribadi, bukan situs resmi Kementerian ESDM, BPH Migas, atau PEM Akamigas. Jadwal dan kisi-kisi mengikuti portal peserta per 3 Nov 2026; panduan CBT resmi terbit 5 Nov 2026 dan menjadi acuan terakhir.</p>
-    <p class="foot-small">Bank soal bawaan: soal latihan buatan untuk persiapan, bukan soal ujian asli. Kunci jawaban soal impor dari AI lain belum terverifikasi.</p>
+    <p class="foot-small">Bank soal bawaan: soal latihan buatan untuk persiapan, bukan soal ujian asli. Sebagian soal berasal dari kolaborasi ChatGPT dan Gemini; kunci berbasis regulasi pada soal-soal itu belum terverifikasi ke JDIH.</p>
   </div>
 </footer>
 

@@ -326,31 +326,6 @@ a:hover { color: var(--navy); }
 .ans-bad { color: var(--bad); font-weight: 700; }
 .review-explain { color: var(--muted); font-size: 0.95rem; }
 
-.kolab-grid { display: grid; gap: 22px; }
-.kolab-card {
-  background: var(--card);
-  border: 1px solid var(--line);
-  padding: 22px 24px;
-}
-.kolab-card h3 { font-family: Georgia, "Times New Roman", serif; color: var(--navy); margin: 0 0 12px; font-size: 1.2rem; }
-.kolab-card label { display: block; font-weight: 700; color: var(--navy); margin: 14px 0 6px; }
-.kolab-card textarea {
-  width: 100%;
-  font-family: ui-monospace, "Courier New", monospace;
-  font-size: 0.88rem;
-  line-height: 1.5;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 10px 12px;
-  background: #fbfaf7;
-  color: var(--ink);
-  resize: vertical;
-}
-.copy-btn { margin-top: 8px; }
-.kolab-note { color: var(--muted); font-size: 0.95rem; }
-.import-feedback { min-height: 1.5em; font-weight: 600; }
-.import-feedback.ok { color: var(--ok); }
-.import-feedback.err { color: var(--bad); }
 
 .setelah-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .setelah-grid h3 { font-family: Georgia, "Times New Roman", serif; color: var(--navy); margin-top: 0; }

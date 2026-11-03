@@ -7,7 +7,6 @@ Situs belajar statis untuk persiapan CBT Pengawal Energi (Kementerian ESDM, BPH 
 - Materi per kisi-kisi resmi portal: Basic Science, Wawasan dan Pengetahuan Migas di Bidang Hilir, Tes Potensi Akademik
 - Tautan bank soal eksternal dan referensi resmi per materi
 - Latihan CBT interaktif dari bank soal bawaan (`questions.js`, 281 soal: 155 dari paket belajar v1 sampai v5, 60 kolaborasi ChatGPT dan Gemini, 66 dari buku latihan TPA) dengan mode per materi, mode campuran, timer, tanda ragu, palet nomor, skor per materi, dan pembahasan
-- Halaman kolaborasi AI: prompt siap salin untuk ChatGPT dan Gemini, plus impor soal berformat JSON ke bank soal browser (tersimpan di localStorage)
 - Gambaran tahap setelah CBT: asesmen psikologi dan wawancara
 
 ## Keputusan desain
@@ -22,13 +21,5 @@ Situs belajar statis untuk persiapan CBT Pengawal Energi (Kementerian ESDM, BPH 
 ## Menjalankan lokal
 
 Buka `index.html` lewat server statis apa pun, contoh: `python3 -m http.server` di folder ini.
-
-## Format impor soal
-
-```json
-[{"q":"teks soal","options":["A","B","C","D"],"answer":0,"cat":"TPA","explain":"penjelasan"}]
-```
-
-`answer` adalah indeks opsi benar mulai dari 0. `cat` salah satu dari: `Wawasan Migas Hilir`, `Basic Science`, `TPA`.
 
 Catatan: situs ini alat belajar pribadi, bukan situs resmi Kementerian ESDM, BPH Migas, atau PEM Akamigas. Soal bawaan adalah soal latihan buatan, bukan soal ujian asli.
