@@ -4596,5 +4596,200 @@ window.QUESTIONS = [
   "cat": "TPA",
   "src": "buku-tpa",
   "explain": "7x + 2 = 3x + 26 → 7x − 3x = 26 − 2 → 4x = 24 → x = 6."
+ },
+ {
+  "q": "Di sektor BBM, BPH Migas melakukan pengaturan dan pengawasan terhadap hal-hal berikut, KECUALI …",
+  "options": [
+   "Ketersediaan dan distribusi BBM",
+   "Cadangan BBM nasional",
+   "Pemanfaatan fasilitas pengangkutan dan penyimpanan BBM",
+   "Pemberian Izin Usaha dan penetapan kebijakan harga BBM"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Tiga bidang pengaturan BPH Migas di sektor BBM: ketersediaan dan distribusi, cadangan BBM nasional, dan pemanfaatan fasilitas angkut serta simpan. Izin Usaha dan kebijakan makro harga adalah kewenangan Pemerintah melalui Ditjen Migas."
+ },
+ {
+  "q": "Kuota JBKP Pertalite yang ditetapkan BPH Migas untuk tahun 2026 adalah …",
+  "options": [
+   "31,23 juta kiloliter",
+   "29,27 juta kiloliter",
+   "18,64 juta kiloliter",
+   "526 ribu kiloliter"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Kuota Pertalite 2026 sebesar 29,27 juta KL, turun 6,28% dari kuota 2025 (31,23 juta KL). Angka 18,64 juta KL adalah kuota JBT Solar dan 526 ribu KL adalah kuota minyak tanah."
+ },
+ {
+  "q": "Kuota JBT Minyak Solar untuk tahun 2026 yang ditetapkan BPH Migas adalah …",
+  "options": [
+   "29,27 juta kiloliter",
+   "31,23 juta kiloliter",
+   "18,64 juta kiloliter",
+   "9,48 juta kiloliter"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Kuota JBT Solar 2026 = 18,64 juta KL (turun 1,32% dari 2025). Angka 9,48 juta KL adalah realisasi penyaluran Solar sampai 30 Juni 2026."
+ },
+ {
+  "q": "Batas Kesalahan yang Diizinkan (BKD) untuk pompa ukur BBM di SPBU adalah …",
+  "options": [
+   "±0,25%",
+   "±0,5%",
+   "±1,0%",
+   "±2,0%"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "BKD pompa ukur BBM ±0,5%, setara 100 mL pada penyerahan 20 liter. Pada uji petik SPBU Bungur, kesalahan terbesar hanya 0,19% sehingga masih di dalam BKD."
+ },
+ {
+  "q": "Pernyataan yang benar mengenai Surat Rekomendasi pembelian JBT dan JBKP melalui XStar adalah …",
+  "options": [
+   "Diterbitkan oleh pengelola SPBU setempat",
+   "Dipungut biaya administrasi resmi per surat",
+   "Tidak dipungut biaya dan tidak dapat dipindahtangankan",
+   "Berlaku seumur hidup selama usaha berjalan"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Surat Rekomendasi diterbitkan elektronik lewat XStar oleh Pemda/OPD atau kepala desa/lurah, gratis, berlaku maks 3 bulan, dan tidak boleh dipindahtangankan atau diperjualbelikan."
+ },
+ {
+  "q": "Perpanjangan Surat Rekomendasi melalui XStar diajukan paling cepat … sebelum masa berlakunya berakhir.",
+  "options": [
+   "1 hari kerja",
+   "3 hari kerja",
+   "5 hari kerja",
+   "14 hari kerja"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Per BPH Migas 4/2025: perpanjangan Surat Rekomendasi diajukan paling cepat 5 hari kerja sebelum jangka waktu pemberlakuan berakhir."
+ },
+ {
+  "q": "Penyaluran JBT dan JBKP melalui subpenyalur di daerah tertinggal, terdepan, terluar, atau terpencil diatur dalam …",
+  "options": [
+   "Peraturan BPH Migas 1/2024",
+   "Peraturan BPH Migas 2/2023",
+   "SK Kepala BPH Migas 64/2023",
+   "Perpres 191/2014"
+  ],
+  "answer": 0,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Per BPH Migas 1/2024 mengatur penyaluran JBT dan JBKP pada subpenyalur di daerah 3T atau terpencil yang belum terdapat penyalur resmi."
+ },
+ {
+  "q": "Program BBM Satu Harga yang dimulai tahun 2017 telah membangun lembaga penyalur hingga November 2023 sebanyak …",
+  "options": [
+   "108 penyalur",
+   "291 penyalur",
+   "503 penyalur",
+   "3.679 penyalur"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Hingga November 2023 terbangun 503 penyalur BBM Satu Harga; 2026 ditargetkan tambah 71. Angka 3.679 adalah jumlah SPBU sasaran pengawasan Pengawal Energi."
+ },
+ {
+  "q": "Berikut ini pola penyalahgunaan distribusi BBM subsidi yang secara resmi diimbau BPH Migas untuk diwaspadai penyalur, yaitu …",
+  "options": [
+   "Konsumen membayar dengan uang tunai pecahan besar",
+   "Kendaraan yang sama membeli BBM subsidi dengan input nomor polisi yang berbeda-beda",
+   "SPBU membuka layanan selama 24 jam",
+   "Konsumen mengantre sebelum SPBU dibuka"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Imbauan BPH Migas (Feb 2024): waspadai kendaraan yang sama dengan input nopol berbeda-beda dan penyaluran tidak wajar pada kendaraan yang sama dalam satu hari; analisa data digitalisasi nozzle dan cek CCTV bila ada anomali."
+ },
+ {
+  "q": "Dalam perhitungan volume standar BBM menurut ASTM D1250, Volume Correction Factor (VCF) diambil dari …",
+  "options": [
+   "Tabel 53",
+   "Tabel 54",
+   "Tabel 57",
+   "Tabel 6A"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "ASTM D1250: densitas pada 15 °C dari Tabel 53, VCF dari Tabel 54, dan faktor konversi berat dari Tabel 57. Vstd = Vobs × VCF."
+ },
+ {
+  "q": "Berikut ini yang BUKAN jenis susut (losses) dalam rantai distribusi BBM adalah susut …",
+  "options": [
+   "Muat",
+   "Angkut",
+   "Bongkar",
+   "Penjualan eceran"
+  ],
+  "answer": 3,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Jenis susut yang dikenal: susut muat, susut angkut, susut bongkar, dan susut timbun. Penjualan eceran bukan kategori susut; selisihnya diuji lewat material balance."
+ },
+ {
+  "q": "Stok biodiesel B40 yang masih tersisa setelah mandatori B50 berlaku 1 Juli 2026 masih boleh disalurkan paling lambat sampai …",
+  "options": [
+   "31 Juli 2026",
+   "31 Agustus 2026",
+   "30 September 2026",
+   "31 Desember 2026"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Masa transisi B50: persediaan B40 boleh disalurkan sampai 30 September 2026; SPBU wajib menjual B50 mulai 1 Oktober 2026 (Kepdirjen 75.K/MG.06/DJM/2026)."
+ },
+ {
+  "q": "Sebelum dicampurkan ke minyak solar, biodiesel (FAME) untuk program B50 wajib memenuhi parameter mutu sebanyak …",
+  "options": [
+   "10 parameter",
+   "15 parameter",
+   "24 parameter",
+   "40 parameter"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Spesifikasi biodiesel B50 menetapkan 24 parameter uji mutu yang wajib dipenuhi BBN jenis biodiesel sebelum digunakan sebagai campuran."
+ },
+ {
+  "q": "Langkah yang dilakukan verifikator atau petugas SEBELUM manhole mobil tangki dibuka saat pembongkaran BBM di SPBU adalah …",
+  "options": [
+   "Mengukur volume akhir tangki pendam",
+   "Memeriksa keutuhan segel dan memasang kabel grounding",
+   "Menghentikan seluruh penjualan SPBU selama satu hari",
+   "Meminta konsumen mengosongkan area parkir umum"
+  ],
+  "answer": 1,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Urutan aman: cek ullage, posisikan mobil tangki, APAR siap, pasang grounding/bonding, periksa segel atas dan bawah serta dokumen pengiriman, baru buka manhole dan ukur."
+ },
+ {
+  "q": "Dalam rantai distribusi LPG tabung 3 kg bersubsidi, mata rantai yang menjual langsung ke konsumen terdaftar adalah …",
+  "options": [
+   "SPBE",
+   "Agen LPG",
+   "Pangkalan LPG",
+   "Depot pengisian ulang"
+  ],
+  "answer": 2,
+  "cat": "Wawasan Migas Hilir",
+  "src": "v6-exa",
+  "explain": "Rantai LPG 3 kg: SPBE → agen → pangkalan → konsumen. Pangkalan adalah penjual terakhir ke konsumen terdaftar dan diawasi antara lain oleh pemerintah daerah."
  }
 ];
