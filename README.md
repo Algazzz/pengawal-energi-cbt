@@ -9,6 +9,8 @@ Situs belajar statis untuk persiapan CBT Pengawal Energi (Kementerian ESDM, BPH 
 - Latihan CBT interaktif dari bank soal bawaan (`questions.js`, 291 soal: 155 dari paket belajar v1 sampai v5, 60 kolaborasi ChatGPT dan Gemini, 66 dari buku latihan TPA, 10 tambahan Wawasan Migas Hilir via GitHub) dengan mode per materi, mode campuran, timer, tanda ragu, palet nomor, skor per materi, dan pembahasan
 - Gambaran tahap setelah CBT: asesmen psikologi dan wawancara
 
+- Modul tambahan `modul-verifikator.html` untuk studi kasus lapangan, XStar, uji petik, dan material balance
+
 ## Keputusan desain
 
 - Warna navy kobalt: identitas dokumen resmi migas, dipakai sebagai warna struktur.
