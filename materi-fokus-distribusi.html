@@ -6,6 +6,7 @@
   <meta name="description" content="Materi fokus CBT Pengawal Energi: pemahaman teknis distribusi BBM JBT Solar dan JBKP Pertalite, kuota, Surat Rekomendasi dan XStar, penyaluran SPBU, uji petik, material balance, dan pengawasan.">
   <title>Fokus Distribusi JBT dan JBKP | CBT Pengawal Energi</title>
   <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 <body>
 <header class="site-header"><div class="wrap header-in"><a class="brand" href="index.html">CBT Pengawal Energi</a><nav class="main-nav" aria-label="Navigasi modul"><a href="index.html#materi">Materi utama</a><a href="index.html#latihan">Latihan CBT</a><a href="modul-verifikator.html">Modul Lapangan</a><a href="materi-migas-hilir-lengkap.html">Migas Hilir Lengkap</a></nav></div></header>
@@ -110,6 +111,14 @@
   <section class="section" id="ujipetik">
     <div class="wrap">
       <h2>7. Uji petik dan material balance: hitungan inti verifikator</h2>
+      <div class="formula"><strong>Rumus inti verifikasi</strong>
+        <div class="math-formula-grid">
+          <div class="math-line-wide"><span class="math-tex" data-tex="S_{\mathrm{akhir}}=S_{\mathrm{awal}}+V_{\mathrm{terima}}-V_{\mathrm{salur}}">Stok akhir = stok awal + penerimaan − penyaluran</span></div>
+          <div><span class="math-tex" data-tex="\Delta S=S_{\mathrm{ukur}}-S_{\mathrm{teori}}">Selisih = stok ukur − stok teoritis</span></div>
+          <div><span class="math-tex" data-tex="\mathrm{Deviasi}=\dfrac{|\text{ukur}-\text{acuan}|}{\text{acuan}}\times100\%">Deviasi = |ukur − acuan| / acuan × 100%</span></div>
+        </div>
+      </div>
+
       <article class="materi-block">
         <ul>
           <li><strong>Uji petik</strong> memeriksa ketepatan takaran dispenser memakai Bejana Ukur Standar (BUS). Batas kesalahan yang diizinkan (BKD) adalah plus minus 0,5 persen, setara 100 mL pada takaran uji 20 liter. Nozzle yang menyimpang melewati BKD adalah temuan takaran.</li>
@@ -153,5 +162,7 @@
     </div>
   </section>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="math-format.js" defer></script>
 </body>
 </html>
