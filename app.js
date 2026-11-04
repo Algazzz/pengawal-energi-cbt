@@ -4,8 +4,8 @@
   var HISTORY_KEY = 'pe_quiz_history';
 
   function bank() {
-    var base = Array.isArray(window.QUESTIONS) ? window.QUESTIONS : [];
-    var extra = Array.isArray(window.EXTRA_QUESTIONS) ? window.EXTRA_QUESTIONS : [];
+    var base = (typeof QUESTIONS !== 'undefined' && Array.isArray(QUESTIONS)) ? QUESTIONS : [];
+    var extra = (typeof EXTRA_QUESTIONS !== 'undefined' && Array.isArray(EXTRA_QUESTIONS)) ? EXTRA_QUESTIONS : [];
     return base.concat(extra);
   }
 
@@ -71,7 +71,7 @@
   }
 
   function startQuiz(mode, jumlah, useTimer) {
-    if (!Array.isArray(window.QUESTIONS) || window.QUESTIONS.length === 0) {
+    if (typeof QUESTIONS === 'undefined' || !Array.isArray(QUESTIONS) || QUESTIONS.length === 0) {
       window.alert('Bank soal utama gagal dimuat, jadi latihan tidak dimulai agar jumlah soal tidak menyusut. Muat ulang halaman ini (Ctrl+Shift+R) lalu coba lagi.');
       return;
     }
