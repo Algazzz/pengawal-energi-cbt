@@ -17,8 +17,12 @@
     t = t.replace(/\bm\^\{3\}/g, '\\mathrm{m}^{3}').replace(/\bm\^\{2\}/g, '\\mathrm{m}^{2}');
     t = t.replace(/\bL\s*\/\s*menit\b/gi, '\\mathrm{L}/\\mathrm{menit}');
     t = t.replace(/\bL\s*\/\s*detik\b/gi, '\\mathrm{L}/\\mathrm{detik}');
-    t = t.replace(/\bkg\b/g, '\\mathrm{kg}').replace(/\bkPa\b/g, '\\mathrm{kPa}');
-    t = t.replace(/\bliter\b/gi, '\\mathrm{liter}').replace(/\bbar\b/gi, '\\mathrm{bar}');
+    t = t.replace(/(^|[^\\{])\bkg\b/g, '$1\\mathrm{kg}').replace(/\bkPa\b/g, '\\mathrm{kPa}');
+     t = t.replace(/\bliter\b/gi, '\\mathrm{liter}').replace(/\bbar\b/gi, '\\mathrm{bar}');
+    t = t.replace(/\bkm\s*\/\s*jam\b/g, '\\mathrm{km/jam}');
+    t = t.replace(/\bm\s*\/\s*s\b/g, '\\mathrm{m/s}');
+    t = t.replace(/\bkWh\b/g, '\\mathrm{kWh}').replace(/\bkW\b/g, '\\mathrm{kW}');
+    t = t.replace(/(^|[^\\{])\bL\b/g, '$1\\mathrm{L}');
     t = t.replace(/°C/g, '{}^{\\circ}\\mathrm{C}').replace(/°F/g, '{}^{\\circ}\\mathrm{F}');
     t = t.replace(/°API/g, '{}^{\\circ}\\mathrm{API}');
     t = t.replace(/½/g, '\\tfrac{1}{2}');
@@ -33,6 +37,13 @@
 
   var specials = [
     [/1\s*m³\s*=\s*1\.000\s*liter/gi, '1\\,\\mathrm{m}^{3}=1.000\\,\\mathrm{liter}'],
+    [/\b\d+(?:[.,]\d+)?\s*bar\s*=\s*\d+(?:[.,]\d+)?\s*kPa\b/gi, function (v) { return toTex(v); }],
+    [/\bSG\s*=\s*141,5\s*\/\s*\(°API\s*\+\s*131,5\)/g, '\\mathrm{SG}=\\dfrac{141{,}5}{{}^{\\circ}\\mathrm{API}+131{,}5}'],
+    [/°API\s*=\s*\(?141,5\s*\/\s*SG\)?\s*−\s*131,5/g, '{}^{\\circ}\\mathrm{API}=\\dfrac{141{,}5}{\\mathrm{SG}}-131{,}5'],
+    [/\bA1v1\s*=\s*A2v2/g, 'A_1v_1=A_2v_2'],
+    [/\bI\s*=\s*V\s*\/\s*R/g, 'I=\\dfrac{V}{R}'],
+    [/\bQ\s*=\s*A1v1\s*=\s*A2v2/g, 'Q=A_1v_1=A_2v_2'],
+    [/\b(?:CnH2n\\+2|CnH2n\+2)\b/g, '\\mathrm{C}_n\\mathrm{H}_{2n+2}'],
     [/Volume balok\s*=\s*p\s*×\s*l\s*×\s*t/gi, 'V_{\\mathrm{balok}}=p\\times l\\times t'],
     [/Volume tabung\s*=\s*πr²h/gi, 'V_{\\mathrm{tabung}}=\\pi r^{2}h'],
     [/\bQ\s*=\s*V\s*\/\s*t\b/g, 'Q=\\dfrac{V}{t}'],
@@ -62,7 +73,7 @@
   ];
 
   var expression = /(?:\(?[−-]?\d[\d.,]*\)?|[A-Za-zρπΔβ][A-Za-z0-9ρπΔβ²³]*)(?:\s*(?:[=+−×÷·\/])\s*(?:\(?[−-]?\d[\d.,]*\)?|[A-Za-zρπΔβ][A-Za-z0-9ρπΔβ²³]*)){1,10}(?:\s*(?:L|liter|%|m³|kg\/m³|kPa|bar))?/g;
-  var units = /(?:\d[\d.,]*\s*)?(?:kg\/m³|m³|m²|L\/menit|L\/detik|m\/s²|°API|°C|°F)\b|(?:\d[\d.,]*\s*)?(?:kg\/m³|m³|m²|°C|°F)/g;
+  var units = /(?:[−-]?\d[\d.,]*\s*)(?:kg\/m³|m³|m²|L\/menit|L\/detik|m\/s²|m\/s|km\/jam|°API|°C|°F|kPa|bar|kg|liter|kWh|kW|L|V|A|%)(?![A-Za-z0-9])|(?:kg\/m³|m³|m²|L\/menit|L\/detik|m\/s²|m\/s|km\/jam|°API|°C|°F)(?![A-Za-z0-9])/g;
 
   function candidates(text) {
     var out = [];
