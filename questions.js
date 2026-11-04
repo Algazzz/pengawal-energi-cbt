@@ -9047,5 +9047,565 @@ const QUESTIONS = [
   "answer": 1,
   "explain": "Hasil pengujian tera yang lolos uji akan dibuktikan dengan penerbitan Sertifikat Tanda Sah Tera resmi dan pemasangan cap/segel tera sah dari institusi Metrologi Legal. BAB 3 WAWANCARA Note :Dilarang untuk memperjualbelikan serta menshare soal kepada orang lain tanpa seizin pemiliknya. Al adab fauqal ilmi .Selamat mengerjakan!! – PREPKERJA.ID MEKANISME & ALUR WAWANCA DARING Wawancara dilaksanakan menggunakan platform konferensi video (seperti Zoom Meeting atau Microsoft Teams) dengan durasi rata-rata 20 hingga 30 menit per peserta. Sesi ini dipimpin oleh tim penguji gabungan dari unsur Kementerian ESDM, BPH Migas, dan/atau Akademisi PEM Akamigas. • Tahap 1: Persiapan & Ruang Tunggu (Waiting Room) o Peserta bergabung di tautan meeting 15–30 menit sebelum jadwal. (contoh: Nomor Peserta_Nama Lengkap_Posisi). • Tahap 2: Pembukaan & Pembuktian Identitas (1–2 Menit) dilamar (Verifikator Lapangan / Analis), serta menunjukkan KTP ke arah kamera. • Tahap 3: Perkenalan Diri Singkat (2–3 Menit) pelangsir, tawaran gratifikasi pengelola SPBU, atau perbedaan data stok). • Tahap 6: Evaluasi Komitmen Penugasan & Penutup (2–3 Menit) WAWANCARA o Panitia/host melakukan verifikasi identitas (mencocokka",
   "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Menurut UU Nomor 22 Tahun 2001, kegiatan usaha hilir minyak dan gas bumi meliputi empat kegiatan, yaitu ...",
+  "options": [
+   "Eksplorasi, eksploitasi, pengolahan, dan niaga",
+   "Pengolahan, pengangkutan, penyimpanan, dan niaga",
+   "Pengangkutan, transmisi, distribusi, dan penjualan",
+   "Pengolahan, transmisi, penyimpanan, dan eksploitasi",
+   "Eksplorasi, pengangkutan, penyimpanan, dan niaga"
+  ],
+  "answer": 1,
+  "explain": "Pasal 1 UU 22/2001 merumuskan kegiatan hilir sebagai pengolahan, pengangkutan, penyimpanan, dan niaga. Eksplorasi dan eksploitasi adalah kegiatan hulu.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Subsidi pada Jenis BBM Tertentu (JBT) diberikan dalam bentuk ...",
+  "options": [
+   "Pembayaran negara kepada badan usaha setelah penjualan selesai setiap akhir tahun",
+   "Selisih kurang antara harga keekonomian dan harga jual yang ditetapkan, yang ditanggung negara sebagai pengeluaran pada harga per liter",
+   "Potongan pajak penghasilan bagi pengelola SPBU yang menyalurkan BBM subsidi",
+   "Bantuan tunai langsung kepada konsumen yang terdaftar di MyPertamina",
+   "Keringanan iuran badan usaha niaga yang menyalurkan JBT"
+  ],
+  "answer": 1,
+  "explain": "Perpres 191/2014 Pasal 16: subsidi JBT per liter adalah pengeluaran negara yang dihitung dari selisih kurang antara harga keekonomian dan harga yang ditetapkan pemerintah.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Keputusan BPH Migas sebagai badan pengatur ditetapkan melalui Sidang Komite yang susunannya adalah ...",
+  "options": [
+   "1 Kepala dan 5 anggota komite",
+   "1 Kepala dan 8 anggota komite",
+   "3 Kepala dan 9 anggota komite",
+   "1 Kepala dan 10 anggota komite",
+   "5 anggota komite tanpa Kepala"
+  ],
+  "answer": 1,
+  "explain": "BPH Migas dipimpin seorang Kepala dan keputusan badannya diambil melalui Sidang Komite yang beranggotakan Kepala dan 8 anggota komite.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Berdasarkan Perpres Nomor 191 Tahun 2014, Jenis BBM Tertentu (JBT) terdiri atas ...",
+  "options": [
+   "Minyak tanah (kerosene) dan Minyak Solar (gas oil)",
+   "Minyak Solar dan avtur",
+   "Bensin RON 90 dan Minyak Solar",
+   "Pertalite dan minyak tanah",
+   "Minyak Solar dan Pertamax"
+  ],
+  "answer": 0,
+  "explain": "Pasal 2 Perpres 191/2014: JBT terdiri atas minyak tanah dan minyak solar. Pertalite adalah JBKP, bukan JBT.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pertalite ditetapkan sebagai Jenis BBM Khusus Penugasan (JBKP) melalui ...",
+  "options": [
+   "UU Nomor 22 Tahun 2001 Pasal 55",
+   "Perpres Nomor 191 Tahun 2014 Pasal 2",
+   "Kepmen ESDM Nomor 37.K Tahun 2022",
+   "Per BPH Migas Nomor 2 Tahun 2023",
+   "Kepmen ESDM Nomor 257.K Tahun 2026"
+  ],
+  "answer": 2,
+  "explain": "Penetapan Pertalite (RON 90) sebagai JBKP diatur dalam Kepmen ESDM 37.K/2022 tentang Jenis Bahan Bakar Minyak Khusus Penugasan.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Berikut ini konsumen yang BERHAK membeli Solar bersubsidi menurut Lampiran Perpres 191/2014 adalah ...",
+  "options": [
+   "Pemilik usaha sound system untuk acara hajatan",
+   "Kapal perikanan berukuran maksimal 30 GT yang terdaftar",
+   "Truk pengangkut hasil tambang dengan roda 8",
+   "Kendaraan dinas kepala daerah untuk kunjungan kerja",
+   "Kapal perikanan berukuran 60 GT yang belum terdaftar"
+  ],
+  "answer": 1,
+  "explain": "Perikanan yang berhak adalah nelayan dan pembudidaya dengan kapal maksimal 30 GT dan terdaftar. Usaha sound system, angkutan tambang roda lebih dari 6, dan kendaraan dinas non-pelayanan umum tidak termasuk.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Kuota Solar satu penyalur untuk satu semester adalah 500 KL, tetapi realisasi penyalurannya tercatat 540 KL. Interpretasi awal yang paling tepat bagi verifikator adalah ...",
+  "options": [
+   "Wajar, karena kelebihan di bawah 10 persen selalu ditoleransi",
+   "Kelebihan 8 persen di atas kuota adalah indikasi penyaluran di luar alokasi yang harus ditelusuri dokumen dan transaksinya",
+   "Penyalur pasti melakukan tindak pidana dan langsung dilaporkan ke kepolisian",
+   "Kelebihan tersebut otomatis ditutup dari kuota semester berikutnya tanpa pemeriksaan",
+   "Kuota semester tidak mengikat sehingga realisasi bebas melebihi berapa pun"
+  ],
+  "answer": 1,
+  "explain": "Realisasi = 540/500 = 108 persen dari kuota. Penyaluran melebihi kuota adalah sinyal awal kebocoran atau penyaluran di luar konsumen berhak; tugas verifikator menelusuri dan mencatatnya, bukan menyimpulkan pidana.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Konsumen berikut yang TIDAK berhak menggunakan Solar bersubsidi adalah ...",
+  "options": [
+   "Ambulans rumah sakit swasta",
+   "Truk pengangkut sampah milik pemerintah daerah",
+   "Mobil pemadam kebakaran",
+   "Truk roda 8 pengangkut hasil perkebunan sawit",
+   "Nelayan dengan kapal 20 GT terdaftar"
+  ],
+  "answer": 3,
+  "explain": "Pengangkutan hasil kegiatan pertambangan dan perkebunan dengan kendaraan roda lebih dari 6 dikecualikan dari konsumen berhak Solar bersubsidi.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Rumah sakit yang termasuk konsumen pelayanan umum yang berhak atas Solar bersubsidi adalah rumah sakit tipe ...",
+  "options": [
+   "A dan B",
+   "A saja",
+   "B dan C",
+   "C dan D",
+   "Semua tipe tanpa kecuali"
+  ],
+  "answer": 3,
+  "explain": "Lampiran Perpres 191/2014 memasukkan rumah sakit tipe C dan D ke kelompok pelayanan umum yang berhak, bersama ambulans, mobil jenazah, damkar, dan truk sampah.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Salah satu parameter mutu Pertalite sebagai JBKP adalah stabilitas oksidasi dengan nilai minimal ...",
+  "options": [
+   "120 menit",
+   "240 menit",
+   "360 menit",
+   "480 menit",
+   "600 menit"
+  ],
+  "answer": 2,
+  "explain": "Spesifikasi Pertalite (Kepdirjen Migas 0486/2017) mensyaratkan RON minimal 90 dan stabilitas oksidasi minimal 360 menit.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pengujian laboratorium atas contoh BBM untuk memastikan kesesuaian mutu dilakukan oleh ...",
+  "options": [
+   "BPH Migas melalui Sidang Komite",
+   "BBPMGB LEMIGAS sebagai balai pengujian migas",
+   "Direktorat Metrologi Kemendag",
+   "Sales Branch Manager Pertamina Patra Niaga",
+   "Pemerintah daerah penerbit Surat Rekomendasi"
+  ],
+  "answer": 1,
+  "explain": "Pengujian mutu BBM secara laboratorium menjadi ranah LEMIGAS (Balai Besar Pengujian Minyak dan Gas Bumi), sedangkan metrologi menangani ketepatan takaran dan BPH Migas menangani pengawasan distribusi.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Kuota Pertalite turun dari 31,23 juta KL pada 2025 menjadi 29,27 juta KL pada 2026. Persentase penurunannya adalah ...",
+  "options": [
+   "5,82 persen",
+   "6,28 persen",
+   "6,70 persen",
+   "7,12 persen",
+   "5,28 persen"
+  ],
+  "answer": 1,
+  "explain": "Penurunan = (31,23 - 29,27) / 31,23 x 100% = 1,96 / 31,23 x 100% = 6,28 persen.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Surat Rekomendasi untuk pembelian JBT dan JBKP diterbitkan oleh ...",
+  "options": [
+   "BPH Migas secara langsung kepada setiap konsumen",
+   "Pemerintah daerah melalui perangkat daerah yang berwenang, atau pemerintah desa, melalui aplikasi XStar",
+   "Pengelola SPBU tempat konsumen membeli BBM",
+   "PT Pertamina Patra Niaga melalui Sales Branch Manager",
+   "Kementerian ESDM melalui Ditjen Migas"
+  ],
+  "answer": 1,
+  "explain": "Per BPH Migas 2/2023: Surat Rekomendasi diterbitkan pemerintah daerah melalui OPD berwenang atau pemerintah desa, diproses elektronik lewat XStar.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang konsumen menunjukkan Surat Rekomendasi yang diterbitkan pemerintah desa untuk membeli Solar bagi genset puskesmas. Hal pertama yang diperiksa verifikator dari dokumen itu adalah ...",
+  "options": [
+   "Warna kertas dan jenis huruf dokumen",
+   "Nama petugas SPBU yang melayani sebelumnya",
+   "Jumlah pegawai puskesmas yang bertugas hari itu",
+   "Harga Solar pada hari penerbitan dokumen",
+   "Masa berlaku dokumen, kesesuaian penyalur yang ditunjuk, dan kesesuaian volume dengan kebutuhan"
+  ],
+  "answer": 4,
+  "explain": "Pemeriksaan Surat Rekomendasi bertumpu pada keabsahan masa berlaku, penyalur yang ditunjuk tepat satu, dan kewajaran volume terhadap kebutuhan yang direkomendasikan.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Perpanjangan Surat Rekomendasi yang masa berlakunya akan habis dapat diajukan paling cepat ...",
+  "options": [
+   "1 hari kerja sebelum berakhir",
+   "3 hari kerja sebelum berakhir",
+   "5 hari kerja sebelum berakhir",
+   "10 hari kerja sebelum berakhir",
+   "Kapan saja setelah masa berlaku habis"
+  ],
+  "answer": 2,
+  "explain": "Perpanjangan diajukan paling cepat 5 hari kerja sebelum masa berlaku Surat Rekomendasi berakhir.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ketentuan Surat Rekomendasi yang benar menurut Per BPH Migas 2/2023 adalah ...",
+  "options": [
+   "Dikenakan biaya administrasi per liter yang dibeli",
+   "Dapat dipindahtangankan kepada konsumen lain dengan surat kuasa",
+   "Tidak dikenakan biaya dan tidak dapat diperjualbelikan",
+   "Berlaku untuk semua penyalur dalam satu kabupaten",
+   "Wajib diperpanjang setiap bulan"
+  ],
+  "answer": 2,
+  "explain": "Surat Rekomendasi diterbitkan tanpa biaya, tidak dapat diperjualbelikan, dan menunjuk tepat satu penyalur.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Perhitungan kebutuhan volume pada Surat Rekomendasi diatur dalam SK Kepala BPH Migas Nomor ..., sedangkan pembinaan penyalur diatur dalam SK Nomor ...",
+  "options": [
+   "68/2023 dan 64/2023",
+   "64/2023 dan 68/2023",
+   "2/2023 dan 4/2025",
+   "37/2022 dan 191/2014",
+   "1/2024 dan 2/2023"
+  ],
+  "answer": 0,
+  "explain": "SK Kepala BPH Migas 68/2023 mengatur perhitungan kebutuhan Surat Rekomendasi; SK 64/2023 mengatur pembinaan penyalur termasuk sanksi administratif. Keduanya sering tertukar.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pengawasan langsung BPH Migas ke penyalur yang dilakukan sebagai operasi gabungan penegakan kepatuhan dikenal dengan nama ...",
+  "options": [
+   "Operasi Patuh Penyalur",
+   "Operasi Pasar Murah Energi",
+   "Sidak Serentak Nasional",
+   "Gerakan Subsidi Tepat Sasaran",
+   "Operasi Tangki Bersih"
+  ],
+  "answer": 0,
+  "explain": "BPH Migas menjalankan Operasi Patuh Penyalur sebagai bentuk pengawasan langsung ke lembaga penyalur BBM bersubsidi dan penugasan.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat transaksi Pertalite, kode QR konsumen ternyata terdaftar atas nomor polisi yang berbeda dengan kendaraan yang datang. Tindakan petugas SPBU yang benar adalah ...",
+  "options": [
+   "Tidak melayani pembelian tersebut karena QR harus cocok dengan nomor polisi kendaraan",
+   "Melayani setelah konsumen menandatangani surat pernyataan",
+   "Melayani dan mencatatnya sebagai transaksi tunai biasa",
+   "Tetap melayani karena QR adalah bukti pendaftaran yang sah",
+   "Melayani separuh dari batas maksimal sebagai jalan tengah"
+  ],
+  "answer": 0,
+  "explain": "Kecocokan QR dengan nomor polisi fisik adalah syarat pelayanan. QR yang tidak sama dengan nomor polisi berarti pembelian tidak boleh dilayani.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Data rekaman CCTV di SPBU wajib disimpan paling singkat selama ...",
+  "options": [
+   "7 hari",
+   "14 hari",
+   "30 hari",
+   "60 hari",
+   "90 hari"
+  ],
+  "answer": 2,
+  "explain": "Rekaman CCTV SPBU wajib tersimpan minimal 30 hari agar dapat dipakai menelusuri transaksi yang dipersoalkan.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Batas kesalahan yang diizinkan (BKD) pada uji petik takaran dispenser SPBU adalah ...",
+  "options": [
+   "Plus minus 0,25 persen",
+   "Plus minus 2 persen",
+   "Plus minus 1 persen, setara 100 mL pada takaran uji 10 liter",
+   "Plus minus 1,5 persen",
+   "Plus minus 0,5 persen, setara 100 mL pada takaran uji 20 liter"
+  ],
+  "answer": 4,
+  "explain": "Uji petik memakai Bejana Ukur Standar; penyimpangan masih ditoleransi sampai 0,5 persen, yaitu 100 mL per 20 liter.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Uji petik pada sebuah nozzle memakai Bejana Ukur Standar 20 liter dan hasil penakaran menunjukkan 19,86 liter. Kesimpulan yang benar adalah ...",
+  "options": [
+   "Masih dalam BKD karena selisihnya hanya 140 mL",
+   "Tidak dapat disimpulkan tanpa uji ulang tiga kali",
+   "Masih dalam BKD karena kesalahan di bawah 1 persen selalu ditoleransi",
+   "Melewati BKD karena kesalahannya 0,7 persen, lebih besar dari 0,5 persen",
+   "Nozzle wajib langsung disegel permanen oleh verifikator"
+  ],
+  "answer": 3,
+  "explain": "Selisih = 20,00 - 19,86 = 0,14 liter = 140 mL, setara 0,7 persen, melewati BKD 0,5 persen (100 mL). Ini temuan takaran yang dicatat di berita acara.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sebuah tangki SPBU berisi stok awal 12.000 liter, menerima pengiriman 16.000 liter, dan menyalurkan 19.500 liter. Stok akhir teoritisnya adalah ...",
+  "options": [
+   "7.500 liter",
+   "8.000 liter",
+   "8.500 liter",
+   "9.000 liter",
+   "9.500 liter"
+  ],
+  "answer": 2,
+  "explain": "Stok akhir teoritis = stok awal + penerimaan - penyaluran = 12.000 + 16.000 - 19.500 = 8.500 liter.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Stok awal tangki SPBU 12.000 liter, penerimaan 16.000 liter, dan penyaluran 19.500 liter sehingga stok akhir teoritis 8.500 liter. Hasil dipping menunjukkan stok fisik 8.300 liter. Persentase selisihnya terhadap penerimaan adalah ...",
+  "options": [
+   "0,50 persen",
+   "0,85 persen",
+   "1,00 persen",
+   "1,25 persen",
+   "2,35 persen"
+  ],
+  "answer": 3,
+  "explain": "Selisih = 8.500 - 8.300 = 200 liter. Persentase = 200 / 16.000 x 100% = 1,25 persen, cukup besar untuk ditelusuri penyebabnya dan dicatat sebagai temuan.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Volume teramati BBM sebesar 10.000 liter diukur pada suhu tinggi dengan faktor koreksi volume (VCF) 0,985. Volume standarnya pada 15 derajat Celcius adalah ...",
+  "options": [
+   "9.700 liter",
+   "10.300 liter",
+   "10.000 liter",
+   "10.150 liter",
+   "9.850 liter"
+  ],
+  "answer": 4,
+  "explain": "Volume standar = volume teramati x VCF = 10.000 x 0,985 = 9.850 liter.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam tabel ASTM D1250, faktor koreksi volume (VCF) dibaca pada ...",
+  "options": [
+   "Tabel 53",
+   "Tabel 65",
+   "Tabel 57",
+   "Tabel 60",
+   "Tabel 54"
+  ],
+  "answer": 4,
+  "explain": "Tabel 53 untuk densitas pada 15 derajat Celcius, Tabel 54 untuk VCF, dan Tabel 57 untuk faktor berat.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Langkah keselamatan yang benar selama mobil tangki melakukan unloading ke tangki timbun SPBU adalah ...",
+  "options": [
+   "Penjualan dari tangki yang sedang diisi dihentikan, kendaraan direm tangan, mesin mati, grounding terpasang, dan APAR disiagakan",
+   "Mesin mobil tangki dibiarkan menyala agar pompa bekerja lebih cepat",
+   "Konsumen diarahkan mengisi dari nozzle tangki sebelah tanpa jeda",
+   "Segel mobil tangki dibuka setelah pengisian selesai untuk mempercepat proses",
+   "Penjualan dari tangki yang sedang diisi tetap berjalan agar antrean tidak menumpuk"
+  ],
+  "answer": 0,
+  "explain": "Prosedur unloading: cek segel dan dokumen, cek ullage, rem tangan dan mesin mati, APAR siap, grounding dan bonding terpasang, dan penjualan dari tangki yang diisi dihentikan selama proses.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Nilai resistansi grounding yang disyaratkan pada instalasi SPBU adalah maksimal ...",
+  "options": [
+   "1 ohm",
+   "25 ohm",
+   "10 ohm",
+   "5 ohm",
+   "100 ohm"
+  ],
+  "answer": 3,
+  "explain": "Ketentuan teknis SPBU mensyaratkan resistansi grounding maksimal 5 ohm untuk menekan risiko listrik statis dan sambaran petir.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pola transaksi berikut yang dinyatakan BPH Migas sebagai indikasi penyalahgunaan BBM bersubsidi adalah ...",
+  "options": [
+   "Satu kendaraan membeli sekali sehari sesuai batas harian",
+   "Nelayan membeli Solar dalam batas kuota rekomendasinya",
+   "SPBU melaporkan realisasi penyaluran setiap bulan tepat waktu",
+   "Konsumen membeli menggunakan Surat Rekomendasi yang masih berlaku",
+   "Kendaraan yang sama membeli berulang dengan input nomor polisi yang berbeda-beda"
+  ],
+  "answer": 4,
+  "explain": "Pola resmi yang diwaspadai: kendaraan sama dengan input nomor polisi berbeda, pembelian berulang tidak wajar, dan penjualan pada jam bongkar.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sanksi administratif bagi penyalur yang melanggar ketentuan penyaluran JBT dan JBKP diberikan melalui mekanisme pembinaan penyalur yang diatur dalam ...",
+  "options": [
+   "SK Kepala BPH Migas Nomor 64 Tahun 2023",
+   "SK Kepala BPH Migas Nomor 68 Tahun 2023",
+   "Per BPH Migas Nomor 1 Tahun 2024",
+   "Permendag Nomor 24 Tahun 2024",
+   "PP Nomor 36 Tahun 2004"
+  ],
+  "answer": 0,
+  "explain": "SK Kepala BPH Migas 64/2023 mengatur pembinaan penyalur termasuk pemberian sanksi administratif bertingkat. SK 68/2023 adalah soal perhitungan kebutuhan Surat Rekomendasi.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ancaman pidana bagi penyalahgunaan pengangkutan dan niaga BBM bersubsidi menurut Pasal 55 UU 22/2001 adalah ...",
+  "options": [
+   "Penjara maksimal 3 tahun dan denda maksimal 30 miliar rupiah",
+   "Penjara maksimal 4 tahun dan denda maksimal 40 miliar rupiah",
+   "Penjara maksimal 5 tahun dan denda maksimal 50 miliar rupiah",
+   "Penjara maksimal 6 tahun dan denda maksimal 60 miliar rupiah",
+   "Penjara maksimal 10 tahun dan denda maksimal 100 miliar rupiah"
+  ],
+  "answer": 3,
+  "explain": "Pasal 55 UU 22/2001: penjara paling lama 6 tahun dan denda paling banyak 60 miliar rupiah.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Berikut ini yang BUKAN tugas BPH Migas di bidang BBM adalah ...",
+  "options": [
+   "Mengatur ketersediaan dan distribusi BBM",
+   "Mengawasi cadangan BBM nasional",
+   "Mengatur pemanfaatan fasilitas pengangkutan dan penyimpanan BBM",
+   "Menetapkan harga eceran BBM yang berlaku di SPBU",
+   "Mengawasi pendistribusian BBM di seluruh wilayah NKRI"
+  ],
+  "answer": 3,
+  "explain": "Harga eceran BBM ditetapkan pemerintah melalui Kementerian ESDM, bukan oleh BPH Migas. Tugas BPH Migas adalah pengaturan dan pengawasan penyediaan serta pendistribusian.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Jumlah penyalur BBM Satu Harga yang telah terbangun hingga November 2023 adalah ...",
+  "options": [
+   "350 penyalur",
+   "425 penyalur",
+   "503 penyalur",
+   "571 penyalur",
+   "650 penyalur"
+  ],
+  "answer": 2,
+  "explain": "Program BBM Satu Harga sejak 2017 telah membangun 503 penyalur hingga November 2023, dengan target tambahan 71 penyalur pada 2026.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Urutan rantai distribusi LPG tabung 3 kg yang benar adalah ...",
+  "options": [
+   "Pangkalan, SPBE, agen, konsumen",
+   "Konsumen, pangkalan, agen, SPBE",
+   "Agen, SPBE, pangkalan, konsumen",
+   "SPBE, pangkalan, agen, konsumen",
+   "SPBE, agen, pangkalan, konsumen terdaftar"
+  ],
+  "answer": 4,
+  "explain": "LPG 3 kg bergerak dari SPBE (pengisian) ke agen, lalu pangkalan, dan dijual ke konsumen terdaftar; pemerintah daerah ikut membina dan mengawasi penyalurannya.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ketentuan mandatori biodiesel B50 yang benar adalah ...",
+  "options": [
+   "Berlaku mulai 1 Juli 2026 berdasarkan Kepmen ESDM 257.K/2026, dan stok B40 masih boleh disalurkan hingga 30 September 2026",
+   "Berlaku mulai 1 Januari 2026 dan stok B40 dilarang dijual sejak hari pertama",
+   "Berlaku mulai 1 Juli 2026 dan menggantikan seluruh Solar tanpa masa transisi",
+   "Berlaku mulai 1 Oktober 2026 berdasarkan Perpres 191/2014",
+   "Hanya berlaku untuk Solar industri, tidak untuk JBT"
+  ],
+  "answer": 0,
+  "explain": "Kepmen ESDM 257.K/EK.01/MEM.E/2026 menetapkan kewajiban campuran biodiesel 50 persen mulai 1 Juli 2026, dengan masa transisi stok B40 sampai 30 September 2026.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Basic Science",
+  "q": "Minyak mentah memiliki specific gravity 0,85. Nilai derajat API-nya adalah sekitar ...",
+  "options": [
+   "25",
+   "30",
+   "35",
+   "40",
+   "45"
+  ],
+  "answer": 2,
+  "explain": "Derajat API = (141,5 / SG) - 131,5 = (141,5 / 0,85) - 131,5 = 166,5 - 131,5 = 35. Makin ringan minyak, makin besar API-nya.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Basic Science",
+  "q": "BBM mengalir dalam pipa dengan penampang A1 = 0,02 m2 pada kecepatan 1,5 m/s. Bila penampang menyempit menjadi A2 = 0,01 m2, kecepatan alirannya menjadi ...",
+  "options": [
+   "0,75 m/s",
+   "1,5 m/s",
+   "2,0 m/s",
+   "3,0 m/s",
+   "4,5 m/s"
+  ],
+  "answer": 3,
+  "explain": "Kontinuitas: A1 x v1 = A2 x v2, maka v2 = (0,02 x 1,5) / 0,01 = 3,0 m/s.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Basic Science",
+  "q": "Sebanyak 10.000 liter Solar mengalami kenaikan suhu 10 derajat Celcius dengan koefisien muai volume 0,0008 per derajat Celcius. Pertambahan volumenya adalah ...",
+  "options": [
+   "80 liter",
+   "120 liter",
+   "800 liter",
+   "8 liter",
+   "40 liter"
+  ],
+  "answer": 0,
+  "explain": "Delta V = V0 x beta x delta T = 10.000 x 0,0008 x 10 = 80 liter. Inilah alasan volume BBM selalu dikoreksi ke suhu standar 15 derajat Celcius.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Basic Science",
+  "q": "Tekanan hidrostatik pada dasar tangki yang berisi BBM berdensitas 850 kg/m3 setinggi 3 meter (g = 9,8 m/s2) adalah sekitar ...",
+  "options": [
+   "2,5 kPa",
+   "12,5 kPa",
+   "85 kPa",
+   "50 kPa",
+   "25 kPa"
+  ],
+  "answer": 4,
+  "explain": "P = rho x g x h = 850 x 9,8 x 3 = 24.990 Pa, sekitar 25 kPa.",
+  "src": "exa-riset"
+ },
+ {
+  "cat": "Basic Science",
+  "q": "Fraksi distilasi minyak bumi dengan rentang rantai karbon C14 sampai C20 adalah ...",
+  "options": [
+   "Nafta",
+   "Kerosin",
+   "Residu aspal",
+   "LPG",
+   "Solar (gas oil)"
+  ],
+  "answer": 4,
+  "explain": "Urutan fraksi: LPG C1-C4, nafta C5-C12, kerosin C10-C16, solar C14-C20, pelumas dan residu pada rantai yang lebih panjang.",
+  "src": "exa-riset"
  }
 ];
