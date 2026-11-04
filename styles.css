@@ -329,6 +329,8 @@ a:hover { color: var(--navy); }
 
 .setelah-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .setelah-grid h3 { font-family: Georgia, "Times New Roman", serif; color: var(--navy); margin-top: 0; }
+.program-facts { margin-top: 34px; }
+.program-facts h3 { font-family: Georgia, "Times New Roman", serif; color: var(--navy); margin-top: 0; }
 
 .site-footer {
   background: var(--navy);
