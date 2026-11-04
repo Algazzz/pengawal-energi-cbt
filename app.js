@@ -233,7 +233,7 @@
       div.className = 'review-item';
       var rq = document.createElement('p');
       rq.className = 'rq';
-      rq.textContent = (i + 1) + '. [' + item.cat + (item.src === 'gptgemini' ? ', kolaborasi GPT/Gemini' : '') + '] ' + item.q;
+      rq.textContent = (i + 1) + '. [' + item.cat + '] ' + item.q;
       div.appendChild(rq);
       var yours = document.createElement('p');
       var ya = quiz.answers[i];
