@@ -9,6 +9,12 @@
     return base.concat(extra);
   }
 
+  var FOKUS_RE = /JBT|JBKP|Solar|Pertalite|Biosolar|penyalur|SPBU|Surkom|XStar|uji petik|material balance|kuota/i;
+  function isFokus(q) {
+    return q.cat === 'Wawasan Migas Hilir' && FOKUS_RE.test(q.q + ' ' + (q.explain || ''));
+  }
+  var MODE_LABEL = { 'fokus-distribusi': 'Fokus Distribusi JBT dan JBKP' };
+
   function shuffle(arr) {
     var a = arr.slice();
     for (var i = a.length - 1; i > 0; i--) {
@@ -25,6 +31,7 @@
     var b = bank();
     var total = $('countTotal'); if (total) total.textContent = String(b.length);
     var info = $('bankInfo'); if (info) info.textContent = b.length + ' soal';
+    var fk = $('fokusCount'); if (fk) fk.textContent = b.filter(isFokus).length + ' soal';
     var nodes = document.querySelectorAll('[data-count-cat]');
     nodes.forEach(function (el) {
       var cat = el.getAttribute('data-count-cat');
@@ -76,7 +83,7 @@
       return;
     }
     var b = bank();
-    var pool = mode === 'campuran' ? b.slice() : b.filter(function (q) { return q.cat === mode; });
+    var pool = mode === 'campuran' ? b.slice() : mode === 'fokus-distribusi' ? b.filter(isFokus) : b.filter(function (q) { return q.cat === mode; });
     pool = shuffle(pool);
     if (jumlah !== 'semua') pool = pool.slice(0, parseInt(jumlah, 10));
     pool = pool.map(function (q) {
@@ -271,7 +278,7 @@
       var hist = JSON.parse(localStorage.getItem(HISTORY_KEY) || '{}');
       var parts = [];
       Object.keys(hist).forEach(function (m) {
-        parts.push(m + ': skor terbaik ' + hist[m].best + ' persen dari ' + hist[m].attempts + ' kali latihan');
+        parts.push((MODE_LABEL[m] || m) + ': skor terbaik ' + hist[m].best + ' persen dari ' + hist[m].attempts + ' kali latihan');
       });
       if (parts.length) {
         var note = $('historyNote');
