@@ -37,6 +37,10 @@
 
   var specials = [
     [/1\s*m³\s*=\s*1\.000\s*liter/gi, '1\\,\\mathrm{m}^{3}=1.000\\,\\mathrm{liter}'],
+    [/(\d[\d.,]*)\s*\/\s*(\d[\d.,]*)\s*×\s*100%\s*=\s*(\d[\d.,]*)%/g,
+      function (v) { var m = v.match(/^(\d[\d.,]*)\s*\/\s*(\d[\d.,]*)\s*×\s*100%\s*=\s*(\d[\d.,]*)%$/); return '\dfrac{' + texNumbers(m[1]) + '}{' + texNumbers(m[2]) + '}\times100\%=' + texNumbers(m[3]) + '\%'; }],
+    [/\bCnH2n\+2\b/g, '\mathrm{C}_{n}\mathrm{H}_{2n+2}'],
+    [/\b\d+[xX]\s*[−-]\s*\d+\s*=\s*\d+\b/g, function (v) { return toTex(v); }],
     [/\b\d+(?:[.,]\d+)?\s*bar\s*=\s*\d+(?:[.,]\d+)?\s*kPa\b/gi, function (v) { return toTex(v); }],
     [/\bSG\s*=\s*141,5\s*\/\s*\(°API\s*\+\s*131,5\)/g, '\\mathrm{SG}=\\dfrac{141{,}5}{{}^{\\circ}\\mathrm{API}+131{,}5}'],
     [/°API\s*=\s*\(?141,5\s*\/\s*SG\)?\s*−\s*131,5/g, '{}^{\\circ}\\mathrm{API}=\\dfrac{141{,}5}{\\mathrm{SG}}-131{,}5'],
