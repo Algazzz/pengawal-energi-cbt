@@ -404,3 +404,5 @@ a:hover { color: var(--navy); }
   .math-line { font-size: 1rem; }
   .quiz-q, .review-item { overflow-wrap: anywhere; }
 }
+
+@media (max-width: 650px) { .opt-text { overflow-x: auto; overflow-y: hidden; } }
