@@ -25,6 +25,10 @@
   }
 
   function $(id) { return document.getElementById(id); }
+  function mathText(element, content) {
+    if (window.PEMath) window.PEMath.setText(element, content);
+    else element.textContent = content;
+  }
 
   /* ---------- Header counts ---------- */
   function refreshCounts() {
@@ -136,7 +140,7 @@
     $('quizProgress').textContent = 'Soal ' + (quiz.idx + 1) + ' dari ' + total;
     $('progressFill').style.width = ((quiz.idx + 1) / total * 100) + '%';
     $('quizCat').textContent = item.cat;
-    $('quizQ').textContent = item.q;
+    mathText($('quizQ'), item.q);
     var box = $('quizOpts');
     box.innerHTML = '';
     item.options.forEach(function (opt, i) {
@@ -149,7 +153,10 @@
       letter.className = 'opt-letter';
       letter.textContent = 'ABCDE'[i] + '.';
       btn.appendChild(letter);
-      btn.appendChild(document.createTextNode(opt));
+      var optText = document.createElement('span');
+      optText.className = 'opt-text';
+      mathText(optText, opt);
+      btn.appendChild(optText);
       btn.addEventListener('click', function () {
         quiz.answers[quiz.idx] = i;
         quiz.confirmSubmit = false;
@@ -244,21 +251,21 @@
       div.className = 'review-item';
       var rq = document.createElement('p');
       rq.className = 'rq';
-      rq.textContent = (i + 1) + '. [' + item.cat + '] ' + item.q;
+      mathText(rq, (i + 1) + '. [' + item.cat + '] ' + item.q);
       div.appendChild(rq);
       var yours = document.createElement('p');
       var ya = quiz.answers[i];
-      yours.textContent = 'Jawabanmu: ' + (ya === null ? 'tidak dijawab' : 'ABCDE'[ya] + '. ' + item.options[ya]);
+      mathText(yours, 'Jawabanmu: ' + (ya === null ? 'tidak dijawab' : 'ABCDE'[ya] + '. ' + item.options[ya]));
       yours.className = ya === item.answer ? 'ans-ok' : 'ans-bad';
       div.appendChild(yours);
       var key = document.createElement('p');
-      key.textContent = 'Kunci: ' + 'ABCDE'[item.answer] + '. ' + item.options[item.answer];
+      mathText(key, 'Kunci: ' + 'ABCDE'[item.answer] + '. ' + item.options[item.answer]);
       key.className = 'ans-ok';
       div.appendChild(key);
       if (item.explain) {
         var ex = document.createElement('p');
         ex.className = 'review-explain';
-        ex.textContent = 'Pembahasan: ' + item.explain;
+        mathText(ex, 'Pembahasan: ' + item.explain);
         div.appendChild(ex);
       }
       list.appendChild(div);
