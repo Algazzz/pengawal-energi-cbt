@@ -373,3 +373,34 @@ a:hover { color: var(--navy); }
 }
 
 .ref-plain { font-weight: 700; color: var(--navy); }
+
+
+/* Notasi matematika (KaTeX) konsisten di materi, opsi, dan pembahasan. */
+.math-rendered, .math-tex {
+  font-family: "KaTeX_Main", "Cambria Math", "STIX Two Math", "Noto Sans Math", "Times New Roman", serif;
+  font-weight: 400;
+  font-variant-numeric: lining-nums tabular-nums;
+  max-width: 100%;
+}
+.math-rendered .katex { font-size: 1.08em; line-height: 1.4; }
+.math-rendered .katex-display { margin: .4em 0; overflow-x: auto; overflow-y: hidden; }
+.math-line { display: block; margin: .33rem 0 .5rem; font-size: 1.025rem; overflow-x: auto; overflow-y: hidden; }
+.math-line-wide { overflow-x: auto; overflow-y: hidden; max-width: 100%; }
+.math-example { color: var(--muted); font-size: .92rem; margin-top: .3rem; }
+.formula-study { padding: .45rem 0 .65rem; }
+.formula-study + .formula-study { border-top: 1px solid var(--line); }
+.formula-study > strong { display: block; margin-bottom: .25rem; }
+.math-formula-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 270px), 1fr)); gap: .65rem 1rem; margin-top: .7rem; }
+.math-formula-grid > div { overflow-x: auto; overflow-y: hidden; }
+.opt-text { min-width: 0; overflow-wrap: anywhere; }
+.quiz-q .math-rendered, .opt-btn .math-rendered, .review-item .math-rendered { white-space: nowrap; }
+.opt-btn { display: flex; align-items: baseline; gap: .45rem; }
+.opt-btn .opt-letter { flex: none; margin-right: 0; }
+.opt-btn .opt-text { flex: 1 1 auto; text-align: left; }
+@media (max-width: 650px) {
+  .math-rendered .katex { font-size: 1em; }
+  .formula .math-rendered { font-size: .94rem; }
+  .math-formula-grid { grid-template-columns: 1fr; }
+  .math-line { font-size: 1rem; }
+  .quiz-q, .review-item { overflow-wrap: anywhere; }
+}
