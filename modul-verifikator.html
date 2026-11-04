@@ -6,6 +6,7 @@
   <meta name="description" content="Modul tambahan CBT Verifikator Lapangan Pengawal Energi: verifikasi SPBU, XStar, JBT/JBKP, uji petik, material balance, Basic Science, dan TPA.">
   <title>Modul Lapangan | CBT Pengawal Energi</title>
   <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 <body>
 <header class="site-header"><div class="wrap header-in"><a class="brand" href="index.html">CBT Pengawal Energi</a><nav class="main-nav" aria-label="Navigasi modul"><a href="index.html#materi">Materi utama</a><a href="index.html#latihan">Latihan CBT</a><a href="materi-migas-hilir-lengkap.html">Migas Hilir Lengkap</a><a href="#referensi-modul">Sumber resmi</a></nav></div></header>
@@ -101,12 +102,32 @@
       <h2>5. Basic Science untuk verifikator</h2>
       <article class="materi-block">
         <ul>
-          <li><strong>Volume:</strong> 1 m³ = 1.000 liter. Volume balok = p × l × t. Volume tabung = πr²h.</li>
-          <li><strong>Debit:</strong> Q = V/t. Contoh 1.200 liter selama 20 menit = 60 L/menit.</li>
-          <li><strong>Massa jenis:</strong> ρ = m/V. Contoh 400 kg / 0,5 m³ = 800 kg/m³.</li>
-          <li><strong>Tekanan:</strong> P = F/A; 1 bar = 100 kPa.</li>
-          <li><strong>Kelistrikan:</strong> V = IR dan daya P = VI.</li>
-          <li><strong>Deviasi relatif:</strong> |hasil ukur − acuan| / acuan × 100%.</li>
+          <li class="formula-study"><strong>Volume:</strong>
+            <div class="math-line"><span class="math-tex" data-tex="1\,\mathrm{m}^{3}=1.000\,\mathrm{liter}">1 m³ = 1.000 liter</span></div>
+            <div class="math-line">Balok: <span class="math-tex" data-tex="V=p\times l\times t">V = p × l × t</span></div>
+            <div class="math-line">Tabung: <span class="math-tex" data-tex="V=\pi r^{2}h">V = πr²h</span></div>
+          </li>
+          <li class="formula-study"><strong>Debit:</strong>
+            <div class="math-line"><span class="math-tex" data-tex="Q=\dfrac{V}{t}">Q = V/t</span></div>
+            <div class="math-example">Contoh 1.200 liter selama 20 menit:</div>
+            <div class="math-line"><span class="math-tex" data-tex="Q=\dfrac{1.200\,\mathrm{L}}{20\,\mathrm{menit}}=60\,\mathrm{L/menit}">Q = 1.200 liter / 20 menit = 60 L/menit</span></div>
+          </li>
+          <li class="formula-study"><strong>Massa jenis:</strong>
+            <div class="math-line"><span class="math-tex" data-tex="\rho=\dfrac{m}{V}">ρ = m/V</span></div>
+            <div class="math-example">Contoh massa 400 kg dan volume 0,5 m³:</div>
+            <div class="math-line"><span class="math-tex" data-tex="\rho=\dfrac{400\,\mathrm{kg}}{0{,}5\,\mathrm{m}^{3}}=800\,\mathrm{kg/m}^{3}">ρ = 400 kg / 0,5 m³ = 800 kg/m³</span></div>
+          </li>
+          <li class="formula-study"><strong>Tekanan:</strong>
+            <div class="math-line"><span class="math-tex" data-tex="P=\dfrac{F}{A}">P = F/A</span></div>
+            <div class="math-line"><span class="math-tex" data-tex="1\,\mathrm{bar}=100\,\mathrm{kPa}">1 bar = 100 kPa</span></div>
+          </li>
+          <li class="formula-study"><strong>Kelistrikan:</strong>
+            <div class="math-line">Hukum Ohm: <span class="math-tex" data-tex="V=IR">V = IR</span></div>
+            <div class="math-line">Daya listrik: <span class="math-tex" data-tex="P=VI">P = VI</span></div>
+          </li>
+          <li class="formula-study"><strong>Deviasi relatif:</strong>
+            <div class="math-line math-line-wide"><span class="math-tex" data-tex="\mathrm{Deviasi}=\dfrac{|\text{hasil ukur}-\text{acuan}|}{\text{acuan}}\times100\%">Deviasi = |hasil ukur − acuan| / acuan × 100%</span></div>
+          </li>
           <li><strong>Kimia:</strong> perbedaan bensin (RON) dan diesel (angka setana), hidrokarbon, pembakaran, serta distilasi fraksional.</li>
           <li><strong>Keselamatan:</strong> sumber nyala, risiko listrik statis, penggunaan APD yang sesuai, dan penanganan tumpahan berdasarkan prosedur.</li>
         </ul>
@@ -140,5 +161,7 @@
   </section>
 </main>
 <footer class="site-footer"><div class="wrap"><p><strong>Catatan:</strong> modul ini disusun untuk latihan mandiri, bukan materi resmi CBT atau prosedur operasional yang berlaku di SPBU. Selalu utamakan peraturan dan instruksi penugasan terbaru.</p></div></footer>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="math-format.js" defer></script>
 </body>
 </html>
