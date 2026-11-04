@@ -2407,7 +2407,7 @@ const QUESTIONS = [
   "explain": "Mari kita uji implikasi logisnya secara cermat: • Jika Bima di Lintas Timur, maka menurut aturan (3), Eka bersama Citra di Pelabuhan (sehingga Klaster Pelabuhan penuh: Citra & Eka). • Tersisa 3 orang: Andi, Dedi, dan Farah untuk mengisi 1 kursi sisa di Lintas Timur (bersama Bima) dan 2 kursi di Perkotaan. • Menurut aturan (4), Farah tidak boleh di Perkotaan, sehingga Farah harus masuk ke Lintas Timur bersama Bima. Akibatnya, 2 kursi di Perkotaan "
  },
  {
-  "q": "Melanjutkan aturan penugasan pada Soal Nomor 28 di atas: agar seluruh aturan (1) sampai dengan (4) terpenuhi tanpa kontradiksi dan diketahui bahwa Dedi ditempatkan di Klaster Lintas Timur, manakah susunan penempatan pasangan berikut yang PASTI BENAR?",
+  "q": "Enam orang Verifikator Lapangan Pengawal Energi — yaitu Andi, Bima, Citra, Dedi, Eka, dan Farah — akan ditugaskan secara berpasangan (masing-masing 2 orang) untuk mengawasi 3 klaster SPBU: Klaster Pelabuhan, Klaster Lintas Timur, dan Klaster Perkotaan. Penugasan harus mematuhi aturan berikut: (1) Andi dan Dedi tidak boleh ditempatkan pada klaster yang sama karena keduanya baru pertama kali bertugas. (2) Citra harus ditempatkan di Klaster Pelabuhan. (3) Diketahui Dedi ditempatkan di Klaster Lintas Timur. Agar seluruh aturan (1) sampai dengan (4) terpenuhi tanpa kontradiksi, manakah susunan penempatan pasangan berikut yang PASTI BENAR?",
   "options": [
    "Klaster Pelabuhan: Citra & Farah; Klaster Lintas Timur: Dedi & Eka; Klaster Perkotaan: Andi & Bima (atau Farah bertukar dengan Eka di Lintas Timur).",
    "Klaster Pelabuhan: Citra & Bima; Klaster Lintas Timur: Dedi & Andi; Klaster Perkotaan: Eka & Farah.",
@@ -2418,7 +2418,7 @@ const QUESTIONS = [
   "answer": 4,
   "cat": "TPA",
   "src": "gptgemini",
-  "explain": "Dari analisis Soal 28, karena Bima tidak mungkin berada di Lintas Timur dan Farah tidak boleh berada di Perkotaan, maka: • Agar Andi dan Dedi terpisah (aturan 1) dan diketahui Dedi berada di Lintas Timur, maka Andi harus berada di Pelabuhan atau Perkotaan. • Karena Farah hanya boleh di Pelabuhan atau Lintas Timur, sedangkan Bima tidak boleh di Lintas Timur, penempatan Bima bersama Andi di Klaster Perkotaan memenuhi seluruh aturan tanpa kontradiks"
+  "explain": "Dari analisis aturan tersebut, karena Bima tidak mungkin berada di Lintas Timur dan Farah tidak boleh berada di Perkotaan, maka: • Agar Andi dan Dedi terpisah (aturan 1) dan diketahui Dedi berada di Lintas Timur, maka Andi harus berada di Pelabuhan atau Perkotaan. • Karena Farah hanya boleh di Pelabuhan atau Lintas Timur, sedangkan Bima tidak boleh di Lintas Timur, penempatan Bima bersama Andi di Klaster Perkotaan memenuhi seluruh aturan tanpa kontradiks"
  },
  {
   "q": "Dalam pemeriksaan administrasi Surat Rekomendasi (XStar) di sebuah SPBU nelayan, ditemukan bahwa dari 120 kapal nelayan yang terdaftar: 75 kapal tercatat mengajukan kuota JBT Solar, 60 kapal tercatat mengajukan kuota JBKP Pertalite (untuk motor tempel cadangan), dan 15 kapal ditolak pengajuannya karena dokumen perizinannya kedaluwarsa (tidak memperoleh kuota Solar maupun Pertalite). Apabila seorang verifikator memilih 1 kapal secara acak dari kelompok kapal yang pengajuannya disetujui, berapakah peluang bahwa kapal tersebut hanya menerima kuota JBT Solar saja (tidak menerima JBKP Pertalite)?",
@@ -2827,7 +2827,7 @@ const QUESTIONS = [
   "explain": "Diketahui Selasa = S. • Menurut syarat (1), R harus tepat 2 hari sebelum P (pasangan hari yang mungkin hanya: Senin–Rabu, Selasa–Kamis, atau Rabu–Jumat). Karena Selasa sudah diisi oleh S, maka R–P hanya mungkin di Senin– Rabu atau Rabu–Jumat. • Uji kemungkinan 1 (Rabu = R dan Jumat = P): Maka yang tersisa untuk Senin dan Kamis adalah Q dan T. Namun syarat (2) melarang Q di hari Senin, sehingga Senin harus diisi T dan Kamis diisi Q. Akan tetapi, j"
  },
  {
-  "q": "Masih mengacu pada ketiga aturan jadwal inspeksi pada Soal Nomor 58 di atas: apabila diketahui bahwa SPBU P diperiksa pada hari Jumat, maka pernyataan di bawah ini yang PASTI BENAR adalah...",
+  "q": "Seorang Verifikator Lapangan merancang jadwal inspeksi ke 5 SPBU berbeda (SPBU P, Q, R, S, dan T) dari hari Senin hingga Jumat (1 SPBU per hari) dengan ketentuan logistik sebagai berikut: (1) SPBU R harus diperiksa tepat dua hari sebelum SPBU P diperiksa. (2) SPBU Q tidak boleh diperiksa pada hari Senin maupun hari Jumat. (3) SPBU T harus diperiksa pada salah satu hari setelah SPBU S diperiksa (tidak harus berurutan langsung). Apabila diketahui bahwa SPBU P diperiksa pada hari Jumat, maka pernyataan di bawah ini yang PASTI BENAR adalah...",
   "options": [
    "SPBU S diperiksa pada hari Selasa.",
    "SPBU T diperiksa pada hari Kamis.",
@@ -4936,7 +4936,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Seorang petugas Pengawal Energi sedang mempelajari klasifikasi BBM untuk memahami mekanisme pengawasan distribusi. Ia menemukan tiga kategori BBM, yaitu Jenis BBM Tertentu (JBT), Jenis BBM Khusus Penugasan (JBKP), dan Jenis BBM Umum (JBU). Pernyataan yang paling tepat mengenai klasifikasi tersebut adalah ....",
   "answer": 1,
-  "explain": "JBT, JBKP, dan JBU merupakan kategori BBM yang berbeda dalam kerangka pengaturan hilir migas di Indonesia.  JBT (Jenis BBM Tertentu) merupakan BBM yang penggunaannya dan penyalurannya diatur berdasarkan ketentuan pemerintah. Contohnya mencakup minyak tanah dan minyak solar sesuai klasifikasi yang berlaku.  JBKP (Jenis BBM Khusus Penugasan) merupakan jenis BBM yang penyediaan dan pendistribusiannya ditugaskan pemerintah kepada badan usaha sesuai ketentuan. Contoh yang dikenal adalah bensin RON 90.  JBU (Jenis BBM Umum) merupakan jenis BBM di luar kategori JBT dan JBKP yang diatur dalam kerangka kegiatan usaha hilir migas. Klasifikasi dan ketentuan produk dapat berubah mengikuti regulasi. Oleh karena itu, petugas harus memeriksa ketentuan yang berlaku, bukan hanya mengandalkan nama produk atau kebiasaan di lapangan. Inti materi: Ketiga kategori tersebut tidak boleh dipertukarkan karena memiliki dasar pengaturan yang berbeda.",
+  "explain": "JBT, JBKP, dan JBU merupakan kategori BBM yang berbeda dalam kerangka pengaturan hilir migas di Indonesia. • JBT (Jenis BBM Tertentu) merupakan BBM yang penggunaannya dan penyalurannya diatur berdasarkan ketentuan pemerintah. Contohnya mencakup minyak tanah dan minyak solar sesuai klasifikasi yang berlaku. • JBKP (Jenis BBM Khusus Penugasan) merupakan jenis BBM yang penyediaan dan pendistribusiannya ditugaskan pemerintah kepada badan usaha sesuai ketentuan. Contoh yang dikenal adalah bensin RON 90. • JBU (Jenis BBM Umum) merupakan jenis BBM di luar kategori JBT dan JBKP yang diatur dalam kerangka kegiatan usaha hilir migas. Klasifikasi dan ketentuan produk dapat berubah mengikuti regulasi. Oleh karena itu, petugas harus memeriksa ketentuan yang berlaku, bukan hanya mengandalkan nama produk atau kebiasaan di lapangan. Inti materi: Ketiga kategori tersebut tidak boleh dipertukarkan karena memiliki dasar pengaturan yang berbeda.",
   "src": "kisikisi-esdm",
   "options": [
    "JBT merupakan BBM yang seluruh harganya ditentukan oleh mekanisme pasar, sedangkan JBU merupakan BBM yang selalu mendapatkan subsidi pemerintah.",
@@ -5090,7 +5090,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Sebuah terminal BBM memiliki persediaan awal sebesar 1.250.000 liter. Dalam satu periode, terminal menerima tambahan pasokan sebanyak 875.000 liter dan menyalurkan 1.460.000 liter kepada pihak penerima. Dengan asumsi tidak terdapat kehilangan produk, koreksi pencatatan, atau penyesuaian lainnya, berapakah persediaan akhir terminal?",
   "answer": 2,
-  "explain": "Gunakan rumus: Persediaan Akhir = Persediaan Awal + Penerimaan − Pengeluaran Diketahui:  Persediaan awal = 1.250.000 liter  Penerimaan = 875.000 liter  Pengeluaran = 1.460.000 liter Perhitungan: Persediaan Akhir = 1.250.000 + 875.000 − 1.460.000 Persediaan Akhir = 2.125.000 − 1.460.000 Persediaan Akhir = 665.000 liter Dengan demikian, jawaban yang benar adalah C. Inti materi: Kemampuan menghitung saldo persediaan penting untuk memeriksa konsistensi data penerimaan dan pengeluaran BBM.",
+  "explain": "Gunakan rumus: Persediaan Akhir = Persediaan Awal + Penerimaan − Pengeluaran Diketahui: • Persediaan awal = 1.250.000 liter • Penerimaan = 875.000 liter • Pengeluaran = 1.460.000 liter Perhitungan: Persediaan Akhir = 1.250.000 + 875.000 − 1.460.000 Persediaan Akhir = 2.125.000 − 1.460.000 Persediaan Akhir = 665.000 liter Dengan demikian, jawaban yang benar adalah C. Inti materi: Kemampuan menghitung saldo persediaan penting untuk memeriksa konsistensi data penerimaan dan pengeluaran BBM.",
   "src": "kisikisi-esdm",
   "options": [
    "565.000 liter",
@@ -5104,7 +5104,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Suatu wilayah memperoleh alokasi penyaluran BBM sebesar 8.400 kiloliter untuk periode tertentu. Hingga akhir periode evaluasi, realisasi penyaluran tercatat sebesar 7.140 kiloliter. Berapakah persentase realisasi penyaluran terhadap alokasi yang ditetapkan?",
   "answer": 3,
-  "explain": "Rumus persentase realisasi: Persentase Realisasi = (Realisasi Penyaluran ÷ Alokasi) × 100% Diketahui:  Alokasi = 8.400 kiloliter  Realisasi = 7.140 kiloliter Perhitungan: Persentase Realisasi = (7.140 ÷ 8.400) × 100% Persentase Realisasi = 0,85 × 100% Persentase Realisasi = 85% Artinya, realisasi penyaluran mencapai 85% dari alokasi yang ditetapkan. Selisih antara alokasi dan realisasi adalah 1.260 kiloliter. Namun, persentase tersebut belum cukup untuk menyimpulkan bahwa penyaluran sudah optimal atau belum. Evaluasi lebih lanjut perlu mempertimbangkan kebutuhan aktual, ketersediaan stok, dan kondisi distribusi. Inti materi: Persentase realisasi menunjukkan tingkat penggunaan alokasi, tetapi tidak otomatis menggambarkan keberhasilan distribusi.",
+  "explain": "Rumus persentase realisasi: Persentase Realisasi = (Realisasi Penyaluran ÷ Alokasi) × 100% Diketahui: • Alokasi = 8.400 kiloliter • Realisasi = 7.140 kiloliter Perhitungan: Persentase Realisasi = (7.140 ÷ 8.400) × 100% Persentase Realisasi = 0,85 × 100% Persentase Realisasi = 85% Artinya, realisasi penyaluran mencapai 85% dari alokasi yang ditetapkan. Selisih antara alokasi dan realisasi adalah 1.260 kiloliter. Namun, persentase tersebut belum cukup untuk menyimpulkan bahwa penyaluran sudah optimal atau belum. Evaluasi lebih lanjut perlu mempertimbangkan kebutuhan aktual, ketersediaan stok, dan kondisi distribusi. Inti materi: Persentase realisasi menunjukkan tingkat penggunaan alokasi, tetapi tidak otomatis menggambarkan keberhasilan distribusi.",
   "src": "kisikisi-esdm",
   "options": [
    "75%",
@@ -5160,7 +5160,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Sebuah SPBU memiliki kapasitas tangki penyimpanan terbatas. Dalam periode permintaan tinggi, jadwal pengiriman dari terminal tidak selalu dapat dipenuhi tepat waktu. Akibatnya, SPBU beberapa kali mengalami kekosongan stok meskipun pasokan di terminal mencukupi. Analisis yang paling tepat adalah ....",
   "answer": 2,
-  "explain": "Kapasitas penyimpanan memengaruhi jumlah BBM yang dapat disimpan sebagai persediaan operasional. Apabila kapasitas terbatas dan waktu pengiriman tidak menentu, SPBU memiliki ruang yang lebih kecil untuk mengantisipasi keterlambatan pasokan. Analisis perlu mempertimbangkan:  Kapasitas tangki yang tersedia.  Rata-rata penjualan dan pola permintaan.  Waktu tunggu pengiriman.  Frekuensi pengiriman.  Batas operasional dan ketentuan keselamatan. Peningkatan kapasitas bukan satu-satunya solusi. Penyesuaian jadwal pengiriman dan pengelolaan stok juga dapat membantu mengurangi risiko kekosongan. Inti materi: Pengelolaan stok harus memperhitungkan kapasitas penyimpanan dan ketidakpastian waktu pasokan.",
+  "explain": "Kapasitas penyimpanan memengaruhi jumlah BBM yang dapat disimpan sebagai persediaan operasional. Apabila kapasitas terbatas dan waktu pengiriman tidak menentu, SPBU memiliki ruang yang lebih kecil untuk mengantisipasi keterlambatan pasokan. Analisis perlu mempertimbangkan: • Kapasitas tangki yang tersedia. • Rata-rata penjualan dan pola permintaan. • Waktu tunggu pengiriman. • Frekuensi pengiriman. • Batas operasional dan ketentuan keselamatan. Peningkatan kapasitas bukan satu-satunya solusi. Penyesuaian jadwal pengiriman dan pengelolaan stok juga dapat membantu mengurangi risiko kekosongan. Inti materi: Pengelolaan stok harus memperhitungkan kapasitas penyimpanan dan ketidakpastian waktu pasokan.",
   "src": "kisikisi-esdm",
   "options": [
    "Kapasitas tangki tidak memiliki hubungan dengan risiko kekosongan stok.",
@@ -5370,7 +5370,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Dalam pemeriksaan distribusi BBM, petugas menerima dokumen pengiriman yang mencantumkan volume 20.000 liter. Namun, dokumen penerimaan di lokasi tujuan hanya mencatat 19.500 liter. Belum tersedia informasi yang menjelaskan apakah selisih tersebut disebabkan oleh perbedaan waktu pencatatan, kesalahan administrasi, atau faktor operasional lainnya. Langkah yang paling tepat adalah ....",
   "answer": 2,
-  "explain": "Perbedaan antara volume yang dikirim dan volume yang diterima harus ditelusuri melalui proses rekonsiliasi dokumen. Petugas perlu memastikan bahwa kedua angka dibandingkan berdasarkan dasar pengukuran, satuan, waktu, dan kondisi yang sebanding. Pemeriksaan dapat mencakup:  Surat pengiriman atau dokumen angkutan.  Bukti penerimaan di lokasi tujuan.  Catatan pengukuran volume.  Waktu pengukuran dan pencatatan.  Catatan transaksi serta penyesuaian yang sah. Selisih 500 liter harus didokumentasikan dan dijelaskan berdasarkan bukti. Petugas tidak boleh langsung menyimpulkan adanya penggelapan sebelum penyebabnya diketahui. Inti materi: Rekonsiliasi dokumen diperlukan untuk memastikan konsistensi data pengiriman dan penerimaan BBM.",
+  "explain": "Perbedaan antara volume yang dikirim dan volume yang diterima harus ditelusuri melalui proses rekonsiliasi dokumen. Petugas perlu memastikan bahwa kedua angka dibandingkan berdasarkan dasar pengukuran, satuan, waktu, dan kondisi yang sebanding. Pemeriksaan dapat mencakup: • Surat pengiriman atau dokumen angkutan. • Bukti penerimaan di lokasi tujuan. • Catatan pengukuran volume. • Waktu pengukuran dan pencatatan. • Catatan transaksi serta penyesuaian yang sah. Selisih 500 liter harus didokumentasikan dan dijelaskan berdasarkan bukti. Petugas tidak boleh langsung menyimpulkan adanya penggelapan sebelum penyebabnya diketahui. Inti materi: Rekonsiliasi dokumen diperlukan untuk memastikan konsistensi data pengiriman dan penerimaan BBM.",
   "src": "kisikisi-esdm",
   "options": [
    "Menetapkan bahwa pengangkut telah menggelapkan 500 liter BBM.",
@@ -5466,7 +5466,7 @@ const QUESTIONS = [
  },
  {
   "cat": "Wawasan Migas Hilir",
-  "q": "Dalam sebuah pemeriksaan, petugas menemukan bahwa:  Data penerimaan BBM sesuai dengan dokumen pengiriman.  Data penyaluran dalam sistem berbeda dari rekapitulasi transaksi.  Stok fisik juga berbeda dari stok akhir berdasarkan pencatatan. Untuk menentukan penyebab masalah secara sistematis, langkah yang paling tepat adalah ....",
+  "q": "Dalam sebuah pemeriksaan, petugas menemukan bahwa: • Data penerimaan BBM sesuai dengan dokumen pengiriman. • Data penyaluran dalam sistem berbeda dari rekapitulasi transaksi. • Stok fisik juga berbeda dari stok akhir berdasarkan pencatatan. Untuk menentukan penyebab masalah secara sistematis, langkah yang paling tepat adalah ....",
   "answer": 3,
   "explain": "Ketika terdapat beberapa sumber data yang tidak konsisten, petugas harus melakukan rekonsiliasi secara sistematis.",
   "src": "kisikisi-esdm",
@@ -5494,7 +5494,7 @@ const QUESTIONS = [
  },
  {
   "cat": "Wawasan Migas Hilir",
-  "q": "Pada akhir periode pelaporan, sebuah penyalur memiliki data berikut:  Stok awal: 15.000 liter  Penerimaan: 27.000 liter  Penyaluran: 34.500 liter  Stok fisik hasil pengukuran: 6.900 liter Berdasarkan data tersebut, kesimpulan yang paling tepat adalah ....",
+  "q": "Pada akhir periode pelaporan, sebuah penyalur memiliki data berikut: • Stok awal: 15.000 liter • Penerimaan: 27.000 liter • Penyaluran: 34.500 liter • Stok fisik hasil pengukuran: 6.900 liter Berdasarkan data tersebut, kesimpulan yang paling tepat adalah ....",
   "answer": 1,
   "explain": "Hitung stok akhir berdasarkan administrasi: Stok Akhir Tercatat = 15.000 + 27.000 − 34.500 Stok Akhir Tercatat = 42.000 − 34.500 Stok Akhir Tercatat = 7.500 liter Stok fisik = 6.900 liter Selisih = 7.500 − 6.900 = 600 liter Artinya, stok fisik 600 liter lebih rendah daripada stok tercatat. Selisih ini harus ditelusuri melalui pemeriksaan dokumen penerimaan, transaksi penyaluran, catatan koreksi, dan metode pengukuran fisik. Selisih tidak boleh langsung dianggap sebagai bukti penyalahgunaan sebelum penyebabnya diverifikasi.",
   "src": "kisikisi-esdm",
@@ -5550,7 +5550,7 @@ const QUESTIONS = [
  },
  {
   "cat": "Wawasan Migas Hilir",
-  "q": "Data penyaluran sebuah penyalur selama empat bulan adalah sebagai berikut:  Januari: 42.000 liter  Februari: 45.000 liter  Maret: 43.500 liter  April: 52.500 liter Pernyataan yang paling tepat berdasarkan data tersebut adalah ....",
+  "q": "Data penyaluran sebuah penyalur selama empat bulan adalah sebagai berikut: • Januari: 42.000 liter • Februari: 45.000 liter • Maret: 43.500 liter • April: 52.500 liter Pernyataan yang paling tepat berdasarkan data tersebut adalah ....",
   "answer": 2,
   "explain": "Perubahan penyaluran dari Maret ke April: 52.500 − 43.500 = 9.000 liter Persentase kenaikan: (9.000 ÷ 43.500) × 100% = 20,69% (dibulatkan dua angka desimal). Dengan demikian, penyaluran April meningkat sekitar 20,69% dibandingkan Maret. Pilihan A salah karena penyaluran turun dari Februari ke Maret. Data tren berguna untuk mengidentifikasi perubahan yang perlu dianalisis, tetapi kenaikan penyaluran tidak otomatis menunjukkan penyimpangan. Petugas perlu membandingkan tren tersebut dengan kebutuhan, ketersediaan pasokan, dan bukti transaksi.",
   "src": "kisikisi-esdm",
@@ -5606,7 +5606,7 @@ const QUESTIONS = [
  },
  {
   "cat": "Wawasan Migas Hilir",
-  "q": "Sebuah laporan menyajikan data berikut:  Stok awal: 10.000 liter  Penerimaan: 25.000 liter  Penyaluran: 28.000 liter  Stok akhir tercatat: 8.000 liter  Stok fisik: 7.000 liter Seorang petugas menyimpulkan bahwa tidak ada kesalahan administrasi karena stok akhir tercatat sudah sesuai dengan perhitungan. Evaluasi yang paling tepat terhadap kesimpulan tersebut adalah ....",
+  "q": "Sebuah laporan menyajikan data berikut: • Stok awal: 10.000 liter • Penerimaan: 25.000 liter • Penyaluran: 28.000 liter • Stok akhir tercatat: 8.000 liter • Stok fisik: 7.000 liter Seorang petugas menyimpulkan bahwa tidak ada kesalahan administrasi karena stok akhir tercatat sudah sesuai dengan perhitungan. Evaluasi yang paling tepat terhadap kesimpulan tersebut adalah ....",
   "answer": 2,
   "explain": "Periksa terlebih dahulu perhitungan stok akhir: Stok Akhir = Stok Awal + Penerimaan − Penyaluran = 10.000 + 25.000 − 28.000 = 35.000 − 28.000 = 7.000 liter Dengan demikian, stok akhir yang seharusnya berdasarkan angka tersebut adalah 7.000 liter, bukan 8.000 liter. Stok fisik juga tercatat sebesar 7.000 liter. Artinya, stok fisik sesuai dengan hasil perhitungan, tetapi tidak sesuai dengan angka stok akhir tercatat yang ditulis dalam laporan. Terdapat dua hal yang harus dibedakan: 1. Kesalahan perhitungan atau pencatatan stok akhir: angka 8.000 liter tidak sesuai dengan hasil rumus. 2. Selisih stok fisik terhadap hasil perhitungan: tidak ada selisih karena keduanya sama-sama 7.000 liter. Karena itu, kesimpulan yang tepat adalah bahwa terdapat kesalahan pada angka stok akhir tercatat dan laporan harus dikoreksi melalui prosedur yang berlaku. Catatan: Opsi C menyebut selisih 1.000 liter terhadap stok fisik, tetapi secara lebih tepat, selisih 1.000 liter terjadi antara angka stok akhir tercatat dalam laporan dan stok fisik. Hasil perhitungan stok akhir yang benar justru sama dengan stok fisik. Soal ini menguji kemampuan membedakan kesalahan pencatatan dari selisih fisik.",
   "src": "kisikisi-esdm",
@@ -5664,7 +5664,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Petugas menerima laporan dari dua penyalur dalam satu wilayah. Penyalur A melaporkan penyaluran 18.000 liter, sedangkan Penyalur B melaporkan 21.000 liter. Berdasarkan catatan sebelumnya, pola penyaluran kedua lokasi relatif stabil. Tidak ada informasi yang cukup untuk menjelaskan kenaikan pada Penyalur B. Langkah analisis yang paling tepat adalah ....",
   "answer": 2,
-  "explain": "Perbedaan volume antarlokasi tidak otomatis menunjukkan penyimpangan. Setiap penyalur dapat memiliki tingkat permintaan, kapasitas, dan kondisi operasional yang berbeda. Petugas perlu membandingkan data berdasarkan periode yang sama dan memeriksa apakah perubahan volume didukung oleh bukti transaksi yang valid. Pemeriksaan dapat mencakup:  Tren penyaluran historis.  Stok awal dan stok akhir.  Dokumen penerimaan BBM.  Rincian transaksi penyaluran.  Perubahan permintaan dan kondisi operasional. Jika ditemukan ketidaksesuaian yang tidak dapat dijelaskan, petugas dapat melakukan pemeriksaan lanjutan. Inti materi: Perbandingan data harus mempertimbangkan konteks, bukan hanya besarnya angka.",
+  "explain": "Perbedaan volume antarlokasi tidak otomatis menunjukkan penyimpangan. Setiap penyalur dapat memiliki tingkat permintaan, kapasitas, dan kondisi operasional yang berbeda. Petugas perlu membandingkan data berdasarkan periode yang sama dan memeriksa apakah perubahan volume didukung oleh bukti transaksi yang valid. Pemeriksaan dapat mencakup: • Tren penyaluran historis. • Stok awal dan stok akhir. • Dokumen penerimaan BBM. • Rincian transaksi penyaluran. • Perubahan permintaan dan kondisi operasional. Jika ditemukan ketidaksesuaian yang tidak dapat dijelaskan, petugas dapat melakukan pemeriksaan lanjutan. Inti materi: Perbandingan data harus mempertimbangkan konteks, bukan hanya besarnya angka.",
   "src": "kisikisi-esdm",
   "options": [
    "Menyimpulkan bahwa Penyalur B melakukan penyimpangan karena volume penyalurannya lebih besar.",
@@ -5704,7 +5704,7 @@ const QUESTIONS = [
  },
  {
   "cat": "Wawasan Migas Hilir",
-  "q": "Dalam satu wilayah, terdapat tiga masalah berikut:  Lokasi A: Stok diperkirakan cukup untuk tujuh hari dan dokumen lengkap.  Lokasi B: Stok diperkirakan cukup untuk satu hari, sementara pengiriman berikutnya belum memiliki kepastian waktu.  Lokasi C: Stok diperkirakan cukup untuk empat hari, tetapi terdapat selisih pencatatan yang belum dijelaskan. Jika petugas harus menentukan urutan penanganan awal berdasarkan urgensi operasional, pilihan yang paling rasional adalah ....",
+  "q": "Dalam satu wilayah, terdapat tiga masalah berikut: • Lokasi A: Stok diperkirakan cukup untuk tujuh hari dan dokumen lengkap. • Lokasi B: Stok diperkirakan cukup untuk satu hari, sementara pengiriman berikutnya belum memiliki kepastian waktu. • Lokasi C: Stok diperkirakan cukup untuk empat hari, tetapi terdapat selisih pencatatan yang belum dijelaskan. Jika petugas harus menentukan urutan penanganan awal berdasarkan urgensi operasional, pilihan yang paling rasional adalah ....",
   "answer": 1,
   "explain": "Lokasi B memiliki risiko gangguan pasokan paling mendesak karena stok hanya cukup untuk satu hari dan waktu pengiriman belum pasti. Kondisi ini memerlukan verifikasi stok, koordinasi pasokan, serta pemantauan kebutuhan. Lokasi C juga perlu diperiksa karena terdapat selisih pencatatan yang belum dijelaskan. Namun, berdasarkan informasi yang tersedia, stoknya diperkirakan masih cukup untuk empat hari. Lokasi A memiliki stok yang diperkirakan cukup untuk tujuh hari dan dokumen lengkap, sehingga urgensi operasionalnya relatif lebih rendah. Urutan tersebut merupakan prioritas awal berdasarkan informasi dalam soal. Jika pemeriksaan tambahan menemukan risiko lain, urutan dapat disesuaikan. Inti materi: Prioritas penanganan ditentukan berdasarkan urgensi, dampak, dan bukti risiko, bukan semata-mata urutan laporan masuk.",
   "src": "kisikisi-esdm",
@@ -5748,7 +5748,7 @@ const QUESTIONS = [
   "cat": "Wawasan Migas Hilir",
   "q": "Dalam satu periode pemeriksaan, petugas menemukan kondisi berikut: 1. Stok tercatat lebih tinggi daripada stok fisik. 2. Volume penyaluran meningkat dibandingkan periode sebelumnya. 3. Sebagian dokumen transaksi belum lengkap. 4. Pengelola menyatakan bahwa kenaikan penyaluran disebabkan oleh meningkatnya permintaan. Tindakan yang paling tepat untuk menyelesaikan pemeriksaan adalah ....",
   "answer": 3,
-  "explain": "Kasus ini melibatkan beberapa indikator yang saling berkaitan. Karena itu, pemeriksaan tidak cukup dilakukan dengan menilai satu data secara terpisah. Petugas perlu menggabungkan:  Rekonsiliasi stok: menghitung stok akhir berdasarkan stok awal, penerimaan, dan penyaluran, kemudian membandingkannya dengan stok fisik.  Verifikasi dokumen: memastikan transaksi memiliki bukti yang memadai.  Analisis tren: membandingkan volume penyaluran dengan periode sebelumnya dan mencari penjelasan yang dapat dibuktikan.  Klarifikasi: meminta penjelasan pengelola dan memeriksa bukti pendukungnya.  Pelaporan: mencatat fakta, ketidaksesuaian, keterbatasan pemeriksaan, dan rekomendasi tindak lanjut. Peningkatan permintaan dapat menjadi penjelasan yang masuk akal, tetapi harus didukung data. Di sisi lain, adanya beberapa indikator risiko tidak otomatis membuktikan pelanggaran. Inti materi: Pemecahan masalah distribusi BBM membutuhkan analisis terpadu, verifikasi bukti, dan keputusan yang proporsional.",
+  "explain": "Kasus ini melibatkan beberapa indikator yang saling berkaitan. Karena itu, pemeriksaan tidak cukup dilakukan dengan menilai satu data secara terpisah. Petugas perlu menggabungkan: • Rekonsiliasi stok: menghitung stok akhir berdasarkan stok awal, penerimaan, dan penyaluran, kemudian membandingkannya dengan stok fisik. • Verifikasi dokumen: memastikan transaksi memiliki bukti yang memadai. • Analisis tren: membandingkan volume penyaluran dengan periode sebelumnya dan mencari penjelasan yang dapat dibuktikan. • Klarifikasi: meminta penjelasan pengelola dan memeriksa bukti pendukungnya. • Pelaporan: mencatat fakta, ketidaksesuaian, keterbatasan pemeriksaan, dan rekomendasi tindak lanjut. Peningkatan permintaan dapat menjadi penjelasan yang masuk akal, tetapi harus didukung data. Di sisi lain, adanya beberapa indikator risiko tidak otomatis membuktikan pelanggaran. Inti materi: Pemecahan masalah distribusi BBM membutuhkan analisis terpadu, verifikasi bukti, dan keputusan yang proporsional.",
   "src": "kisikisi-esdm",
   "options": [
    "Langsung menetapkan adanya penyalahgunaan BBM karena semua indikator muncul bersamaan.",
@@ -5998,7 +5998,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gagasan utama dari paragraf di atas adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Gagasan utama dari paragraf di atas adalah ...",
   "options": [
    "Prosedur pemantauan teknis pada fasilitas digitalisasi dispenser BBM.",
    "Peran institusi pendidikan vokasi dalam menyalurkan BBM bersubsidi.",
@@ -6012,7 +6012,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Kata deviasi dalam wacana di atas memiliki makna yang sepadan dengan ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Kata deviasi dalam wacana di atas memiliki makna yang sepadan dengan ...",
   "options": [
    "Pengurangan",
    "Penyimpangan",
@@ -6026,7 +6026,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Pernyataan berikut yang TIDAK SESUAI dengan isi wacana di atas adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Pernyataan berikut yang TIDAK SESUAI dengan isi wacana di atas adalah ...",
   "options": [
    "Pengawasan pendistribusian BBM dilakukan melalui kolaborasi BPH Migas dan vokasi sektor energi.",
    "Verifikator lapangan bertugas memeriksa keabsahan dokumen kuota BBM.",
@@ -6040,7 +6040,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Penulisan kalimat berikut yang SESUAI dengan kaidah Ejaan Bahasa Indonesia (PUEBI/EYD) adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Penulisan kalimat berikut yang SESUAI dengan kaidah Ejaan Bahasa Indonesia (PUEBI/EYD) adalah ...",
   "options": [
    "Tim verifikasi meninjau SPBU di kabupaten Blora Jawa Tengah.",
    "BPH Migas mengawasi distribusi bbm bersubsidi di seluruh wilayah Indonesia.",
@@ -6054,7 +6054,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Kalimat berikut yang merupakan bentuk KALIMAT EFEKTIF adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Kalimat berikut yang merupakan bentuk KALIMAT EFEKTIF adalah ...",
   "options": [
    "Bagi para pelamar yang mendaftar posisi analis wajib untuk mengunggah ijazah asli.",
    "Kementerian ESDM menugaskan verifikator lapangan untuk mengawasi distribusi BBM.",
@@ -6068,7 +6068,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Penggunaan tanda baca yang tepat terdapat pada kalimat ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Penggunaan tanda baca yang tepat terdapat pada kalimat ...",
   "options": [
    "Berkas yang harus diunggah antara lain: KTP, Ijazah, dan SKCK.",
    "Program ini dilaksanakan dari bulan Oktober 2026, sampai dengan November 2026.",
@@ -6082,7 +6082,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Kata bentukan yang TIDAK BAKU terdapat dalam kalimat ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 18 sampai 20! Kementerian Energi dan Sumber Daya Mineral (ESDM) terus memperketat pengawasan pendistribusian Bahan Bakar Minyak (BBM) bersubsidi di seluruh wilayah Indonesia. Langkah ini diambil untuk memastikan bahwa alokasi Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP) tepat sasaran serta meminimalkan potensi deviasi penyaluran di tingkat penyalur eceran. Melalui kolaborasi antara Badan Pengatur Hilir Minyak dan Gas Bumi (BPH Migas) dan institusi pendidikan vokasi sektor energi, pengerahan tenaga verifikator lapangan menjadi krusial. Petugas di lapangan bertanggung jawab melakukan verifikasi data fisik, pengecekan keabsahan dokumen kuota, hingga pemantauan teknis pada fasilitas digitalisasi dispenser BBM. Kata bentukan yang TIDAK BAKU terdapat dalam kalimat ...",
   "options": [
    "Petugas lapangan memverifikasi data kuota penyaluran BBM harian.",
    "Tim audit mensertifikasi fasilitas dispenser di beberapa stasiun pengisian.",
@@ -6091,12 +6091,12 @@ const QUESTIONS = [
    "Kementerian ESDM mengalokasikan anggaran operasional penugasan lapangan."
   ],
   "answer": 2,
-  "explain": "Kata mentargetkan tidak baku. Berdasarkan kaidah peluluhan awalan me-N + kata dasar berawalan huruf T (target), bentuk bakunya adalah menargetkan. Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan.",
+  "explain": "Kata mentargetkan tidak baku. Berdasarkan kaidah peluluhan awalan me-N + kata dasar berawalan huruf T (target), bentuk bakunya adalah menargetkan.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Istilah fleksibel pada teks di atas bermakna ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Istilah fleksibel pada teks di atas bermakna ...",
   "options": [
    "Tetap dan tidak dapat diubah",
    "Luwes dan mudah disesuaikan",
@@ -6110,7 +6110,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Kata tidak baku yang terdapat dalam wacana di atas adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Kata tidak baku yang terdapat dalam wacana di atas adalah ...",
   "options": [
    "Skema",
    "Standar",
@@ -6124,7 +6124,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Antonim kontekstual dari kata KRUSIAL dalam kalimat \"Pengawasan di titik perbatasan sangat krusial\" adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Antonim kontekstual dari kata KRUSIAL dalam kalimat \"Pengawasan di titik perbatasan sangat krusial\" adalah ...",
   "options": [
    "Penting",
    "Sepele",
@@ -6138,7 +6138,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah gabungan kata di bawah ini yang penulisannya TIDAK TEPAT?",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Manakah gabungan kata di bawah ini yang penulisannya TIDAK TEPAT?",
   "options": [
    "Non-penerbangan",
    "Tanganggung jawab",
@@ -6152,7 +6152,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Hasil verifikasi berkas menunjukkan adanya selisih angka antara laporan digital dengan bukti fisik di lapangan. Inti dari kalimat di atas adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Hasil verifikasi berkas menunjukkan adanya selisih angka antara laporan digital dengan bukti fisik di lapangan. Inti dari kalimat di atas adalah ...",
   "options": [
    "Berkas menunjukkan bukti fisik.",
    "Hasil verifikasi menunjukkan selisih angka.",
@@ -6166,7 +6166,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Penggunaan kata depan yang SALAH terdapat pada kalimat ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Penggunaan kata depan yang SALAH terdapat pada kalimat ...",
   "options": [
    "Surat komitmen ditandatangani di atas materai.",
    "Peserta bertolak ke lokasi penugasan pada bulan Desember.",
@@ -6180,7 +6180,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Sinonim yang paling tepat untuk kata VALIDASI adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Sinonim yang paling tepat untuk kata VALIDASI adalah ...",
   "options": [
    "Pengujian",
    "Pengesahan",
@@ -6194,7 +6194,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Kalimat berikut yang mengandung kesalahan penulisan angka atau bilangan adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Kalimat berikut yang mengandung kesalahan penulisan angka atau bilangan adalah ...",
   "options": [
    "Sebanyak 100 orang verifikator lapangan dialokasikan tahun ini.",
    "Lima analis bertugas di area Blora, sedangkan tiga lainnya di Cepu.",
@@ -6208,7 +6208,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Bentuk kalimat pasif yang tepat dari kalimat aktif \"Verifikator memeriksa keabsahan dokumen kuota BBM\" adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Bentuk kalimat pasif yang tepat dari kalimat aktif \"Verifikator memeriksa keabsahan dokumen kuota BBM\" adalah ...",
   "options": [
    "Keabsahan dokumen kuota BBM diperiksa oleh verifikator.",
    "Dokumen kuota BBM yang memeriksa adalah verifikator.",
@@ -6222,7 +6222,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Pemerintah melakukan... terhadap mekanisme kuota guna menghindari... penyaluran BBM di tingkat stasiun pengisian. Kata yang tepat untuk mengisi titik-titik di atas adalah ...",
+  "q": "Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan. Pemerintah melakukan... terhadap mekanisme kuota guna menghindari... penyaluran BBM di tingkat stasiun pengisian. Kata yang tepat untuk mengisi titik-titik di atas adalah ...",
   "options": [
    "Penyesuaian - kebocoran",
    "Pembatalan - kelancaran",
@@ -6698,7 +6698,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berdasarkan Tabel 1, wilayah manakah yang memiliki persentase sisa kuota terbanyak dari total kuotanya setelah penyaluran Bulan III berakhir?",
+  "q": "Gunakan Data Tabel 1 berikut untuk menjawab soal nomor 18 sampai 20! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berdasarkan Tabel 1, wilayah manakah yang memiliki persentase sisa kuota terbanyak dari total kuotanya setelah penyaluran Bulan III berakhir?",
   "options": [
    "Wilayah A",
    "Wilayah B",
@@ -6712,7 +6712,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapakah rata-rata penyaluran BBM Solar JBT di Wilayah D per bulan berdasarkan data 3 bulan tersebut?",
+  "q": "Gunakan Data Tabel 1 berikut untuk menjawab soal nomor 18 sampai 20! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berapakah rata-rata penyaluran BBM Solar JBT di Wilayah D per bulan berdasarkan data 3 bulan tersebut?",
   "options": [
    "550 KL",
    "580 KL",
@@ -6726,7 +6726,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa persentase kenaikan penyaluran BBM Solar JBT di Wilayah A dari Bulan I ke Bulan III?",
+  "q": "Gunakan Data Tabel 1 berikut untuk menjawab soal nomor 18 sampai 20! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berapa persentase kenaikan penyaluran BBM Solar JBT di Wilayah A dari Bulan I ke Bulan III?",
   "options": [
    "25,0%",
    "30,0%",
@@ -6735,12 +6735,12 @@ const QUESTIONS = [
    "40,0%"
   ],
   "answer": 2,
-  "explain": "Penyaluran Bulan I = 300 KL, Penyaluran Bulan III = 400 KL. Kenaikan = 400 - 300 = 100 KL. Persentase kenaikan = (100 / 300) x 100% = 33,33%. Gunakan Data Tabel 2 berikut untuk menjawab soal nomor 21 sampai 23! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU",
+  "explain": "Penyaluran Bulan I = 300 KL, Penyaluran Bulan III = 400 KL. Kenaikan = 400 - 300 = 100 KL. Persentase kenaikan = (100 / 300) x 100% = 33,33%.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Berdasarkan Tabel 2, berapa persentase SPBU yang masuk dalam kategori Sesuai Standar (Kategori A) dari total seluruh SPBU yang diinspeksi?",
+  "q": "Gunakan Data Tabel 2 berikut untuk menjawab soal nomor 21 sampai 23! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Berdasarkan Tabel 2, berapa persentase SPBU yang masuk dalam kategori Sesuai Standar (Kategori A) dari total seluruh SPBU yang diinspeksi?",
   "options": [
    "45%",
    "50%",
@@ -6754,7 +6754,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapakah rasio antara SPBU kategori Deviasi Berat (Kategori C) terhadap total SPBU yang mengalami kendala/deviasi (Kategori B, C, dan D)?",
+  "q": "Gunakan Data Tabel 2 berikut untuk menjawab soal nomor 21 sampai 23! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Berapakah rasio antara SPBU kategori Deviasi Berat (Kategori C) terhadap total SPBU yang mengalami kendala/deviasi (Kategori B, C, dan D)?",
   "options": [
    "1 : 2",
    "1 : 3",
@@ -6768,7 +6768,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika setiap SPBU Kategori D dikenakan sanksi denda administratif sebesar Rp15.000.000 per SPBU, berapakah total nilai denda administratif yang terkumpul dari Kategori D?",
+  "q": "Gunakan Data Tabel 2 berikut untuk menjawab soal nomor 21 sampai 23! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Jika setiap SPBU Kategori D dikenakan sanksi denda administratif sebesar Rp15.000.000 per SPBU, berapakah total nilai denda administratif yang terkumpul dari Kategori D?",
   "options": [
    "Rp100.000.000",
    "Rp120.000.000",
@@ -6777,12 +6777,12 @@ const QUESTIONS = [
    "Rp200.000.000"
   ],
   "answer": 2,
-  "explain": "Jumlah SPBU Kategori D = 10 SPBU. Total denda = 10 x Rp15.000.000 = Rp150.000.000. Gunakan Data Tabel 3 berikut untuk menjawab soal nomor 24 sampai 26! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL",
+  "explain": "Jumlah SPBU Kategori D = 10 SPBU. Total denda = 10 x Rp15.000.000 = Rp150.000.000.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Kabupaten manakah yang mengalami over-kuota penyaluran Pertalite terbesar secara nominal (volume dalam KL)?",
+  "q": "Gunakan Data Tabel 3 berikut untuk menjawab soal nomor 24 sampai 26! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Kabupaten manakah yang mengalami over-kuota penyaluran Pertalite terbesar secara nominal (volume dalam KL)?",
   "options": [
    "Kabupaten P",
    "Kabupaten Q",
@@ -6796,7 +6796,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa total realisasi penyaluran Pertalite untuk keempat kabupaten tersebut secara keseluruhan?",
+  "q": "Gunakan Data Tabel 3 berikut untuk menjawab soal nomor 24 sampai 26! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Berapa total realisasi penyaluran Pertalite untuk keempat kabupaten tersebut secara keseluruhan?",
   "options": [
    "22.500 KL",
    "23.000 KL",
@@ -6810,7 +6810,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Secara keseluruhan gabungan 4 kabupaten, berapa persentase tingkat penyaluran Pertalite dibandingkan dengan total kuota yang dialokasikan?",
+  "q": "Gunakan Data Tabel 3 berikut untuk menjawab soal nomor 24 sampai 26! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Secara keseluruhan gabungan 4 kabupaten, berapa persentase tingkat penyaluran Pertalite dibandingkan dengan total kuota yang dialokasikan?",
   "options": [
    "98,5%",
    "100,0%",
@@ -6819,12 +6819,12 @@ const QUESTIONS = [
    "102,0%"
   ],
   "answer": 2,
-  "explain": "Total Kuota = 5.000 + 8.000 + 6.000 + 4.000 = 23.000 KL. Total Realisasi = 23.100 KL. Persentase Penyaluran = (23.100 / 23.000) x 100% = 100,43% (dibulatkan 100,4%). Gunakan Data Tabel 4 berikut untuk menjawab soal nomor 27 sampai 29! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU",
+  "explain": "Total Kuota = 5.000 + 8.000 + 6.000 + 4.000 = 23.000 KL. Total Realisasi = 23.100 KL. Persentase Penyaluran = (23.100 / 23.000) x 100% = 100,43% (dibulatkan 100,4%).",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Verifikator manakah yang memiliki tingkat efisiensi waktu terbaik (waktu tersingkat per 1 titik audit SPBU)?",
+  "q": "Gunakan Data Tabel 4 berikut untuk menjawab soal nomor 27 sampai 29! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Verifikator manakah yang memiliki tingkat efisiensi waktu terbaik (waktu tersingkat per 1 titik audit SPBU)?",
   "options": [
    "Verifikator 1",
    "Verifikator 2",
@@ -6838,7 +6838,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa rata-rata jam kerja per verifikator berdasarkan data ke-4 verifikator di atas?",
+  "q": "Gunakan Data Tabel 4 berikut untuk menjawab soal nomor 27 sampai 29! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Berapa rata-rata jam kerja per verifikator berdasarkan data ke-4 verifikator di atas?",
   "options": [
    "42,0 jam",
    "43,25 jam",
@@ -6852,7 +6852,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika Verifikator 3 mendapatkan tambahan waktu 8 jam untuk menyelesaikan audit 4 SPBU tambahan, berapakah rata-rata waktu per SPBU untuk seluruh tugas Verifikator 3?",
+  "q": "Gunakan Data Tabel 4 berikut untuk menjawab soal nomor 27 sampai 29! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Jika Verifikator 3 mendapatkan tambahan waktu 8 jam untuk menyelesaikan audit 4 SPBU tambahan, berapakah rata-rata waktu per SPBU untuk seluruh tugas Verifikator 3?",
   "options": [
    "2,6 jam",
    "2,8 jam",
@@ -6861,12 +6861,12 @@ const QUESTIONS = [
    "3,5 jam"
   ],
   "answer": 2,
-  "explain": "Total waktu baru Verifikator 3 = 48 + 8 = 56 jam. Total titik audit baru = 16 + 4 = 20 SPBU. Rata-rata waktu per SPBU = 56 / 20 = 2,8 jam. Jawaban tepat: B (2,8 jam). Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30",
+  "explain": "Total waktu baru Verifikator 3 = 48 + 8 = 56 jam. Total titik audit baru = 16 + 4 = 20 SPBU. Rata-rata waktu per SPBU = 56 / 20 = 2,8 jam. Jawaban tepat: B (2,8 jam).",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Berapakah total anggaran operasional yang dialokasikan dalam rencana anggaran tersebut?",
+  "q": "Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapakah total anggaran operasional yang dialokasikan dalam rencana anggaran tersebut?",
   "options": [
    "230 Juta",
    "240 Juta",
@@ -6880,7 +6880,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Komponen manakah yang mengalami pembengkakan (over-budget) dari alokasi awal?",
+  "q": "Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Komponen manakah yang mengalami pembengkakan (over-budget) dari alokasi awal?",
   "options": [
    "Transportasi",
    "Akomodasi",
@@ -6894,7 +6894,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa persentase hemat/efisiensi anggaran pada komponen Transportasi?",
+  "q": "Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa persentase hemat/efisiensi anggaran pada komponen Transportasi?",
   "options": [
    "6,33%",
    "8,33%",
@@ -6908,7 +6908,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa selisih antara total alokasi anggaran dengan total realisasi anggaran secara keseluruhan?",
+  "q": "Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa selisih antara total alokasi anggaran dengan total realisasi anggaran secara keseluruhan?",
   "options": [
    "Surplus 2 Juta (Hemat 2 Juta)",
    "Defisit 2 Juta (Kurang 2 Juta)",
@@ -6922,7 +6922,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Berapa proporsi persentase realisasi komponen Akomodasi terhadap total realisasi anggaran keseluruhan?",
+  "q": "Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa proporsi persentase realisasi komponen Akomodasi terhadap total realisasi anggaran keseluruhan?",
   "options": [
    "32,5%",
    "34,8%",
@@ -6936,7 +6936,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Siapakah yang diwawancarai pada urutan pertama?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 35 sampai 38! Lima verifikator lapangan (Andi, Budi, Cici, Dedi, dan Erna) harus diwawancarai secara berurutan dalam satu hari. Aturan urutannya adalah sebagai berikut: 1. Budi diwawancarai tepat sebelum Cici. 2. Dedi diwawancarai pada urutan keempat. 3. Andi harus diwawancarai sebelum Budi dan Cici. 4. Erna tidak boleh diwawancarai pada urutan pertama. Siapakah yang diwawancarai pada urutan pertama?",
   "options": [
    "Andi",
    "Budi",
@@ -6950,7 +6950,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Siapakah yang diwawancarai pada urutan terakhir (ke-5)?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 35 sampai 38! Lima verifikator lapangan (Andi, Budi, Cici, Dedi, dan Erna) harus diwawancarai secara berurutan dalam satu hari. Aturan urutannya adalah sebagai berikut: 1. Budi diwawancarai tepat sebelum Cici. 2. Dedi diwawancarai pada urutan keempat. 3. Andi harus diwawancarai sebelum Budi dan Cici. 4. Erna tidak boleh diwawancarai pada urutan pertama. Siapakah yang diwawancarai pada urutan terakhir (ke-5)?",
   "options": [
    "Andi",
    "Budi",
@@ -6964,7 +6964,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika Budi diwawancarai pada urutan kedua, manakah dari pernyataan berikut yang pasti BENAR?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 35 sampai 38! Lima verifikator lapangan (Andi, Budi, Cici, Dedi, dan Erna) harus diwawancarai secara berurutan dalam satu hari. Aturan urutannya adalah sebagai berikut: 1. Budi diwawancarai tepat sebelum Cici. 2. Dedi diwawancarai pada urutan keempat. 3. Andi harus diwawancarai sebelum Budi dan Cici. 4. Erna tidak boleh diwawancarai pada urutan pertama. Jika Budi diwawancarai pada urutan kedua, manakah dari pernyataan berikut yang pasti BENAR?",
   "options": [
    "Erna diwawancarai urutan ketiga",
    "Cici diwawancarai urutan ketiga",
@@ -6978,7 +6978,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah urutan wawancara yang memenuhi seluruh kriteria di atas dari urutan 1 hingga 5?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 35 sampai 38! Lima verifikator lapangan (Andi, Budi, Cici, Dedi, dan Erna) harus diwawancarai secara berurutan dalam satu hari. Aturan urutannya adalah sebagai berikut: 1. Budi diwawancarai tepat sebelum Cici. 2. Dedi diwawancarai pada urutan keempat. 3. Andi harus diwawancarai sebelum Budi dan Cici. 4. Erna tidak boleh diwawancarai pada urutan pertama. Manakah urutan wawancara yang memenuhi seluruh kriteria di atas dari urutan 1 hingga 5?",
   "options": [
    "Andi, Budi, Cici, Dedi, Erna",
    "Erna, Andi, Budi, Dedi, Cici",
@@ -6987,12 +6987,12 @@ const QUESTIONS = [
    "Andi, Dedi, Budi, Cici, Erna"
   ],
   "answer": 0,
-  "explain": "Satu-satunya opsi yang memenuhi semua syarat (Dedi di urutan 4, Erna bukan di urutan 1, Andi sebelum Budi, dan Budi tepat sebelum Cici) adalah Opsi A. Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6).",
+  "explain": "Satu-satunya opsi yang memenuhi semua syarat (Dedi di urutan 4, Erna bukan di urutan 1, Andi sebelum Budi, dan Budi tepat sebelum Cici) adalah Opsi A.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Kota manakah yang dikunjungi pada Minggu 6?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6). Kota manakah yang dikunjungi pada Minggu 6?",
   "options": [
    "Palu",
    "Sorong",
@@ -7006,7 +7006,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika Manado dikunjungi pada Minggu 1, minggu ke berapakah Kupang dikunjungi jika Palu dikunjungi pada Minggu 4?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6). Jika Manado dikunjungi pada Minggu 1, minggu ke berapakah Kupang dikunjungi jika Palu dikunjungi pada Minggu 4?",
   "options": [
    "Minggu 2",
    "Minggu 3",
@@ -7020,7 +7020,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah pasangan kota yang dikunjungi secara berurutan pada Minggu 4 dan Minggu 5?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6). Manakah pasangan kota yang dikunjungi secara berurutan pada Minggu 4 dan Minggu 5?",
   "options": [
    "Manado dan Kupang",
    "Palu dan Sorong",
@@ -7034,7 +7034,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah dari kota berikut yang TIDAK MUNGKIN dikunjungi pada Minggu 1?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6). Manakah dari kota berikut yang TIDAK MUNGKIN dikunjungi pada Minggu 1?",
   "options": [
    "Manado",
    "Palu",
@@ -7043,12 +7043,12 @@ const QUESTIONS = [
    "Padang"
   ],
   "answer": 4,
-  "explain": "Padang secara eksplisit terkunci di Minggu 3, sehingga Padang tidak mungkin dikunjungi pada Minggu 1. Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar.",
+  "explain": "Padang secara eksplisit terkunci di Minggu 3, sehingga Padang tidak mungkin dikunjungi pada Minggu 1.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Siapakah petugas yang berada di Pos 1?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar. Siapakah petugas yang berada di Pos 1?",
   "options": [
    "Fajar",
    "Gilang",
@@ -7062,7 +7062,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah susunan posisi petugas yang benar dari Pos 1 hingga Pos 5 dari kiri ke kanan?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar. Manakah susunan posisi petugas yang benar dari Pos 1 hingga Pos 5 dari kiri ke kanan?",
   "options": [
    "Hana, Gilang, Joko, Indah, Fajar",
    "Hana, Indah, Fajar, Gilang, Joko",
@@ -7076,7 +7076,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika Fajar berada di Pos 5, siapakah yang berada di Pos 4?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar. Jika Fajar berada di Pos 5, siapakah yang berada di Pos 4?",
   "options": [
    "Gilang",
    "Joko",
@@ -7090,7 +7090,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Siapakah dua petugas yang duduk berdampingan di Pos 2 dan Pos 3?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar. Siapakah dua petugas yang duduk berdampingan di Pos 2 dan Pos 3?",
   "options": [
    "Hana dan Indah",
    "Gilang dan Joko",
@@ -7099,12 +7099,12 @@ const QUESTIONS = [
    "Gilang dan Indah"
   ],
   "answer": 1,
-  "explain": "Berdasarkan susunan posisi (Hana, Gilang, Joko, Indah, Fajar), Pos 2 diisi Gilang dan Pos 3 diisi Joko. Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4).",
+  "explain": "Berdasarkan susunan posisi (Hana, Gilang, Joko, Indah, Fajar), Pos 2 diisi Gilang dan Pos 3 diisi Joko.",
   "src": "prepkerja"
  },
  {
   "cat": "TPA",
-  "q": "Modul manakah yang dipelajari pada Sesi 4?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4). Modul manakah yang dipelajari pada Sesi 4?",
   "options": [
    "Modul A",
    "Modul B",
@@ -7118,7 +7118,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Manakah urutan pembelajaran modul yang benar dari Sesi 1 sampai Sesi 4?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4). Manakah urutan pembelajaran modul yang benar dari Sesi 1 sampai Sesi 4?",
   "options": [
    "Modul C, Modul D, Modul B, Modul A",
    "Modul D, Modul B, Modul C, Modul A",
@@ -7132,7 +7132,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Jika Modul C dipelajari pada Sesi 1, modul apakah yang dipelajari pada Sesi 2?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4). Jika Modul C dipelajari pada Sesi 1, modul apakah yang dipelajari pada Sesi 2?",
   "options": [
    "Modul A",
    "Modul B",
@@ -7146,7 +7146,7 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Modul apakah yang dipelajari tepat sebelum Modul A pada Sesi 3 (jika Modul C di Sesi 1)?",
+  "q": "Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4). Modul apakah yang dipelajari tepat sebelum Modul A pada Sesi 3 (jika Modul C di Sesi 1)?",
   "options": [
    "Modul B",
    "Modul C",
