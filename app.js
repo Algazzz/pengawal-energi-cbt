@@ -71,6 +71,10 @@
   }
 
   function startQuiz(mode, jumlah, useTimer) {
+    if (!Array.isArray(window.QUESTIONS) || window.QUESTIONS.length === 0) {
+      window.alert('Bank soal utama gagal dimuat, jadi latihan tidak dimulai agar jumlah soal tidak menyusut. Muat ulang halaman ini (Ctrl+Shift+R) lalu coba lagi.');
+      return;
+    }
     var b = bank();
     var pool = mode === 'campuran' ? b.slice() : b.filter(function (q) { return q.cat === mode; });
     pool = shuffle(pool);
