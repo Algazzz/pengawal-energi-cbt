@@ -6,6 +6,7 @@
 <title>Latihan CBT Pengawal Energi 2026, Verifikator Lapangan</title>
 <meta name="description" content="Materi, referensi, bank soal, dan latihan CBT Pengawal Energi ESDM untuk posisi Verifikator Lapangan: Basic Science, Wawasan Migas Hilir, dan Tes Potensi Akademik.">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
 </head>
 <body>
 <header class="site-header">
@@ -223,7 +224,7 @@
         <summary>Matematika dasar</summary>
         <ul>
           <li>Deret aritmetika (beda tetap) dan geometri (rasio tetap), persen dan perbandingan, kecepatan sama dengan jarak dibagi waktu.</li>
-          <li>Konversi satuan wajib: 1 KL sama dengan 1.000 liter, 1 barel sekitar 159 liter, volume tangki silinder sama dengan pi dikali jari-jari kuadrat dikali tinggi.</li>
+          <li>Konversi: <span class="math-tex" data-tex="1\,\mathrm{kL}=1.000\,\mathrm{L}">1 kL = 1.000 L</span>; 1 barel sekitar 159 liter. Volume tangki silinder: <span class="math-tex" data-tex="V=\pi r^{2}h">V = πr²h</span>.</li>
           <li>Interpolasi tabel kalibrasi tangki: volume di antara dua level dibaca proporsional.</li>
         </ul>
       </details>
@@ -231,15 +232,15 @@
         <summary>Fisika: fluida, termal, listrik</summary>
         <ul>
           <li>Densitas rho sama dengan massa dibagi volume. Air 1.000 kg per meter kubik, sehingga air selalu berlapis di dasar tangki BBM.</li>
-          <li>Tekanan hidrostatis P sama dengan rho dikali g dikali h. Debit Q sama dengan luas penampang dikali kecepatan, dan sama dengan volume dibagi waktu.</li>
-          <li>Kontinuitas A1v1 sama dengan A2v2. Kalor Q sama dengan m dikali c dikali delta T. Hukum I Termodinamika: delta U sama dengan Q dikurangi W.</li>
-          <li>Listrik: Hukum Ohm V sama dengan I dikali R, daya P sama dengan V dikali I.</li>
+          <li>Tekanan hidrostatis: <span class="math-tex" data-tex="P=\rho gh">P = ρgh</span>. Debit: <span class="math-tex" data-tex="Q=Av=\dfrac{V}{t}">Q = Av = V/t</span>.</li>
+          <li>Kontinuitas: <span class="math-tex" data-tex="A_1v_1=A_2v_2">A₁v₁ = A₂v₂</span>. Kalor: <span class="math-tex" data-tex="Q=mc\Delta T">Q = mcΔT</span>. Hukum I Termodinamika: <span class="math-tex" data-tex="\Delta U=Q-W">ΔU = Q − W</span>.</li>
+          <li>Listrik: Hukum Ohm <span class="math-tex" data-tex="V=IR">V = IR</span>, daya <span class="math-tex" data-tex="P=VI">P = VI</span>.</li>
         </ul>
       </details>
       <details>
         <summary>Kimia: hidrokarbon dan BBM</summary>
         <ul>
-          <li>Alkana berumus CnH2n+2. LPG adalah campuran propana dan butana. Pembakaran sempurna hidrokarbon menghasilkan CO2 dan H2O.</li>
+          <li>Rumus umum alkana: <span class="math-tex" data-tex="\mathrm{C}_n\mathrm{H}_{2n+2}">CₙH₂ₙ₊₂</span>. LPG adalah campuran propana dan butana. Pembakaran sempurna hidrokarbon menghasilkan <span class="math-tex" data-tex="\mathrm{CO}_2">CO₂</span> dan <span class="math-tex" data-tex="\mathrm{H_2O}">H₂O</span>.</li>
           <li>Urutan fraksi distilasi dari ringan ke berat: gas, bensin, kerosin atau avtur, solar, pelumas, aspal. Makin panjang rantai karbon, makin tinggi titik didih.</li>
           <li>Angka oktan mengukur ketahanan bensin terhadap ketukan, angka setana mengukur kemudahan solar menyala. Dua istilah ini paling sering tertukar di soal.</li>
         </ul>
@@ -483,6 +484,8 @@
 
 <script src="questions.js" defer></script>
 <script src="extra-questions.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" defer></script>
+<script src="math-format.js" defer></script>
 <script src="app.js" defer></script>
 </body>
 </html>
