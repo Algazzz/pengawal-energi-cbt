@@ -5757,5 +5757,3295 @@ const QUESTIONS = [
    "Mengintegrasikan rekonsiliasi stok, verifikasi dokumen, analisis tren transaksi, dan klarifikasi pengelola; kemudian mendokumentasikan hasil serta menentukan tindak lanjut berdasarkan bukti.",
    "Mengubah stok tercatat agar sesuai dengan stok fisik tanpa menelusuri penyebabnya."
   ]
+ },
+ {
+  "cat": "TPA",
+  "q": "BPH MIGAS : PENGAWASAN = PEM AKAMIGAS : ...",
+  "options": [
+   "Pendistribusian",
+   "Pendidikan",
+   "Kilang",
+   "Eksplorasi",
+   "Pemasaran"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Lembaga berbanding Peran Utama. BPH Migas berfokus pada pengawasan pendistribusian migas, sedangkan PEM Akamigas merupakan perguruan tinggi vokasi yang berfokus pada pendidikan dan pelatihan sektor migas.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "DISPENSER : SPBU = METERAN : ...",
+  "options": [
+   "Depo",
+   "Tangki",
+   "Laboratorium",
+   "Verifikasi",
+   "Kalibrasi"
+  ],
+  "answer": 4,
+  "explain": "Hubungan analitisnya adalah Alat Pengukur berbanding Tindakan Pengujian Standar. Dispenser berada di SPBU, sementara Meteran memerlukan proses kalibrasi untuk memastikan akurasi volume ukur.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "JBT : SOLAR = JBKP : ...",
+  "options": [
+   "Avtur",
+   "Pertamax",
+   "Pertalite",
+   "Dexlite",
+   "LPG 3 Kg"
+  ],
+  "answer": 2,
+  "explain": "Hubungan analitisnya adalah Kategori BBM Subsidi atau Penugasan berbanding Jenis Produk BBM. JBT (Jenis BBM Tertentu) contohnya adalah Solar, sedangkan JBKP (Jenis BBM Khusus Penugasan) contoh produknya adalah Pertalite.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "LITIK : BATUAN = KILANG : ...",
+  "options": [
+   "Pipa",
+   "Tangki",
+   "Minyak Mentah",
+   "Pompa",
+   "Katup"
+  ],
+  "answer": 2,
+  "explain": "Hubungan analitisnya adalah Tempat Pengolahan berbanding Bahan Baku Utama. Kilang mengolah minyak mentah menjadi produk jadi, sebagaimana fasilitas litik mengolah batuan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "VERIFIKATOR : INSPEKSI = ANALIS : ...",
+  "options": [
+   "Penugasan",
+   "Evaluasi",
+   "Mobilisasi",
+   "Transporter",
+   "Sertifikasi"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Profesi berbanding Tugas Utama. Verifikator melakukan inspeksi langsung di lapangan, sedangkan Analis bertugas melakukan evaluasi data.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "TANGKI TERAPUNG : LAUT = DEPO : ...",
+  "options": [
+   "Pipa",
+   "Kapal",
+   "Darat",
+   "Dermaga",
+   "Suplai"
+  ],
+  "answer": 2,
+  "explain": "Hubungan analitisnya adalah Fasilitas Penyimpanan berbanding Lokasi Penempatan. Tangki terapung ditempatkan di laut, sedangkan Depo (Terminal BBM) berada di darat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "KUOTA : PEMBATASAN = SERTIFIKAT : ...",
+  "options": [
+   "Kelulusan",
+   "Legalitas",
+   "Pelatihan",
+   "Ujian",
+   "Dokumen"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Instrumen berbanding Fungsi Utama. Kuota berfungsi sebagai instrumen pembatasan jumlah, sedangkan Sertifikat berfungsi sebagai bukti legalitas pengakuan kompetensi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "BAROMETER : TEKANAN = SEGEL : ...",
+  "options": [
+   "Keamanan",
+   "Tangki",
+   "Aliran",
+   "Suhu",
+   "Volume"
+  ],
+  "answer": 0,
+  "explain": "Hubungan analitisnya adalah Objek berbanding Fungsi Utamanya. Barometer digunakan untuk mengukur tekanan, sedangkan segel dipasang untuk menjaga keamanan dari manipulasi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "PLTN : NUKLIR = PLTU : ...",
+  "options": [
+   "Air",
+   "Angin",
+   "Batubara",
+   "Panas Bumi",
+   "Matahari"
+  ],
+  "answer": 2,
+  "explain": "Hubungan analitisnya adalah Pembangkit Listrik berbanding Sumber Energi Utama. PLTN memanfaatkan energi nuklir, sedangkan PLTU (Pembangkit Listrik Tenaga Uap) memanfaatkan batubara sebagai bahan bakar utama.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "EKSPLORASI : EKSPLOITASI = PEMBEKALAN : ...",
+  "options": [
+   "Sertifikasi",
+   "Penugasan",
+   "Pendaftaran",
+   "Seleksi",
+   "Evaluasi"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Tahapan Berurutan. Eksplorasi (pencarian) dilakukan sebelum eksploitasi (penambangan). Pembekalan materi dilakukan tepat sebelum penerjunan penugasan di lapangan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "PIPA : FLUIDA = KABEL : ...",
+  "options": [
+   "Tegangan",
+   "Arus Listrik",
+   "Tembaga",
+   "Hambatan",
+   "Daya"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Media Saluran berbanding Subjek yang Mengalir. Pipa adalah media untuk mengalirkan fluida, sedangkan kabel adalah media untuk mengalirkan arus listrik.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "SUBSIDI : MASYARAKAT FAKIR = PENUGASAN : ...",
+  "options": [
+   "Wilayah 3T",
+   "Penjual BBM",
+   "Importir",
+   "Industri Besar",
+   "Penduduk Kota"
+  ],
+  "answer": 0,
+  "explain": "Hubungan analitisnya adalah Program Kebijakan berbanding Target Sasaran Utama. Subsidi ditujukan untuk masyarakat kurang mampu, sedangkan BBM Penugasan ditujukan untuk menjamin ketersediaan energi di daerah sasaran khusus seperti Wilayah 3T.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "SKCK : REKAM JEJAK = KTP : ...",
+  "options": [
+   "Kewarganegaraan",
+   "Tempat Lahir",
+   "Kelulusan",
+   "Pekerjaan",
+   "Usia"
+  ],
+  "answer": 0,
+  "explain": "Hubungan analitisnya adalah Dokumen Administrasi berbanding Bukti Identitas Utama. SKCK membuktikan rekam jejak kelakuan baik, sedangkan KTP membuktikan status kewarganegaraan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "KOMPRESI : GAS = KONDENSASI : ...",
+  "options": [
+   "Uap",
+   "Beku",
+   "Padat",
+   "Panas",
+   "Tekanan"
+  ],
+  "answer": 0,
+  "explain": "Hubungan analitisnya adalah Proses Perubahan berbanding Subjek Zat. Kompresi dilakukan pada zat gas, sedangkan kondensasi adalah pengembunan yang terjadi pada uap.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "VOKASI : KETERAMPILAN = AKADEMIK : ...",
+  "options": [
+   "Gelar",
+   "Pengetahuan",
+   "Sertifikat",
+   "Ijazah",
+   "Praktek"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Jalur Pendidikan berbanding Output Utama. Pendidikan vokasi berfokus pada penguasaan keterampilan teknis, sedangkan pendidikan akademik berfokus pada penguasaan pengetahuan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "DEPO : DISTRIBUSI = SPBU : ...",
+  "options": [
+   "Pengolahan",
+   "Penjualan Eceran",
+   "Pengangkutan",
+   "Penyaringan",
+   "Impor"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Fasilitas berbanding Fungsi Operasional Utama. Depo berfungsi untuk penerimaan dan distribusi BBM skala besar, sedangkan SPBU berfungsi untuk penjualan eceran langsung ke konsumen akhir.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "DISCREPANCY : SELISIH = AUDIT : ...",
+  "options": [
+   "Perbaikan",
+   "Pemeriksaan",
+   "Penyertaan",
+   "Pelanggaran",
+   "Pengawasan"
+  ],
+  "answer": 1,
+  "explain": "Hubungan analitisnya adalah Istilah Bahasa Asing berbanding Makna Bahasa Indonesia. Discrepancy berarti selisih atau ketidaksesuaian, sedangkan audit berarti pemeriksaan resmi terhadap data atau lapangan. PEMAHAMAN WACANA & TATA",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Gagasan utama dari paragraf di atas adalah ...",
+  "options": [
+   "Prosedur pemantauan teknis pada fasilitas digitalisasi dispenser BBM.",
+   "Peran institusi pendidikan vokasi dalam menyalurkan BBM bersubsidi.",
+   "Upaya Kementerian ESDM memperketat pengawasan pendistribusian BBM bersubsidi.",
+   "Tata cara pengajuan dokumen kuota BBM Jenis BBM Tertentu di BPH Migas.",
+   "Rincian tugas verifikator lapangan dalam memeriksa alat penyalur eceran."
+  ],
+  "answer": 2,
+  "explain": "Gagasan utama paragraf terletak pada kalimat pertama (paragraf deduktif), yaitu mengenai upaya Kementerian ESDM dalam memperketat pengawasan pendistribusian BBM bersubsidi di Indonesia.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kata deviasi dalam wacana di atas memiliki makna yang sepadan dengan ...",
+  "options": [
+   "Pengurangan",
+   "Penyimpangan",
+   "Penggabungan",
+   "Penambahan",
+   "Pembengkakan"
+  ],
+  "answer": 1,
+  "explain": "Dalam konteks pengawasan distribusi, kata deviasi berarti penyimpangan dari standar, aturan, atau alur penyaluran yang seharusnya.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pernyataan berikut yang TIDAK SESUAI dengan isi wacana di atas adalah ...",
+  "options": [
+   "Pengawasan pendistribusian BBM dilakukan melalui kolaborasi BPH Migas dan vokasi sektor energi.",
+   "Verifikator lapangan bertugas memeriksa keabsahan dokumen kuota BBM.",
+   "JBT dan JBKP merupakan kategori BBM yang pengawasannya diperketat.",
+   "Pemantauan digitalisasi dispenser BBM merupakan bagian dari tugas di lapangan.",
+   "Kementerian ESDM menghentikan alokasi BBM bersubsidi bagi penyalur yang terbukti deviasi."
+  ],
+  "answer": 4,
+  "explain": "Dalam teks tidak disebutkan bahwa Kementerian ESDM menghentikan alokasi BBM bersubsidi bagi penyalur yang terbukti deviasi. Opsi A, B, C, dan D tercantum dalam wacana.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Penulisan kalimat berikut yang SESUAI dengan kaidah Ejaan Bahasa Indonesia (PUEBI/EYD) adalah ...",
+  "options": [
+   "Tim verifikasi meninjau SPBU di kabupaten Blora Jawa Tengah.",
+   "BPH Migas mengawasi distribusi bbm bersubsidi di seluruh wilayah Indonesia.",
+   "Sebanyak 100 orang verifikator lapangan diterjunkan ke luar Pulau Jawa.",
+   "Kementerian esdm menyelenggarakan program pengawal energi tahun 2026.",
+   "Uji sertifikasi dilaksanakan oleh Politeknik energi dan Mineral Akamigas."
+  ],
+  "answer": 2,
+  "explain": "Kalimat C tepat. Kata Pulau Jawa diawali huruf kapital karena nama geografis, dan angka 100 di awal kalimat ditulis menggunakan format yang sesuai. Opsi lain salah pada penulisan huruf kapital (kabupaten, bbm, esdm, energi).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kalimat berikut yang merupakan bentuk KALIMAT EFEKTIF adalah ...",
+  "options": [
+   "Bagi para pelamar yang mendaftar posisi analis wajib untuk mengunggah ijazah asli.",
+   "Kementerian ESDM menugaskan verifikator lapangan untuk mengawasi distribusi BBM.",
+   "Dalam seleksi administrasi tersebut mengharuskan peserta melampirkan surat SKCK.",
+   "Pelaksanaan pembekalan materi tes diikuti oleh daripada seluruh peserta lolos.",
+   "Penyebab daripada ketidaksesuaian kuota disebabkan karena kesalahan data pencatatan."
+  ],
+  "answer": 1,
+  "explain": "Kalimat B memiliki struktur Subjek, Predikat, dan Objek yang jelas serta tidak pleonastis. Opsi A dan C kehilangan subjek karena kata depan di awal, opsi D dan E menggunakan kata perangkai yang mubazir.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Penggunaan tanda baca yang tepat terdapat pada kalimat ...",
+  "options": [
+   "Berkas yang harus diunggah antara lain: KTP, Ijazah, dan SKCK.",
+   "Program ini dilaksanakan dari bulan Oktober 2026, sampai dengan November 2026.",
+   "Peserta wajib membawa dokumen asli; KTP, SKCK, dan Surat Kesehatan.",
+   "Verifikator memeriksa data, dan menetapkan status kelulusan peserta.",
+   "Bapak Sugeng, M.T. membuka kegiatan pembekalan peserta pengawal energi."
+  ],
+  "answer": 4,
+  "explain": "Penulisan gelar akademik menggunakan tanda koma sebelum dan sesudah nama/gelar secara tepat (Bapak Sugeng, M.T.). Opsi lain salah penggunaan titik dua, koma sebelum kata hubung tunggal, dan titik koma.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kata bentukan yang TIDAK BAKU terdapat dalam kalimat ...",
+  "options": [
+   "Petugas lapangan memverifikasi data kuota penyaluran BBM harian.",
+   "Tim audit mensertifikasi fasilitas dispenser di beberapa stasiun pengisian.",
+   "Pemerintah mentargetkan distribusi BBM bersubsidi berjalan tepat sasaran.",
+   "Peserta harus mengkoordinasikan jadwal keberangkatan dengan tim fasilitator.",
+   "Kementerian ESDM mengalokasikan anggaran operasional penugasan lapangan."
+  ],
+  "answer": 2,
+  "explain": "Kata mentargetkan tidak baku. Berdasarkan kaidah peluluhan awalan me-N + kata dasar berawalan huruf T (target), bentuk bakunya adalah menargetkan. Bacalah teks berikut untuk menjawab soal nomor 25 dan 26! Skema Perjanjian Kerja Jasa Perorangan (PJLP) di lingkungan instansi pemerintah memberikan kepastian hukum dan profesionalisme kerja bagi tenaga penugasan khusus. Dalam kaitannya dengan pengawasan distribusi BBM, pola PJLP memungkinkan alokasi sumber daya manusia bergerak secara fleksibel mengikuti pemetaan titik-titik rawan deviasi. Sertifikasi kompetensi yang diberikan di akhir masa pembekalan menjadi tolok ukur utama standar operasional petugas saat berhadapan dengan pengelola fasilitas distribusi energi di lapangan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Istilah fleksibel pada teks di atas bermakna ...",
+  "options": [
+   "Tetap dan tidak dapat diubah",
+   "Luwes dan mudah disesuaikan",
+   "Ketat dan terbatas",
+   "Berkelanjutan tanpa henti",
+   "Mengikat secara hukum"
+  ],
+  "answer": 1,
+  "explain": "Kata fleksibel bermakna luwes, tidak kaku, serta mudah disesuaikan dengan kebutuhan kondisi di lapangan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kata tidak baku yang terdapat dalam wacana di atas adalah ...",
+  "options": [
+   "Skema",
+   "Standar",
+   "Tolok ukur",
+   "Profesionalisme",
+   "(Tidak ada kata yang tidak baku)"
+  ],
+  "answer": 4,
+  "explain": "Seluruh kata pada teks tersebut (skema, standar, tolok ukur, profesionalisme) merupakan bentuk kata baku sesuai KBBI.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Antonim kontekstual dari kata KRUSIAL dalam kalimat \"Pengawasan di titik perbatasan sangat krusial\" adalah ...",
+  "options": [
+   "Penting",
+   "Sepele",
+   "Gawat",
+   "Khusus",
+   "Utama"
+  ],
+  "answer": 1,
+  "explain": "Krusial berarti sangat penting, menentukan, atau mendesak. Lawan kata (antonim) dari krusial adalah sepele atau tidak penting.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah gabungan kata di bawah ini yang penulisannya TIDAK TEPAT?",
+  "options": [
+   "Non-penerbangan",
+   "Tanganggung jawab",
+   "Kerja sama",
+   "Subsektor",
+   "Serah terima"
+  ],
+  "answer": 1,
+  "explain": "Penulisan yang benar adalah tanggung jawab (dipisah). Kata ini baru ditulis serangkai jika mendapat awalan dan akhiran sekaligus (menanggungjawabkan).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Hasil verifikasi berkas menunjukkan adanya selisih angka antara laporan digital dengan bukti fisik di lapangan. Inti dari kalimat di atas adalah ...",
+  "options": [
+   "Berkas menunjukkan bukti fisik.",
+   "Hasil verifikasi menunjukkan selisih angka.",
+   "Laporan digital berbeda dengan lapangan.",
+   "Verifikasi berkas dilakukan di lapangan.",
+   "Selisih angka terjadi pada bukti fisik."
+  ],
+  "answer": 1,
+  "explain": "Inti kalimat terdiri dari Subjek Utama (Hasil verifikasi berkas), Predikat Utama (menunjukkan), dan Objek Utama (adanya selisih angka).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Penggunaan kata depan yang SALAH terdapat pada kalimat ...",
+  "options": [
+   "Surat komitmen ditandatangani di atas materai.",
+   "Peserta bertolak ke lokasi penugasan pada bulan Desember.",
+   "Informasi lengkap dapat diakses daripada situs resmi.",
+   "Verifikator diterjunkan di luar Pulau Jawa.",
+   "Pelatihan dilaksanakan dari tanggal 23 Oktober."
+  ],
+  "answer": 2,
+  "explain": "Kata depan daripada digunakan untuk membandingkan dua hal. Untuk menyatakan asal/sumber informasi, kata depan yang benar adalah dari.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sinonim yang paling tepat untuk kata VALIDASI adalah ...",
+  "options": [
+   "Pengujian",
+   "Pengesahan",
+   "Perencanaan",
+   "Perubahan",
+   "Penolakan"
+  ],
+  "answer": 1,
+  "explain": "Validasi berarti pengesahan atau pembuktian kebenaran suatu dokumen/data.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kalimat berikut yang mengandung kesalahan penulisan angka atau bilangan adalah ...",
+  "options": [
+   "Sebanyak 100 orang verifikator lapangan dialokasikan tahun ini.",
+   "Lima analis bertugas di area Blora, sedangkan tiga lainnya di Cepu.",
+   "Pendaftaran dibuka selama 10 hari kerja berturut-turut.",
+   "Tiga puluh peserta mengikuti sesi wawancara tahap pertama.",
+   "ESDM menyiagakan 8 orang analis untuk mendukung data pengawasan."
+  ],
+  "answer": 4,
+  "explain": "Angka dalam teks yang dapat dinyatakan dengan satu atau dua kata ditulis dengan huruf (delapan orang), bukan dengan angka (8 orang), kecuali dalam rincian data.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Bentuk kalimat pasif yang tepat dari kalimat aktif \"Verifikator memeriksa keabsahan dokumen kuota BBM\" adalah ...",
+  "options": [
+   "Keabsahan dokumen kuota BBM diperiksa oleh verifikator.",
+   "Dokumen kuota BBM yang memeriksa adalah verifikator.",
+   "Pemeriksaan keabsahan dokumen kuota BBM dilakukan verifikator.",
+   "Verifikator diperiksa keabsahan dokumen kuota BBM-nya.",
+   "Keabsahan verifikator diperiksa dokumen kuota BBM."
+  ],
+  "answer": 0,
+  "explain": "Kalimat pasif dibentuk dengan memindahkan Objek (Keabsahan dokumen kuota BBM) menjadi Subjek, dan predikat diubah menggunakan imbuham di- (diperiksa oleh verifikator).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pemerintah melakukan... terhadap mekanisme kuota guna menghindari... penyaluran BBM di tingkat stasiun pengisian. Kata yang tepat untuk mengisi titik-titik di atas adalah ...",
+  "options": [
+   "Penyesuaian - kebocoran",
+   "Pembatalan - kelancaran",
+   "Penghentian - penurunan",
+   "Pembengkakan - keteraturan",
+   "Penundaan - pemerataan"
+  ],
+  "answer": 0,
+  "explain": "",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua verifikator lapangan Pengawal Energi wajib mengikuti pembekalan teknis. Sebagian peserta yang mengikuti pembekalan teknis mendapatkan sertifikat kompetensi. Kesimpulan yang paling tepat adalah ...",
+  "options": [
+   "Semua verifikator lapangan mendapatkan sertifikat kompetensi.",
+   "Sebagian verifikator lapangan mendapatkan sertifikat kompetensi.",
+   "Semua peserta yang mendapat sertifikat kompetensi adalah verifikator lapangan.",
+   "Sebagian peserta yang tidak mengikuti pembekalan adalah verifikator lapangan.",
+   "Tidak dapat ditarik kesimpulan yang pasti."
+  ],
+  "answer": 1,
+  "explain": "Premis 1 (Semua A adalah B) dan Premis 2 (Sebagian B adalah C). Kesimpulan gabungan untuk kondisi sebagian adalah Sebagian A adalah C (Sebagian verifikator lapangan mendapatkan sertifikat kompetensi).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika kuota BBM bersubsidi melebihi batas, maka BPH Migas melakukan evaluasi penyaluran. Jika BPH Migas melakukan evaluasi penyaluran, maka dilakukan verifikasi ulang di lapangan. Kesimpulan yang sah adalah ...",
+  "options": [
+   "Jika kuota BBM bersubsidi melebihi batas, maka dilakukan verifikasi ulang di lapangan.",
+   "Jika dilakukan verifikasi ulang di lapangan, maka kuota BBM bersubsidi melebihi batas.",
+   "BPH Migas tidak melakukan evaluasi penyaluran jika kuota belum melebihi batas.",
+   "Verifikasi ulang di lapangan hanya dilakukan oleh Analis ESDM.",
+   "Kuota BBM bersubsidi tidak akan pernah melebihi batas alokasi."
+  ],
+  "answer": 0,
+  "explain": "Menggunakan hukum Silogisme Hipotetis (Jika P maka Q dan Jika Q maka R - > Kesimpulan: Jika P maka R). P = Kuota melebihi batas, Q = BPH Migas evaluasi, R = Verifikasi ulang lapangan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua dokumen pendaftaran yang diunggah harus dapat terbaca dengan jelas. Beberapa berkas transkrip nilai yang diunggah pelamar tidak dapat terbaca dengan jelas. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua berkas transkrip nilai tidak dapat terbaca dengan jelas.",
+   "Beberapa berkas transkrip nilai yang diunggah pelamar bukan dokumen pendaftaran yang memenuhi syarat.",
+   "Semua dokumen pendaftaran yang diunggah adalah transkrip nilai.",
+   "Pelamar yang berkasnya tidak terbaca otomatis dinyatakan lulus administrasi.",
+   "Tidak ada berkas yang diunggah oleh pelamar."
+  ],
+  "answer": 1,
+  "explain": "Karena semua dokumen pendaftaran wajib terbaca jelas, maka beberapa berkas transkrip yang tidak terbaca jelas dikategorikan sebagai berkas yang tidak memenuhi syarat dokumen pendaftaran yang sah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua Analis Pengawal Energi bertugas di Cepu-Blora. Sugeng adalah Verifikator Lapangan Pengawal Energi. Kesimpulan yang benar adalah ...",
+  "options": [
+   "Sugeng bertugas di Cepu-Blora.",
+   "Sugeng tidak bertugas di Cepu-Blora.",
+   "Sugeng bertugas di luar Pulau Jawa.",
+   "Sugeng mungkin bertugas di Cepu-Blora.",
+   "Sugeng adalah seorang Analis Pengawal Energi."
+  ],
+  "answer": 2,
+  "explain": "Berdasarkan aturan program, Analis bertugas di Cepu-Blora, sedangkan Verifikator Lapangan bertugas di luar Pulau Jawa. Karena Sugeng adalah Verifikator Lapangan, maka Sugeng bertugas di luar Pulau Jawa.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika peserta tidak lolos seleksi administrasi, maka peserta tidak dapat mengikuti seleksi CBT. Peserta A mengikuti seleksi CBT. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Peserta A tidak lolos seleksi administrasi.",
+   "Peserta A lolos seleksi administrasi.",
+   "Peserta A gugur pada tahap tes CBT.",
+   "Peserta A tidak mengunggah dokumen KTP.",
+   "Peserta A mendaftar sebagai Analis."
+  ],
+  "answer": 1,
+  "explain": "Penarikan kesimpulan Modus Tollens (Jika P maka Q. Terjadi Tidak Q -> Kesimpulan: Tidak P). P = Tidak lolos administrasi, Q = Tidak ikut CBT. Karena peserta ikut CBT (Tidak Q), berarti peserta lolos administrasi (Tidak P).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua fasilitas SPBU yang terverifikasi memiliki segel meteran yang sah. Sebagian fasilitas SPBU di Wilayah X tidak memiliki segel meteran yang sah. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua fasilitas SPBU di Wilayah X terverifikasi.",
+   "Sebagian fasilitas SPBU di Wilayah X tidak terverifikasi.",
+   "Semua fasilitas SPBU di Wilayah X tidak memiliki dispenser.",
+   "Sebagian fasilitas SPBU di Wilayah X telah ditutup oleh BPH Migas.",
+   "Segel meteran di Wilayah X dipasang oleh verifikator lapangan."
+  ],
+  "answer": 1,
+  "explain": "Premis 1: Terverifikasi -> Memiliki segel sah. Jika sebagian SPBU di Wilayah X tidak memiliki segel sah, maka sebagian SPBU tersebut tidak terverifikasi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua pelamar Pengawal Energi memiliki IPK minimal 2,75. Semua pelamar Pengawal Energi membawa SKCK aktif. Kesimpulan yang paling sesuai adalah ...",
+  "options": [
+   "Semua pelamar yang memiliki IPK minimal 2,75 membawa SKCK aktif.",
+   "Pelamar yang membawa SKCK aktif pasti memiliki IPK di atas 3,00.",
+   "Semua pelamar Pengawal Energi memiliki IPK minimal 2,75 dan membawa SKCK aktif.",
+   "Sebagian pelamar Pengawal Energi tidak membawa SKCK aktif.",
+   "Pelamar yang memiliki IPK di bawah 2,75 tetap membawa SKCK aktif."
+  ],
+  "answer": 2,
+  "explain": "Kedua premis bersifat universal (Semua A adalah B, Semua A adalah C). Kesimpulan penggabungan dua sifat mutlak tersebut adalah Semua A adalah B dan C.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika terjadi ketidaksesuaian data pencatatan, maka laporan penyaluran BBM dinyatakan ditolak. Hari ini laporan penyaluran BBM tidak ditolak. Kesimpulan yang sah adalah ...",
+  "options": [
+   "Terjadi ketidaksesuaian data pencatatan.",
+   "Tidak terjadi ketidaksesuaian data pencatatan.",
+   "Laporan penyaluran BBM dibuat oleh verifikator lapangan.",
+   "Terjadi deviasi penyaluran di tingkat eceran.",
+   "Kuota BBM bersubsidi telah habis."
+  ],
+  "answer": 1,
+  "explain": "Menggunakan Modus Tollens (Jika P maka Q. Terjadi Tidak Q -> Kesimpulan: Tidak P). P = Terjadi ketidaksesuaian data, Q = Laporan ditolak.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua petugas lapangan mengenakan Rompi Safety dan ID Card saat bertugas. Rian bertugas di lapangan tanpa mengenakan Rompi Safety. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Rian mengenakan ID Card saat bertugas.",
+   "Rian tidak menjalankan aturan penugasan petugas lapangan yang berlaku secara penuh.",
+   "Rian adalah seorang Analis di Cepu-Blora.",
+   "Rian telah menyelesaikan sertifikasi kompetensi.",
+   "Rian bukan petugas Pengawal Energi."
+  ],
+  "answer": 1,
+  "explain": "Syarat petugas lapangan saat bertugas adalah mengenakan Rompi Safety dan ID Card. Jika Rian tidak mengenakan Rompi Safety, Rian tidak memenuhi standar aturan penugasan secara lengkap.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebagian penugasan dilakukan di wilayah 3T. Semua wilayah 3T membutuhkan pengawasan ketat pendistribusian BBM. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua penugasan membutuhkan pengawasan ketat pendistribusian BBM.",
+   "Sebagian penugasan membutuhkan pengawasan ketat pendistribusian BBM.",
+   "Sebagian wilayah 3T tidak membutuhkan pengawasan ketat.",
+   "Penugasan di luar wilayah 3T tidak memerlukan pengawasan.",
+   "Tidak ada penugasan yang dilakukan di luar wilayah 3T."
+  ],
+  "answer": 1,
+  "explain": "Penarikan kesimpulan partikular (Sebagian A adalah B + Semua B adalah C -> Kesimpulan: Sebagian A adalah C). Sebagian penugasan (yang berada di wilayah 3T) membutuhkan pengawasan ketat pendistribusian BBM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Tidak ada dokumen palsu yang lolos verifikasi administrasi. Beberapa pendaftar menyerahkan dokumen yang lolos verifikasi administrasi. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua dokumen yang diserahkan pendaftar adalah dokumen asli.",
+   "Beberapa pendaftar menyerahkan dokumen yang bukan dokumen palsu.",
+   "Semua pendaftar yang lolos administrasi menggunakan dokumen palsu.",
+   "Dokumen palsu dapat diperbaiki pada masa sanggah atau revisi.",
+   "Tidak ada pendaftar yang lolos verifikasi administrasi."
+  ],
+  "answer": 1,
+  "explain": "Karena dokumen palsu tidak ada yang lolos, maka pendaftar yang dokumennya lolos dipastikan menyerahkan dokumen yang bukan dokumen palsu (asli atau sah).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika sertifikat kompetensi diterbitkan, maka peserta dinyatakan kompeten sebagai operator pendistribusian BBM. Peserta B tidak dinyatakan kompeten sebagai operator pendistribusian BBM. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Sertifikat kompetensi peserta B telah diterbitkan.",
+   "Sertifikat kompetensi peserta B tidak diterbitkan.",
+   "Peserta B tetap diterjunkan ke titik penugasan lapangan.",
+   "Peserta B lulus ujian CBT dengan nilai tertinggi.",
+   "Peserta B mendaftar pada posisi Analis."
+  ],
+  "answer": 1,
+  "explain": "Menggunakan hukum Modus Tollens. P = Sertifikat diterbitkan, Q = Peserta dinyatakan kompeten. Jika terjadi tidak Q (tidak kompeten), maka kesimpulannya tidak P (sertifikat tidak diterbitkan).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua kegiatan pengawasan BBM tercatat dalam sistem digital. Sebagian kegiatan di SPBU X tidak tercatat dalam sistem digital. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua kegiatan di SPBU X adalah kegiatan pengawasan BBM.",
+   "Sebagian kegiatan di SPBU X bukan kegiatan pengawasan BBM.",
+   "Kegiatan di SPBU X dihentikan sementara oleh BPH Migas.",
+   "Verifikator lapangan tidak mengunjungi SPBU X.",
+   "Sistem digital di SPBU X mengalami kerusakan teknis."
+  ],
+  "answer": 1,
+  "explain": "Karena semua pengawasan BBM wajib tercatat dalam sistem digital, maka kegiatan di SPBU X yang tidak tercatat disimpulkan bukan merupakan kegiatan pengawasan BBM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua pelamar posisi Analis ditempatkan di Cepu-Blora. Semua yang ditempatkan di Cepu-Blora tidak memilih preferensi wilayah penugasan. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua pelamar posisi Analis tidak memilih preferensi wilayah penugasan.",
+   "Sebagian pelamar posisi Analis memilih preferensi wilayah penugasan.",
+   "Pelamar yang memilih preferensi wilayah penugasan adalah Analis.",
+   "Verifikator lapangan ditempatkan di Cepu- Blora.",
+   "Tidak ada posisi Analis pada seleksi tahun ini."
+  ],
+  "answer": 0,
+  "explain": "Menggunakan hukum Silogisme Kategoris (Semua A adalah B, Semua B adalah C -> Kesimpulan: Semua A adalah C). A = Analis, B = Ditempatkan di Cepu-Blora, C = Tidak memilih preferensi wilayah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika kuota BBM subsidi menipis, maka pemerintah melakukan pengetatan distribusi. Pemerintah tidak melakukan pengetatan distribusi. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Kuota BBM subsidi telah habis.",
+   "Kuota BBM subsidi tidak menipis.",
+   "Terjadi pelanggaran penyaluran BBM di lapangan.",
+   "Verifikator lapangan ditarik dari penugasan.",
+   "Penyaluran BBM subsidi dihentikan total."
+  ],
+  "answer": 1,
+  "explain": "Berdasarkan Modus Tollens (Jika P maka Q. Terjadi Tidak Q -> Kesimpulan: Tidak P). P = Kuota menipis, Q = Pengetatan distribusi. Karena tidak ada pengetatan distribusi (Tidak Q), berarti kuota BBM subsidi tidak menipis (Tidak P).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semua peserta yang lulus seleksi wawancara mengikuti pembekalan teknis. Sebagian peserta yang mengikuti pembekalan teknis ditempatkan di luar Pulau Jawa. Kesimpulan yang tepat adalah ...",
+  "options": [
+   "Semua peserta yang lulus seleksi wawancara ditempatkan di luar Pulau Jawa.",
+   "Sebagian peserta yang lulus seleksi wawancara ditempatkan di luar Pulau Jawa.",
+   "Semua peserta yang ditempatkan di luar Pulau Jawa tidak lulus seleksi wawancara.",
+   "Pembekalan teknis hanya diikuti oleh peserta Verifikator Lapangan.",
+   "Tidak dapat ditarik kesimpulan yang pasti."
+  ],
+  "answer": 1,
+  "explain": "Gabungan premis universal dan partikular (Semua A adalah B, Sebagian B adalah C -> Kesimpulan: Sebagian A adalah C). Sebagian peserta yang lulus seleksi wawancara (khususnya formasi Verifikator Lapangan) ditempatkan di luar Pulau Jawa. 2. Tes Kuantitatif & Analitis Adapun poin tes yang akan keluar pada tes tersebut adalah : • Materi 1: Pengolahan Data Numerik Dasar & Hitungan Rasio/Persentase o Fokus Subtes: Menguji kecepatan dan ketelitian dalam melakukan perhitungan aritmatika dasar, aljabar praktis, rasio perbandingan kuota/volume BBM, persentase deviasi/realisasi penyaluran, serta perhitungan estimasi konsumsi energi. o Cakupan Topik: Operasi bilangan bulat dan pecahan, perhitungan persentase untung/rugi/selisih, rasio perbandingan senilai/berbalik nilai, dan estimasi beban kerja/kecepatan penyaluran. • Materi 2: Analisis Tabel & Diagram (Data Operasional Distribusi) o Fokus Subtes: Menguji kemampuan membaca, menganalisis, serta menarik kesimpulan kuantitatif dari data tabular, grafik batang, atau diagram lingkaran terkait realisasi BBM JBT/JBKP. o Cakupan Topik: Membaca tren kenaikan/penurunan kuota, mencari rata-rata (mean), nilai tengah (median), selisih volume, dan persenta",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebuah SPBU menerima alokasi harian Solar JBT sebanyak 15.000 liter. Jika hingga siang hari BBM tersebut telah tersalurkan sebanyak 9.600 liter, berapa persentase sisa alokasi Solar JBT yang belum tersalurkan?",
+  "options": [
+   "32%",
+   "36%",
+   "40%",
+   "56%",
+   "64%"
+  ],
+  "answer": 1,
+  "explain": "Sisa alokasi = 15.000 - 9.600 = 5.400 liter. Persentase sisa = (5.400 / 15.000) x 100% = 36%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Rasio alokasi Pertalite antara SPBU A dan SPBU B adalah 5 : 8. Jika total alokasi Pertalite untuk kedua SPBU tersebut adalah 104 kiloliter, berapakah selisih alokasi Pertalite antara kedua SPBU tersebut?",
+  "options": [
+   "16 kiloliter",
+   "24 kiloliter",
+   "32 kiloliter",
+   "40 kiloliter",
+   "64 kiloliter"
+  ],
+  "answer": 1,
+  "explain": "Total bagian rasio = 5 + 8 = 13 bagian. Nilai 1 bagian = 104 / 13 = 8 kiloliter. Selisih bagian rasio = 8 - 5 = 3 bagian. Selisih alokasi = 3 x 8 = 24 kiloliter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Seorang Verifikator Lapangan membutuhkan waktu 45 menit untuk melakukan audit digitalisasi dispenser di 1 SPBU. Berapa total waktu yang dibutuhkan jika verifikator tersebut harus mengaudit 8 SPBU dengan waktu istirahat total 45 menit?",
+  "options": [
+   "5 jam 15 menit",
+   "6 jam 00 menit",
+   "6 jam 45 menit",
+   "7 jam 15 menit",
+   "7 jam 30 menit"
+  ],
+  "answer": 2,
+  "explain": "Waktu audit 8 SPBU = 8 x 45 menit = 360 menit. 360 menit = 6 jam. Total waktu termasuk istirahat = 6 jam + 45 menit = 6 jam 45 menit.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebuah tangki penyimpanan BBM berisi 4/5 dari kapasitas totalnya. Setelah disalurkan sebanyak 12.000 liter, isi tangki tersebut kini tersisa 1/2 dari kapasitas total. Berapakah kapasitas total tangki penyimpanan tersebut?",
+  "options": [
+   "30.000 liter",
+   "36.000 liter",
+   "40.000 liter",
+   "48.000 liter",
+   "60.000 liter"
+  ],
+  "answer": 2,
+  "explain": "Selisih pecahan = 4/5 - 1/2 = 8/10 - 5/10 = 3/10 bagian. 3/10 bagian = 12.000 liter. Kapasitas total = 12.000 x (10 / 3) = 40.000 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Target pengawasan bulanan seorang verifikator adalah 25 SPBU. Pada minggu ketiga, ia telah menyelesaikan pengawasan di 18 SPBU. Berapa persentase ketercapaian target pengawasan verifikator tersebut hingga minggu ketiga?",
+  "options": [
+   "68%",
+   "72%",
+   "75%",
+   "80%",
+   "82%"
+  ],
+  "answer": 1,
+  "explain": "Persentase ketercapaian = (18 / 25) x 100% = 72%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika 6 orang verifikator dapat menyelesaikan verifikasi dokumen kuota BBM di suatu daerah dalam waktu 10 hari, berapa harikah waktu yang dibutuhkan jika pekerjaan tersebut dikerjakan oleh 15 orang verifikator?",
+  "options": [
+   "3 hari",
+   "4 hari",
+   "5 hari",
+   "6 hari",
+   "8 hari"
+  ],
+  "answer": 1,
+  "explain": "Gunakan perbandingan berbalik nilai. (6 orang x 10 hari) = 15 orang x N hari. 60 = 15 x N. N = 60 / 15 = 4 hari.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebuah armada mobil tangki BBM menyalurkan 2.400 liter Solar per jam. Jika mobil tangki tersebut beroperasi mulai pukul 07.30 hingga pukul 12.00 tanpa berhenti, berapa total volume Solar yang telah disalurkan?",
+  "options": [
+   "9.600 liter",
+   "10.200 liter",
+   "10.800 liter",
+   "11.400 liter",
+   "12.000 liter"
+  ],
+  "answer": 2,
+  "explain": "Durasi waktu = 07.30 hingga 12.00 = 4 jam 30 menit = 4,5 jam. Total volume = 2.400 liter/jam x 4,5 jam = 10.800 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dalam satu penerimaan kuota bulanan, kuota Solar JBT di Kabupaten X mengalami penurunan dari 4.000 kiloliter menjadi 3.400 kiloliter. Berapa persentase penurunan kuota Solar JBT di kabupaten tersebut?",
+  "options": [
+   "12%",
+   "15%",
+   "16%",
+   "18%",
+   "20%"
+  ],
+  "answer": 1,
+  "explain": "Jumlah penurunan = 4.000 - 3.400 = 600 kiloliter. Persentase penurunan = (600 / 4.000) x 100% = 15%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Rata-rata volume penyaluran harian Pertalite di 4 SPBU adalah 12.000 liter. Jika ditambahkan SPBU ke-5, rata-rata penyaluran harian menjadi 12.500 liter. Berapakah volume penyaluran harian Pertalite di SPBU ke-5 tersebut?",
+  "options": [
+   "13.000 liter",
+   "13.500 liter",
+   "14.000 liter",
+   "14.500 liter",
+   "15.000 liter"
+  ],
+  "answer": 3,
+  "explain": "Total volume 4 SPBU = 4 x 12.000 = 48.000 liter. Total volume 5 SPBU = 5 x 12.500 = 62.500 liter. Volume SPBU ke-5 = 62.500 - 48.000 = 14.500 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Suatu hasil pemeriksaan menunjukkan deviasi penyaluran sebesar 2,5% dari total kuota 80.000 liter. Berapakah jumlah fisik volume BBM yang mengalami deviasi tersebut?",
+  "options": [
+   "1.500 liter",
+   "1.800 liter",
+   "2.000 liter",
+   "2.200 liter",
+   "2.500 liter"
+  ],
+  "answer": 2,
+  "explain": "Volume deviasi = 2,5% x 80.000 = (2,5 / 100) x 80.000 = 2.000 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Hasil perbandingan antara penerimaan BBM Pertamax dan Solar pada sebuah depo penampungan adalah 3 : 7. Jika selisih penerimaan kedua jenis BBM tersebut adalah 32.000 liter, berapakah jumlah penerimaan BBM Pertamax?",
+  "options": [
+   "16.000 liter",
+   "24.000 liter",
+   "32.000 liter",
+   "48.000 liter",
+   "56.000 liter"
+  ],
+  "answer": 1,
+  "explain": "Selisih perbandingan = 7 - 3 = 4 bagian. Nilai 1 bagian = 32.000 / 4 = 8.000 liter. Penerimaan Pertamax (3 bagian) = 3 x 8.000 = 24.000 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Nilai tes CBT seorang peserta terdiri dari 3 komponen. Nilai Kebangsaan 80, nilai Hilir Migas 85, dan nilai Logika 90. Jika bobot nilai masing-masing komponen adalah 20%, 50%, dan 30%, berapakah nilai akhir bobot peserta tersebut?",
+  "options": [
+   "84,5",
+   "85,0",
+   "85,5",
+   "86,0",
+   "86,5"
+  ],
+  "answer": 2,
+  "explain": "Nilai Akhir = (80 x 20%) + (85 x 50%) + (90 x 30%). Nilai Akhir = 16 + 42,5 + 27 = 85,5.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebuah tangki pendistribusian BBM memiliki efisiensi penyaluran 95%. Jika volume awal BBM di dalam tangki adalah 20.000 liter, berapakah volume BBM yang berhasil disalurkan secara sempurna?",
+  "options": [
+   "18.000 liter",
+   "18.500 liter",
+   "19.000 liter",
+   "19.200 liter",
+   "19.500 liter"
+  ],
+  "answer": 2,
+  "explain": "Volume tercurahkan = 95% x 20.000 = (95 / 100) x 20.000 = 19.000 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dua orang verifikator, Andi dan Budi, ditugaskan memeriksa 140 dokumen laporan. Jika rasio kecepatan kerja Andi dan Budi adalah 4 : 3, berapa banyak dokumen yang diselesaikan oleh Andi?",
+  "options": [
+   "60 dokumen",
+   "70 dokumen",
+   "80 dokumen",
+   "90 dokumen",
+   "100 dokumen"
+  ],
+  "answer": 2,
+  "explain": "Total rasio = 4 + 3 = 7 bagian. Dokumen bagian Andi = (4 / 7) x 140 = 80 dokumen.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Harga kelebihan batas distribusi BBM dikenakan penalti sebesar 5% dari harga dasar Rp10.000 per liter. Jika terjadi kelebihan penyaluran sebanyak 1.500 liter, berapa total nominal penalti yang harus dibayarkan?",
+  "options": [
+   "Rp650.000",
+   "Rp750.000",
+   "Rp850.000",
+   "Rp900.000",
+   "Rp1.000.000"
+  ],
+  "answer": 1,
+  "explain": "Penalti per liter = 5% x Rp10.000 = Rp500. Total penalti = 1.500 liter x Rp500 = Rp750.000.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sebuah kendaraan operasional pengawasan menempuh jarak 180 km dengan mengonsumsi 15 liter BBM. Berapa liter BBM yang dibutuhkan kendaraan tersebut untuk menempuh jarak 300 km dengan efisiensi konsumsi yang sama?",
+  "options": [
+   "20 liter",
+   "22 liter",
+   "24 liter",
+   "25 liter",
+   "28 liter"
+  ],
+  "answer": 3,
+  "explain": "Gunakan perbandingan senilai. Konsumsi per km = 15 / 180 = 1/12 liter per km. BBM untuk 300 km = 300 x (1/12) = 25 liter.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Alokasi BBM bulanan di Wilayah A adalah 50.000 liter. Karena peningkatan kebutuhan, kuota ditambah sebesar 12%. Berapakah total alokasi BBM Wilayah A setelah penambahan?",
+  "options": [
+   "54.000 liter",
+   "55.000 liter",
+   "56.000 liter",
+   "57.500 liter",
+   "58.000 liter"
+  ],
+  "answer": 2,
+  "explain": "Penambahan kuota = 12% x 50.000 = 6.000 liter. Total kuota baru = 50.000 + 6.000 = 56.000 liter. ANALISIS TABEL & DIAGRAM",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berdasarkan Tabel 1, wilayah manakah yang memiliki persentase sisa kuota terbanyak dari total kuotanya setelah penyaluran Bulan III berakhir?",
+  "options": [
+   "Wilayah A",
+   "Wilayah B",
+   "Wilayah C",
+   "Wilayah D",
+   "Wilayah E"
+  ],
+  "answer": 2,
+  "explain": "Hitung total penyaluran dan sisa kuota tiap wilayah: Wilayah A: Total salur = 300 + 350 + 400 = 1.050 KL. Sisa = 1.200 - 1.050 = 150 KL. Persentase sisa = (150 / 1.200) x 100% = 12,5%. Wilayah B: Total salur = 400 + 450 + 500 = 1.350 KL. Sisa = 1.500 - 1.350 = 150 KL. Persentase sisa = (150 / 1.500) x 100% = 10%. Wilayah C: Total salur = 250 + 250 + 300 = 800 KL. Sisa = 1.000 - 800 = 200 KL. Persentase sisa = (200 / 1.000) x 100% = 20%. Wilayah D: Total salur = 500 + 600 + 700 = 1.800 KL. Sisa = 2.000 - 1.800 = 200 KL. Persentase sisa = (200 / 2.000) x 100% = 10%. Wilayah E: Total salur = 200 + 220 + 240 = 660 KL. Sisa = 800 - 660 = 140 KL. Persentase sisa = (140 / 800) x 100% = 17,5%. Persentase sisa kuota terbesar adalah Wilayah C sebesar 20%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapakah rata-rata penyaluran BBM Solar JBT di Wilayah D per bulan berdasarkan data 3 bulan tersebut?",
+  "options": [
+   "550 KL",
+   "580 KL",
+   "600 KL",
+   "620 KL",
+   "650 KL"
+  ],
+  "answer": 2,
+  "explain": "Total penyaluran Wilayah D = 500 + 600 + 700 = 1.800 KL. Rata-rata per bulan = 1.800 / 3 = 600 KL.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa persentase kenaikan penyaluran BBM Solar JBT di Wilayah A dari Bulan I ke Bulan III?",
+  "options": [
+   "25,0%",
+   "30,0%",
+   "33,3%",
+   "35,0%",
+   "40,0%"
+  ],
+  "answer": 2,
+  "explain": "Penyaluran Bulan I = 300 KL, Penyaluran Bulan III = 400 KL. Kenaikan = 400 - 300 = 100 KL. Persentase kenaikan = (100 / 300) x 100% = 33,33%. Gunakan Data Tabel 2 berikut untuk menjawab soal nomor 21 sampai 23! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berdasarkan Tabel 2, berapa persentase SPBU yang masuk dalam kategori Sesuai Standar (Kategori A) dari total seluruh SPBU yang diinspeksi?",
+  "options": [
+   "45%",
+   "50%",
+   "56,25%",
+   "60%",
+   "62,5%"
+  ],
+  "answer": 2,
+  "explain": "Total SPBU yang diinspeksi = 45 + 15 + 10 + 10 = 80 SPBU. Persentase Kategori A = (45 / 80) x 100% = 56,25%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapakah rasio antara SPBU kategori Deviasi Berat (Kategori C) terhadap total SPBU yang mengalami kendala/deviasi (Kategori B, C, dan D)?",
+  "options": [
+   "1 : 2",
+   "1 : 3",
+   "2 : 5",
+   "2 : 7",
+   "1 : 4"
+  ],
+  "answer": 1,
+  "explain": "Total SPBU terkendala (B + C + D) = 15 + 10 + 10 = 35 SPBU. SPBU Kategori C = 10 SPBU. Rasio C : Terkendala = 10 : 35 = 2 : 7 (Catatan: 10 / 35 disederhanakan menjadi 2/7). Jawaban tepat: Rasio 10 dari 35 = 2 : 7. Kunci Jawaban Koreksi: D (2 : 7).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika setiap SPBU Kategori D dikenakan sanksi denda administratif sebesar Rp15.000.000 per SPBU, berapakah total nilai denda administratif yang terkumpul dari Kategori D?",
+  "options": [
+   "Rp100.000.000",
+   "Rp120.000.000",
+   "Rp150.000.000",
+   "Rp175.000.000",
+   "Rp200.000.000"
+  ],
+  "answer": 2,
+  "explain": "Jumlah SPBU Kategori D = 10 SPBU. Total denda = 10 x Rp15.000.000 = Rp150.000.000. Gunakan Data Tabel 3 berikut untuk menjawab soal nomor 24 sampai 26! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kabupaten manakah yang mengalami over-kuota penyaluran Pertalite terbesar secara nominal (volume dalam KL)?",
+  "options": [
+   "Kabupaten P",
+   "Kabupaten Q",
+   "Kabupaten R",
+   "Kabupaten S",
+   "Kabupaten P dan R"
+  ],
+  "answer": 1,
+  "explain": "Cek kabupaten yang realisasinya melebihi kuota (over-kuota): Kabupaten Q: Realisasi - Kuota = 8.400 - 8.000 = +400 KL. Kabupaten S: Realisasi - Kuota = 4.200 - 4.000 = +200 KL. Over-kuota terbesar secara nominal adalah Kabupaten Q sebesar 400 KL.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa total realisasi penyaluran Pertalite untuk keempat kabupaten tersebut secara keseluruhan?",
+  "options": [
+   "22.500 KL",
+   "23.000 KL",
+   "23.100 KL",
+   "23.500 KL",
+   "24.000 KL"
+  ],
+  "answer": 2,
+  "explain": "Total Realisasi = 4.800 + 8.400 + 5.700 + 4.200 = 23.100 KL.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Secara keseluruhan gabungan 4 kabupaten, berapa persentase tingkat penyaluran Pertalite dibandingkan dengan total kuota yang dialokasikan?",
+  "options": [
+   "98,5%",
+   "100,0%",
+   "100,4%",
+   "101,5%",
+   "102,0%"
+  ],
+  "answer": 2,
+  "explain": "Total Kuota = 5.000 + 8.000 + 6.000 + 4.000 = 23.000 KL. Total Realisasi = 23.100 KL. Persentase Penyaluran = (23.100 / 23.000) x 100% = 100,43% (dibulatkan 100,4%). Gunakan Data Tabel 4 berikut untuk menjawab soal nomor 27 sampai 29! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Verifikator manakah yang memiliki tingkat efisiensi waktu terbaik (waktu tersingkat per 1 titik audit SPBU)?",
+  "options": [
+   "Verifikator 1",
+   "Verifikator 2",
+   "Verifikator 3",
+   "Verifikator 4",
+   "Verifikator 1 dan 2"
+  ],
+  "answer": 4,
+  "explain": "Waktu per titik audit: Verifikator 1: 40 jam / 16 SPBU = 2,5 jam per SPBU. Verifikator 2: 35 jam / 14 SPBU = 2,5 jam per SPBU. Verifikator 3: 48 jam / 16 SPBU = 3,0 jam per SPBU. Verifikator 4: 50 jam / 20 SPBU = 2,5 jam per SPBU. Verifikator 1, 2, dan 4 sama-sama memiliki waktu efisien 2,5 jam per SPBU. Opsi yang memuat pasangan setara adalah Verifikator 1 dan 2.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa rata-rata jam kerja per verifikator berdasarkan data ke-4 verifikator di atas?",
+  "options": [
+   "42,0 jam",
+   "43,25 jam",
+   "44,0 jam",
+   "45,0 jam",
+   "46,25 jam"
+  ],
+  "answer": 1,
+  "explain": "Total jam kerja = 40 + 35 + 48 + 50 = 173 jam. Rata-rata = 173 / 4 = 43,25 jam.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika Verifikator 3 mendapatkan tambahan waktu 8 jam untuk menyelesaikan audit 4 SPBU tambahan, berapakah rata-rata waktu per SPBU untuk seluruh tugas Verifikator 3?",
+  "options": [
+   "2,6 jam",
+   "2,8 jam",
+   "3,0 jam",
+   "3,2 jam",
+   "3,5 jam"
+  ],
+  "answer": 2,
+  "explain": "Total waktu baru Verifikator 3 = 48 + 8 = 56 jam. Total titik audit baru = 16 + 4 = 20 SPBU. Rata-rata waktu per SPBU = 56 / 20 = 2,8 jam. Jawaban tepat: B (2,8 jam). Gunakan Data Tabel 5 berikut untuk menjawab soal nomor 30 sampai 34! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapakah total anggaran operasional yang dialokasikan dalam rencana anggaran tersebut?",
+  "options": [
+   "230 Juta",
+   "240 Juta",
+   "250 Juta",
+   "260 Juta",
+   "270 Juta"
+  ],
+  "answer": 2,
+  "explain": "Total Anggaran = 120 + 80 + 20 + 30 = 250 Juta Rupiah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Komponen manakah yang mengalami pembengkakan (over-budget) dari alokasi awal?",
+  "options": [
+   "Transportasi",
+   "Akomodasi",
+   "Komunikasi",
+   "Perlengkapan Kerja",
+   "Transportasi dan Akomodasi"
+  ],
+  "answer": 1,
+  "explain": "Komponen Akomodasi mengalokasikan 80 Juta namun realisasinya mencapai 90 Juta (+10 Juta dari anggaran awal).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa persentase hemat/efisiensi anggaran pada komponen Transportasi?",
+  "options": [
+   "6,33%",
+   "8,33%",
+   "10,0%",
+   "12,5%",
+   "15,0%"
+  ],
+  "answer": 1,
+  "explain": "Penghematan Transportasi = 120 - 110 = 10 Juta. Persentase penghematan = (10 / 120) x 100% = 8,33%.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa selisih antara total alokasi anggaran dengan total realisasi anggaran secara keseluruhan?",
+  "options": [
+   "Surplus 2 Juta (Hemat 2 Juta)",
+   "Defisit 2 Juta (Kurang 2 Juta)",
+   "Surplus 5 Juta",
+   "Defisit 5 Juta",
+   "Sesuai Anggaran (0 Juta)"
+  ],
+  "answer": 0,
+  "explain": "Total Anggaran = 250 Juta. Total Realisasi = 110 + 90 + 18 + 30 = 248 Juta. Selisih = 250 - 248 = Surplus/Hemat 2 Juta Rupiah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berapa proporsi persentase realisasi komponen Akomodasi terhadap total realisasi anggaran keseluruhan?",
+  "options": [
+   "32,5%",
+   "34,8%",
+   "36,29%",
+   "38,0%",
+   "40,5%"
+  ],
+  "answer": 2,
+  "explain": "Total Realisasi = 248 Juta. Realisasi Akomodasi = 90 Juta. Proporsi Akomodasi = (90 / 248) x 100% = 36,29%. LOGIKA ANALITIS POSISI & URUTAN",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Siapakah yang diwawancarai pada urutan pertama?",
+  "options": [
+   "Andi",
+   "Budi",
+   "Cici",
+   "Dedi",
+   "Erna"
+  ],
+  "answer": 0,
+  "explain": "Dedi di urutan 4 ( _ , _ , _ , Dedi, _ ). Erna tidak boleh di urutan 1, berarti Erna di urutan 5 ( _ , _ , _ , Dedi, Erna). Andi sebelum Budi dan Cici, serta Budi tepat sebelum Cici. Maka urutannya adalah: 1. Andi, 2. Budi, 3. Cici, 4. Dedi, 5. Erna. Urutan pertama adalah Andi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Siapakah yang diwawancarai pada urutan terakhir (ke-5)?",
+  "options": [
+   "Andi",
+   "Budi",
+   "Cici",
+   "Dedi",
+   "Erna"
+  ],
+  "answer": 4,
+  "explain": "Berdasarkan urutan yang telah terbentuk (Andi, Budi, Cici, Dedi, Erna), urutan ke-5 adalah Erna.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika Budi diwawancarai pada urutan kedua, manakah dari pernyataan berikut yang pasti BENAR?",
+  "options": [
+   "Erna diwawancarai urutan ketiga",
+   "Cici diwawancarai urutan ketiga",
+   "Andi diwawancarai urutan kelima",
+   "Dedi diwawancarai urutan pertama",
+   "Cici diwawancarai urutan pertama"
+  ],
+  "answer": 1,
+  "explain": "Karena Budi tepat sebelum Cici, jika Budi di urutan ke-2, maka Cici pasti di urutan ke-3.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah urutan wawancara yang memenuhi seluruh kriteria di atas dari urutan 1 hingga 5?",
+  "options": [
+   "Andi, Budi, Cici, Dedi, Erna",
+   "Erna, Andi, Budi, Dedi, Cici",
+   "Andi, Cici, Budi, Dedi, Erna",
+   "Budi, Cici, Andi, Dedi, Erna",
+   "Andi, Dedi, Budi, Cici, Erna"
+  ],
+  "answer": 0,
+  "explain": "Satu-satunya opsi yang memenuhi semua syarat (Dedi di urutan 4, Erna bukan di urutan 1, Andi sebelum Budi, dan Budi tepat sebelum Cici) adalah Opsi A. Gunakan Teks Informasi berikut untuk menjawab soal nomor 39 sampai 42! Enam kota penugasan luar Jawa (Kupang, Manado, Padang, Pontianak, Palu, dan Sorong) dikunjungi oleh seorang tim auditor dalam kurun waktu 6 minggu berturut-turut (Minggu 1 sampai Minggu 6), dengan ketentuan: 1. Padang dikunjungi pada minggu ketiga. 2. Manado dikunjungi sebelum Padang dan sebelum Kupang. 3. Sorong dikunjungi tepat satu minggu setelah Palu. 4. Pontianak dikunjungi pada minggu terakhir (Minggu 6).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kota manakah yang dikunjungi pada Minggu 6?",
+  "options": [
+   "Palu",
+   "Sorong",
+   "Pontianak",
+   "Manado",
+   "Kupang"
+  ],
+  "answer": 2,
+  "explain": "Berdasarkan syarat 4, Pontianak secara eksplisit dikunjungi pada minggu terakhir (Minggu 6).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika Manado dikunjungi pada Minggu 1, minggu ke berapakah Kupang dikunjungi jika Palu dikunjungi pada Minggu 4?",
+  "options": [
+   "Minggu 2",
+   "Minggu 3",
+   "Minggu 4",
+   "Minggu 5",
+   "Minggu 6"
+  ],
+  "answer": 0,
+  "explain": "Minggu 3: Padang. Minggu 6: Pontianak. Palu dikunjungi Minggu 4, berarti Sorong (tepat setelah Palu) dikunjungi Minggu 5. Slot yang tersisa adalah Minggu 1 dan Minggu 2. Jika Manado di Minggu 1, maka Kupang berada di Minggu 2.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah pasangan kota yang dikunjungi secara berurutan pada Minggu 4 dan Minggu 5?",
+  "options": [
+   "Manado dan Kupang",
+   "Palu dan Sorong",
+   "Sorong dan Palu",
+   "Padang dan Palu",
+   "Kupang dan Pontianak"
+  ],
+  "answer": 1,
+  "explain": "Berdasarkan syarat 3, Sorong dikunjungi tepat satu minggu setelah Palu, sehingga susunan keduanya secara berurutan adalah Palu kemudian Sorong (Minggu 4 dan Minggu 5).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah dari kota berikut yang TIDAK MUNGKIN dikunjungi pada Minggu 1?",
+  "options": [
+   "Manado",
+   "Palu",
+   "Kupang",
+   "Sorong",
+   "Padang"
+  ],
+  "answer": 4,
+  "explain": "Padang secara eksplisit terkunci di Minggu 3, sehingga Padang tidak mungkin dikunjungi pada Minggu 1. Gunakan Teks Informasi berikut untuk menjawab soal nomor 43 sampai 46! Dalam sebuah sesi pengawasan lapangan, 5 meja kerja SPBU disusun sejajar dari kiri ke kanan (Pos 1 sampai Pos 5) dan diisi oleh 5 petugas: Fajar, Gilang, Hana, Indah, dan Joko. 1. Hana berada di ujung paling kiri (Pos 1). 2. Joko duduk tepat di sebelah kanan Gilang. 3. Fajar tidak duduk di sebelah Hana. 4. Indah berada di sebelah kiri Fajar.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Siapakah petugas yang berada di Pos 1?",
+  "options": [
+   "Fajar",
+   "Gilang",
+   "Hana",
+   "Indah",
+   "Joko"
+  ],
+  "answer": 2,
+  "explain": "Syarat 1 menyebutkan secara tegas bahwa Hana berada di Pos 1 (ujung paling kiri).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah susunan posisi petugas yang benar dari Pos 1 hingga Pos 5 dari kiri ke kanan?",
+  "options": [
+   "Hana, Gilang, Joko, Indah, Fajar",
+   "Hana, Indah, Fajar, Gilang, Joko",
+   "Hana, Fajar, Indah, Gilang, Joko",
+   "Hana, Joko, Gilang, Indah, Fajar",
+   "Hana, Indah, Gilang, Fajar, Joko"
+  ],
+  "answer": 0,
+  "explain": "Pos 1: Hana. Opsi A: Hana (1), Gilang (2), Joko (3), Indah (4), Fajar (5). Syarat terpenuhi: Joko tepat di kanan Gilang (2 dan 3), Fajar tidak di sebelah Hana (Fajar di 5), Indah di sebelah kiri Fajar (4 di kiri 5).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika Fajar berada di Pos 5, siapakah yang berada di Pos 4?",
+  "options": [
+   "Gilang",
+   "Joko",
+   "Hana",
+   "Indah",
+   "Tidak ada"
+  ],
+  "answer": 3,
+  "explain": "Berdasarkan susunan valid (Hana, Gilang, Joko, Indah, Fajar), jika Fajar di Pos 5, maka yang berada di Pos 4 adalah Indah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Siapakah dua petugas yang duduk berdampingan di Pos 2 dan Pos 3?",
+  "options": [
+   "Hana dan Indah",
+   "Gilang dan Joko",
+   "Indah dan Fajar",
+   "Fajar dan Joko",
+   "Gilang dan Indah"
+  ],
+  "answer": 1,
+  "explain": "Berdasarkan susunan posisi (Hana, Gilang, Joko, Indah, Fajar), Pos 2 diisi Gilang dan Pos 3 diisi Joko. Gunakan Teks Informasi berikut untuk menjawab soal nomor 47 sampai 50! Empat modul pelatihan sertifikasi ESDM (Modul A, B, C, dan D) dipelajari dalam 4 sesi berturut-turut: 1. Modul C dipelajari sebelum Modul A. 2. Modul B dipelajari tepat setelah Modul D. 3. Modul A dipelajari pada sesi terakhir (Sesi 4).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Modul manakah yang dipelajari pada Sesi 4?",
+  "options": [
+   "Modul A",
+   "Modul B",
+   "Modul C",
+   "Modul D",
+   "Modul C atau D"
+  ],
+  "answer": 0,
+  "explain": "Syarat 3 secara eksplisit menyatakan Modul A dipelajari pada sesi terakhir (Sesi 4).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah urutan pembelajaran modul yang benar dari Sesi 1 sampai Sesi 4?",
+  "options": [
+   "Modul C, Modul D, Modul B, Modul A",
+   "Modul D, Modul B, Modul C, Modul A",
+   "Modul C, Modul B, Modul D, Modul A",
+   "Modul B, Modul D, Modul C, Modul A",
+   "Modul D, Modul C, Modul B, Modul A"
+  ],
+  "answer": 0,
+  "explain": "Sesi 4: Modul A. Modul B tepat setelah Modul D (D kemudian B). Modul C sebelum Modul A. Urutan yang valid: Sesi 1: C, Sesi 2: D, Sesi 3: B, Sesi 4: A (Opsi A) atau Sesi 1: D, Sesi 2: B, Sesi 3: C, Sesi 4: A (Opsi B). Pada Opsi A, C (1) sebelum A (4), D (2) tepat sebelum B (3). Keduanya memenuhi syarat. Opsi A secara tepat menyusun urutan C-D-B-A.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika Modul C dipelajari pada Sesi 1, modul apakah yang dipelajari pada Sesi 2?",
+  "options": [
+   "Modul A",
+   "Modul B",
+   "Modul D",
+   "Modul A atau B",
+   "Tidak dapat ditentukan"
+  ],
+  "answer": 2,
+  "explain": "Jika Sesi 1: Modul C, dan Sesi 4: Modul A, maka tersisa Sesi 2 dan Sesi 3. Karena Modul B tepat setelah Modul D, maka Sesi 2 harus diisi Modul D dan Sesi 3 diisi Modul B.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Modul apakah yang dipelajari tepat sebelum Modul A pada Sesi 3 (jika Modul C di Sesi 1)?",
+  "options": [
+   "Modul B",
+   "Modul C",
+   "Modul D",
+   "Modul A",
+   "Modul B atau D"
+  ],
+  "answer": 0,
+  "explain": "Berdasarkan susunan (Sesi 1: C, Sesi 2: D, Sesi 3: B, Sesi 4: A), modul yang dipelajari pada Sesi 3 (tepat sebelum Sesi 4 / Modul A) adalah Modul B. 3. TES SPASIAL & PROBLEM SOLVING Adapun poin materi tes yang akan keluar pada saat tes adalah : • Materi 1: Tes Spasial (Visualisasi Gambar 2D & 3D) o Fokus Subtes: Menguji kecermatan visual, manipulasi objek dalam ruang tiga dimensi, penalaran rotasi, dan pembacaan pola/jaring-jaring objek teknis. o Cakupan Topik: 1. Rotasi 3D & Pandangan Objek: Memprediksi tampak atas/samping/depan dari kubus, tangki BBM, atau rangkaian pipa. 2. Jaring-jaring & Lipatan Gambar 3D: Menentukan bentuk akhir bangun ruang (seperti tangki atau kontainer) dari pola jaring-jaring 2D. 3. Pola Serial & Analogi Gambar 2D: Mengidentifikasi perubahan bentuk, cermin (refleksi), dan kelanjutan pola visual instrumen operasional. • Materi 2: Studi Kasus Pemecahan Masalah (Problem Solving Operasional) o Fokus Subtes: Menguji penalaran analitis, integritas, dan pengambilan keputusan cepat dalam menangani kendala teknis maupun etika pengawasan BBM di lapangan. o Cakupan Topik: 1. Kendala Digitalisasi & Alat Ukur: Penanganan dispenser SPBU rusak, segel meteran terputus, a",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat melakukan inspeksi di SPBU X, Verifikator Lapangan menemukan segel metrologi pada salah satu dispenser BBM Solar JBT dalam keadaan putus dan terdapat perbedaan selisih pencatatan digital sebesar 4%. Pengelola SPBU beralasan segel tersenggol petugas saat pembersihan. Tindakan pertama yang paling tepat dilakukan verifikator adalah ...",
+  "options": [
+   "Langsung menutup dan menyegel seluruh area SPBU X saat itu juga.",
+   "Menerima alasan pengelola SPBU dan meminta mereka memasang kembali segelnya.",
+   "Memuat temuan dalam Berita Acara Pemeriksaan (BAP), menghentikan sementara operasional dispenser tersebut, dan melaporkan ke BPH Migas/Kementerian ESDM.",
+   "Mengabaikan temuan karena selisih 4% masih dianggap batas wajar penyaluran.",
+   "Meminta uang ganti rugi secara pribadi kepada pengelola SPBU atas kelalaian tersebut."
+  ],
+  "answer": 2,
+  "explain": "Sesuai SOP pengawasan, jika ditemukan indikasi kerusakan segel metrologi dan selisih pencatatan (deviasi), verifikator wajib mencatat bukti secara obyektif dalam BAP, merekomendasikan penghentian sementara pompa dispenser yang bermasalah agar tidak merugikan konsumen/negara, serta melaporkan ke instansi berwenang.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam sebuah tugas inspeksi di daerah terpencil (3T), seorang verifikator mendapati pengelola penyalur BBM bersubsidi menjual Solar JBT di atas Harga Eceran Tertinggi (HET) yang ditetapkan pemerintah dengan alasan biaya angkut lokal yang mahal. Bagaimanakah sikap dan tindakan verifikator?",
+  "options": [
+   "Menyetujui kenaikan harga tersebut karena alasan biaya angkut masuk akal.",
+   "Mencatat pelanggaran HET tersebut, mengumpulkan data bukti transaksi, serta melaporkannya sebagai bentuk temuan deviasi harga.",
+   "Mengurangi alokasi kuota BBM daerah tersebut secara mandiri di tempat.",
+   "Membiarkan hal tersebut selama masyarakat sekitar tidak mengajukan komplain.",
+   "Mengarahkan pengelola untuk menjual BBM secara ilegal di luar pos penyalur."
+  ],
+  "answer": 1,
+  "explain": "HET BBM Bersubsidi/JBT ditetapkan secara mengikat oleh pemerintah. Penjualan di atas HET merupakan pelanggaran regulasi. Verifikator tidak berwenang mengubah aturan harga, melainkan wajib mendokumentasikan pelanggaran dan melaporkannya secara rinci.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang pengelola SPBU mencoba memberikan sejumlah uang (gratifikasi) kepada Verifikator Lapangan agar laporan hasil verifikasi digitalisasi dispenser yang menunjukkan deviasi diubah menjadi sesuai standar. Tindakan yang harus diambil oleh verifikator adalah ...",
+  "options": [
+   "Menerima uang tersebut dan mengubah sedikit data laporan.",
+   "Menolak tegas pemberian uang tersebut, memberikan peringatan, dan melaporkan percobaan gratifikasi serta temuan fisik ke dalam laporan resmi.",
+   "Menerima uang tersebut tetapi tetap melaporkan data apa adanya.",
+   "Membagi uang tersebut kepada anggota tim verifikator lainnya agar aman.",
+   "Mengancam pengelola SPBU untuk menambah jumlah uang yang diberikan."
+  ],
+  "answer": 1,
+  "explain": "Sebagai tenaga pengawas PJLP Kementerian ESDM, integritas adalah hal mutlak. Percobaan gratifikasi wajib ditolak dengan tegas dan didokumentasikan sebagai pelanggaran etika pengelola untuk dilaporkan dalam sistem pengawasan publik.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ketika tim verifikator tiba di lokasi penugasan luar Jawa, pihak pengelola SPBU menolak untuk memberikan akses pemeriksaan berkas kuota dan menolak pembacaan data dispenser dengan alasan manajer utama sedang luar kota. Langkah pemecahan masalah yang paling efektif adalah ...",
+  "options": [
+   "Langsung pulang dan menganggap inspeksi selesai.",
+   "Memaksa masuk secara anarkis ke dalam kantor SPBU.",
+   "Menunjukkan surat tugas resmi, menjelaskan dasar hukum pengawasan BPH Migas/ESDM, dan mengkoordinasikan dengan dinas/aparat setempat jika penolakan berlanjut.",
+   "Menunggu di depan SPBU hingga manajer utama kembali tanpa batasan waktu.",
+   "Membuat laporan palsu bahwa SPBU tersebut dalam kondisi baik."
+  ],
+  "answer": 2,
+  "explain": "Prosedur penanganan hambatan inspeksi dilakukan secara persuasif-formal: menunjukkan legalitas surat penugasan resmi, memberikan edukasi regulasi, dan apabila tetap dihalangi, melakukan koordinasi dengan otoritas lokal/aparat penegak hukum untuk pendampingan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat melakukan verifikasi data laporan bulanan, seorang Analis menemukan adanya lonjakan konsumsi Pertalite (JBKP) yang sangat drastis di SPBU Y pada jam-jam malam tertentu yang tidak wajar. Tindakan analitis awal yang tepat adalah ...",
+  "options": [
+   "Mengabaikan data tersebut karena transaksi malam hari adalah hal biasa.",
+   "Membandingkan grafik transaksi harian SPBU Y dengan data histori bulan sebelumnya dan mengusulkan inspeksi mendadak di jam terkait.",
+   "Mengurangi kuota SPBU Y secara langsung sebesar 50%.",
+   "Mengubah angka laporan agar terlihat normal kembali.",
+   "Menghubungi pihak SPBU Y untuk menanyakan berapa bagian komisi yang bisa didapat."
+  ],
+  "answer": 1,
+  "explain": "Seorang Analis bertugas mengevaluasi data dan mendeteksi anomali. Langkah analitis yang tepat adalah melakukan verifikasi silang data histori, memetakan pola transaksi anomali, serta merekomendasikan verifikasi lapangan/sidak di waktu yang terindikasi kecurangan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Di suatu wilayah penugasan pulau terpencil, terjadi keterlambatan pengiriman pasokan Solar JBT akibat cuaca buruk yang menyebabkan antrean panjang kendaraan di pos penyalur. Sebagai petugas Pengawal Energi di lokasi, tindakan krisis terbaik adalah ...",
+  "options": [
+   "Menyuruh pengelola SPBU menutup total penyaluran hingga kapal pasokan tiba.",
+   "Membantu mengoordinasikan pembatasan pembelian harian per kendaraan bersama pengelola dan aparat setempat agar distribusi merata hingga pasokan tiba.",
+   "Membiarkan pembelian dalam jumlah bebas tanpa batasan kepada siapapun.",
+   "Mengambil pasokan BBM dari kendaraan operasional warga secara paksa.",
+   "Meninggalkan lokasi penugasan menuju area yang lebih aman."
+  ],
+  "answer": 1,
+  "explain": "Dalam situasi krisis pasokan BBM akibat kendala cuaca/alokasi logistik, prioritas pengawas di lapangan adalah menjaga kondusivitas distribusi melalui sistem kuota darurat atau pembatasan pembelian harian per kendaraan agar semua masyarakat terlayani secara adil.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Verifikator Lapangan mendapati adanya armada truk yang melakukan pengisian BBM Solar bersubsidi secara berulang-ulang (modul helikopter) dengan menggunakan beberapa barcode QR yang berbeda di satu SPBU. Tindakan verifikator adalah ...",
+  "options": [
+   "Menahan pengemudi truk secara fisik dan menghakiminya di tempat.",
+   "Mengamankan nomor polisi kendaraan, mendokumentasikan foto/video transaksi, melaporkan ke operator dispenser, dan memasukkan data tersebut ke BAP temuan kecurangan.",
+   "Pura-pura tidak tahu karena bukan tugas verifikator mengurusi konsumen.",
+   "Meminta jatah BBM Solar dari truk tersebut untuk kepentingan pribadi.",
+   "Menyuruh pengelola SPBU menghapus seluruh rekaman CCTV SPBU."
+  ],
+  "answer": 1,
+  "explain": "Modus pengisian berulang menggunakan banyak QR barcode merupakan bentuk penyalahgunaan BBM bersubsidi. Tugas verifikator adalah mengumpulkan barang bukti digital/visual, mencatat identitas armada, dan melaporkannya sebagai pelanggaran hukum.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat bertugas di lapangan, terjadi perdebatan antara tim Verifikator dengan pengelola SPBU mengenai metode toleransi selisih tera dispenser. Pengelola menggunakan standar lama yang sudah tidak berlaku. Cara menyelesaikan konflik tersebut adalah ...",
+  "options": [
+   "Menuruti kehendak pengelola SPBU agar tidak terjadi pertengkaran.",
+   "Menggunakan intimidasi fisik agar pengelola tunduk pada keputusan tim.",
+   "Membuka dan menunjukkan acuan dokumen regulasi/SOP terbaru dari Kementerian ESDM/Metrologi secara transparan dan melakukan tera ulang bersama.",
+   "Membatalkan seluruh hasil verifikasi dan menganggap SPBU tidak layak operasi.",
+   "Menyerahkan keputusan akhir kepada konsumen yang sedang mengantre."
+  ],
+  "answer": 2,
+  "explain": "Penyelesaian perselisihan teknis di lapangan wajib diselesaikan berdasar pada dokumen regulasi dan standar hukum yang berlaku secara objektif, serta melakukan pengujian langsung (tera ulang bersama) transparan di depan pengelola.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Analis di kantor data menemukan adanya perbedaan angka laporan total penyaluran BBM dari sistem digitalisasi IT SPBU dengan data realisasi dari depo pertamina pusat. Langkah awal yang paling tepat adalah ...",
+  "options": [
+   "Memilih angka yang paling kecil untuk dilaporkan ke pimpinan.",
+   "Melakukan rekonsiliasi data (data matching) pada rentang waktu terkait dan mengidentifikasi di titik mana selisih (discrepancy) mulai terjadi.",
+   "Langsung menyimpulkan adanya tindak pidana korupsi tanpa verifikasi.",
+   "Mengubah angka data depo agar sesuai dengan angka data SPBU.",
+   "Mengabaikan laporan karena selisih angka adalah hal wajar dalam data besar."
+  ],
+  "answer": 1,
+  "explain": "",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Verifikator Lapangan yang ditugaskan di pulau terluar mendapati alat ukur digitalisasi dispenser SPBU rusak akibat tersambar petir. Koneksi internet di lokasi juga terputus total. Langkah penanganan krisis operasional yang tepat adalah ...",
+  "options": [
+   "Menghentikan seluruh aktivitas penyaluran BBM di pulau tersebut sampai alat digital diperbaiki.",
+   "Menerapkan pencatatan manual sementara dengan penyegelan tera fisik, mencatat stang meter secara manual, serta mendokumentasikan foto kondisi darurat untuk dilaporkan saat sinyal pulih.",
+   "Mengizinkan SPBU menjual BBM tanpa pencatatan apapun karena situasi darurat.",
+   "Mengambil alih posisi operator dispenser dan membagikan BBM gratis kepada warga.",
+   "Meninggalkan lokasi dan kembali ke ibu kota provinsi saat itu juga."
+  ],
+  "answer": 1,
+  "explain": "Dalam kondisi force majeure (bencana/kerusakan alat akibat cuaca), pelayanan energi tidak boleh terhenti total. Pengawas wajib mengarahkan skema pencatatan manual yang sah, memverifikasi stang meter fisik, dan mendokumentasikan kondisi darurat untuk akuntabilitas laporan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam inspeksi rutin, verifikator menemukan bahwa kapasitas tangki timbun SPBU Z terisi penuh oleh Solar JBT, namun pengelola menutup SPBU dan memasang papan tulisan \"BBM Habis\" untuk menjualnya malam hari ke industri dengan harga tinggi. Langkah tegas verifikator adalah ...",
+  "options": [
+   "Membiarkan hal tersebut asal tidak mengganggu ketertiban umum.",
+   "Menembus tangki timbun secara sepihak dan membagikannya ke warga.",
+   "Mendokumentasikan sisa volume tangki timbun, menyegel fasilitas penyalur bersama aparat, dan menerbitkan rekomendasi sanksi berat atas dugaan penimbunan/penyelewengan kuota.",
+   "Membeli seluruh Solar JBT tersebut untuk dijual kembali secara pribadi.",
+   "Meminta pengelola membagikan bonus uang tunai kepada warga sekitar."
+  ],
+  "answer": 2,
+  "explain": "Penimbunan atau penolakan penyaluran BBM bersubsidi kepada masyarakat (sementara stok tersedia) merupakan bentuk penyelewengan berat. Verifikator harus mencatat fakta volume riil, menyegel temuan, dan meneruskan BAP untuk sanksi pencabutan alokasi/hukum.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Analis di BPH Migas/ESDM menerima dua laporan penyaluran dari wilayah yang sama dengan data kuantitas yang bertolak belakang. Laporan dari verifikator lapangan menunjukkan kuota tersalurkan 80%, sedangkan laporan mandiri pengelola menunjukkan tersalurkan 100%. Tindakan analis adalah ...",
+  "options": [
+   "Memilih laporan pengelola karena mencatatkan angka penyaluran lebih tinggi.",
+   "Memilih laporan verifikator lapangan tanpa perlu melakukan klarifikasi.",
+   "Melakukan cross-check data transaksi log digital dispenser, meminta bukti rekap pengiriman dari depo (surat jalan), dan melakukan audit investigatif.",
+   "Mengambil angka rata-rata tengah yaitu 90% agar aman.",
+   "Menolak kedua laporan dan menghapus data wilayah tersebut dari sistem."
+  ],
+  "answer": 2,
+  "explain": "Jika terjadi konflik data (data mismatch), analis tidak boleh berasumsi. Langkah teknis yang wajib dilakukan adalah verifikasi data primer (log transaksi digital dan delivery order dari depo) serta memicu audit investigatif.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat pengawasan penyaluran Solar JBT untuk nelayan di pelabuhan (SPBN), ditemukan banyak nelayan kecil yang tidak memiliki rekomendasi dari dinas perikanan lokal karena keterbatasan akses birokrasi. Tindakan verifikator di lapangan adalah ...",
+  "options": [
+   "Melarang keras seluruh nelayan tersebut membeli BBM bersubsidi.",
+   "Mengizinkan siapapun membeli Solar JBT tanpa perlu dokumen rekomendasi.",
+   "Mengoordinasikan permasalahan tersebut dengan Dinas Perikanan setempat dan pengelola SPBN untuk penerbitan rekomendasi tersentralisir/kolektif darurat agar penyaluran tepat sasaran dan legal.",
+   "Menyarankan nelayan membeli BBM avtur sebagai gantinya.",
+   "Mengarahkan nelayan untuk berhenti melaut."
+  ],
+  "answer": 2,
+  "explain": "Fungsi Pengawal Energi adalah memastikan energi tepat sasaran sekaligus menjamin aksesibilitas. Solusi operasional untuk hambatan birokrasi warga lokal adalah memfasilitasi koordinasi lintas instansi (Dinas Perikanan) agar diterbitkan diskresi/rekomendasi kolektif yang sah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Verifikator Lapangan mendapati rekannya sesama tim verifikator sengaja melewatkan pemeriksaan di SPBU milik kerabatnya sendiri. Tindakan professional yang harus dilakukan adalah ...",
+  "options": [
+   "Membiarkan hal tersebut demi menjaga persahabatan sesama rekan kerja.",
+   "Mengingatkan rekan tersebut mengenai asas independensi pengawasan dan mengambil alih pemeriksaan SPBU tersebut secara obyektif atau melaporkannya ke ketua tim.",
+   "Ikut membantu menyembunyikan data kekurangan SPBU kerabat rekan tersebut.",
+   "Meminta imbalan kepada pemilik SPBU karena tidak melaporkan insiden tersebut.",
+   "Mengundurkan diri dari tim pengawasan saat itu juga."
+  ],
+  "answer": 1,
+  "explain": "Potensi benturan kepentingan (conflict of interest) wajib dicegah. Verifikator harus menjunjung integritas dengan menegur rekan kerja, mengambil alih objek pemeriksaan agar tetap objektif, atau melaporkan potensi bias ke supervisor tim.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Di suatu lokasi SPBU penugasan, terjadi pemadaman listrik total dari PLN dalam durasi lama. Pengelola SPBU tidak menyalakan genset pendukung dengan alasan hemat biaya operasional sehingga terjadi kelumpuhan layanan. Tindakan verifikator adalah ...",
+  "options": [
+   "Mengizinkan SPBU tutup sampai listrik PLN menyala kembali.",
+   "Menegur pengelola SPBU dan menegaskan kewajiban penyediaan daya cadangan (genset) demi menjaga kontinuitas layanan publik BBM bersubsidi.",
+   "Membayar biaya bahan bakar genset menggunakan uang pribadi verifikator.",
+   "Menguras BBM dari dispenser secara manual menggunakan selang.",
+   "Melaporkan kepada pihak PLN untuk memberikan sanksi ke SPBU."
+  ],
+  "answer": 1,
+  "explain": "Fasilitas distribusi energi bersubsidi merupakan objek vital pelayanan publik yang wajib memiliki standar operasional prosedur (SOP) keadaan darurat, termasuk daya cadangan (genset). Pengawas berhak menegur pengelola yang mengabaikan ketersediaan genset.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Ketika melakukan verifikasi dokumen kuota BBM di kantor pengelola, Verifikator menemukan adanya selisih nota pembelian (invoice) fisik dengan data yang terinput di aplikasi pelaporan digital sebesar 10.000 liter. Langkah awal yang tepat adalah ...",
+  "options": [
+   "Mengubah nota fisik agar sesuai dengan data aplikasi digital.",
+   "Mengubah data di aplikasi digital agar sesuai dengan nota fisik.",
+   "Melakukan konfirmasi verifikasi dua arah (bipartite audit) antara bukti penerimaan barang dari supir tangki dengan manifest depo pertamina untuk menemukan titik input kesalahan.",
+   "Membakar dokumen nota fisik agar tidak timbul jejak audit.",
+   "Langsung melaporkan pengelola ke kepolisian tanpa pengecekan ulang."
+  ],
+  "answer": 2,
+  "explain": "Selisih dokumen fisik dan digital harus dirunut dari rantai pasok (supply chain) paling dasar, yaitu membandingkan manifest penerimaan dari armada pengangkut (mobil tangki) dengan data rilis depo untuk menentukan apakah terjadi kesalahan input atau indikasi manipulasi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Verifikator Lapangan menghadapi situasi di mana sekelompok oknum masyarakat melakukan intimidasi dan memaksa agar alokasi Pertalite diserahkan untuk pengisian jeriken tanpa surat izin. Langkah keselamatan dan tugas yang tepat adalah ...",
+  "options": [
+   "Melawan kelompok tersebut secara fisik seorang diri.",
+   "Menuruti seluruh keinginan oknum masyarakat dan menyerahkan seluruh stok.",
+   "Mengutamakan keselamatan diri, tidak melakukan provokasi fisik, mendokumentasikan kejadian dari jarak aman, dan segera menghubungi aparat kepolisian setempat.",
+   "Ikut serta membantu oknum mengisikan BBM ke dalam jeriken.",
+   "Menolak keluar dari mobil operasional selamanya."
+  ],
+  "answer": 2,
+  "explain": "Dalam situasi ancaman keamanan keselamatan jiwa (safety first), petugas pengawas dilarang melakukan aksi main hakim sendiri. Petugas wajib mengamankan diri, mencatat/merekam insiden secara pasif, dan meminta perlindungan aparat penegak hukum (Polri).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat pengawasan penyaluran BBM di wilayah pesisir, ditemukan nozzle dispenser BBM membuang tumpahan BBM ke tanah/laut akibat selang yang bocor dan tidak terawat. Tindakan verifikator di lokasi adalah ...",
+  "options": [
+   "Membiarkan hal tersebut karena tumpahan BBM berjumlah sedikit.",
+   "Meminta operator menghentikan pengoperasian nozzle tersebut segera, mencatat pelanggaran keselamatan kerja dan lingkungan (K3L), serta memerintahkan perbaikan komponen.",
+   "Menampung tumpahan BBM menggunakan wadah pribadi untuk dijual.",
+   "Menyiram tumpahan BBM dengan air agar tidak terlihat pengamat lain.",
+   "Menutup seluruh area pesisir dari aktivitas nelayan."
+  ],
+  "answer": 1,
+  "explain": "Insiden kebocoran selang penyalur melanggar prinsip K3L (Keselamatan, Kesehatan Kerja, dan Lingkungan) serta berpotensi menyebabkan kebakaran dan pencemaran. Tindakan cepat adalah menghentikan penggunaan nozzle rusak tersebut dan mencatat pelanggaran K3L.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Analis Pengawal Energi ditugaskan menyusun peta kerawanan penyaluran BBM bersubsidi di 10 kabupaten. Parameter manakah yang paling relevan digunakan analis dalam menyusun peta kerawanan tersebut?",
+  "options": [
+   "Jumlah sekolah dan fasilitas kesehatan di tiap kabupaten.",
+   "Selisih historis kuota vs realisasi, frekuensi kerusakan segel metrologi, dan jumlah pengaduan masyarakat terkait kecurangan.",
+   "Luas wilayah daratan dan jumlah PNS di kabupaten setempat.",
+   "Jumlah kendaraan dinas yang dimiliki oleh dinas ESDM lokal.",
+   "Umur rata-rata pengelola SPBU di daerah tersebut."
+  ],
+  "answer": 1,
+  "explain": "Parameter kerawanan penyaluran energi didasarkan pada indikator risiko historis: tingkat deviasi kuota (over/under target), riwayat pelanggaran fisik/segel, dan kerapnya laporan pengaduan masyarakat (whistleblowing).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam inspeksi teknis, verifikator menemukan pencatatan angka totalisator pada dispenser SPBU mengalami lompatan angka yang tidak wajar (glitch sistem). Pengelola mengklaim mesin error secara alami. Cara membuktikannya adalah ...",
+  "options": [
+   "Memercayai klaim pengelola dan tidak melakukan pengujian.",
+   "Melakukan uji tera volume manual menggunakan bejana ukur standar 20 liter yang terkalibrasi untuk membandingkan luaran fisik dengan catatan totalisator.",
+   "Membongkar totalisator menggunakan alat seadanya di tempat.",
+   "Mengganti seluruh mesin dispenser dengan biaya dari verifikator.",
+   "Menjual mesin dispenser tersebut ke tempat penampungan besi tua."
+  ],
+  "answer": 1,
+  "explain": "Pembuktian kebenaran alat ukur/dispenser BBM wajib dilakukan melalui pengujian teknis objektif menggunakan Bejana Ukur Standar (BUS) terkalibrasi (biasanya ukuran 20 Liter) untuk membandingkan volume riil fisik dengan akumulasi totalisator.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang pendaftar program Pengawal Energi tidak sengaja mengunggah dokumen ijazah yang salah pada portal administrasi, namun pendaftaran sudah ditutup total dan masa sanggah/revisi telah lewat. Jika Anda bertugas sebagai panitia administrasi, tindakan berdasarkan prosedur adalah ...",
+  "options": [
+   "Mengubah dokumen pendaftar secara ilegal melalui jalur belakang.",
+   "Meluluskan pendaftar tersebut karena iba atas ketidaksengajaannya.",
+   "Menyatakan pendaftar Tidak Memenuhi Syarat (TMS) sesuai SOP batasan waktu dan ketentuan berkas yang berlaku secara transparan.",
+   "Meminta pendaftar membayar sejumlah uang agar dokumen bisa diganti.",
+   "Menghapus seluruh data pendaftar lain agar adil."
+  ],
+  "answer": 2,
+  "explain": "Ketentuan pendaftaran dan masa perbaikan berkas dibatasi oleh sistem dan jadwal resmi. Jika batas perbaikan telah lewat dan dokumen tidak sesuai, verifikator wajib menegakkan aturan SOP dengan menyatakan berkas Tidak Memenuhi Syarat (TMS).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Di sebuah SPBU jalur utama mudik/libur panjang, terjadi penumpukan antrean truk pembawa pasokan bahan pangan yang membutuhkan Solar JBT. Namun kuota harian SPBU tersebut telah habis pada siang hari. Tindakan krisis Pengawal Energi adalah ...",
+  "options": [
+   "Membiarkan truk terdampar sampai alokasi kuota hari berikutnya dibuka.",
+   "Berkoordinasi dengan BPH Migas/Pertamina rayon setempat untuk pengalihan (rerouting) pasokan cadangan emergensi/diskresi alokasi demi mendukung kelancaran logistik bahan pokok.",
+   "Menyuruh truk mengganti bahan bakar dengan minyak tanah.",
+   "Meminta pengelola SPBU menjual solar non-subsidi secara paksa dengan harga setengah.",
+   "Menutup jalur lalu lintas agar tidak ada truk yang lewat."
+  ],
+  "answer": 1,
+  "explain": "Dalam situasi darurat yang mengancam pasokan bahan pangan nasional, pengawas bertugas memfasilitasi koordinasi cepat dengan otoritas pengatur (BPH Migas/Pertamina) untuk diskresi pasokan darurat (emergency buffer stock).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat melakukan audit di depo penampungan utama, verifikator menemukan tangki mobil pengangkut BBM tidak dipasang segel timah/plastik pada katup keluaran (bottom loading) saat hendak berangkat ke SPBU. Tindakan verifikator adalah ...",
+  "options": [
+   "Mengizinkan mobil tangki berangkat agar pengiriman tidak terlambat.",
+   "Menahan keberangkatan mobil tangki tersebut hingga katup penyaluran disegel resmi dan dicatat nomor segelnya dalam manifest perjalanan.",
+   "Memasang segel bekas yang ditemukan di jalanan.",
+   "Mengawal mobil tangki tersebut tanpa perlu dipasang segel.",
+   "Menyuruh supir tangki menyegel tangki menggunakan selotip kertas."
+  ],
+  "answer": 1,
+  "explain": "Setiap armada pengangkut BBM dari depo wajib dalam keadaan tersegel resmi di seluruh titik katup keluaran demi mencegah tindak kencing/pencurian BBM di tengah jalan. Mobil tangki tanpa segel resmi dilarang keluar dari depo.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Seorang Verifikator Lapangan menerima keluhan dari himpunan petani lokal yang kesulitan mendapatkan Solar bersubsidi untuk mesin pompa irigasi karena dikuasai oleh oknum pelangsir. Langkah penanganan pemecahan masalah adalah ...",
+  "options": [
+   "Menyuruh petani membuat pompa air tenaga surya sendiri.",
+   "Melakukan inspeksi fokus di SPBU terkait, memverifikasi data rekomendasi kelompok tani, dan menindak SPBU yang melayani pelangsir ilegal.",
+   "Mengabaikan laporan karena petani bukan pengguna kendaraan bermotor.",
+   "Menyuruh petani membeli BBM eceran di pasar gelap.",
+   "Memindahkan lokasi pertanian jauh dari area SPBU."
+  ],
+  "answer": 1,
+  "explain": "Petani pengguna mesin irigasi berhak atas JBT Solar berdasarkan surat rekomendasi dinas terkait. Jika alokasi mereka diserobot oknum pelangsir, verifikator wajib melakukan inspeksi spesifik dan menindak penyelewengan di SPBU tersebut.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Setelah menyelesaikan masa penugasan 1 tahun sebagai Verifikator Lapangan, petugas wajib menyusun Laporan Akhir Penugasan. Manakah muatan utama yang paling krusial dalam laporan akhir tersebut?",
+  "options": [
+   "Daftar tempat wisata dan kuliner yang dikunjungi selama penugasan.",
+   "Rekapitulasi data fisik hasil verifikasi, pemetaan pola deviasi, evaluasi kelayakan SPBU, serta rekomendasi perbaikan sistem distribusi energi ke depan.",
+   "Rincian keluh kesah pribadi dan kendala cuaca di lokasi penugasan.",
+   "Daftar nama seluruh petugas dan kenalan di daerah luar Jawa.",
+   "Foto-foto kegiatan pribadi saat tidak bertugas."
+  ],
+  "answer": 1,
+  "explain": "Laporan akhir penugasan PJLP Pengawal Energi berfungsi sebagai dokumen akuntabilitas publik dan masukan kebijakan bagi Kementerian ESDM/BPH Migas, sehingga wajib memuat rekap data teknis, analisis deviasi, dan rekomendasi strategis perbaikan distribusi energi nasional. 4. TES WAWASAN KEBANGSAAN & INTEGRITAS Adapun poin tes yang akan diujikan adalah : • Materi 1: Wawasan Bernegara & Tata Kelola Sektor Energi o Pancasila & UUD 1945: Penerapan nilai-nilai Pancasila dalam kebijakan publik, khususnya Sila Ke-5 (keadilan sosial bagi seluruh rakyat Indonesia melalui pemerataan energi), serta landasan konstitusional pengelolaan sumber daya alam pada Pasal 33 UUD 1945. o NKRI & Wawasan Nusantara: Peran distribusi energi bersubsidi (JBT/JBKP) dalam memperkokoh ketahanan nasional dan pemerataan ekonomi di daerah 3T (Tertinggal, Terdepan, dan Terluar). o Tata Kelola Sektor Energi (ESDM & BPH Migas): Pemahaman tugas dan fungsi Kementerian ESDM sebagai regulator serta BPH Migas sebagai badan pengatur dan pengawas hilir migas nasional. • Materi 2: Integritas & Etika Profesi Sektor Publik o Etika Kerja PJLP & Pelayanan Publik: Prinsip akuntabilitas, transparansi, dan objektivitas saat menjalankan ",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pasal dalam UUD 1945 yang menjadi landasan utama bagi pemerintah dalam mengelola dan menguasai cabang-cabang produksi penting serta sumber daya alam minyak dan gas bumi untuk sebesar-besar kemakmuran rakyat adalah ...",
+  "options": [
+   "Pasal 27 Ayat 2",
+   "Pasal 30 Ayat 1",
+   "Pasal 33 Ayat 2 dan 3",
+   "Pasal 34 Ayat 1",
+   "Pasal 36A"
+  ],
+  "answer": 2,
+  "explain": "Pasal 33 Ayat 2 dan 3 UUD 1945 menyatakan bahwa cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak dikuasai oleh negara, serta bumi, air, dan kekayaan alam yang terkandung di dalamnya dipergunakan untuk sebesar-besar kemakmuran rakyat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Program pengawasan pendistribusian BBM bersubsidi ke wilayah 3T (Tertinggal, Terdepan, dan Terluar) merupakan wujud nyata pengamalan Pancasila, khususnya Sila ...",
+  "options": [
+   "Pertama",
+   "Kedua",
+   "Ketiga",
+   "Keempat",
+   "Kelima"
+  ],
+  "answer": 4,
+  "explain": "Pengalokasian dan pengawasan BBM bersubsidi agar menjangkau masyarakat kurang mampu hingga ke pelosok negeri merupakan manifestasi dari Sila Ke-5 Pancasila, yaitu Keadilan Sosial bagi Seluruh Rakyat Indonesia.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Lembaga pemerintah non-struktural yang memiliki tugas pokok melakukan pengawasan terhadap pengaturan dan penetapan ketersediaan serta pendistribusian Bahan Bakar Minyak adalah ...",
+  "options": [
+   "PT Pertamina (Persero)",
+   "BPH Migas",
+   "SKK Migas",
+   "Ditjen Minerba ESDM",
+   "Dewan Energi Nasional"
+  ],
+  "answer": 1,
+  "explain": "BPH Migas (Badan Pengatur Hilir Minyak dan Gas Bumi) bertugas mengatur dan mengawasi pendistribusian BBM serta pengangkutan gas bumi melalui pipa pada kegiatan usaha hilir.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Fungsi utama Kementerian ESDM dalam struktur tata kelola energi nasional adalah sebagai ...",
+  "options": [
+   "Pelaksana kegiatan produksi minyak mentah",
+   "Regulator dan pembuat kebijakan strategis sektor energi",
+   "Penjual eceran BBM ke masyarakat",
+   "Pengangkut armada tangki BBM",
+   "Pembeli komoditas migas asing"
+  ],
+  "answer": 1,
+  "explain": "Kementerian ESDM bertindak sebagai perumus dan pembuat kebijakan (regulator) di bidang energi dan sumber daya mineral.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kebijakan BBM Satu Harga yang diterapkan oleh pemerintah di seluruh wilayah Indonesia bertujuan untuk mewujudkan prinsip ...",
+  "options": [
+   "Keuntungan ekonomi maksimal bagi negara",
+   "Persaingan pasar bebas di daerah pelosok",
+   "Keadilan sosial dan kesetaraan hak masyarakat atas energi",
+   "Penghematan anggaran APBN secara total",
+   "Privatisasi sektor hilir migas"
+  ],
+  "answer": 2,
+  "explain": "BBM Satu Harga bertujuan agar warga di wilayah remote/3T menikmati harga energi yang sama dengan di Pulau Jawa, yang mencerminkan kesetaraan dan keadilan sosial.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dalam sistem ketahanan nasional, jaminan ketersediaan BBM di seluruh pelosok wilayah NKRI dikategorikan sebagai aspek ketahanan di bidang ...",
+  "options": [
+   "Ideologi",
+   "Politik",
+   "Ekonomi dan Sumber Daya Alam",
+   "Sosial Budaya",
+   "Pertahanan Keamanan semata"
+  ],
+  "answer": 2,
+  "explain": "Ketersediaan dan pasokan energi merupakan bagian integral dari ketahanan ekonomi dan pengelolaan sumber daya strategis nasional.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Apa yang dimaksud dengan Jenis BBM Tertentu (JBT) sesuai regulasi yang berlaku?",
+  "options": [
+   "BBM yang harganya ditentukan sepenuhnya oleh mekanisme pasar bebas",
+   "BBM yang mendapat subsidi dari pemerintah dan alokasinya dibatasi kuota",
+   "BBM khusus untuk kendaraan mewah dan mesin industri besar",
+   "BBM jenis avtur yang digunakan untuk penerbangan internasional",
+   "BBM impor yang tidak dijual di SPBU umum"
+  ],
+  "answer": 1,
+  "explain": "JBT (seperti Minyak Tanah dan Solar) adalah jenis BBM yang diberikan subsidi anggaran oleh pemerintah dan pengawasannya diatur ketat melalui sistem kuota.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Perguruan tinggi vokasi di bawah naungan Kementerian ESDM yang memfasilitasi pembekalan teknis dan pelatihan pengawasan pendistribusian BBM adalah ...",
+  "options": [
+   "Politeknik Negeri Jakarta",
+   "PEM Akamigas",
+   "Institut Teknologi Bandung",
+   "Universitas Gadjah Mada",
+   "Politeknik Energi Indonesia"
+  ],
+  "answer": 1,
+  "explain": "PEM Akamigas (Politeknik Energi dan Mineral Akamigas) berada di bawah Kementerian ESDM yang menyelenggarakan pendidikan dan pelatihan vokasi sektor energi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap yang mencerminkan nilai Wawasan Nusantara dalam pengawasan energi adalah ...",
+  "options": [
+   "Mengutamakan pengawasan di kota-kota besar yang memiliki konsumsi tertinggi saja",
+   "Mengabaikan kelangkaan BBM di wilayah perbatasan negara",
+   "Memandang bahwa ketersediaan energi di seluruh pelosok wilayah Indonesia adalah satu kesatuan kebutuhan nasional",
+   "Membiarkan penyelewengan kuota terjadi di wilayah luar Jawa",
+   "Memprioritaskan alokasi BBM untuk industri besar asing"
+  ],
+  "answer": 2,
+  "explain": "Wawasan Nusantara memandang seluruh wilayah NKRI sebagai satu kesatuan utuh, termasuk dalam pemenuhan dan pengawasan hak energi rakyat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Berdasarkan tata kelola pemerintahan yang bersih (Good Governance), transparansi dalam distribusi BBM bersubsidi diwujudkan melalui ...",
+  "options": [
+   "Penutupan akses data kuota bagi masyarakat",
+   "Penggunaan sistem pencatatan digitalisasi dispenser dan pelaporan terbuka",
+   "Penjualan BBM secara sembunyi-sembunyi pada malam hari",
+   "Penghapusan kewajiban laporan harian dari SPBU",
+   "Pembatasan informasi lokasi SPBU di daerah"
+  ],
+  "answer": 1,
+  "explain": "Prinsip transparansi diwujudkan dengan penerapan teknologi digitalisasi pencatatan volume dan pelaporan yang akuntabel.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Semangat Bhinneka Tunggal Ika yang wajib ditunjukkan oleh seorang Verifikator Lapangan saat ditugaskan di daerah baru adalah ...",
+  "options": [
+   "Menolak berkomunikasi dengan warga setempat yang berbeda suku",
+   "Menghormati adat istiadat setempat dan menjalankan tugas pengawasan secara profesional tanpa membeda-bedakan latar belakang",
+   "Meminta perlakuan istimewa melebihi pejabat lokal",
+   "Memaksa warga setempat mengikuti kebiasaan daerah asal verifikator",
+   "Membatasi diri hanya berinteraksi dengan sesama tim pendatang"
+  ],
+  "answer": 1,
+  "explain": "Nilai Bhinneka Tunggal Ika menuntut sikap saling menghormati keberagaman budaya lokal serta menjaga profesionalisme penugasan publik di mana pun berada.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Tujuan utama pembekalan dan sertifikasi kompetensi bagi tenaga Pengawal Energi sebelum diterjunkan ke lapangan adalah ...",
+  "options": [
+   "Memperpanjang masa seleksi calon petugas",
+   "Memastikan petugas memiliki keahlian standar, integritas, dan pengakuan legalitas dalam mengawasi pendistribusian BBM",
+   "Mengurangi jumlah hak insentif mingguan petugas",
+   "Menguji ketahanan fisik dalam latihan ketentaraan",
+   "Mengganti ijazah perguruan tinggi peserta"
+  ],
+  "answer": 1,
+  "explain": "Sertifikasi kompetensi bertujuan memberikan jaminan kelayakan teknis dan pemahaman standar operasional pengawasan sesuai regulasi ESDM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Makna integritas nasional bagi seorang petugas pengawas di bawah kementerian negara adalah ...",
+  "options": [
+   "Bekerja sesuai dengan keinginan pribadi tanpa mengacu aturan",
+   "Keselarasan antara perkataan, tindakan, dan aturan hukum dalam menjaga nama baik instansi negara",
+   "Menuruti seluruh perintah pengelola SPBU demi kelancaran tugas",
+   "Mengutamakan keuntungan finansial pribadi selama bertugas",
+   "Menutup mata terhadap ketidaksesuaian data di lapangan"
+  ],
+  "answer": 1,
+  "explain": "Integritas berarti keutuhan sikap jujur, konsisten, dan taat pada kode etik serta hukum negara dalam kondisi apa pun.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kategori BBM Jenis BBM Khusus Penugasan (JBKP) seperti Pertalite dialokasikan oleh pemerintah dengan tujuan ...",
+  "options": [
+   "Diberikan secara gratis kepada seluruh pemilik kendaraan pribadi",
+   "Menjamin ketersediaan dan pendistribusian BBM di wilayah penugasan sesuai regulasi BPH Migas",
+   "Dijual khusus untuk armada ekspor industri",
+   "Menggantikan seluruh jenis bahan bakar gas",
+   "Membatasi jumlah kendaraan umum yang beroperasi"
+  ],
+  "answer": 1,
+  "explain": "JBKP merupakan BBM yang ditugaskan penyalurannya oleh pemerintah ke wilayah tertentu untuk menjaga stabilitas ketersediaan energi nasional.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Penyelenggaraan penerimaan tenaga Pengawal Energi dengan skema PJLP (Perjanjian Kerja Jasa Perorangan) mengacu pada prinsip tata kelola publik yaitu ...",
+  "options": [
+   "Penunjukan langsung tanpa seleksi",
+   "Efisiensi, transparansi, dan efektivitas pemenuhan kebutuhan tenaga kerja khusus",
+   "Pengangkatan otomatis menjadi PNS tanpa ujian",
+   "Penyerahan seluruh tugas negara ke pihak ketiga",
+   "Kontrak tanpa jangka waktu yang jelas"
+  ],
+  "answer": 1,
+  "explain": "Skema PJLP dilakukan secara transparan untuk memenuhi kebutuhan fleksibel penugasan operasional dalam jangka waktu terukur.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Tindakan yang menunjukkan pemahaman etika bernegara saat menghadapi aksi protes warga terkait penataan kuota BBM adalah ...",
+  "options": [
+   "Membentak warga dan membalas dengan kekerasan",
+   "Mendengarkan aspirasi warga dengan sopan, menjelaskan kebijakan secara rasional, dan mengoordinasikannya dengan instansi terkait",
+   "Melarikan diri dan mengabaikan penugasan lapangan",
+   "Mengubah keputusan kuota secara sepihak saat itu juga",
+   "Menutup tempat penyaluran secara permanen"
+  ],
+  "answer": 1,
+  "explain": "Etika publik menuntut cara berorganisasi yang humanis, komunikatif, transparan, dan mengedepankan solusi prosedural.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pancasila sebagai Weltanschauung (pandangan hidup bangsa) dalam sektor energi berarti ...",
+  "options": [
+   "Energi dikuasai oleh pemilik modal terbesar",
+   "Pemanfaatan energi nasional harus ditujukan demi kemakmuran dan keadilan bersama seluruh rakyat Indonesia",
+   "Semua minyak dan gas harus diekspor ke luar negeri",
+   "Rakyat dibiarkan bersaing bebas mendapatkan energi tanpa campur tangan negara",
+   "Pembangunan energi hanya dipusatkan di ibu kota negara"
+  ],
+  "answer": 1,
+  "explain": "Weltanschauung mengarahkan pengelolaan seluruh potensi energi sebagai sarana mencapai cita-cita keadilan dan kemakmuran bersama.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Salah satu kewajiban utama Pengawal Energi sebagai garda terdepan pengawasan adalah mencegah terjadinya leakage (kebocoran) alokasi BBM bersubsidi. Hal ini mendukung cita-cita negara untuk ...",
+  "options": [
+   "Menambah simpanan utang luar negeri",
+   "Mengamankan anggaran APBN agar subsidi tepat sasaran",
+   "Memperluas area lahan tambang baru",
+   "Menghentikan produksi kendaraan bermotor",
+   "Membatasi jam operasional angkutan umum"
+  ],
+  "answer": 1,
+  "explain": "Mencegah kebocoran alokasi BBM menjamin efisiensi belanja negara (APBN) agar subsidi dinikmati oleh kelompok masyarakat yang benar-benar berhak.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Bentuk penyalahgunaan wewenang yang bertentangan dengan prinsip penegakan tata kelola pemerintahan yang bersih adalah ...",
+  "options": [
+   "Melakukan pemeriksaan dokumen secara teliti",
+   "Mengubah data hasil verifikasi tera dispenser demi imbalan dari penyalur",
+   "Melaporkan indikasi kecurangan ke pimpinan BPH Migas",
+   "Memakai seragam dan rompi keselamatan sesuai SOP",
+   "Menghadiri sesi pembekalan tepat waktu"
+  ],
+  "answer": 1,
+  "explain": "Mengubah data hasil verifikasi demi keuntungan pribadi/imbalan merupakan tindak kecurangan (fraud) dan penyalahgunaan wewenang.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pengawasan BBM bersubsidi secara menyeluruh dari hilir hingga ke penyalur eceran bertujuan menjaga stabilitas perekonomian nasional dari ancaman ...",
+  "options": [
+   "Deflasi yang berkelanjutan",
+   "Inflasi akibat kelangkaan dan lonjakan harga bahan bakar liar",
+   "Penurunan tingkat pendidikan masyarakat",
+   "Kenaikan nilai tukar mata uang asing secara mendadak",
+   "Pertumbuhan daya beli masyarakat"
+  ],
+  "answer": 1,
+  "explain": "Kelangkaan atau penyimpangan penyaluran BBM dapat memicu lonjakan harga barang pokok (inflasi), sehingga pengawasan ketat menjadi faktor kunci stabilitas ekonomi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Upaya menjamin ketersediaan energi bagi seluruh lapisan masyarakat di Indonesia merupakan bentuk pelaksanaan kewajiban negara sesuai konstitusi dalam hal ...",
+  "options": [
+   "Memperluas pengaruh politik di kawasan regional",
+   "Menguasai seluruh pasar energi di tingkat dunia",
+   "Memajukan kesejahteraan umum dan mencerdaskan kehidupan bangsa",
+   "Menghapus seluruh pajak sektor swasta",
+   "Mengurangi alokasi anggaran belanja daerah"
+  ],
+  "answer": 2,
+  "explain": "Pemenuhan kebutuhan dasar energi masyarakat merupakan bagian dari cita- cita bernegara yang tertuang dalam Pembukaan UUD 1945, yaitu memajukan kesejahteraan umum.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Lembaga yang bertugas menyusun skema dan kurikulum pembekalan teknis bagi verifikator Pengawal Energi adalah ...",
+  "options": [
+   "Badan Pemeriksa Keuangan (BPK)",
+   "PEM Akamigas bekerja sama dengan Kementerian ESDM dan BPH Migas",
+   "Kementerian Hukum dan HAM",
+   "Komisi Pemberantasan Korupsi (KPK)",
+   "Badan Meteorologi, Klimatologi, dan Geofisika (BMKG)"
+  ],
+  "answer": 1,
+  "explain": "Pelaksanaan pembekalan dan uji sertifikasi kompetensi diselenggarakan oleh institusi vokasi ESDM, yaitu PEM Akamigas berkolaborasi dengan BPH Migas dan Kementerian ESDM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dalam kerangka Otonomi Daerah, koordinasi antara verifikator lapangan dengan pemerintah daerah lokal bertujuan untuk ...",
+  "options": [
+   "Mengalihkan wewenang penindakan hukum kepada pemerintah daerah",
+   "Memastikan kelancaran pengawasan distribusi BBM tanpa melanggar kewenangan daerah",
+   "Meminta tambahan dana operasional dari APBD",
+   "Menutup SPBU yang tidak disukai oleh pemerintah lokal",
+   "Mengubah status barang subsidi menjadi non-subsidi"
+  ],
+  "answer": 1,
+  "explain": "Koordinasi dengan pihak lokal dilakukan untuk menjaga kelancaran operasional pengawasan dan harmonisasi hubungan kerja di wilayah penugasan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Konsep Wawasan Nusantara menegaskan bahwa kekayaan alam di seluruh wilayah kepulauan Indonesia pada hakikatnya adalah ...",
+  "options": [
+   "Milik pemerintah daerah tempat sumber daya tersebut berada saja",
+   "Milik perusahaan swasta asing pengelola tambang",
+   "Modal dan milik bersama bangsa untuk memenuhi kebutuhan di seluruh wilayah Indonesia",
+   "Komoditas yang bebas diperjualbelikan secara ilegal",
+   "Aset pribadi pejabat berwenang"
+  ],
+  "answer": 2,
+  "explain": "Wawasan Nusantara memandang seluruh kekayaan alam sebagai potensi dan milik bersama bangsa Indonesia untuk dimanfaatkan secara adil dan merata.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Salah satu bentuk pengamalan Sila Kedua Pancasila dalam pelaksanaan tugas di lapangan adalah ...",
+  "options": [
+   "Mengistimewakan pengelola SPBU dari golongan tertentu",
+   "Memperlakukan seluruh konsumen dan pengelola secara adil, sopan, dan bermartabat tanpa diskriminasi",
+   "Membiarkan terjadinya antrean penumpukan tanpa kejelasan",
+   "Mengabaikan aspek keselamatan kerja (K3L) petugas",
+   "Menerima imbalan dari warga yang ingin menyerobot antrean"
+  ],
+  "answer": 1,
+  "explain": "Sila Kedua (Kemanusiaan yang Adil dan Beradab) menekankan penghormatan terhadap hak asasi, kesetaraan perlakuan, dan sikap bermartabat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dasar hukum utama yang mengatur tentang tata kelola dan pengawasan kegiatan usaha hilir minyak dan gas bumi di Indonesia adalah ...",
+  "options": [
+   "Undang-Undang Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi",
+   "Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan",
+   "Undang-Undang Nomor 32 Tahun 2004 tentang Pemerintahan Daerah",
+   "Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik",
+   "Undang-Undang Nomor 11 Tahun 2020 tentang Cipta Kerja Saja"
+  ],
+  "answer": 0,
+  "explain": "UU No. 22 Tahun 2001 tentang Minyak dan Gas Bumi merupakan payung hukum utama penyelenggaraan sektor migas, termasuk pembentukan BPH Migas.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Asas kepastian hukum dalam pelaksanaan tugas Pengawal Energi berarti bahwa petugas ...",
+  "options": [
+   "Dapat membuat aturan sendiri di lokasi penugasan",
+   "Bertindak berdasarkan regulasi, SOP, dan ketentuan hukum yang berlaku secara objektif",
+   "Memilih aturan mana yang paling menguntungkan secara pribadi",
+   "Mengabaikan instruksi tertulis dari BPH Migas/ESDM",
+   "Mempertimbangkan sanksi berdasarkan kekeluargaan"
+  ],
+  "answer": 1,
+  "explain": "Kepastian hukum menuntut setiap langkah pengawasan dan penindakan didasarkan pada aturan tertulis dan SOP yang sah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Tujuan dari program BBM Satu Harga di kawasan perbatasan NKRI adalah untuk memperkokoh ...",
+  "options": [
+   "Persaingan bisnis antar Stasiun Pengisian BBM",
+   "Rasa keadilan dan ikatan kebangsaan warga perbatasan terhadap NKRI",
+   "Pendapatan negara dari sektor pajak ekspor",
+   "Jumlah impor bahan bakar dari negara tetangga",
+   "Penggunaan mata uang asing di wilayah perbatasan"
+  ],
+  "answer": 1,
+  "explain": "Ketersediaan BBM dengan harga sama di wilayah perbatasan meningkatkan kesejahteraan masyarakat sekaligus memperkuat rasa nasionalisme dan ketahanan NKRI.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sistem rujukan pengaduan pengawasan energi yang terintegrasi merupakan wujud pelayanan publik yang memegang prinsip ...",
+  "options": [
+   "Tertutup dan lambat",
+   "Akuntabel, responsif, dan mudah diakses masyarakat",
+   "Komersial dan berbiaya tinggi",
+   "Birokratis dan berbelit-belit",
+   "Terbatas untuk kalangan tertentu"
+  ],
+  "answer": 1,
+  "explain": "Pelayanan publik yang baik diwujudkan melalui kemudahan akses, kecepatan respons, dan akuntabilitas penanganan laporan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Keterlibatan pemuda/talenta muda dalam Program Pengawal Energi ESDM merupakan langkah strategis untuk ...",
+  "options": [
+   "Menggantikan seluruh pegawai senior di kementerian",
+   "Membina generasi muda yang berintegritas, profesional, dan paham tata kelola energi nasional",
+   "Meminimalkan penggunaan teknologi di lapangan",
+   "Menghapuskan peran badan pengatur migas",
+   "Mengurangi pengawasan di wilayah luar Pulau Jawa"
+  ],
+  "answer": 1,
+  "explain": "Pengerahan talenta muda bertujuan untuk kaderisasi dan peningkatan pengawasan energi yang bersih dan profesional.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Seorang Verifikator Lapangan ditawari voucher BBM gratis dan penginapan hotel dari pengelola SPBU saat melakukan inspeksi. Tindakan etis yang wajib dilakukan verifikator adalah ...",
+  "options": [
+   "Menerima voucher BBM saja karena bukan berupa uang tunai",
+   "Menolak seluruh fasilitas tersebut dan menggunakan anggaran operasional resmi penugasan",
+   "Menerima penginapan hotel tetapi menolak voucher BBM",
+   "Membagikan voucher tersebut kepada rekan tim lainnya",
+   "Meminta fasilitas tambahan berupa uang saku harian"
+  ],
+  "answer": 1,
+  "explain": "Fasilitas gratis dari objek pengawasan termasuk bentuk gratifikasi yang wajib ditolak demi menjaga independensi dan etika penugasan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Definisi benturan kepentingan (conflict of interest) dalam tugas pengawasan adalah situasi di mana ...",
+  "options": [
+   "Petugas memiliki dua tugas di lokasi yang sama",
+   "Petugas memiliki kepentingan pribadi/keluarga yang dapat memengaruhi objektivitas keputusan tugas resminya",
+   "Petugas berbeda pendapat dengan rekan satu tim",
+   "SPBU mengalami kelangkaan pasokan BBM",
+   "Pengelola SPBU menolak menunjukkan surat izin"
+  ],
+  "answer": 1,
+  "explain": "Benturan kepentingan terjadi ketika kepentingan pribadi mengintervensi objektivitas pertimbangan profesional petugas.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap profesionalisme petugas saat menemukan ketidaksesuaian data digitalisasi dispenser adalah ...",
+  "options": [
+   "Langsung mempublikasikan temuan ke media sosial pribadi",
+   "Meminta uang penyelesaian di tempat agar data dibetulkan",
+   "Mendokumentasikan bukti secara obyektif dan menyusun BAP sesuai standar operasional prosedur",
+   "Mengubah data angka di laporan agar sesuai dengan kondisi wajar",
+   "Menyuruh pengelola SPBU menyembunyikan bukti fisik"
+  ],
+  "answer": 2,
+  "explain": "Sikap profesional diwujudkan melalui penyusunan bukti objektif, penuangan dalam BAP, dan pelaporan secara hierarkis formal.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sesuai aturan pencegahan korupsi, apabila petugas tidak mampu menolak pemberian gratifikasi karena situasi intimidasi di lapangan, tindakan selanjutnya adalah ...",
+  "options": [
+   "Menyimpan uang tersebut untuk kepentingan pribadi",
+   "Melaporkan pemberian tersebut ke Unit Pengendalian Gratifikasi (UPG) / KPK maksimal 30 hari kerja",
+   "Menggunakan uang tersebut untuk biaya makan bersama tim",
+   "Menyembunyikan kejadian tersebut dari laporan penugasan",
+   "Menyerahkan uang tersebut kepada pengelola SPBU lain"
+  ],
+  "answer": 1,
+  "explain": "Penerimaan dalam kondisi terpaksa/intimidasi wajib dilaporkan ke UPG instansi atau KPK paling lambat 30 hari kerja sejak diterima.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Prinsip akuntabilitas dalam penyusunan laporan hasil verifikasi lapangan berarti ...",
+  "options": [
+   "Laporan dibuat secepat mungkin meskipun tanpa bukti pendukung",
+   "Laporan dapat dipertanggungjawabkan kebenarannya berdasarkan data dan bukti riil di lapangan",
+   "Laporan disesuaikan dengan permintaan pihak yang diperiksa",
+   "Laporan disusun tanpa mencantumkan identitas petugas",
+   "Laporan hanya berisi hal-hal yang positif saja"
+  ],
+  "answer": 1,
+  "explain": "Akuntabilitas berarti setiap pernyataan dan data dalam laporan dapat dibuktikan keabsahannya serta dipertanggungjawabkan secara hukum.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kode etik penugasan melarang keras petugas Pengawal Energi untuk ...",
+  "options": [
+   "Menggunakan rompi dan tanda pengenal resmi saat bertugas",
+   "Menyebarluaskan data rahasia hasil pengawasan kepada pihak yang tidak berwenang",
+   "Melakukan pemeriksaan alat meteran secara berkala",
+   "Berkoordinasi dengan pihak kepolisian setempat",
+   "Mengikuti sosiometri pembekalan teknis"
+  ],
+  "answer": 1,
+  "explain": "Menjaga kerahasiaan data hasil pemeriksaan adalah kewajiban etis petugas untuk mencegah penyalahgunaan informasi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap yang harus ditunjukkan ketika terdapat tekanan dari pihak luar yang meminta agar pelanggaran kuota BBM tidak dilaporkan adalah ...",
+  "options": [
+   "Mengikuti kemauan pihak luar demi keselamatan pribadi tanpa melapor",
+   "Tetap berpegang teguh pada prinsip integritas, menolak tekanan, dan melaporkan ancaman tersebut ke pimpinan",
+   "Meminta imbalan uang sebagai syarat menyetujui permintaan tersebut",
+   "Mengundurkan diri secara mendadak di tengah masa tugas",
+   "Mengubah laporan menjadi laporan fiktif"
+  ],
+  "answer": 1,
+  "explain": "Ketahanan integritas diuji saat menghadapi tekanan external; petugas harus teguh pada SOP dan segera meminta perlindungan pimpinan/aparat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Nilai transparansi dalam penggunaan anggaran operasional penugasan PJLP diwujudkan melalui ...",
+  "options": [
+   "Membuat nota belanja fiktif untuk mencairkan sisa anggaran",
+   "Menyusun bukti pengeluaran riil (at cost) yang sah sesuai dengan alokasi kegiatan",
+   "Menyimpan sisa dana operasional untuk keperluan pribadi",
+   "Mengabaikan kwitansi pembayaran transportasi",
+   "Meminjamkan dana operasional kepada pihak ketiga"
+  ],
+  "answer": 1,
+  "explain": "Transparansi anggaran diwujudkan melalui pelaporan riil (at cost) didukung bukti kwitansi sah tanpa ada manipulasi data pengeluaran.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Apabila seorang Verifikator Lapangan mendapati temuan pelanggaran di SPBU yang dikelola oleh kerabat dekatnya, langkah etis yang paling tepat adalah ...",
+  "options": [
+   "Tetap mengawasi dan merubah laporan agar kerabat tidak terkena sanksi",
+   "Melaporkan posisi benturan kepentingan tersebut kepada ketua tim dan meminta pengalihan objek pemeriksaan kepada verifikator lain",
+   "Membiarkan SPBU tersebut tanpa dilakukan pemeriksaan",
+   "Meminta bayaran lebih tinggi dari kerabatnya",
+   "Meminta kerabat menutup SPBU sementara waktu"
+  ],
+  "answer": 1,
+  "explain": "Pengungkapan (declaration) adanya benturan kepentingan dan pengalihan penugasan kepada petugas independen adalah standar etika publik.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Budaya K3L (Keselamatan, Kesehatan Kerja, dan Lingkungan) yang wajib dipatuhi petugas saat berada di area bahaya (zone 0/1) SPBU/Depo adalah ...",
+  "options": [
+   "Merokok di dekat tangki timbun BBM",
+   "Menggunakan HP/telepon genggam di dekat titik pengisian tanpa alat khusus",
+   "Memakai Alat Pelindung Diri (APD) lengkap seperti safety shoes, rompi safety, dan mematuhi larangan penggunaan bahan mudah terbakar",
+   "Membuang sampah plastik ke dalam celah tangki BBM",
+   "Melepas sepatu keselamatan agar lebih nyaman bekerja"
+  ],
+  "answer": 2,
+  "explain": "Penerapan K3L dengan penggunaan APD lengkap dan kepatuhan pada aturan zona bahaya merupakan bentuk profesionalisme dan kepedulian atas keselamatan jiwa.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Ketika bertugas di area fasilitas pendistribusian BBM, seorang Verifikator Lapangan melihat adanya kebocoran kecil pada pipa penyalur yang berpotensi memicu bahaya kebakaran. Tindakan yang paling sesuai dengan prinsip etika K3L adalah ...",
+  "options": [
+   "Membiarkan hal tersebut karena volume kebocoran masih kecil",
+   "Mengambil gambar untuk koleksi pribadi tanpa melapor",
+   "Menginformasikan segera kepada penanggung jawab K3L lokasi dan menghentikan sementara aktivitas di area bahaya",
+   "Menutup kebocoran dengan bahan seadanya tanpa alat pelindung",
+   "Mengabaikan karena bukan merupakan tanggung jawab verifikator"
+  ],
+  "answer": 2,
+  "explain": "Prinsip dasar keselamatan kerja (K3L) menuntut tanggap cepat terhadap potensi bahaya dengan melaporkan kepada penanggung jawab K3L serta mengamankan area bahaya.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap yang paling tepat saat seorang petugas diajak berkompromi oleh pihak penyalur untuk memanipulasi data selisih pencatatan (discrepancy) kuota BBM adalah ...",
+  "options": [
+   "Menyetujui kompromi jika imbalannya memadai",
+   "Menolak secara tegas, mencatat fakta apa adanya, dan melaporkan percobaan manipulasi tersebut ke dalam BAP",
+   "Meminta waktu untuk memikirkannya terlebih dahulu",
+   "Mengabaikan laporan pencatatan dan tidak menyusun BAP",
+   "Menyarankan agar manipulasi dilakukan oleh petugas lain"
+  ],
+  "answer": 1,
+  "explain": "Integritas profesi mewajibkan petugas menolak segelintir kompromi penyimpangan, mempertahankan objektivitas pencatatan data, dan mendokumentasikan pelanggaran.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Seorang petugas Pengawal Energi ditugaskan menyusun laporan evaluasi lapangan. Dalam proses analisis data, ditemukan fakta bahwa kinerja penyaluran di daerah tersebut kurang baik. Tindakan etis petugas adalah ...",
+  "options": [
+   "Mengubah data agar kinerja terlihat bagus di mata pimpinan",
+   "Menyajikan data apa adanya secara objektif disertai rekomendasi perbaikan yang konstruktif",
+   "Menyembunyikan laporan tersebut dan tidak menyerahkannya",
+   "Menyalahkan seluruh pihak lokal secara emosional",
+   "Mengutip data dari wilayah lain yang kinerjanya lebih baik"
+  ],
+  "answer": 1,
+  "explain": "Prinsip kejujuran intelektual dan akuntabilitas menuntut penyajian data secara objektif serta konstruktif demi perbaikan sistem.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Manakah tindakan yang mencerminkan pemahaman terhadap konsep pembatasan benturan kepentingan (conflict of interest)?",
+  "options": [
+   "Memeriksa SPBU yang dikelola oleh anggota keluarga sendiri",
+   "Menginformasikan kepada pimpinan jika memiliki hubungan kerabat dengan pengelola objek yang akan diperiksa",
+   "Menerima insentif ganda dari pengelola SPBU dan instansi resmi",
+   "Membeli saham pada perusahaan penyalur BBM yang sedang diawasi",
+   "Memprioritaskan alokasi BBM ke fasilitas milik rekan bisnis pribadi"
+  ],
+  "answer": 1,
+  "explain": "Mengungkapkan (disclose) potensi benturan kepentingan kepada pimpinan merupakan wujud nyata kepatuhan terhadap standar etika publik.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap yang ditunjukkan oleh seorang petugas yang tetap menjalankan tugas pemeriksaan dengan cermat meskipun kondisi cuaca di lokasi penugasan lapangan kurang mendukung adalah manifestasi dari ...",
+  "options": [
+   "Kejenuhan kerja",
+   "Kepatuhan paksa",
+   "Dedikasi dan profesionalisme penugasan",
+   "Keinginan mencari sensasi",
+   "Keterpaksaan ikatan kontrak"
+  ],
+  "answer": 2,
+  "explain": "Tetap berpegang pada standar kualitas kerja dan tanggung jawab dalam situasi sulit menunjukkan dedikasi serta profesionalisme penugasan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dalam penggunaan fasilitas kerja PJLP (seperti rompi safety, ID card, dan perlengkapan audit), tindakan yang melanggar etika penggunaan aset negara adalah ...",
+  "options": [
+   "Merawat dan menggunakan alat kerja khusus untuk kepentingan tugas resmi",
+   "Meminjamkan ID card resmi kepada orang lain yang bukan petugas untuk masuk ke area terbatas",
+   "Menyimpan perlengkapan kerja di tempat aman setelah bertugas",
+   "Menggunakan rompi safety saat melakukan inspeksi lapangan",
+   "Melaporkan kerusakan alat kerja kepada pengelola inventaris"
+  ],
+  "answer": 1,
+  "explain": "Meminjamkan ID card atau aset penugasan kepada pihak luar melanggar prosedur keamanan dan etika penyalahgunaan wewenang/fasilitas resmi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Seorang petugas menerima pengaduan dari masyarakat mengenai adanya dugaan penyalahgunaan BBM bersubsidi oleh oknum tertentu. Sikap etis petugas dalam merespons laporan masyarakat tersebut adalah ...",
+  "options": [
+   "Mengabaikan laporan karena pengadu adalah warga biasa",
+   "Meminta imbalan uang kepada pengadu jika ingin laporannya diproses",
+   "Mencatat rincian laporan secara profesional, memverifikasi keabsahan data awal, dan meneruskannya ke jalur penanganan resmi",
+   "Menyebarkan isi laporan ke media sosial sebelum diverifikasi",
+   "Memberitahukan identitas pelapor kepada oknum yang dilaporkan"
+  ],
+  "answer": 2,
+  "explain": "Penerimaan laporan publik wajib ditanggapi secara profesional, menjaga kerahasiaan identitas pelapor (whistleblower), serta memproses sesuai SOP.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Apabila terjadi selisih paham antara petugas verifikator dengan tim operasional SPBU mengenai prosedur tera dispenser, prinsip penyelesaian yang menjunjung tinggi profesionalisme adalah ...",
+  "options": [
+   "Menggunakan tekanan emosional untuk memenangkan argumen",
+   "Mengacu pada pedoman standar teknis resmi (SOP) dan melakukan uji ulang bersama secara transparan",
+   "Menghentikan verifikasi dan pergi tanpa kejelasan",
+   "Menyelesaikan masalah melalui kompromi di luar jalur resmi",
+   "Menyerahkan keputusan sepenuhnya kepada pihak SPBU"
+  ],
+  "answer": 1,
+  "explain": "Penyelesaian perselisihan teknis secara profesional dilakukan berdasarkan acuan aturan/SOP resmi dan pembuktian langsung yang transparan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Penggunaan atribut resmi Pengawal Energi Kementerian ESDM di luar jam dan kepentingan tugas untuk menakut-nakuti pihak lain merupakan bentuk pelanggaran ...",
+  "options": [
+   "Tata tertib lalu lintas saja",
+   "Etika profesi dan penyalahgunaan wewenang atribut instansi",
+   "Kode etika akademis",
+   "Aturan K3L di lapangan",
+   "Ketentuan perizinan usaha"
+  ],
+  "answer": 1,
+  "explain": "Menggunakan identitas atau atribut resmi instansi pemerintah untuk menakut-nakuti atau mencari keuntungan pribadi bertentangan dengan kode etik profesi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Etika berkomunikasi yang baik bagi petugas saat menyampaikan hasil temuan pemeriksaan kepada pengelola fasilitas distribusi adalah ...",
+  "options": [
+   "Menyampaikan temuan secara lugas, berbasis data objektif, sopan, dan tanpa rasa menghakimi secara pribadi",
+   "Menyampaikan dengan nada menyalahkan dan emosional",
+   "Mengancam pengelola dengan sanksi pidana secara sepihak",
+   "Menyampaikan hasil pemeriksaan secara berbisik-bisik agar mendapatkan imbalan",
+   "Menolak memberikan penjelasan mengenai temuan yang diuji"
+  ],
+  "answer": 0,
+  "explain": "Komunikasi etis diwujudkan melalui penyampaian temuan berbasis data faktual, objektif, santun, dan sesuai koridor hukum.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika seorang verifikator menemukan kesalahan teknis yang tidak disengaja oleh operator SPBU saat pencatatan data harian, tindakan yang paling edukatif dan etis adalah ...",
+  "options": [
+   "Langsung merekomendasikan penutupan SPBU",
+   "Mencatat kesalahan tersebut, memberikan teguran edukatif sesuai SOP, dan mengarahkan perbaikan pencatatan",
+   "Meminta denda berupa uang tunai secara langsung",
+   "Menyuruh operator mengundurkan diri",
+   "Membiarkan kesalahan pencatatan berlanjut"
+  ],
+  "answer": 1,
+  "explain": "Tindakan edukatif diwujudkan melalui pencatatan temuan, pembinaan/teguran prosedural, dan pengarahan perbaikan data secara sah.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Asas kerahasiaan dalam tugas verifikasi dan pengawasan pendistribusian BBM berlaku untuk dokumen ...",
+  "options": [
+   "Kebijakan publik yang sudah dipublikasikan di situs resmi ESDM",
+   "Berkas rahasia hasil audit investigatif yang belum final dan belum diumumkan resmi oleh instansi",
+   "Brosur alur pendaftaran Pengawal Energi",
+   "Formulir pendaftaran terbuka untuk umum",
+   "Regulasi HET BBM yang ditetapkan pemerintah"
+  ],
+  "answer": 1,
+  "explain": "Dokumen atau data hasil pemeriksaan/audit yang sedang berlangsung bersifat rahasia dan melanggar kode etik jika dibocorkan sebelum pengumuman resmi instansi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Tindakan seorang petugas yang melaporkan adanya percobaan penyuapan oleh oknum penyalur kepada Unit Pengendalian Gratifikasi (UPG) merupakan contoh penerapan prinsip ...",
+  "options": [
+   "Kepatuhan formalitas semata",
+   "Integritas tinggi dan budaya anti-korupsi",
+   "Pencarian penghargaan pribadi",
+   "Persaingan antar petugas",
+   "Penolakan terhadap penugasan lapangan"
+  ],
+  "answer": 1,
+  "explain": "Melaporkan percobaan suap secara prosedural menunjukkan komitmen integritas yang kuat dan penerapan budaya anti-korupsi di lingkungan kerja public sector.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Sikap siap ditempatkan di mana saja, termasuk daerah terpencil/luar Pulau Jawa sesuai dokumen komitmen pendaftaran, mencerminkan nilai ...",
+  "options": [
+   "Kepatuhan tanpa perencanaan",
+   "Tanggung jawab, komitmen, dan kesiapan pengabdian pada tugas bernegara",
+   "Ketertarikan pada petualangan pribadi",
+   "Keinginan mencari pengalaman liburan",
+   "Ketidakpedulian terhadap lokasi penugasan"
+  ],
+  "answer": 1,
+  "explain": "Kepatuhan melaksanakan kesediaan penempatan membuktikan tanggung jawab integritas atas janji/komitmen yang diikrarkan saat pendaftaran.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Menjaga kebersihan dan perawatan alat ukur/bejana tera milik instansi yang digunakan selama inspeksi lapangan merupakan bentuk komitmen etika terhadap ...",
+  "options": [
+   "Efisiensi waktu pribadi",
+   "Pemeliharaan dan pemanfaatan barang milik negara (BMN) secara bertanggung jawab",
+   "Pembuktian kemampuan teknis pribadi",
+   "Persyaratan formal pendaftaran online",
+   "Kewajiban pengelola SPBU"
+  ],
+  "answer": 1,
+  "explain": "Merawat dan menjaga kelayakan aset penugasan merupakan bentuk tanggung jawab moral dan etis dalam mengelola Barang Milik Negara.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Dalam hal penyusunan jadwal inspeksi lapangan bersama tim, sikap yang mencerminkan etika kerja kelompok (teamwork) adalah ...",
+  "options": [
+   "Menyusun jadwal sendiri tanpa berkonsultasi dengan anggota tim",
+   "Membagikan beban kerja secara adil, saling menghargai pendapat, dan berkoordinasi secara terbuka",
+   "Mengambil tugas yang paling ringan dan menyerahkan tugas berat kepada rekan lain",
+   "Menolak berkoordinasi dengan ketua tim",
+   "Mengerjakan tugas secara sendiri-sendiri tanpa komunikasi"
+  ],
+  "answer": 1,
+  "explain": "Etika kerja tim (teamwork) dilandasi oleh pembagian kerja yang adil, komunikasi terbuka, dan sikap saling menghargai.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Jika seorang petugas mendapati dirinya merasa lelah atau mengalami gangguan kesehatan saat hendak melakukan pemeriksaan teknis dispenser yang berisiko tinggi, tindakan profesional yang tepat adalah ...",
+  "options": [
+   "Tetap memaksa bekerja tanpa memberitahu siapapun",
+   "Menyampaikan kondisi kesehatan kepada ketua tim agar dapat diatur skema pendampingan atau pengalihan tugas demi K3L",
+   "Meninggalkan lokasi tanpa memberikan kabar",
+   "Meminta operator SPBU menggantikan tugas pemeriksaan",
+   "Mengerjakan pemeriksaan secara asal- asalan agar cepat selesai"
+  ],
+  "answer": 1,
+  "explain": "Prinsip K3L mengutamakan keselamatan jiwa. Menyampaikan kondisi kesehatan secara jujur demi mencegah kecelakaan kerja adalah sikap profesional.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Kejujuran seorang verifikator dalam mencatat waktu kedatangan dan durasi inspeksi di lokasi SPBU merupakan manifestasi dari nilai integritas dalam hal ...",
+  "options": [
+   "Akuntabilitas administratif dan kedisiplinan waktu",
+   "Pembuktian keunggulan fisik",
+   "Penilaian kinerja pihak SPBU",
+   "Pemenuhan syarat ijazah S1/D4",
+   "Kecepatan pelaporan berita"
+  ],
+  "answer": 0,
+  "explain": "Pencatatan waktu kerja secara presisi dan jujur merupakan bentuk integritas kedisiplinan serta akuntabilitas administratif.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Pengawal Energi yang menolak menerima uang tip dari pengemudi armada BBM atas bantuan teknis yang diberikan saat tugas pengawasan telah mengamalkan prinsip etika publik yaitu ...",
+  "options": [
+   "Memperlambat pelayanan",
+   "Menjaga kemurnian pelayanan publik tanpa pungutan liar atau imbalan tidak sah",
+   "Menolak membantu masyarakat",
+   "Membatasi komunikasi dengan pengemudi",
+   "Mengabaikan tugas pengawasan"
+  ],
+  "answer": 1,
+  "explain": "Pelayanan publik yang diberikan oleh petugas negara/PJLP bersifat gratis (sudah didukung insentif resmi), sehingga penolakan tip menjaga kebersihan pelayanan dari pungli.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "TPA",
+  "q": "Rangkaian sikap jujur, disiplin, berdedikasi tinggi, menolak gratifikasi, serta taat pada SOP penugasan pada akhirnya bermuara pada terbentuknya ...",
+  "options": [
+   "Keuntungan finansial pribadi yang besar",
+   "Kepercayaan publik (public trust) terhadap tata kelola pengawasan energi nasional",
+   "Kemudahan untuk berpindah profesi",
+   "Penghapusan sistem evaluasi penugasan",
+   "Kebebasan bekerja tanpa batas waktu"
+  ],
+  "answer": 1,
+  "explain": "Seluruh pilar integritas dan etika profesi bertuju pada pembentukan kepercayaan publik (public trust) terhadap kredibilitas dan keadilan pengelolaan energi oleh negara. 5. Tes Pengetahuan teknis Hilir Migas & Regulasi Adapun poin/materi tes yang akan keluar adalah : MATERI 1: REGULASI SUBSIDI DAN PENUGASAN BBM 1. Landasan Hukum dan Filosofi Subsidi Energi • Landasan Konstitusional: Pasal 33 Ayat (2) dan (3) UUD 1945 mengamanatkan bahwa cabang- cabang produksi penting yang menguasai hajat hidup orang banyak serta sumber daya alam dikuasai oleh negara untuk sebesar-besar kemakmuran rakyat. • Undang-Undang Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi: Memisahkan kegiatan usaha Migas menjadi kegiatan Usaha Hulu (Eksplorasi dan Eksploitasi) dan Kegiatan Usaha Hilir (Pengolahan, Pengangkutan, Penyimpanan, dan Niaga). Pengawasan penyaluran komoditas tertentu diserahkan kepada badan pengatur independen. • Peraturan Presiden Nomor 191 Tahun 2014: Merupakan dasar hukum utama pendistribusian, harga jual eceran, dan konsumen pengguna BBM. Aturan ini mengklasifikasikan BBM menjadi tiga kategori utama: 1. Jenis BBM Tertentu (JBT): Bahan bakar yang diberikan subsidi anggaran oleh pemerintah (c",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Berdasarkan Peraturan Presiden Nomor 191 Tahun 2014, kategori Bahan Bakar Minyak yang mendapat subsidi anggaran belanja negara dan kuota penyalurannya diatur oleh pemerintah adalah ...",
+  "options": [
+   "Jenis BBM Umum (JBU)",
+   "Jenis BBM Khusus Penugasan (JBKP)",
+   "Jenis BBM Tertentu (JBT)",
+   "Jenis BBM Industri (JBI)",
+   "Jenis BBM Komersial (JBK)"
+  ],
+  "answer": 2,
+  "explain": "Jenis BBM Tertentu (JBT) adalah BBM yang mendapat subsidi anggaran APBN dan diatur kuotanya oleh pemerintah, seperti Minyak Tanah dan Minyak Solar.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Komoditas Bahan Bakar Minyak di bawah ini yang dikategorikan sebagai Jenis BBM Khusus Penugasan (JBKP) berdasarkan regulasi pemerintah terbaru adalah ...",
+  "options": [
+   "Bio Solar",
+   "Pertamax",
+   "Pertalite",
+   "Pertamina Dex",
+   "Minyak Tanah"
+  ],
+  "answer": 2,
+  "explain": "Pertalite (Gasoline RON 90) dikategorikan sebagai Jenis BBM Khusus Penugasan (JBKP) di mana penugasan distribusinya diatur ke seluruh wilayah NKRI.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Landasan konstitusional tertinggi yang memberikan wewenang kepada negara untuk menguasai sumber daya minyak dan gas bumi demi kemakmuran rakyat terletak pada ...",
+  "options": [
+   "Pasal 27 Ayat (2) UUD 1945",
+   "Pasal 30 Ayat (1) UUD 1945",
+   "Pasal 33 Ayat (2) dan (3) UUD 1945",
+   "Pasal 34 Ayat (2) UUD 1945",
+   "Pasal 36 UUD 1945"
+  ],
+  "answer": 2,
+  "explain": "Pasal 33 Ayat (2) dan (3) UUD 1945 mengatur bahwa cabang produksi penting dan kekayaan alam dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Nelayan yang berhak menggunakan Bahan Bakar Minyak bersubsidi (JBT Solar) harus memenuhi kriteria utama batas maksimum ukuran kapal sebesar ...",
+  "options": [
+   "10 Gross Tonage (GT)",
+   "15 Gross Tonage (GT)",
+   "30 Gross Tonage (GT)",
+   "50 Gross Tonage (GT)",
+   "100 Gross Tonage (GT)"
+  ],
+  "answer": 2,
+  "explain": "Sesuai Perpres No. 191 Tahun 2014, nelayan yang berhak menggunakan JBT Solar adalah nelayan kecil yang menggunakan kapal penangkap ikan berukuran paling besar 30 GT dan terdaftar di instansi perikanan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dokumen resmi yang wajib ditunjukkan oleh petani kecil/kelompok tani untuk dapat membeli JBT Solar di SPBU/SPBN bagi mesin pompa irigasi adalah ...",
+  "options": [
+   "KTP dan Kartu Keluarga saja",
+   "Surat Rekomendasi dari Dinas Pertanian / Pejabat Berwenang setempat",
+   "Surat Keterangan Usaha dari Perbankan",
+   "Sertifikat Hak Milik Tanah",
+   "Akta Notaris Perusahaan"
+  ],
+  "answer": 1,
+  "explain": "Petani kecil wajib melampirkan Surat Rekomendasi resmi dari Dinas Pertanian/Kepala Desa/Pejabat Berwenang yang memverifikasi kebutuhan dan luas lahan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sektor di bawah ini yang secara tegas DILARANG menggunakan BBM bersubsidi (JBT Solar) untuk kegiatan operasional utamanya adalah ...",
+  "options": [
+   "Usaha mikro perikanan",
+   "Kendaraan ambulans pelayanan publik",
+   "Operasional angkutan perkebunan dan pertambangan skala besar",
+   "Kendaraan umum plat kuning pembawa penumpang",
+   "Mesin pompa irigasi pertanian rakyat"
+  ],
+  "answer": 2,
+  "explain": "Kegiatan industri pertambangan dan perkebunan skala besar dilarang menggunakan BBM bersubsidi dan wajib menggunakan BBM Industri/JBU komersial.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Undang-Undang yang mengatur secara mendasar tentang pemisahan kegiatan usaha Hulu dan Kegiatan Usaha Hilir Minyak dan Gas Bumi di Indonesia adalah ...",
+  "options": [
+   "Undang-Undang Nomor 22 Tahun 2001",
+   "Undang-Undang Nomor 30 Tahun 2007",
+   "Undang-Undang Nomor 11 Tahun 2020",
+   "Undang-Undang Nomor 19 Tahun 2003",
+   "Undang-Undang Nomor 25 Tahun 2009"
+  ],
+  "answer": 0,
+  "explain": "UU No. 22 Tahun 2001 tentang Minyak dan Gas Bumi merupakan landasan hukum pemisahan usaha Hulu (eksplorasi/eksploitasi) dan Hilir (pengolahan/pengangkutan/penyimpanan/niag a).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apakah perbedaan teknis utama antara Jenis BBM Tertentu (JBT) dan Jenis BBM Khusus Penugasan (JBKP)?",
+  "options": [
+   "JBT tidak memiliki kuota, sedangkan JBKP memiliki kuota tahunan",
+   "JBT menerima alokasi subsidi dana APBN, sedangkan JBKP merupakan penugasan distribusi tanpa subsidi langsung harga APBN",
+   "JBT hanya dijual di Pulau Jawa, sedangkan JBKP dijual di luar Jawa",
+   "JBT diperuntukkan bagi kendaraan mewah, sedangkan JBKP untuk masyarakat miskin",
+   "JBT diimpor seluruhnya, sedangkan JBKP diproduksi dalam negeri"
+  ],
+  "answer": 1,
+  "explain": "JBT menerima compensasi subsidi anggaran APBN langsung, sedangkan JBKP tidak menerima subsidi langsung APBN namun biaya distribusinya ditugaskan oleh pemerintah ke penyalur.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Batas maksimal luas lahan pertanian yang digarap oleh petani kecil agar berhak memperoleh alokasi BBM bersubsidi adalah ...",
+  "options": [
+   "1 Hektar",
+   "2 Hektar",
+   "5 Hektar",
+   "10 Hektar",
+   "15 Hektar"
+  ],
+  "answer": 1,
+  "explain": "Petani kecil yang berhak memperoleh alokasi JBT Solar adalah petani yang mengusahakan lahan pertanian/perikanan darat dengan luas maksimal 2 hektar.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Kendaraan bermotor berikut ini yang BERHAK menggunakan BBM bersubsidi Jenis Solar JBT adalah ...",
+  "options": [
+   "Kendaraan dinas operasional TNI/Polri",
+   "Kendaraan dinas plat merah instansi kementerian",
+   "Mobil pengangkut hasil tambang batu bara",
+   "Angkutan umum angkot berplat kuning",
+   "Kendaraan pribadi mewah berkapasitas mesin di atas 3.000 cc"
+  ],
+  "answer": 3,
+  "explain": "Angkutan umum barang/orang berplat kuning merupakan salah satu sektor transportasi darat yang berhak memanfaatkan JBT Solar.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Institusi yang berwenang menetapkan rincian alokasi kuota tahunan JBT dan JBKP untuk setiap Kabupaten/Kota di Indonesia adalah ...",
+  "options": [
+   "PT Pertamina Patra Niaga",
+   "Kementerian Keuangan",
+   "BPH Migas",
+   "SKK Migas",
+   "Pemerintah Daerah Kabupaten/Kota"
+  ],
+  "answer": 2,
+  "explain": "BPH Migas memiliki wewenang untuk menetapkan dan membagi alokasi kuota JBT dan JBKP untuk masing-masing daerah kabupaten/kota.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apa konsekuensi hukum bagi SPBU yang terbukti melayani pembelian JBT Solar menggunakan jeriken tanpa disertai Surat Rekomendasi sah?",
+  "options": [
+   "Diberikan sertifikat penghargaan kelancaran",
+   "Diberikan teguran lisan tanpa catatan",
+   "Dikenakan sanksi penghentian sementara alokasi penyaluran hingga pemotongan kuota",
+   "Kuota BBM bersubsidinya ditambah 10%",
+   "Pengelola SPBU dijadikan Verifikator Lapangan"
+  ],
+  "answer": 2,
+  "explain": "SPBU yang melanggar aturan penyaluran JBT (seperti menjual ke jeriken tanpa rekomendasi) dikenakan sanksi administratif bertahap, mulai dari teguran tertulis, penghentian sementara fasilitas, hingga pemotongan alokasi kuota.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pemerintah menerapkan kebijakan BBM Satu Harga di wilayah 3T dengan tujuan utama ...",
+  "options": [
+   "Meningkatkan margin keuntungan penyalur eceran",
+   "Menjamin keadilan distributif sehingga masyarakat di daerah 3T membeli BBM dengan harga resmi yang sama seperti di kota besar",
+   "Mendorong masyarakat 3T membeli kendaraan bermotor mewah",
+   "Menghabiskan sisa kuota BBM bulanan",
+   "Memperluas area ekspor minyak mentah ke luar negeri"
+  ],
+  "answer": 1,
+  "explain": "Program BBM Satu Harga bertujuan menghadirkan keadilan sosial dan stabilitas harga bahan bakar di daerah Tertinggal, Terdepan, dan Terluar (3T).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "BBM jenis Dexlite dan Pertamina Dex berdasarkan regulasi hilir migas dikategorikan ke dalam ...",
+  "options": [
+   "JBT (Jenis BBM Tertentu)",
+   "JBKP (Jenis BBM Khusus Penugasan)",
+   "JBU (Jenis BBM Umum)",
+   "BBM Bersubsidi Negara",
+   "BBM Penugasan Daerah"
+  ],
+  "answer": 2,
+  "explain": "Dexlite dan Pertamina Dex merupakan BBM diesel non-subsidi komersial yang masuk dalam kategori Jenis BBM Umum (JBU).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Jangka waktu masa berlaku Surat Rekomendasi pembelian BBM bersubsidi bagi petani atau nelayan kecil yang diterbitkan oleh dinas terkait umumnya berlaku selama ...",
+  "options": [
+   "1 Minggu",
+   "Maksimal 1 Bulan hingga 3 Bulan (sesuai ketentuan daerah/regulasi)",
+   "5 Tahun",
+   "Seumur hidup",
+   "Tanpa batas waktu"
+  ],
+  "answer": 1,
+  "explain": "Surat Rekomendasi pembelian JBT diterbitkan oleh dinas teknis setempat dengan jangka waktu terbatas (umumnya 1 sampai 3 bulan) dan wajib diperbarui secara berkala.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Penetapan Harga Eceran Tertinggi (HET) untuk Jenis BBM Khusus Penugasan (JBKP) ditetapkan oleh ...",
+  "options": [
+   "Direktur Utama PT Pertamina",
+   "Menteri ESDM",
+   "Gubernur masing-masing provinsi",
+   "Bupati/Wali Kota setempat",
+   "Ketua Asosiasi Pengusaha SPBU"
+  ],
+  "answer": 1,
+  "explain": "Harga Eceran Tertinggi (HET) atau harga jual eceran untuk BBM Penugasan (JBKP) dan Subsidi (JBT) ditetapkan oleh Menteri ESDM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Mekanisme pengawasan penyaluran JBT yang menggunakan teknologi sistem \"Digitalisasi IT Nozzle\" di SPBU bertujuan untuk ...",
+  "options": [
+   "Mempercepat proses pencucian mobil di SPBU",
+   "Memantau volume penyaluran harian, mencegah kecurangan transaksi, dan merekam nomor kendaraan penerima secara akurat",
+   "Mengurangi jumlah petugas operator di SPBU",
+   "Mengganti BBM cair menjadi gas",
+   "Membantu SPBU menaikkan harga jual secara mendadak"
+  ],
+  "answer": 1,
+  "explain": "Digitalisasi IT Nozzle berfungsi mencatat data transaksi penyaluran secara otomatis dan terpusat guna menjamin transparansi serta mencegah kebocoran kuota bersubsidi. TATA KELOLA & PENGAWASAN",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam mata rantai pasok (supply chain) hilir minyak dan gas bumi, urutan tahapan penyaluran BBM dari fasilitas produksi hingga sampai ke konsumen akhir adalah ...",
+  "options": [
+   "Terminal BBM - Kilang Pengolahan - SPBU - Mobil Tangki",
+   "Kilang Pengolahan - Terminal BBM - Mobil Tangki - SPBU / Penyalur",
+   "SPBU - Terminal BBM - Kilang Pengolahan - Konsumen",
+   "Mobil Tangki - Kilang Pengolahan - Terminal BBM - SPBU",
+   "Depo BBM - Kilang Pengolahan - SPBU - Mobil Tangki"
+  ],
+  "answer": 1,
+  "explain": "Alur distribusi hilir migas dimulai dari pengolahan minyak mentah di Kilang (Refinery), pengangkutan ke Terminal BBM / Depo penyimpanan, pengangkutan darat menggunakan Mobil Tangki, hingga didistribusikan di titik penyalur akhir (SPBU/SPBN).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Lembaga independen yang bertugas melakukan pengaturan dan pengawasan terhadap penyaluran serta ketersediaan BBM bersubsidi secara nasional adalah ...",
+  "options": [
+   "SKK Migas",
+   "BPH Migas",
+   "PT Pertamina (Persero)",
+   "Ditjen Migas Kementerian ESDM",
+   "Dewan Energi Nasional"
+  ],
+  "answer": 1,
+  "explain": "BPH Migas (Badan Pengatur Hilir Minyak dan Gas Bumi) adalah badan independen yang diberi kewenangan oleh UU No. 22 Tahun 2001 untuk mengatur dan mengawasi kegiatan usaha hilir migas, khususnya distribusi BBM dan gas bumi pipa.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apabila terjadi lonjakan konsumsi BBM bersubsidi di suatu kabupaten yang berpotensi menyebabkan kuota tahunan habis sebelum akhir tahun, tindakan korektif yang menjadi kewenangan BPH Migas adalah ...",
+  "options": [
+   "Menghentikan total penyaluran BBM di kabupaten tersebut",
+   "Melakukan penyesuaian/reokasi kuota antarwilayah atau antarpenyalur berdasarkan evaluasi data histori",
+   "Menutup seluruh SPBU di daerah tersebut secara permanen",
+   "Mengubah status JBT Solar menjadi produk impor komersial",
+   "Menyerahkan penentuan kuota kepada pengelola SPBU swasta"
+  ],
+  "answer": 1,
+  "explain": "BPH Migas memiliki kewenangan evaluasi dan pengendalian kuota melalui mekanisme realokasi kuota antar- kabupaten/kota atau antar-penyalur agar pasokan tetap terjaga hingga akhir tahun anggaran.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sarana fasilitas penampungan dan penerimaan BBM skala besar yang berfungsi sebagai pusat penerimaan dari kapal/pipa serta titik awal pendistribusian mobil tangki dinamakan ...",
+  "options": [
+   "Stasiun Pengisian Bahan Bakar Umum (SPBU)",
+   "Terminal Bahan Bakar Minyak (TBBM) / Depo",
+   "Kilang Pengolahan Minyak (Refinery)",
+   "Pos Penyalur Komunal",
+   "Fasilitas SPBN"
+  ],
+  "answer": 1,
+  "explain": "Terminal BBM (TBBM) atau Depo merupakan fasilitas penyimpanan dan penerimaan BBM skala besar yang menjadi hub distribusi sebelum diangkut mobil tangki ke penyalur eceran.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Fungsi utama pengawasan verifikator di lapangan terhadap dokumen Delivery Order (DO) atau Surat Jalan pengiriman BBM dari Depo ke SPBU adalah untuk ...",
+  "options": [
+   "Memastikan nomor polisi mobil tangki sesuai dengan volume dan spesifikasi BBM yang dikirim ke SPBU tujuan",
+   "Menghitung jumlah bonus yang diterima pengemudi mobil tangki",
+   "Mengubah volume BBM di dalam tangki sebelum disalurkan",
+   "Menentukan harga jual eceran di tingkat SPBU",
+   "Mengganti identitas penyalur yang menerima BBM"
+  ],
+  "answer": 0,
+  "explain": "Verifikasi dokumen DO/Surat Jalan bertujuan mencocokkan validitas pengiriman, mencakup volume BBM, jenis produk, waktu keberangkatan, serta identitas mobil tangki penyalur agar tidak terjadi penyimpangan di jalan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam skema pengawasan distribusi BBM bersubsidi, istilah Discrepancy berarti ...",
+  "options": [
+   "Kesesuaian 100% antara data penerimaan dan penyaluran",
+   "Selisih atau ketidaksesuaian antara jumlah volume BBM yang dikirim/tercatat dengan volume fisik yang diterima atau disalurkan",
+   "Kelulusan penguji dalam sertifikasi kompetensi",
+   "Penambahan alokasi kuota secara mendadak oleh pemerintah",
+   "Penghentian penyaluran BBM akibat bencana alam"
+  ],
+  "answer": 1,
+  "explain": "Discrepancy merupakan istilah teknis untuk menggambarkan selisih angka atau ketidaksesuaian volume fisik hasil audit dengan pencatatan administratif/digital.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Penyalur BBM khusus yang dibangun di wilayah pesisir atau pelabuhan untuk mengawasi dan menyalurkan JBT Solar langsung kepada nelayan kecil dinamakan ...",
+  "options": [
+   "SPBU Reguler",
+   "SPBN (Stasiun Pengisian Bahan Bakar Nelayan)",
+   "SPBK (Stasiun Pengisian Bahan Bakar Komunal)",
+   "Depo Mini",
+   "Tangki Terapung Industri"
+  ],
+  "answer": 1,
+  "explain": "SPBN adalah stasiun penyalur khusus yang ditempatkan di kawasan dermaga/pelabuhan perikanan untuk melayani kebutuhan Bahan Bakar Minyak bagi nelayan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apabila sebuah SPBU mengalami keterlambatan pasokan BBM akibat kemacetan lalu lintas armada tangki, langkah manajemen risiko distribusi yang dapat dilakukan oleh penyalur adalah ...",
+  "options": [
+   "Menyegel dispenser dan mematikan seluruh listrik SPBU",
+   "Melaporkan kondisi stok kritis (deadstock level) kepada pertamina/BPH Migas untuk pengalihan armada terdekat (rerouting supply)",
+   "Menjual bahan bakar lain yang dicampur air",
+   "Menarik biaya tambahan pengiriman kepada konsumen",
+   "Membeli BBM dari pedagang eceran liar"
+  ],
+  "answer": 1,
+  "explain": "Saat stok mencapai titik kritis (deadstock), penyalur wajib berkoordinasi dengan supply and distribution unit untuk dilakukan tindakan emergency rerouting dari armada atau depo terdekat.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dasar pertimbangan utama BPH Migas dalam menetapkan besaran kuota JBT Solar untuk suatu wilayah Kabupaten/Kota adalah ...",
+  "options": [
+   "Luas wilayah geografis semata",
+   "Data historis realisasi konsumsi, pertumbuhan jumlah kendaraan, jumlah nelayan/petani terdaftar, serta usulan pemerintah daerah",
+   "Jumlah SPBU swasta komersial di wilayah tersebut",
+   "Keinginan pengelola SPBU lokal",
+   "Tingkat pendapatan per kapita daerah tersebut"
+  ],
+  "answer": 1,
+  "explain": "Penetapan kuota wilayah didasarkan pada formula kebutuhan riil: realisasi histori, proyeksi pertumbuhan kendaraan, populasi konsumen berhak (petani/nelayan terdaftar), serta usulan Pemda.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam sistem pengawasan hilir migas, apa yang dimaksud dengan Deadstock Volume pada tangki timbun SPBU?",
+  "options": [
+   "Volume BBM yang sengaja ditimbun untuk dijual mahal",
+   "Batas volume minimal BBM di dasar tangki timbun yang tidak dapat dipompa keluar oleh sistem dispenser demi menjaga keamanan pompa",
+   "BBM yang sudah basi dan tidak bisa digunakan lagi",
+   "Kelebihan BBM yang tidak tercatat dalam laporan",
+   "Total seluruh kapasitas tangki timbun SPBU"
+  ],
+  "answer": 1,
+  "explain": "Deadstock adalah sisa BBM di bagian paling bawah tangki timbun yang tidak bisa dihisap oleh katup pemompa dispenser demi mencegah masuknya endapan kotoran dan udara ke mesin.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pengawasan distribusi BBM di wilayah 3T (Tertinggal, Terdepan, Terluar) menghadapi tantangan utama berupa ...",
+  "options": [
+   "Kurangnya jumlah kendaraan mewah di daerah tersebut",
+   "Aksesibilitas geografis yang sulit, keterbatasan moda transportasi, dan cuaca ekstrem",
+   "Banyaknya jumlah SPBU modern berkapasitas besar",
+   "Tingginya persaingan harga antar-penyalur swasta",
+   "Ketiadaan konsumen yang membutuhkan BBM"
+  ],
+  "answer": 1,
+  "explain": "Tantangan utama wilayah 3T terletak pada kondisi geografis, kompleksitas transportasi multimoda (darat, laut, udara), dan rentannya pasokan terhadap faktor cuaca ekstrem.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Modus penyelewengan BBM bersubsidi dengan cara membeli BBM di SPBU menggunakan kendaraan yang tangkinya telah dimodifikasi lalu ditampung kembali untuk dijual ke industri dinamakan ...",
+  "options": [
+   "Modus Oplosan",
+   "Modus Pelangsiran (Truk Helikopter)",
+   "Modus Tera Ulang",
+   "Modus Digitalisasi Error",
+   "Modus Phishing Barcode"
+  ],
+  "answer": 1,
+  "explain": "Modus pelangsiran atau istilah truk helikopter adalah praktik menguras kuota BBM bersubsidi dengan cara mengisi BBM berulang kali menggunakan tangki modifikasi untuk disedot dan dijual kembali secara ilegal.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apa fungsi utama dipasangnya segel timah atau segel plastik bernomor seri pada katup pipa pengeluaran (bottom loading) mobil tangki BBM saat keluar dari Depo?",
+  "options": [
+   "Sebagai hiasan estetika mobil tangki",
+   "Menjamin bahwa isi muatan BBM di dalam tangki tidak dikurangi atau dikencingkan di tengah jalan sebelum sampai di SPBU tujuan",
+   "Memudahkan mobil tangki melaju di jalan tol",
+   "Menunjukkan masa berlaku pajak kendaraan",
+   "Membantu pengemudi menghitung literasi BBM"
+  ],
+  "answer": 1,
+  "explain": "Pemasangan segel bertuliskan nomor seri khusus pada katup muatan mobil tangki bertujuan menjamin keutuhan volume dan mencegah aksi pencurian/pencucian BBM (kencing di jalan) dalam perjalanan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Pihak yang bertanggung jawab secara hukum terhadap fisik BBM dan keselamatan operasional di area SPBU adalah ...",
+  "options": [
+   "Dinas Perhubungan setempat",
+   "Pengelola / Pengusaha SPBU yang bersangkutan",
+   "Pengemudi mobil tangki yang melintas",
+   "Pembeli atau konsumen yang mengantre",
+   "Petugas kebersihan kota"
+  ],
+  "answer": 1,
+  "explain": "Pengelola/Pengusaha SPBU bertanggung jawab penuh atas operasional, perawatan alat, keselamatan kerja, serta keabsahan penyaluran BBM di area SPBU yang dikelolanya.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Salah satu indikator utama terjadinya penyelewengan distribusi BBM bersubsidi pada suatu daerah yang dapat terdeteksi dari laporan analis data adalah ...",
+  "options": [
+   "Realisasi penyaluran stabil sesuai alokasi bulanan",
+   "Adanya lonjakan realisasi penyaluran yang tidak wajar dan melampaui kuota dalam waktu singkat tanpa ada peningkatan aktivitas ekonomi resmi",
+   "Jumlah SPBU di daerah tersebut bertambah secara bertahap",
+   "Harga BBM non-subsidi mengalami penurunan",
+   "Banyaknya kendaraan umum yang mendaftar sistem QR"
+  ],
+  "answer": 1,
+  "explain": "Anomali data berupa lonjakan konsumsi drastis dalam waktu singkat tanpa ada event resmi atau lonjakan kegiatan ekonomi merupakan sinyal indikasi kuat terjadinya penyelewengan/penimbunan.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Sistem digitalisasi \"Subsidi Tepat\" yang mewajibkan pencocokan QR Code saat pembelian Solar bersubsidi bertujuan untuk ...",
+  "options": [
+   "Memisahkan antrean kendaraan roda dua dan roda empat",
+   "Membatasi dan memastikan penyaluran JBT Solar tepat secara volume harian dan tepat sasaran bagi kendaraan yang terdaftar",
+   "Memaksa masyarakat membeli HP baru di SPBU",
+   "Menghapuskan peran mesin dispenser BBM",
+   "Menaikkan harga BBM bersubsidi secara otomatis"
+  ],
+  "answer": 1,
+  "explain": "Penggunaan QR Code bertujuan memverifikasi identitas kendaraan penerima, membatasi kuota pembelian harian per kendaraan, dan mencegah penggunaan QR berulang oleh pihak tak berhak.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Tindakan awal yang wajib dilakukan tim verifikator lapangan apabila menemukan adanya selisih penerimaan BBM (loss) melebihi batas toleransi saat pembongkaran mobil tangki di SPBU adalah ...",
+  "options": [
+   "Mengabaikannya dan menyuruh mobil tangki langsung pergi",
+   "Menyaksikan dan mencatat proses ukur ulang (uji celup/dipping stick), serta menyatukan temuan ke dalam Berita Acara Penerimaan BBM",
+   "Menumpahkan seluruh sisa BBM ke area parkir SPBU",
+   "Meminta uang ganti rugi tunai kepada pengemudi di tempat",
+   "Menyuruh pengelola SPBU menutup fasilitas selamanya"
+  ],
+  "answer": 1,
+  "explain": "Jika terjadi selisih penerimaan BBM melampaui toleransi saat pembongkaran, verifikator dan pengelola wajib melakukan prosedur pengujian ulang stang celup (dipping test) dan memuatnya secara akuntabel dalam Berita Acara penerimaan. PROSEDUR VERIFIKASI LAPANGAN &",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Standar batas maksimal toleransi selisih ukur (margin of error) yang diperbolehkan oleh Direktorat Metrologi Legal pada saat pengujian tera dispenser SPBU menggunakan Bejana Ukur Standar 20 Liter adalah ...",
+  "options": [
+   "Plus minus 0,1% (20 ml)",
+   "Plus minus 0,5% (100 ml)",
+   "Plus minus 1,0% (200 ml)",
+   "Plus minus 2,0% (400 ml)",
+   "Plus minus 5,0% (1.000 ml)"
+  ],
+  "answer": 1,
+  "explain": "Berdasarkan ketentuan Metrologi Legal, batas toleransi kesalahan selisih ukur dispenser SPBU yang diizinkan adalah sebesar plus minus 0,5%, atau setara dengan maksimal 100 ml per 20 liter takaran bejana ukur.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Alat ukur standar terkalibrasi berkapasitas 20 liter yang wajib digunakan oleh verifikator atau petugas metrologi untuk menguji keakuratan takaran dispenser SPBU dinamakan ...",
+  "options": [
+   "Dipping Stick",
+   "Bejana Ukur Standar (BUS)",
+   "Thermohydrometer",
+   "Flowmeter Digital",
+   "Sounding Tape"
+  ],
+  "answer": 1,
+  "explain": "Bejana Ukur Standar (BUS) 20 Liter adalah instrumen pengujian fisik terkalibrasi resmi yang digunakan untuk mengukur dan memverifikasi presisi takaran keluaran dispenser BBM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Tindakan manipulasi teknis pada alat dispenser SPBU dengan cara memasang perangkat elektronik ilegal pada komponen pulsar bertujuan untuk ...",
+  "options": [
+   "Mempercepat pengisian BBM ke dalam tangki kendaraan",
+   "Memanipulasi jumlah angka literasi pada layar display agar terlihat lebih banyak dari volume fisik yang keluar",
+   "Menghemat konsumsi daya listrik SPBU",
+   "Mengubah warna bahan bakar minyak",
+   "Mematikan mesin dispenser secara otomatis saat hujan"
+  ],
+  "answer": 1,
+  "explain": "Kecurangan pemasangan alat elektronik pada mesin pulsar (pulsar tampering) bertujuan memanipulasi sinyal pulsa hitungan literasi, sehingga volume BBM fisik yang keluar lebih sedikit dari angka yang tertera di layar display.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Segel resmi yang dipasang oleh petugas Dinas Metrologi pada bagian dalam komponen pengukur dispenser SPBU berfungsi sebagai ...",
+  "options": [
+   "Tanda bahwa dispenser BBM tersebut merupakan barang impor",
+   "Jaminan legalitas dan bukti bahwa sistem ukur dispenser telah teruji serta tidak boleh diubah secara ilegal",
+   "Alat untuk mengunci selang dispenser agar tidak bisa ditarik",
+   "Penanda jenis BBM yang disalurkan melalui pompa tersebut",
+   "Hiasan garansi pabrik pembuat mesin dispenser"
+  ],
+  "answer": 1,
+  "explain": "Segel Metrologi berfungsi melindungi komponen takar internal dispenser dari manipulasi manual dan menjadi bukti sah legalitas hasil pengujian tera metrologi.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apabila saat pemeriksaan di lapangan Verifikator menemukan segel kawat metrologi pada dispenser SPBU dalam kondisi putus atau rusak, langkah teknis awal yang harus diambil adalah ...",
+  "options": [
+   "Membiarkan dispenser tetap beroperasi selama tidak ada keluhan warga",
+   "Memasang kembali segel yang putus menggunakan lem seadanya",
+   "Menghentikan operasional dispenser tersebut, mencatat ke dalam BAP, dan melakukan uji tera ulang bersama pihak berwenang",
+   "Menjual mesin dispenser tersebut sebagai barang bekas",
+   "Meminta pengelola SPBU mengganti mesin dispenser hari itu juga"
+  ],
+  "answer": 2,
+  "explain": "Segel kawat yang putus menghilangkan jaminan legalitas alat ukur. Verifikator wajib menghentikan sementara operasional dispenser bermasalah, mencatat dalam Berita Acara Pemeriksaan (BAP), dan memicu uji tera ulang.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Metode pemeriksaan fisik untuk mengetahui ketinggian/volume cairan BBM serta keberadaan endapan air di dalam tangki timbun SPBU dilakukan dengan menggunakan alat ...",
+  "options": [
+   "Bejana Ukur 20 Liter",
+   "Dipping Stick (Tongkat Ukur) yang diolesi pasta minyak dan pasta air",
+   "Termometer Digital",
+   "Barcode Scanner",
+   "Pressure Gauge"
+  ],
+  "answer": 1,
+  "explain": "Pengecekan volume fisik dan kandungan air di tangki timbun dilakukan dengan metode dipping menggunakan tongkat ukur (dipping stick) yang diberi pasta air (berubah warna jika ada air) dan pasta minyak.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Prosedur pengujian Density (massa jenis) sampel BBM di SPBU bertujuan untuk memverifikasi ...",
+  "options": [
+   "Harga jual eceran BBM di pasaran",
+   "Kesesuaian mutu/kualitas dan keaslian spesifikasi BBM terhadap standar laboratorium agar tidak tercampur (teroplos)",
+   "Kebersihan area luar SPBU",
+   "Kecepatan aliran BBM dari nozzle",
+   "Umur pakai tangki penyimpanan BBM"
+  ],
+  "answer": 1,
+  "explain": "Uji massa jenis (density test) menggunakan hydrometer dan termometer dilakukan untuk memastikan mutu bahan bakar sesuai standar spesifikasi teknis dan memutus potensi indikasi pengoplosan BBM.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam verifikasi berkas administrasi SPBU, dokumen yang mencantumkan rekapitulasi jumlah penerimaan BBM dari mobil tangki dan jumlah penjualan harian per nozzle dinamakan ...",
+  "options": [
+   "Laporan Keuangan Tahunan",
+   "Berita Acara Serah Terima Jabatan",
+   "Buku Laporan Penjualan dan Stok Harian (LPSH) / Log Sheet SPBU",
+   "Sertifikat Pembentukan Badan Usaha",
+   "Kwitansi Pembelian Alat Peraga"
+  ],
+  "answer": 2,
+  "explain": "LPSH (Laporan Penjualan dan Stok Harian) atau Log Sheet adalah dokumen operasional utama SPBU yang mencatat pergerakan stok penerimaan, penjualan harian, dan sisa stok fisik tangki timbun.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Indikasi fisik yang paling jelas terlihat apabila terjadi kebocoran pada sistem perpipaan di area dispenser SPBU adalah ...",
+  "options": [
+   "Lampu indikator dispenser menyala warna hijau",
+   "Adanya bau menyengat BBM, rembesan cairan di sumur dispenser (sump container), atau penurunan stok tangki secara tidak wajar",
+   "Pengisian BBM berjalan lebih lambat dari biasanya",
+   "Layar monitor dispenser berkedip-kedip",
+   "Suara mesin pompa menjadi lebih halus"
+  ],
+  "answer": 1,
+  "explain": "Kebocoran jalur perpipaan/dispenser terdeteksi dari rembesan fisik di dispenser sump, bau BBM yang tajam, serta terjadinya losses stok yang drastis pada tangki timbun.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Alat pelindung diri (APD) minimal yang wajib dikenakan oleh seorang Verifikator Lapangan saat melakukan inspeksi teknis di area pembongkaran BBM SPBU adalah ...",
+  "options": [
+   "Helm keselamatan, rompi reflektif, sepatu keselamatan (safety shoes), dan masker/kacamata pelindung",
+   "Jas hujan plastik dan sandal jepit",
+   "Pakaian bebas tanpa atribut resmi",
+   "Sarung tangan kain biasa dan topi kain",
+   "Kacamata hitam dan jaket kulit"
+  ],
+  "answer": 0,
+  "explain": "Area pembongkaran BBM merupakan zona berbahaya (Zone 0/1). Petugas wajib mengenakan APD standar K3L meliputi rompi keselamatan, safety shoes antistatis, helm keselamatan, dan pelindung pernapasan/mata.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Apa yang dimaksud dengan proses Automatic Tank Gauging (ATG) pada tangki penampungan SPBU?",
+  "options": [
+   "Alat pemadam kebakaran otomatis yang terpasang di atas tangki",
+   "Sistem sensor elektronik otomatis yang mengukur volume, suhu, dan level air di dalam tangki timbun secara real-time",
+   "Sistem pembayaran otomatis menggunakan kartu kredit di dispenser",
+   "Kipas angin otomatis untuk mendinginkan tangki timbun",
+   "Alat otomatis untuk mengunci tangki saat terjadi pencurian"
+  ],
+  "answer": 1,
+  "explain": "ATG (Automatic Tank Gauging) adalah teknologi sensor terintegrasi di dalam tangki timbun yang mencatat tinggi cairan, volume BBM, suhu, dan batas air secara presisi dan terhubung ke komputer SPBU.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Saat uji tera dilakukan dengan Bejana Ukur Standar 20 Liter, menunjuk angka +120 ml (melebihi batas +100 ml). Hal ini mengindikasikan bahwa ...",
+  "options": [
+   "Konsumen diuntungkan karena takaran BBM yang keluar lebih banyak dari yang tercantum pada display",
+   "Takaran dispenser berada dalam kondisi sangat akurat",
+   "Dispenser mengalami deviasi takaran yang merugikan konsumen karena takaran kurang",
+   "Mesin dispenser dalam keadaan rusak total dan harus dibakar",
+   "Segel metrologi telah kedaluwarsa selama 5 tahun"
+  ],
+  "answer": 0,
+  "explain": "Jika pengujian bejana 20 Liter menghasilkan takaran +120 ml, artinya fisik BBM yang keluar adalah 20.120 ml. Meskipun di atas batas toleransi (+0,5%), posisi +120 ml berarti volume fisik keluar lebih banyak (konsumen diuntungkan, penyalur rugi). Sebaliknya jika -120 ml, maka takaran kurang dan merugikan konsumen.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Tindakan yang DILARANG keras dilakukan oleh operator SPBU saat pengisian BBM berlangsung di dekat tangki kendaraan konsumen adalah ...",
+  "options": [
+   "Memeriksa kesesuaian angka di layar monitor dispenser",
+   "Merokok, menyalakan api, atau menggunakan telepon seluler di dekat nozzle",
+   "Mengingatkan konsumen untuk mematikan mesin kendaraan",
+   "Menggunakan sarung tangan kerja",
+   "Memegang handle nozzle pengisian"
+  ],
+  "answer": 1,
+  "explain": "Menyalakan api, merokok, atau mengoperasikan HP non-inspeksi di dekat area nozzle berisiko tinggi memicu ledakan akibat paparan uap bahan bakar (combustible vapor).",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dalam verifikasi penyaluran JBT Solar, apa fungsi utama dari pengisian data Police Number (Nomor Polisi Kendaraan) pada sistem aplikasi pencatatan transaksi SPBU?",
+  "options": [
+   "Membantu polisi menangkap kendaraan yang menunggak pajak",
+   "Memastikan bahwa alokasi kuota harian Solar yang disalurkan melekat pada kendaraan yang terdaftar dan mencegah pengisian berulang",
+   "Menentukan jumlah diskon harga BBM untuk kendaraan tertentu",
+   "Menghitung kecepatan laju kendaraan di jalan raya",
+   "Mengatur posisi parkir kendaraan di SPBU"
+  ],
+  "answer": 1,
+  "explain": "Pencatatan Nopol kendaraan berfungsi memvalidasi batasan kuota harian (misal max 60 liter/hari untuk roda 4 pribadi) serta mencegah pembeli melakukan pengisian berulang dengan kendaraan yang sama.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Komponen pada dispenser SPBU yang berfungsi untuk menghentikan aliran BBM secara otomatis ketika tangki kendaraan konsumen sudah terisi penuh dinamakan ...",
+  "options": [
+   "Totalisator Digital",
+   "Automatic Nozzle (Sensored Nozzle)",
+   "Breakaway Coupling",
+   "Emergency Shut-off Valve",
+   "Metering Pump"
+  ],
+  "answer": 1,
+  "explain": "Automatic Nozzle dilengkapi dengan lubang sensor udara (Venturi mechanism) yang secara otomatis memutus (cut-off) aliran BBM ketika cairan menyentuh ujung nozzle.",
+  "src": "prepkerja"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "q": "Dokumen sah yang diterbitkan oleh Dinas Metrologi Legal setelah suatu dispenser SPBU selesai diuji dan dinyatakan memenuhi standar keakuratan takaran adalah ...",
+  "options": [
+   "Surat Izin Usaha Perdagangan (SIUP)",
+   "Berita Acara Pengujian dan Sertifikat Tanda Sah Tera",
+   "Nota Pembelian Alat Dispenser",
+   "Sertifikat Layak Operasi dari Pabrik",
+   "Surat Izin Mengemudi Pengelola"
+  ],
+  "answer": 1,
+  "explain": "Hasil pengujian tera yang lolos uji akan dibuktikan dengan penerbitan Sertifikat Tanda Sah Tera resmi dan pemasangan cap/segel tera sah dari institusi Metrologi Legal. BAB 3 WAWANCARA Note :Dilarang untuk memperjualbelikan serta menshare soal kepada orang lain tanpa seizin pemiliknya. Al adab fauqal ilmi .Selamat mengerjakan!! – PREPKERJA.ID MEKANISME & ALUR WAWANCA DARING Wawancara dilaksanakan menggunakan platform konferensi video (seperti Zoom Meeting atau Microsoft Teams) dengan durasi rata-rata 20 hingga 30 menit per peserta. Sesi ini dipimpin oleh tim penguji gabungan dari unsur Kementerian ESDM, BPH Migas, dan/atau Akademisi PEM Akamigas. • Tahap 1: Persiapan & Ruang Tunggu (Waiting Room) o Peserta bergabung di tautan meeting 15–30 menit sebelum jadwal. (contoh: Nomor Peserta_Nama Lengkap_Posisi). • Tahap 2: Pembukaan & Pembuktian Identitas (1–2 Menit) dilamar (Verifikator Lapangan / Analis), serta menunjukkan KTP ke arah kamera. • Tahap 3: Perkenalan Diri Singkat (2–3 Menit) pelangsir, tawaran gratifikasi pengelola SPBU, atau perbedaan data stok). • Tahap 6: Evaluasi Komitmen Penugasan & Penutup (2–3 Menit) WAWANCARA o Panitia/host melakukan verifikasi identitas (mencocokka",
+  "src": "prepkerja"
  }
 ];
