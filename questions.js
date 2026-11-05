@@ -9607,5 +9607,80 @@ const QUESTIONS = [
   "answer": 4,
   "explain": "Urutan fraksi: LPG C1-C4, nafta C5-C12, kerosin C10-C16, solar C14-C20, pelumas dan residu pada rantai yang lebih panjang.",
   "src": "exa-riset"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SPBU%20Pertamina%202022.jpg?width=1100",
+  "q": "Perhatikan gambar dispenser SPBU berikut. Nozzle berwarna putih pada dispenser tersebut digunakan untuk menyalurkan produk ...",
+  "options": [
+   "Pertamax Turbo",
+   "Pertamax",
+   "Pertalite",
+   "Solar",
+   "Pertamina Dex"
+  ],
+  "answer": 2,
+  "explain": "Label di atas nozzle putih tertulis PERTALITE. Pertalite adalah JBKP (RON 90) yang penyalurannya diawasi dan dikendalikan dengan kode QR.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SPBU%20Pertamina%202022.jpg?width=1100",
+  "q": "Berdasarkan label produk pada gambar dispenser berikut, produk yang termasuk Jenis BBM Tertentu (JBT) adalah ...",
+  "options": [
+   "Pertamax Turbo",
+   "Pertamax",
+   "Pertalite",
+   "Solar",
+   "Semua produk pada gambar"
+  ],
+  "answer": 3,
+  "explain": "Dari empat produk pada dispenser (Pertamax Turbo, Pertamax, Pertalite, Solar), hanya Solar yang berstatus JBT bersubsidi. Pertalite adalah JBKP dan keluarga Pertamax adalah JBU.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/SPBU%20Pertamina%2031.168.01%20(SPBU%20CitraIndah%20City).jpg?width=1100",
+  "q": "Perhatikan papan harga pada gambar SPBU berikut. Produk pada papan tersebut yang termasuk Jenis BBM Umum (JBU) berbahan bakar diesel adalah ...",
+  "options": [
+   "Pertalite",
+   "Pertamax 92",
+   "Pertamax Turbo 98",
+   "Dexlite dan Pertamina Dex",
+   "Tidak ada pada papan"
+  ],
+  "answer": 3,
+  "explain": "Dexlite (setana 51) dan Pertamina Dex (setana 53) adalah BBM diesel umum tanpa subsidi maupun penugasan, sehingga termasuk JBU. Pertalite pada papan yang sama adalah JBKP.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Basic Science",
+  "img": "https://classnotes123.com/wp-content/uploads/2024/08/fractional-distillation-of-crude-oil-diagram.webp",
+  "q": "Berdasarkan diagram menara distilasi berikut, fraksi yang terambil pada rentang suhu 220 sampai 250 derajat Celcius adalah ...",
+  "options": [
+   "Nafta",
+   "Parafin (kerosin)",
+   "Diesel (Solar)",
+   "Minyak pelumas",
+   "Bitumen"
+  ],
+  "answer": 2,
+  "explain": "Diagram menunjukkan diesel terambil pada 220-250 derajat Celcius, di bawah parafin/kerosin (180-220) dan di atas fuel oil (250-300). Urutan ini sejalan dengan rentang rantai karbon solar C14-C20.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Basic Science",
+  "img": "https://classnotes123.com/wp-content/uploads/2024/08/fractional-distillation-of-crude-oil-diagram.webp",
+  "q": "Pada diagram distilasi fraksional berikut, fraksi yang keluar paling atas pada suhu di bawah 25 derajat Celcius adalah ...",
+  "options": [
+   "Bensin (petrol)",
+   "Nafta",
+   "LPG (gas minyak cair)",
+   "Minyak bakar",
+   "Bitumen"
+  ],
+  "answer": 2,
+  "explain": "Fraksi paling ringan dengan titik didih terendah naik ke puncak menara: LPG terambil pada suhu di bawah 25 derajat Celcius, disusul bensin 25-60 derajat Celcius.",
+  "src": "gambar"
  }
 ];

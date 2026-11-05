@@ -94,6 +94,7 @@
       var order = shuffle(q.options.map(function (_, i) { return i; }));
       return {
         q: q.q,
+        img: q.img || '',
         cat: q.cat,
         explain: q.explain || '',
         src: q.src || '',
@@ -141,6 +142,11 @@
     $('progressFill').style.width = ((quiz.idx + 1) / total * 100) + '%';
     $('quizCat').textContent = item.cat;
     mathText($('quizQ'), item.q);
+    var fig = $('quizFig');
+    if (fig) {
+      if (item.img) { $('quizImg').src = item.img; fig.hidden = false; }
+      else { fig.hidden = true; $('quizImg').removeAttribute('src'); }
+    }
     var box = $('quizOpts');
     box.innerHTML = '';
     item.options.forEach(function (opt, i) {
@@ -253,6 +259,23 @@
       rq.className = 'rq';
       mathText(rq, (i + 1) + '. [' + item.cat + '] ' + item.q);
       div.appendChild(rq);
+      if (item.img) {
+        var rf = document.createElement('figure');
+        rf.className = 'quiz-figure';
+        var ph = document.createElement('div');
+        ph.className = 'ph';
+        var ri = document.createElement('img');
+        ri.src = item.img;
+        ri.alt = 'Gambar pendukung soal';
+        ri.loading = 'lazy';
+        ph.appendChild(ri);
+        var wm = document.createElement('span');
+        wm.className = 'wm';
+        wm.textContent = '© M.Al Ghazali';
+        ph.appendChild(wm);
+        rf.appendChild(ph);
+        div.appendChild(rf);
+      }
       var yours = document.createElement('p');
       var ya = quiz.answers[i];
       mathText(yours, 'Jawabanmu: ' + (ya === null ? 'tidak dijawab' : 'ABCDE'[ya] + '. ' + item.options[ya]));
