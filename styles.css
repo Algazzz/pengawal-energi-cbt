@@ -3,7 +3,9 @@
    Aksen amber: warna keselamatan di area SPBU, dipakai hemat untuk penanda fokus seperti timer, tanda ragu, dan garis materi.
    Latar kertas pucat: halaman dibaca lama seperti dokumen belajar, bukan layar aplikasi gelap.
    Judul serif Georgia: nuansa berita acara dan dokumen resmi yang menjadi alat kerja verifikator.
-   Isi sans sistem: terbaca cepat di layar HP tanpa memuat font dari luar. */
+   Isi sans sistem: terbaca cepat di layar HP tanpa memuat font dari luar.
+   Tabel dibungkus .table-wrap dan sel boleh memecah kata: data regulasi yang lebar tetap terbaca di HP tanpa geser halaman.
+   Atribut width/height pada gambar materi: ruang gambar dicadangkan sebelum termuat agar teks tidak melompat. */
 
 :root {
   --navy: #0b2447;
@@ -427,3 +429,15 @@ a:hover { color: var(--navy); }
 .fig-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 18px 0; }
 .fig-grid .materi-figure { margin: 0; }
 @media (max-width: 700px) { .fig-grid { grid-template-columns: 1fr; } }
+
+/* Perbaikan responsif (antislop R-03 + layoutmobile):
+   Pembungkus tabel: tabel lebar bergeser di dalam kartunya, tidak lagi membocorkan halaman.
+   Sel tabel boleh memecah kata panjang: nomor keputusan dan istilah teknis tidak memaksa tabel melebar.
+   Tombol palet 44px: memenuhi target sentuh minimum. */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+.table-wrap table { margin-top: 0; margin-bottom: 0; }
+.breakdown-table th, .breakdown-table td { overflow-wrap: break-word; }
+.pal-btn { width: 44px; height: 44px; }
+@media (max-width: 760px) {
+  .section { padding-top: 38px; }
+}
