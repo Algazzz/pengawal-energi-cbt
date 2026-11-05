@@ -414,9 +414,12 @@ a:hover { color: var(--navy); }
 .quiz-figure { margin: 0 0 14px; }
 .quiz-figure img { width: 100%; max-width: 520px; height: auto; display: block; border: 1px solid #d8dee9; border-radius: 10px; }
 .copyright { margin-top: 14px; font-size: 0.82rem; color: #8a94a6; }
-.creator-card { border: 1px solid #d8dee9; border-radius: 12px; padding: 16px 18px; margin-bottom: 18px; background: #f7f9fc; }
-.creator-card p { margin: 6px 0; }
-.creator-name { font-size: 1.02rem; }
+.creator-connect { margin-bottom: 18px; }
+.connect-name { color: #dbe7f7; margin: 0 0 10px; font-size: 0.98rem; }
+.connect-row { display: flex; gap: 10px; }
+.connect-btn { width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center; border: 1px solid rgba(160,190,230,0.35); border-radius: 12px; background: rgba(21,42,74,0.65); color: #cfe3ff; transition: background 0.15s ease, color 0.15s ease; }
+.connect-btn:hover { background: rgba(38,72,120,0.85); color: #ffffff; }
+.connect-btn svg { width: 21px; height: 21px; }
 
 .ph { position: relative; max-width: 640px; }
 .quiz-figure .ph { max-width: 520px; }
