@@ -27,7 +27,11 @@
     t = t.replace(/°API/g, '{}^{\\circ}\\mathrm{API}');
     t = t.replace(/½/g, '\\tfrac{1}{2}');
     t = t.replace(/π/g, '\\pi ').replace(/ρ/g, '\\rho ').replace(/Δ/g, '\\Delta ').replace(/β/g, '\\beta ');
-    t = t.replace(/([0-9]+(?:[.,][0-9]+)*)\s*\/\s*([0-9]+(?:[.,][0-9]+)*)(?!\w)/g, '\\frac{$1}{$2}');
+    t = t.replace(/([0-9]+(?:[.,][0-9]+)*)\s*\/\s*([0-9]+(?:[.,][0-9]+)*)(?!\w)/g, function (m, a, b) {
+      // Penyebut berupa tahun (19xx/20xx) adalah nomor peraturan atau rentang tahun, bukan pecahan.
+      if (/^(19|20)\d{2}$/.test(b)) return m;
+      return '\\frac{' + a + '}{' + b + '}';
+    });
     t = t.replace(/\b([QVPIρmFAt])\s*\/\s*([A-Za-z])\b/g, '\\frac{$1}{$2}');
     t = t.replace(/×/g, '\\times ').replace(/÷/g, '\\div ').replace(/·/g, '\\cdot ');
     t = t.replace(/[−–]/g, '-').replace(/≈/g, '\\approx ').replace(/→/g, '\\rightarrow ');
@@ -94,6 +98,7 @@
     specials.forEach(function (s) { collect(s[0], s[1], 3); });
     collect(expression, function (s) {
       // Hindari mengubah nomor undang-undang, tanggal, dan istilah JBT/JBKP.
+      if (/\d\s*\/\s*(19|20)\d{2}\b/.test(s)) return null;
       if (!/[=+−×÷·]/.test(s) && !/^\d[\d.,]*\s*\/\s*\d/.test(s)) return null;
       return toTex(s);
     }, 2);
