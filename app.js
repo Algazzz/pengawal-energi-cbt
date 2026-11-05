@@ -269,10 +269,6 @@
         ri.alt = 'Gambar pendukung soal';
         ri.loading = 'lazy';
         ph.appendChild(ri);
-        var wm = document.createElement('span');
-        wm.className = 'wm';
-        wm.textContent = '© M.Al Ghazali';
-        ph.appendChild(wm);
         rf.appendChild(ph);
         div.appendChild(rf);
       }

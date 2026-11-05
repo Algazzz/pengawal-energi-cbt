@@ -9757,5 +9757,65 @@ const QUESTIONS = [
   "answer": 1,
   "explain": "Manhole adalah lubang pengisian di atap tangki mobil dan titik segel dipasang. Keutuhan serta nomor segel manhole adalah pemeriksaan pertama sebelum BBM dibongkar ke tangki timbun.",
   "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kharg%20oil%20loading%20terminal.jpg?width=900",
+  "q": "Sarana pada gambar berikut (kapal tanker di terminal muat) memegang peran utama dalam distribusi BBM Indonesia karena ...",
+  "options": [
+   "Mengangkut BBM langsung ke kendaraan konsumen",
+   "Indonesia negara kepulauan sehingga pemindahan BBM antarpulau bertumpu pada angkutan laut",
+   "Kapal tanker adalah satu-satunya moda yang diawasi BPH Migas",
+   "Kapal menentukan harga eceran BBM di SPBU",
+   "Kapal tanker menggantikan fungsi tangki timbun SPBU"
+  ],
+  "answer": 1,
+  "explain": "Sebaran kilang dan terminal BBM antarpulau membuat angkutan laut menjadi tulang punggung distribusi BBM nasional, diteruskan moda darat ke SPBU.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Fire%20extinguisher.jpg?width=900",
+  "q": "Alat pada gambar berikut wajib tersedia di area dispenser dan titik bongkar SPBU. Fungsinya adalah ...",
+  "options": [
+   "Mengukur tekanan tangki timbun",
+   "Memadamkan api pada tahap awal kebakaran (APAR)",
+   "Menyegel manhole mobil tangki",
+   "Menguji ketepatan takaran dispenser",
+   "Merekam transaksi penjualan"
+  ],
+  "answer": 1,
+  "explain": "Itu adalah APAR (alat pemadam api ringan). Kartu gantungnya mencatat inspeksi berkala; saat bongkar BBM, APAR harus siap di titik bongkar sesuai SOP keselamatan.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Basic Science",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Psidial.jpg?width=900",
+  "q": "Alat pada gambar berikut adalah manometer. Jarumnya menunjuk sekitar 800 pada skala merah bagian dalam. Satuan skala merah tersebut adalah ...",
+  "options": [
+   "kPa",
+   "psi",
+   "bar",
+   "atm",
+   "mmHg"
+  ],
+  "answer": 1,
+  "explain": "Skala merah bertanda psi (pounds per square inch) dengan rentang 0 sampai 4000; skala hitam di luar adalah kPa. Jarum berada di sekitar 800 psi.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Kropotkinskaya%20oil%20pumping%20station%20near%20Krasnodar.jpg?width=900",
+  "q": "Instalasi pada gambar berikut memperlihatkan stasiun pompa beserta tangki penyimpanan pada jaringan pipa. Peran stasiun pompa dalam pengangkutan BBM lewat pipa adalah ...",
+  "options": [
+   "Mengubah minyak mentah menjadi BBM",
+   "Menjaga dan menaikkan tekanan aliran agar BBM mengalir antarruas pipa",
+   "Menentukan kuota BBM subsidi per daerah",
+   "Menguji mutu BBM sebelum disalurkan",
+   "Mencatat penjualan eceran ke konsumen"
+  ],
+  "answer": 1,
+  "explain": "Stasiun pompa (booster) mempertahankan tekanan aliran di sepanjang ruas pipa; tangki di sisinya menampung stok dan menjadi titik serah terima volume.",
+  "src": "gambar"
  }
 ];
