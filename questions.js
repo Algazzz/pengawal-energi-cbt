@@ -9682,5 +9682,80 @@ const QUESTIONS = [
   "answer": 2,
   "explain": "Fraksi paling ringan dengan titik didih terendah naik ke puncak menara: LPG terambil pada suhu di bawah 25 derajat Celcius, disusul bensin 25-60 derajat Celcius.",
   "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Petrol%20pump%20mp3h0354.jpg?width=900",
+  "q": "Perangkat pada gambar berikut yang sedang terpasang pada lubang tangki kendaraan adalah ...",
+  "options": [
+   "Flowmeter",
+   "Nozzle dispenser",
+   "Totalizer",
+   "Bejana ukur standar",
+   "Probe ATG"
+  ],
+  "answer": 1,
+  "explain": "Gambar memperlihatkan nozzle, ujung penyaluran dispenser yang dimasukkan ke lubang pengisian kendaraan, lengkap dengan tuas dan penghenti otomatis.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Underground%20fuel%20storage%20tank.JPG?width=900",
+  "q": "Benda besar pada gambar berikut adalah tangki timbun pendam (UST) sebelum ditimbun. Di SPBU yang sudah beroperasi, volume BBM di dalam tangki seperti ini dipantau dengan cara ...",
+  "options": [
+   "Membuka tangki dan melihat langsung ke dalam",
+   "Dipping atau sounding manual dan ATG (Automatic Tank Gauging)",
+   "Menimbang tangki dengan timbangan kendaraan",
+   "Menghitung jumlah kendaraan yang mengisi",
+   "Membaca totalizer saja tanpa memeriksa tangki"
+  ],
+  "answer": 1,
+  "explain": "Tangki pendam tidak dapat dilihat isinya secara langsung. Volumenya diketahui dari pengukuran ketinggian cairan (dipping/sounding) yang dikonversi lewat tabel kalibrasi, atau otomatis lewat ATG.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Durchflussmesser-Fluegelrad.jpg?width=900",
+  "q": "Komponen pada gambar berikut adalah flowmeter model impeler. Fungsi komponen ini di dalam dispenser adalah ...",
+  "options": [
+   "Menyimpan BBM sebelum disalurkan",
+   "Mengukur volume aliran BBM yang melewati dispenser",
+   "Merekam gambar area pengisian",
+   "Mengatur tekanan udara tangki timbun",
+   "Menampilkan harga eceran BBM"
+  ],
+  "answer": 1,
+  "explain": "Flowmeter mengukur aliran atau volume BBM yang disalurkan; putaran rotornya sebanding dengan volume yang lewat dan hasilnya diteruskan menjadi bacaan totalizer.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Three%20Surveillance%20cameras.jpg?width=900",
+  "q": "Perangkat pada gambar berikut dipasang di SPBU terutama untuk ...",
+  "options": [
+   "Mengukur ketinggian stok tangki",
+   "Merekam aktivitas transaksi dan pemeriksaan sebagai bahan telusur",
+   "Menghitung total penjualan harian",
+   "Menguji ketepatan takaran nozzle",
+   "Menyalurkan BBM ke kendaraan"
+  ],
+  "answer": 1,
+  "explain": "Itu adalah kamera CCTV. Rekamannya (wajib tersimpan minimal 30 hari) dipakai memvalidasi transaksi dan menelusuri kejadian di area SPBU.",
+  "src": "gambar"
+ },
+ {
+  "cat": "Wawasan Migas Hilir",
+  "img": "https://commons.wikimedia.org/wiki/Special:FilePath/Tank%20truck%20in%20Romania.jpg?width=900",
+  "q": "Pada tampak atas mobil tangki pada gambar berikut, dua lingkaran di atap tangki adalah manhole. Kaitannya dengan tugas verifikator, manhole diperiksa karena ...",
+  "options": [
+   "Menjadi tempat memasang kamera pengawas",
+   "Merupakan titik pengisian dan titik pemasangan segel yang nomornya dicocokkan dengan dokumen pengiriman",
+   "Menentukan harga BBM yang diangkut",
+   "Menjadi jalur pengisian BBM ke kendaraan konsumen",
+   "Menghubungkan tangki dengan ATG SPBU"
+  ],
+  "answer": 1,
+  "explain": "Manhole adalah lubang pengisian di atap tangki mobil dan titik segel dipasang. Keutuhan serta nomor segel manhole adalah pemeriksaan pertama sebelum BBM dibongkar ke tangki timbun.",
+  "src": "gambar"
  }
 ];
