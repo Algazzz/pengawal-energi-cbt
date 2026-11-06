@@ -441,3 +441,8 @@ a:hover { color: var(--navy); }
 @media (max-width: 760px) {
   .section { padding-top: 38px; }
 }
+
+/* Garis kunjungan di footer: ikon mata + angka dari kunjungan.js (satu sumber teks). */
+.visitor-line { display: flex; align-items: center; gap: 7px; color: #b9c8dd; font-size: 0.9rem; margin: 0 0 12px; }
+.visitor-line[hidden] { display: none; }
+.visitor-line svg { width: 18px; height: 18px; flex: none; }
