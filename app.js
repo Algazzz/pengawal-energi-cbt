@@ -47,7 +47,7 @@
   /* ---------- Countdown ---------- */
   function tickCountdown() {
     var el = $('countdown'); if (!el) return;
-    var target = new Date('2026-11-09T07:00:00+07:00').getTime();
+    var target = new Date('2026-11-09T09:45:00+07:00').getTime();
     var diff = target - Date.now();
     if (diff <= 0) { el.textContent = 'hari ujian tiba'; return; }
     var days = Math.floor(diff / 86400000);
