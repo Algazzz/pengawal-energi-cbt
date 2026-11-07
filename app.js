@@ -301,12 +301,12 @@
   function stopSimTimer() { if (simTimerId) { clearInterval(simTimerId); simTimerId = null; } }
 
   function resetQuizChrome() {
-    var pal = $('quizPalette'); if (pal) pal.hidden = false;
-    $('btnPrev').hidden = false;
-    $('btnFlag').hidden = false;
+    var pal = $('quizPalette'); if (pal) { pal.hidden = false; pal.style.display = ''; }
+    $('btnPrev').hidden = false; $('btnPrev').style.display = '';
+    $('btnFlag').hidden = false; $('btnFlag').style.display = '';
     $('btnNext').textContent = 'Berikutnya';
     $('btnSubmit').textContent = 'Kumpulkan';
-    var nx = $('btnSimNext'); if (nx) nx.hidden = true;
+    var nx = $('btnSimNext'); if (nx) { nx.hidden = true; nx.style.display = 'none'; }
   }
 
   function startSim(kind, chained) {
@@ -347,12 +347,12 @@
     $('quizResult').hidden = true;
     $('quizRun').hidden = false;
     $('quizWarn').hidden = true;
-    $('quizPalette').hidden = true;
-    $('btnPrev').hidden = true;
-    $('btnFlag').hidden = true;
+    $('quizPalette').hidden = true; $('quizPalette').style.display = 'none';
+    $('btnPrev').hidden = true; $('btnPrev').style.display = 'none';
+    $('btnFlag').hidden = true; $('btnFlag').style.display = 'none';
     $('btnNext').textContent = 'Lewati soal';
     $('btnSubmit').textContent = 'Akhiri paket';
-    var nx = $('btnSimNext'); if (nx) nx.hidden = true;
+    var nx = $('btnSimNext'); if (nx) { nx.hidden = true; nx.style.display = 'none'; }
     simTimerId = setInterval(simTick, 250);
     renderSimTimer();
     renderSimQuestion();
@@ -446,7 +446,7 @@
       var p = document.createElement('p');
       p.textContent = 'Paket Ujian Teknis selesai. Pada hari ujian, jeda menuju Ujian TPA hanya 5 menit (pukul 10.45 ke 10.50 WIB). Klik tombol Lanjut ke Ujian TPA untuk menyelesaikan simulasi penuh.';
       bd.appendChild(p);
-      var nx = $('btnSimNext'); if (nx) nx.hidden = false;
+      var nx = $('btnSimNext'); if (nx) { nx.hidden = false; nx.style.display = ''; }
     } else if (kind === 'tpa' && simChainResult) {
       var p2 = document.createElement('p');
       p2.textContent = 'Simulasi penuh selesai. Ujian Teknis: ' + simChainResult.benar + ' dari ' + simChainResult.total + ' benar (' + simChainResult.pct + ' persen). Ujian TPA: ' + correct + ' dari ' + items.length + ' benar (' + pct + ' persen).';
