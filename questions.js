@@ -6712,7 +6712,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 1 berikut! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berdasarkan Tabel 1, wilayah manakah yang memiliki persentase sisa kuota terbanyak dari total kuotanya setelah penyaluran Bulan III berakhir?",
+  "q": "Berdasarkan tabel berikut, wilayah manakah yang memiliki persentase sisa kuota terbanyak dari total kuotanya setelah penyaluran Bulan III berakhir?",
+  "tbl": {"cap": "Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (dalam kilo liter)", "head": ["Wilayah", "Kuota", "Realisasi Bulan I", "Realisasi Bulan II", "Realisasi Bulan III"], "rows": [["Wilayah A", "1.200", "300", "350", "400"], ["Wilayah B", "1.500", "400", "450", "500"], ["Wilayah C", "1.000", "250", "250", "300"], ["Wilayah D", "2.000", "500", "600", "700"], ["Wilayah E", "800", "200", "220", "240"]]},
   "options": [
    "Wilayah A",
    "Wilayah B",
@@ -6726,7 +6727,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 1 berikut! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berapakah rata-rata penyaluran BBM Solar JBT di Wilayah D per bulan berdasarkan data 3 bulan tersebut?",
+  "q": "Berapakah rata-rata penyaluran BBM Solar JBT di Wilayah D per bulan berdasarkan data 3 bulan pada tabel berikut?",
+  "tbl": {"cap": "Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (dalam kilo liter)", "head": ["Wilayah", "Kuota", "Realisasi Bulan I", "Realisasi Bulan II", "Realisasi Bulan III"], "rows": [["Wilayah A", "1.200", "300", "350", "400"], ["Wilayah B", "1.500", "400", "450", "500"], ["Wilayah C", "1.000", "250", "250", "300"], ["Wilayah D", "2.000", "500", "600", "700"], ["Wilayah E", "800", "200", "220", "240"]]},
   "options": [
    "550 KL",
    "580 KL",
@@ -6740,7 +6742,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 1 berikut! Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (Dalam Kilo Liter) Wilayah A: Kuota 1.200 | Realisasi Bulan I 300 | Realisasi Bulan II 350 | Realisasi Bulan III 400 Wilayah B: Kuota 1.500 | Realisasi Bulan I 400 | Realisasi Bulan II 450 | Realisasi Bulan III 500 Wilayah C: Kuota 1.000 | Realisasi Bulan I 250 | Realisasi Bulan II 250 | Realisasi Bulan III 300 Wilayah D: Kuota 2.000 | Realisasi Bulan I 500 | Realisasi Bulan II 600 | Realisasi Bulan III 700 Wilayah E: Kuota 800 | Realisasi Bulan I 200 | Realisasi Bulan II 220 | Realisasi Bulan III 240 Berapa persentase kenaikan penyaluran BBM Solar JBT di Wilayah A dari Bulan I ke Bulan III?",
+  "q": "Berapa persentase kenaikan penyaluran BBM Solar JBT di Wilayah A dari Bulan I ke Bulan III berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 1: Realisasi Penyaluran BBM Bersubsidi (Solar JBT) di 5 Wilayah Penugasan (dalam kilo liter)", "head": ["Wilayah", "Kuota", "Realisasi Bulan I", "Realisasi Bulan II", "Realisasi Bulan III"], "rows": [["Wilayah A", "1.200", "300", "350", "400"], ["Wilayah B", "1.500", "400", "450", "500"], ["Wilayah C", "1.000", "250", "250", "300"], ["Wilayah D", "2.000", "500", "600", "700"], ["Wilayah E", "800", "200", "220", "240"]]},
   "options": [
    "25,0%",
    "30,0%",
@@ -6754,7 +6757,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 2 berikut! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Berdasarkan Tabel 2, berapa persentase SPBU yang masuk dalam kategori Sesuai Standar (Kategori A) dari total seluruh SPBU yang diinspeksi?",
+  "q": "Berdasarkan tabel berikut, berapa persentase SPBU yang masuk dalam kategori Sesuai Standar (Kategori A) dari total seluruh SPBU yang diinspeksi?",
+  "tbl": {"cap": "Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan", "head": ["Kategori", "Keterangan", "Jumlah"], "rows": [["A", "Sesuai Standar", "45 SPBU"], ["B", "Deviasi Ringan", "15 SPBU"], ["C", "Deviasi Berat", "10 SPBU"], ["D", "Segel Rusak", "10 SPBU"]]},
   "options": [
    "45%",
    "50%",
@@ -6768,7 +6772,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 2 berikut! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Berapakah rasio antara SPBU kategori Deviasi Berat (Kategori C) terhadap total SPBU yang mengalami kendala/deviasi (Kategori B, C, dan D)?",
+  "q": "Berapakah rasio antara SPBU kategori Deviasi Berat (Kategori C) terhadap total SPBU yang mengalami kendala/deviasi (Kategori B, C, dan D) berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan", "head": ["Kategori", "Keterangan", "Jumlah"], "rows": [["A", "Sesuai Standar", "45 SPBU"], ["B", "Deviasi Ringan", "15 SPBU"], ["C", "Deviasi Berat", "10 SPBU"], ["D", "Segel Rusak", "10 SPBU"]]},
   "options": [
    "1 : 2",
    "1 : 3",
@@ -6782,7 +6787,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 2 berikut! Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan Kategori A (Sesuai Standar): Jumlah 45 SPBU Kategori B (Deviasi Ringan): Jumlah 15 SPBU Kategori C (Deviasi Berat): Jumlah 10 SPBU Kategori D (Segel Rusak): Jumlah 10 SPBU Jika setiap SPBU Kategori D dikenakan sanksi denda administratif sebesar Rp15.000.000 per SPBU, berapakah total nilai denda administratif yang terkumpul dari Kategori D?",
+  "q": "Jika setiap SPBU Kategori D dikenakan sanksi denda administratif sebesar Rp15.000.000 per SPBU, berapakah total nilai denda administratif yang terkumpul dari Kategori D berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 2: Hasil Inspeksi Digitalisasi Dispenser SPBU oleh Verifikator Lapangan", "head": ["Kategori", "Keterangan", "Jumlah"], "rows": [["A", "Sesuai Standar", "45 SPBU"], ["B", "Deviasi Ringan", "15 SPBU"], ["C", "Deviasi Berat", "10 SPBU"], ["D", "Segel Rusak", "10 SPBU"]]},
   "options": [
    "Rp100.000.000",
    "Rp120.000.000",
@@ -6796,7 +6802,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 3 berikut! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Kabupaten manakah yang mengalami over-kuota penyaluran Pertalite terbesar secara nominal (volume dalam KL)?",
+  "q": "Berdasarkan tabel berikut, kabupaten manakah yang mengalami over-kuota penyaluran Pertalite terbesar secara nominal (volume dalam KL)?",
+  "tbl": {"cap": "Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y", "head": ["Kabupaten", "Kuota", "Realisasi"], "rows": [["Kabupaten P", "5.000 KL", "4.800 KL"], ["Kabupaten Q", "8.000 KL", "8.400 KL"], ["Kabupaten R", "6.000 KL", "5.700 KL"], ["Kabupaten S", "4.000 KL", "4.200 KL"]]},
   "options": [
    "Kabupaten P",
    "Kabupaten Q",
@@ -6810,7 +6817,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 3 berikut! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Berapa total realisasi penyaluran Pertalite untuk keempat kabupaten tersebut secara keseluruhan?",
+  "q": "Berapa total realisasi penyaluran Pertalite untuk keempat kabupaten pada tabel berikut secara keseluruhan?",
+  "tbl": {"cap": "Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y", "head": ["Kabupaten", "Kuota", "Realisasi"], "rows": [["Kabupaten P", "5.000 KL", "4.800 KL"], ["Kabupaten Q", "8.000 KL", "8.400 KL"], ["Kabupaten R", "6.000 KL", "5.700 KL"], ["Kabupaten S", "4.000 KL", "4.200 KL"]]},
   "options": [
    "22.500 KL",
    "23.000 KL",
@@ -6824,7 +6832,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 3 berikut! Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y Kabupaten P: Kuota 5.000 KL | Realisasi 4.800 KL Kabupaten Q: Kuota 8.000 KL | Realisasi 8.400 KL Kabupaten R: Kuota 6.000 KL | Realisasi 5.700 KL Kabupaten S: Kuota 4.000 KL | Realisasi 4.200 KL Secara keseluruhan gabungan 4 kabupaten, berapa persentase tingkat penyaluran Pertalite dibandingkan dengan total kuota yang dialokasikan?",
+  "q": "Secara keseluruhan gabungan 4 kabupaten pada tabel berikut, berapa persentase tingkat penyaluran Pertalite dibandingkan dengan total kuota yang dialokasikan?",
+  "tbl": {"cap": "Tabel 3: Laporan Pengawasan Kuota Pertalite (JBKP) 4 Kabupaten di Provinsi Y", "head": ["Kabupaten", "Kuota", "Realisasi"], "rows": [["Kabupaten P", "5.000 KL", "4.800 KL"], ["Kabupaten Q", "8.000 KL", "8.400 KL"], ["Kabupaten R", "6.000 KL", "5.700 KL"], ["Kabupaten S", "4.000 KL", "4.200 KL"]]},
   "options": [
    "98,5%",
    "100,0%",
@@ -6838,7 +6847,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 4 berikut! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Verifikator manakah yang memiliki tingkat efisiensi waktu terbaik (waktu tersingkat per 1 titik audit SPBU)?",
+  "q": "Berdasarkan tabel berikut, verifikator manakah yang memiliki tingkat efisiensi waktu terbaik (waktu tersingkat per 1 titik audit SPBU)?",
+  "tbl": {"cap": "Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan", "head": ["Verifikator", "Jam Kerja", "Titik Audit"], "rows": [["Verifikator 1", "40 jam", "16 SPBU"], ["Verifikator 2", "35 jam", "14 SPBU"], ["Verifikator 3", "48 jam", "16 SPBU"], ["Verifikator 4", "50 jam", "20 SPBU"]]},
   "options": [
    "Verifikator 1",
    "Verifikator 2",
@@ -6852,7 +6862,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 4 berikut! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Berapa rata-rata jam kerja per verifikator berdasarkan data ke-4 verifikator tersebut?",
+  "q": "Berapa rata-rata jam kerja per verifikator berdasarkan data ke-4 verifikator pada tabel berikut?",
+  "tbl": {"cap": "Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan", "head": ["Verifikator", "Jam Kerja", "Titik Audit"], "rows": [["Verifikator 1", "40 jam", "16 SPBU"], ["Verifikator 2", "35 jam", "14 SPBU"], ["Verifikator 3", "48 jam", "16 SPBU"], ["Verifikator 4", "50 jam", "20 SPBU"]]},
   "options": [
    "42,0 jam",
    "43,25 jam",
@@ -6866,7 +6877,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 4 berikut! Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan Verifikator 1: Jam Kerja 40 jam | Titik Audit 16 SPBU Verifikator 2: Jam Kerja 35 jam | Titik Audit 14 SPBU Verifikator 3: Jam Kerja 48 jam | Titik Audit 16 SPBU Verifikator 4: Jam Kerja 50 jam | Titik Audit 20 SPBU Jika Verifikator 3 mendapatkan tambahan waktu 8 jam untuk menyelesaikan audit 4 SPBU tambahan, berapakah rata-rata waktu per SPBU untuk seluruh tugas Verifikator 3?",
+  "q": "Jika Verifikator 3 mendapatkan tambahan waktu 8 jam untuk menyelesaikan audit 4 SPBU tambahan, berapakah rata-rata waktu per SPBU untuk seluruh tugas Verifikator 3 berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 4: Rekapitulasi Jam Kerja dan Jumlah Titik Audit Verifikator Lapangan", "head": ["Verifikator", "Jam Kerja", "Titik Audit"], "rows": [["Verifikator 1", "40 jam", "16 SPBU"], ["Verifikator 2", "35 jam", "14 SPBU"], ["Verifikator 3", "48 jam", "16 SPBU"], ["Verifikator 4", "50 jam", "20 SPBU"]]},
   "options": [
    "2,6 jam",
    "2,8 jam",
@@ -6880,7 +6892,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 5 berikut! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapakah total anggaran operasional yang dialokasikan dalam rencana anggaran tersebut?",
+  "q": "Berapakah total anggaran operasional yang dialokasikan dalam rencana anggaran pada tabel berikut?",
+  "tbl": {"cap": "Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (dalam juta rupiah)", "head": ["Komponen", "Anggaran", "Realisasi"], "rows": [["Transportasi", "120", "110"], ["Akomodasi", "80", "90"], ["Komunikasi", "20", "18"], ["Perlengkapan Kerja", "30", "30"]]},
   "options": [
    "230 Juta",
    "240 Juta",
@@ -6894,7 +6907,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 5 berikut! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Komponen manakah yang mengalami pembengkakan (over-budget) dari alokasi awal?",
+  "q": "Berdasarkan tabel berikut, komponen manakah yang mengalami pembengkakan (over-budget) dari alokasi awal?",
+  "tbl": {"cap": "Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (dalam juta rupiah)", "head": ["Komponen", "Anggaran", "Realisasi"], "rows": [["Transportasi", "120", "110"], ["Akomodasi", "80", "90"], ["Komunikasi", "20", "18"], ["Perlengkapan Kerja", "30", "30"]]},
   "options": [
    "Transportasi",
    "Akomodasi",
@@ -6908,7 +6922,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 5 berikut! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa persentase hemat/efisiensi anggaran pada komponen Transportasi?",
+  "q": "Berapa persentase hemat/efisiensi anggaran pada komponen Transportasi berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (dalam juta rupiah)", "head": ["Komponen", "Anggaran", "Realisasi"], "rows": [["Transportasi", "120", "110"], ["Akomodasi", "80", "90"], ["Komunikasi", "20", "18"], ["Perlengkapan Kerja", "30", "30"]]},
   "options": [
    "6,33%",
    "8,33%",
@@ -6922,7 +6937,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 5 berikut! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa selisih antara total alokasi anggaran dengan total realisasi anggaran secara keseluruhan?",
+  "q": "Berapa selisih antara total alokasi anggaran dengan total realisasi anggaran secara keseluruhan berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (dalam juta rupiah)", "head": ["Komponen", "Anggaran", "Realisasi"], "rows": [["Transportasi", "120", "110"], ["Akomodasi", "80", "90"], ["Komunikasi", "20", "18"], ["Perlengkapan Kerja", "30", "30"]]},
   "options": [
    "Surplus 2 Juta (Hemat 2 Juta)",
    "Defisit 2 Juta (Kurang 2 Juta)",
@@ -6936,7 +6952,8 @@ const QUESTIONS = [
  },
  {
   "cat": "TPA",
-  "q": "Gunakan data Tabel 5 berikut! Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (Dalam Juta Rupiah) Komponen Transportasi: Anggaran 120 | Realisasi 110 Komponen Akomodasi: Anggaran 80 | Realisasi 90 Komponen Komunikasi: Anggaran 20 | Realisasi 18 Komponen Perlengkapan Kerja: Anggaran 30 | Realisasi 30 Berapa proporsi persentase realisasi komponen Akomodasi terhadap total realisasi anggaran keseluruhan?",
+  "q": "Berapa proporsi persentase realisasi komponen Akomodasi terhadap total realisasi anggaran keseluruhan berdasarkan tabel berikut?",
+  "tbl": {"cap": "Tabel 5: Evaluasi Penggunaan Anggaran Operasional Lapangan (dalam juta rupiah)", "head": ["Komponen", "Anggaran", "Realisasi"], "rows": [["Transportasi", "120", "110"], ["Akomodasi", "80", "90"], ["Komunikasi", "20", "18"], ["Perlengkapan Kerja", "30", "30"]]},
   "options": [
    "32,5%",
    "34,8%",
@@ -9965,8 +9982,8 @@ const QUESTIONS = [
   {"q": "Perbandingan volume penjualan solar dan Pertalite di sebuah SPBU adalah 3 : 5. Jika total penjualan 4.000 liter, volume solar adalah…", "options": ["1.200 liter", "2.000 liter", "2.400 liter", "2.500 liter", "1.500 liter"], "answer": 4, "explain": "Total perbandingan = 3 + 5 = 8 bagian. Satu bagian = 4.000 ÷ 8 = 500 liter. Solar = 3 × 500 = 1.500 liter.", "cat": "TPA", "src": "esdm2"},
   {"q": "Tentukan angka berikutnya: 3, 6, 5, 10, 9, 18, 17, …", "options": ["32", "33", "35", "34", "36"], "answer": 3, "explain": "Pola berselang-seling: ×2 lalu −1. 3×2=6; 6−1=5; 5×2=10; 10−1=9; 9×2=18; 18−1=17; maka berikutnya 17×2 = 34.", "cat": "TPA", "src": "esdm2"},
   {"q": "Sebuah pembangkit menerima energi masukan 500 MJ dan menghasilkan 175 MJ energi listrik. Efisiensinya adalah…", "options": ["30%", "40%", "35%", "65%", "71,4%"], "answer": 2, "explain": "Efisiensi = energi keluaran ÷ energi masukan × 100% = 175 ÷ 500 × 100% = 35%. Angka 65% adalah bagian energi yang terbuang, bukan efisiensi.", "cat": "TPA", "src": "esdm2"},
-  {"q": "SPBU Kuota (kL) Realisasi (kL) 1 100 108 2 80 72 3 120 126 4 90 81 Perhatikan tabel kuota dan realisasi penyaluran BBM berikut. SPBU dengan realisasi tertinggi terhadap kuotanya (dalam persen) adalah…", "options": ["SPBU 1", "SPBU 2", "SPBU 3", "SPBU 4", "SPBU 1 dan SPBU 3 sama besar"], "answer": 0, "explain": "Persentase realisasi: SPBU 1 = 108÷100 = 108%; SPBU 2 = 72÷80 = 90%; SPBU 3 = 126÷120 = 105%; SPBU 4 = 81÷90 = 90%. Tertinggi adalah SPBU 1.", "cat": "TPA", "src": "esdm2"},
-  {"q": "SPBU Kuota (kL) Realisasi (kL) 1 100 108 2 80 72 3 120 126 4 90 81 Berdasarkan tabel yang sama, perbandingan total realisasi dengan total kuota keempat SPBU adalah…", "options": ["total realisasi 3 kL lebih tinggi dari total kuota", "total realisasi sama dengan total kuota", "total realisasi 6 kL lebih rendah dari total kuota", "total realisasi 6 kL lebih tinggi dari total kuota", "total realisasi 3 kL lebih rendah dari total kuota"], "answer": 4, "explain": "Total kuota = 100+80+120+90 = 390 kL. Total realisasi = 108+72+126+81 = 387 kL. Selisih = 390 −387 = 3 kL lebih rendah.", "cat": "TPA", "src": "esdm2"},
+  {"q": "Perhatikan tabel kuota dan realisasi penyaluran BBM berikut. SPBU dengan realisasi tertinggi terhadap kuotanya (dalam persen) adalah…", "options": ["SPBU 1", "SPBU 2", "SPBU 3", "SPBU 4", "SPBU 1 dan SPBU 3 sama besar"], "answer": 0, "explain": "Persentase realisasi: SPBU 1 = 108÷100 = 108%; SPBU 2 = 72÷80 = 90%; SPBU 3 = 126÷120 = 105%; SPBU 4 = 81÷90 = 90%. Tertinggi adalah SPBU 1.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel kuota dan realisasi penyaluran BBM", "head": ["SPBU", "Kuota (kL)", "Realisasi (kL)"], "rows": [["1", "100", "108"], ["2", "80", "72"], ["3", "120", "126"], ["4", "90", "81"]]}},
+  {"q": "Berdasarkan tabel kuota dan realisasi penyaluran BBM berikut, perbandingan total realisasi dengan total kuota keempat SPBU adalah…", "options": ["total realisasi 3 kL lebih tinggi dari total kuota", "total realisasi sama dengan total kuota", "total realisasi 6 kL lebih rendah dari total kuota", "total realisasi 6 kL lebih tinggi dari total kuota", "total realisasi 3 kL lebih rendah dari total kuota"], "answer": 4, "explain": "Total kuota = 100+80+120+90 = 390 kL. Total realisasi = 108+72+126+81 = 387 kL. Selisih = 390 −387 = 3 kL lebih rendah.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel kuota dan realisasi penyaluran BBM", "head": ["SPBU", "Kuota (kL)", "Realisasi (kL)"], "rows": [["1", "100", "108"], ["2", "80", "72"], ["3", "120", "126"], ["4", "90", "81"]]}},
   {"q": "Lima lampu 20 watt menyala 8 jam per hari selama 30 hari. Jika tarif Rp1.500 per kWh, biaya listrik lampu tersebut adalah…", "options": ["Rp18.000", "Rp36.000", "Rp24.000", "Rp48.000", "Rp72.000"], "answer": 1, "explain": "Daya total = 5 × 20 = 100 W = 0,1 kW. Energi per hari = 0,1 × 8 = 0,8 kWh. Per 30 hari = 24 kWh. Biaya = 24 × Rp1.500 = Rp36.000.", "cat": "TPA", "src": "esdm2"},
   {"q": "Sebuah gedung mengganti 10 lampu pijar 60 W dengan 10 lampu LED 10 W. Semua lampu menyala 5 jam per hari. Penghematan energi selama 30 hari adalah…", "options": ["25 kWh", "50 kWh", "90 kWh", "75 kWh", "150 kWh"], "answer": 3, "explain": "Selisih daya per lampu = 60 −10 = 50 W. Untuk 10 lampu = 500 W. Energi per hari = 500 × 5 = 2.500 Wh = 2,5 kWh. Selama 30 hari = 2,5 × 30 = 75 kWh.", "cat": "TPA", "src": "esdm2"},
   {"q": "Konsumsi BBM suatu wilayah naik dari 2,4 juta kL menjadi 2,7 juta kL. Persentase kenaikannya adalah…", "options": ["8%", "10%", "12,5%", "11,1%", "15%"], "answer": 2, "explain": "Kenaikan = 2,7 −2,4 = 0,3 juta kL. Persentase = 0,3 ÷ 2,4 × 100% = 12,5%. Angka 11,1% muncul bila salah memakai pembagi 2,7.", "cat": "TPA", "src": "esdm2"},
@@ -9983,8 +10000,8 @@ const QUESTIONS = [
   {"q": "Penyaluran harian (kL) selama lima hari: 120, 135, 150, 105, 140. Rata-ratanya adalah…", "options": ["130 kL", "125 kL", "140 kL", "135 kL", "128 kL"], "answer": 0, "explain": "Jumlah = 120+135+150+105+140 = 650. Rata-rata = 650 ÷ 5 = 130 kL.", "cat": "TPA", "src": "esdm2"},
   {"q": "Data penyaluran (kL): 12, 18, 9, 21, 15. Nilai tengah (median) data tersebut adalah…", "options": ["15 kL", "18 kL", "16 kL", "12 kL", "9 kL"], "answer": 0, "explain": "Urutkan data: 9, 12, 15, 18, 21. Nilai tengah dari lima data adalah data ketiga, yaitu 15.", "cat": "TPA", "src": "esdm2"},
   {"q": "Konsumsi harian (kL) lima hari pertama: 38, 42, 45, 40, 41. Berapa kL konsumsi hari keenam agar rata-rata enam hari tepat 42 kL?", "options": ["42 kL", "48 kL", "44 kL", "46 kL", "45 kL"], "answer": 3, "explain": "Total yang dibutuhkan = 6 × 42 = 252. Total lima hari = 38+42+45+40+41 = 206. Hari keenam = 252 −206 = 46 kL.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Hari Solar (kL) Pertalite (kL) Senin 24 36 Selasa 30 45 Rabu 18 27 Berdasarkan tabel penyaluran berikut, total penyaluran solar selama tiga hari adalah…", "options": ["180 kL", "66 kL", "72 kL", "108 kL", "78 kL"], "answer": 2, "explain": "Total solar = 24 + 30 + 18 = 72 kL.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Hari Solar (kL) Pertalite (kL) Senin 24 36 Selasa 30 45 Rabu 18 27 Berdasarkan tabel yang sama, persentase Pertalite terhadap total seluruh penyaluran (solar dan Pertalite) adalah…", "options": ["50%", "60%", "65%", "72%", "40%"], "answer": 1, "explain": "Total solar = 72 kL dan total Pertalite = 108 kL, sehingga total = 180 kL. Persentase Pertalite = 108 ÷ 180 × 100% = 60%.", "cat": "TPA", "src": "esdm2"},
+  {"q": "Berdasarkan tabel penyaluran berikut, total penyaluran solar selama tiga hari adalah…", "options": ["180 kL", "66 kL", "72 kL", "108 kL", "78 kL"], "answer": 2, "explain": "Total solar = 24 + 30 + 18 = 72 kL.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel penyaluran BBM selama tiga hari", "head": ["Hari", "Solar (kL)", "Pertalite (kL)"], "rows": [["Senin", "24", "36"], ["Selasa", "30", "45"], ["Rabu", "18", "27"]]}},
+  {"q": "Berdasarkan tabel penyaluran berikut, persentase Pertalite terhadap total seluruh penyaluran (solar dan Pertalite) adalah…", "options": ["50%", "60%", "65%", "72%", "40%"], "answer": 1, "explain": "Total solar = 72 kL dan total Pertalite = 108 kL, sehingga total = 180 kL. Persentase Pertalite = 108 ÷ 180 × 100% = 60%.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel penyaluran BBM selama tiga hari", "head": ["Hari", "Solar (kL)", "Pertalite (kL)"], "rows": [["Senin", "24", "36"], ["Selasa", "30", "45"], ["Rabu", "18", "27"]]}},
   {"q": "Campuran biodiesel dengan 30% biodiesel dan sisanya solar dibuat sebanyak 1.500 liter. Volume solar dalam campuran adalah…", "options": ["1.000 liter", "1.350 liter", "1.200 liter", "1.050 liter", "450 liter"], "answer": 3, "explain": "Bagian solar = 100% −30% = 70%. Volume solar = 70% × 1.500 = 1.050 liter.", "cat": "TPA", "src": "esdm2"},
   {"q": "Dalam 800 liter campuran yang mengandung 40% biodiesel, volume biodiesel adalah…", "options": ["240 liter", "480 liter", "400 liter", "320 liter", "32 liter"], "answer": 3, "explain": "Volume biodiesel = 40% × 800 = 320 liter.", "cat": "TPA", "src": "esdm2"},
   {"q": "Jika 1 kWh setara 3,6 MJ, energi 5 kWh setara…", "options": ["36 MJ", "15 MJ", "1,39 MJ", "8,6 MJ", "18 MJ"], "answer": 4, "explain": "5 × 3,6 = 18 MJ.", "cat": "TPA", "src": "esdm2"},
@@ -10006,7 +10023,7 @@ const QUESTIONS = [
   {"q": "Satu dari tiga petugas (A, B, C) salah mencatat data. A berkata “B yang salah.” B berkata “Saya tidak salah.” C berkata “Saya tidak salah.” Hanya satu pernyataan yang benar. Siapa yang salah mencatat?", "options": ["Petugas A", "Petugas B", "Petugas C", "tidak dapat ditentukan", "Petugas A dan B"], "answer": 2, "explain": "Uji tiap kemungkinan. Jika A salah: pernyataan B dan C benar (2 benar). Jika B salah: pernyataan A dan C benar (2 benar). Jika C salah: hanya pernyataan B yang benar (1 benar). Hanya skenario C yang memenuhi syarat.", "cat": "TPA", "src": "esdm2"},
   {"q": "Dari 60 petugas, 38 menguasai K3, 30 menguasai pelaporan digital, dan 12 menguasai keduanya. Banyak petugas yang tidak menguasai keduanya adalah…", "options": ["2 orang", "4 orang", "6 orang", "8 orang", "12 orang"], "answer": 1, "explain": "Yang menguasai minimal satu = 38 + 30 −12 = 56. Tidak menguasai keduanya = 60 − 56 = 4.", "cat": "TPA", "src": "esdm2"},
   {"q": "Pompa A dapat mengisi sebuah tangki hingga penuh dalam 6 jam, pompa B dalam 12 jam. Jika keduanya bekerja bersamaan, tangki penuh dalam…", "options": ["4 jam", "3 jam", "4,5 jam", "6 jam", "9 jam"], "answer": 0, "explain": "Laju A = 1/6 tangki per jam, laju B = 1/12. Gabungan = 2/12 + 1/12 = 3/12 = 1/4 tangki per jam. Waktu = 1 ÷ (1/4) = 4 jam.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Lokasi SPBU rawan (skor 1–10) Kemudahan jarak (skor 1– 10) Akses lapangan (skor 1–10) X 8 6 9 Y 9 5 6 Z 7 9 8 Tim harus memilih satu lokasi pengawasan dengan skor tertimbang: SPBU rawan (bobot 3), kemudahan jarak (bobot 2), akses lapangan (bobot 1). Lokasi yang dipilih adalah…", "options": ["Lokasi X", "Lokasi Y", "Lokasi X dan Z sama", "Lokasi Z", "tidak dapat ditentukan"], "answer": 3, "explain": "X = 8×3 + 6×2 + 9×1 = 45. Y = 9×3 + 5×2 + 6×1 = 43. Z = 7×3 + 9×2 + 8×1 = 47. Skor tertinggi adalah Z.", "cat": "TPA", "src": "esdm2"},
+  {"q": "Perhatikan tabel skor tiga lokasi berikut. Tim harus memilih satu lokasi pengawasan dengan skor tertimbang: SPBU rawan (bobot 3), kemudahan jarak (bobot 2), akses lapangan (bobot 1). Lokasi yang dipilih adalah…", "options": ["Lokasi X", "Lokasi Y", "Lokasi X dan Z sama", "Lokasi Z", "tidak dapat ditentukan"], "answer": 3, "explain": "X = 8×3 + 6×2 + 9×1 = 45. Y = 9×3 + 5×2 + 6×1 = 43. Z = 7×3 + 9×2 + 8×1 = 47. Skor tertinggi adalah Z.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel skor tiga lokasi pengawasan", "head": ["Lokasi", "SPBU rawan (skor 1–10)", "Kemudahan jarak (skor 1–10)", "Akses lapangan (skor 1–10)"], "rows": [["X", "8", "6", "9"], ["Y", "9", "5", "6"], ["Z", "7", "9", "8"]]}},
   {"q": "Tangki P berisi lebih banyak daripada Q. Tangki R berisi lebih sedikit daripada Q. Tangki S berisi lebih banyak daripada P. Urutan dari yang paling banyak ke paling sedikit adalah…", "options": ["P, S, Q, R", "S, Q, P, R", "S, P, R, Q", "R, Q, P, S", "S, P, Q, R"], "answer": 4, "explain": "Dari S > P, P > Q, dan Q > R diperoleh urutan S > P > Q > R.", "cat": "TPA", "src": "esdm2"},
   {"q": "Jika pasokan terlambat, antrean muncul. Jika antrean muncul, petugas menambah jalur. Pada hari Selasa petugas tidak menambah jalur. Kesimpulan yang tepat adalah…", "options": ["pasokan tidak terlambat", "pasokan terlambat", "antrean muncul", "antrean muncul walau pasokan tepat waktu", "tidak dapat disimpulkan apa pun"], "answer": 0, "explain": "Rantai: terlambat →antrean →tambah jalur. Tidak menambah jalur berarti antrean tidak muncul (modus tollens), dan tanpa antrean berarti pasokan tidak terlambat.", "cat": "TPA", "src": "esdm2"},
   {"q": "Lima kendaraan parkir berderet pada posisi 1 sampai 5 dari kiri: Truk, Mobil, Motor, Bus, dan Van. Bus berada di salah satu ujung. Truk tepat di sebelah Bus. Mobil berada tepat di antara Truk dan Motor. Van tidak bersebelahan dengan Truk. Motor berada di sebelah kanan Mobil. Kendaraan di posisi 5 adalah…", "options": ["Van", "Truk", "Motor", "Bus", "Mobil"], "answer": 0, "explain": "Telusuri syarat satu per satu. Satu-satunya susunan yang memenuhi semuanya: Bus, Truk, Mobil, Motor, Van. Posisi kelima adalah Van.", "cat": "TPA", "src": "esdm2"},
@@ -10015,9 +10032,9 @@ const QUESTIONS = [
   {"q": "Dari 60 SPBU, 30 memiliki kamera pengawas, 26 memiliki alat pemadam tambahan, dan 9 SPBU tidak memiliki keduanya. Banyak SPBU yang memiliki keduanya adalah…", "options": ["26 SPBU", "21 SPBU", "5 SPBU", "9 SPBU", "4 SPBU"], "answer": 2, "explain": "Memiliki minimal satu = 60 −9 = 51. Irisan = 30 + 26 −51 = 5 SPBU.", "cat": "TPA", "src": "esdm2"},
   {"q": "Dua petugas menyelesaikan rekap dalam 6 hari bila bekerja bersama. Petugas pertama sendirian menyelesaikannya dalam 10 hari. Petugas kedua sendirian menyelesaikannya dalam…", "options": ["16 hari", "12 hari", "4 hari", "15 hari", "20 hari"], "answer": 3, "explain": "Laju kedua = 1/6 −1/10 = 5/30 −3/30 = 2/30 = 1/15 per hari. Waktu = 15 hari.", "cat": "TPA", "src": "esdm2"},
   {"q": "Sebuah pompa mengisi tangki dalam 5 jam, tetapi ada kebocoran yang bila bekerja sendiri mengosongkan tangki penuh dalam 20 jam. Jika pompa dan kebocoran berlangsung bersamaan, tangki penuh dalam…", "options": ["5 jam", "6 jam 40 menit", "4 jam", "6 jam", "7 jam 30 menit"], "answer": 1, "explain": "Laju bersih = 1/5 −1/20 = 4/20 −1/20 = 3/20 tangki per jam. Waktu = 20/3 jam = 6 jam 40 menit.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Opsi Keselamatan Waktu Biaya Rute 1 7 8 6 Rute 2 9 5 7 Rute 3 8 7 9 Sebuah tim memilih rute pengiriman berdasarkan skor tertimbang dengan kriteria Keselamatan (bobot 3), Waktu (bobot 2), Biaya (bobot 1). Skor tiap opsi dalam tabel (makin tinggi makin baik). Opsi yang dipilih adalah…", "options": ["Rute 3", "Rute 1", "tidak dapat ditentukan", "Rute 2", "semua opsi memiliki skor yang sama"], "answer": 0, "explain": "Skor = jumlah (nilai × bobot). Rute 1 = 7×3 + 8×2 + 6×1 = 43; Rute 2 = 9×3 + 5×2 + 7×1 = 44; Rute 3 = 8×3 + 7×2 + 9×1 = 47. Skor tertinggi: Rute 3.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Opsi Mutu Ketepatan waktu Harga Pemasok A 6 9 8 Pemasok B 8 7 6 Pemasok C 7 8 9 Pemasok D 5 6 7 Sebuah tim memilih pemasok peralatan berdasarkan skor tertimbang dengan kriteria Mutu (bobot 4), Ketepatan waktu (bobot 3), Harga (bobot 2). Skor tiap opsi dalam tabel (makin tinggi makin baik). Opsi yang dipilih adalah…", "options": ["Pemasok A", "Pemasok C", "semua opsi memiliki skor yang sama", "Pemasok D", "Pemasok B"], "answer": 1, "explain": "Skor = jumlah (nilai × bobot). Pemasok A = 6×4 + 9×3 + 8×2 = 67; Pemasok B = 8×4 + 7×3 + 6×2 = 65; Pemasok C = 7×4 + 8×3 + 9×2 = 70; Pemasok D = 5×4 + 6×3 + 7×2 = 52. Skor tertinggi: Pemasok C.", "cat": "TPA", "src": "esdm2"},
-  {"q": "Opsi Akses Fasilitas Biaya Lokasi 1 9 6 5 Lokasi 2 7 8 9 Lokasi 3 8 9 6 Sebuah tim memilih lokasi pelatihan berdasarkan skor tertimbang dengan kriteria Akses (bobot 2), Fasilitas (bobot 2), Biaya (bobot 1). Skor tiap opsi dalam tabel (makin tinggi makin baik). Opsi yang dipilih adalah…", "options": ["Lokasi 1", "Lokasi 3", "tidak dapat ditentukan", "Lokasi 2", "semua opsi memiliki skor yang sama"], "answer": 1, "explain": "Skor = jumlah (nilai × bobot). Lokasi 1 = 9×2 + 6×2 + 5×1 = 35; Lokasi 2 = 7×2 + 8×2 + 9×1 = 39; Lokasi 3 = 8×2 + 9×2 + 6×1 = 40. Skor tertinggi: Lokasi 3.", "cat": "TPA", "src": "esdm2"},
+  {"q": "Sebuah tim memilih rute pengiriman berdasarkan skor tertimbang dengan kriteria Keselamatan (bobot 3), Waktu (bobot 2), Biaya (bobot 1). Skor tiap opsi ada pada tabel berikut. Opsi yang dipilih adalah…", "options": ["Rute 3", "Rute 1", "tidak dapat ditentukan", "Rute 2", "semua opsi memiliki skor yang sama"], "answer": 0, "explain": "Skor = jumlah (nilai × bobot). Rute 1 = 7×3 + 8×2 + 6×1 = 43; Rute 2 = 9×3 + 5×2 + 7×1 = 44; Rute 3 = 8×3 + 7×2 + 9×1 = 47. Skor tertinggi: Rute 3.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel skor rute pengiriman", "head": ["Opsi", "Keselamatan", "Waktu", "Biaya"], "rows": [["Rute 1", "7", "8", "6"], ["Rute 2", "9", "5", "7"], ["Rute 3", "8", "7", "9"]]}},
+  {"q": "Sebuah tim memilih pemasok peralatan berdasarkan skor tertimbang dengan kriteria Mutu (bobot 4), Ketepatan waktu (bobot 3), Harga (bobot 2). Skor tiap opsi ada pada tabel berikut. Opsi yang dipilih adalah…", "options": ["Pemasok A", "Pemasok C", "semua opsi memiliki skor yang sama", "Pemasok D", "Pemasok B"], "answer": 1, "explain": "Skor = jumlah (nilai × bobot). Pemasok A = 6×4 + 9×3 + 8×2 = 67; Pemasok B = 8×4 + 7×3 + 6×2 = 65; Pemasok C = 7×4 + 8×3 + 9×2 = 70; Pemasok D = 5×4 + 6×3 + 7×2 = 52. Skor tertinggi: Pemasok C.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel skor pemasok peralatan", "head": ["Opsi", "Mutu", "Ketepatan waktu", "Harga"], "rows": [["Pemasok A", "6", "9", "8"], ["Pemasok B", "8", "7", "6"], ["Pemasok C", "7", "8", "9"], ["Pemasok D", "5", "6", "7"]]}},
+  {"q": "Sebuah tim memilih lokasi pelatihan berdasarkan skor tertimbang dengan kriteria Akses (bobot 2), Fasilitas (bobot 2), Biaya (bobot 1). Skor tiap opsi ada pada tabel berikut. Opsi yang dipilih adalah…", "options": ["Lokasi 1", "Lokasi 3", "tidak dapat ditentukan", "Lokasi 2", "semua opsi memiliki skor yang sama"], "answer": 1, "explain": "Skor = jumlah (nilai × bobot). Lokasi 1 = 9×2 + 6×2 + 5×1 = 35; Lokasi 2 = 7×2 + 8×2 + 9×1 = 39; Lokasi 3 = 8×2 + 9×2 + 6×1 = 40. Skor tertinggi: Lokasi 3.", "cat": "TPA", "src": "esdm2", "tbl": {"cap": "Tabel skor lokasi pelatihan", "head": ["Opsi", "Akses", "Fasilitas", "Biaya"], "rows": [["Lokasi 1", "9", "6", "5"], ["Lokasi 2", "7", "8", "9"], ["Lokasi 3", "8", "9", "6"]]}},
   {"q": "Dalam lomba kerapian laporan, Rani lebih tinggi peringkatnya daripada Sari. Tono lebih rendah daripada Sari. Umar lebih tinggi daripada Rani. Siapa yang peringkatnya paling rendah?", "options": ["Rani", "Sari", "Tono", "Umar", "tidak dapat ditentukan"], "answer": 2, "explain": "Umar > Rani > Sari > Tono. Tono berada paling bawah.", "cat": "TPA", "src": "esdm2"},
   {"q": "Suhu tangki 1 lebih tinggi daripada tangki 2, tangki 3 lebih rendah daripada tangki 2, dan tangki 4 lebih tinggi daripada tangki 1. Pernyataan yang PASTI benar adalah…", "options": ["tangki 2 lebih tinggi daripada tangki 4", "tangki 4 lebih tinggi daripada tangki 3", "tangki 3 lebih tinggi daripada tangki 1", "tangki 1 lebih rendah daripada tangki 3", "tangki 3 sama dengan tangki 2"], "answer": 1, "explain": "Urutan: tangki 4 > tangki 1 > tangki 2 > tangki 3. Dari rantai itu, tangki 4 pasti lebih tinggi daripada tangki 3.", "cat": "TPA", "src": "esdm2"},
   {"q": "Semua tangki timbun yang lolos inspeksi diberi stiker hijau. Tangki Z tidak bersitiker hijau. Kesimpulan yang tepat adalah…", "options": ["Tangki Z baru dibangun", "Inspeksi tidak diperlukan", "Semua tangki lain bersitiker hijau", "Tangki Z tidak lolos inspeksi", "Tangki Z lolos inspeksi"], "answer": 3, "explain": "Jika lolos inspeksi maka bersitiker hijau. Tidak bersitiker hijau berarti tidak lolos inspeksi.", "cat": "TPA", "src": "esdm2"},

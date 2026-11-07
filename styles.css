@@ -415,6 +415,11 @@ a:hover { color: var(--navy); }
 .fig-src { color: #8a94a6; font-size: 0.8rem; }
 .quiz-figure { margin: 0 0 14px; }
 .quiz-figure img { width: 100%; max-width: 520px; height: auto; display: block; border: 1px solid #d8dee9; border-radius: 10px; }
+.q-table { width: 100%; border-collapse: collapse; margin: 10px 0 16px; font-size: .95rem; background: #fff; }
+.q-table caption { text-align: left; font-weight: 700; color: var(--navy); padding-bottom: 6px; }
+.q-table th, .q-table td { border: 1px solid #d8dee8; padding: 7px 10px; text-align: left; }
+.q-table th { background: #eef3fa; color: var(--navy); }
+.q-table tbody tr:nth-child(even) td { background: #f7fafd; }
 .copyright { margin-top: 14px; font-size: 0.82rem; color: #8a94a6; }
 .creator-connect { margin-bottom: 18px; }
 .connect-name { color: #dbe7f7; margin: 0 0 10px; font-size: 0.98rem; }

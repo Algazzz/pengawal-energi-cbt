@@ -98,6 +98,7 @@
         cat: q.cat,
         explain: q.explain || '',
         src: q.src || '',
+        tbl: q.tbl || null,
         options: order.map(function (i) { return q.options[i]; }),
         answer: order.indexOf(q.answer)
       };
@@ -143,6 +144,7 @@
     $('progressFill').style.width = ((quiz.idx + 1) / total * 100) + '%';
     $('quizCat').textContent = item.cat;
     mathText($('quizQ'), item.q);
+    setQuizTable(item);
     var fig = $('quizFig');
     if (fig) {
       if (item.img) { $('quizImg').src = item.img; fig.hidden = false; }
@@ -250,6 +252,33 @@
     $('quizResult').scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
 
+  function buildTableEl(tbl) {
+    var wrap = document.createElement('div');
+    wrap.className = 'table-wrap';
+    var t = document.createElement('table');
+    t.className = 'q-table';
+    if (tbl.cap) { var cp = document.createElement('caption'); cp.textContent = tbl.cap; t.appendChild(cp); }
+    var thead = document.createElement('thead');
+    var trh = document.createElement('tr');
+    tbl.head.forEach(function (h) { var th = document.createElement('th'); th.textContent = h; trh.appendChild(th); });
+    thead.appendChild(trh); t.appendChild(thead);
+    var tbody = document.createElement('tbody');
+    tbl.rows.forEach(function (r) {
+      var tr = document.createElement('tr');
+      r.forEach(function (c) { var td = document.createElement('td'); td.textContent = c; tr.appendChild(td); });
+      tbody.appendChild(tr);
+    });
+    t.appendChild(tbody);
+    wrap.appendChild(t);
+    return wrap;
+  }
+  function setQuizTable(item) {
+    var box = $('quizTbl');
+    if (!box) return;
+    box.innerHTML = '';
+    if (item && item.tbl) { box.appendChild(buildTableEl(item.tbl)); box.hidden = false; }
+    else { box.hidden = true; }
+  }
   function buildReview() {
     var list = $('reviewList');
     list.innerHTML = '';
@@ -260,6 +289,7 @@
       rq.className = 'rq';
       mathText(rq, (i + 1) + '. [' + item.cat + '] ' + item.q);
       div.appendChild(rq);
+      if (item.tbl) div.appendChild(buildTableEl(item.tbl));
       if (item.img) {
         var rf = document.createElement('figure');
         rf.className = 'quiz-figure';
@@ -321,7 +351,7 @@
     var items = pool.map(function (q) {
       var order = shuffle(q.options.map(function (_, i) { return i; }));
       return {
-        q: q.q, img: q.img || '', cat: q.cat, explain: q.explain || '', src: q.src || '',
+        q: q.q, img: q.img || '', cat: q.cat, explain: q.explain || '', src: q.src || '', tbl: q.tbl || null,
         options: order.map(function (i) { return q.options[i]; }),
         answer: order.indexOf(q.answer)
       };
@@ -376,6 +406,7 @@
     $('progressFill').style.width = ((sim.idx + 1) / total * 100) + '%';
     $('quizCat').textContent = item.cat;
     mathText($('quizQ'), item.q);
+    setQuizTable(item);
     var fig = $('quizFig');
     if (fig) {
       if (item.img) { $('quizImg').src = item.img; fig.hidden = false; }
