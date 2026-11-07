@@ -55,7 +55,7 @@
     <ol class="timeline">
       <li><strong>6 Nov 2026</strong><span>Pembagian jadwal ujian, tata tertib, dan panduan CBT terbit di portal (diundur sehari dari jadwal awal)</span></li>
       <li><strong>8 Nov 2026</strong><span>Akun aplikasi CBT dibagikan lewat email; registrasi akun sebelum hari ujian dan unggah bukti login ke portal</span></li>
-<li><strong>9 Nov 2026, 09.45–11.20 WIB</strong><span>Pelaksanaan ujian CBT daring (Batch 2, 95 menit) di cbt.sevima.com</span></li>
+<li><strong>9 Nov 2026, 09.45–11.20 WIB</strong><span>Pelaksanaan ujian CBT daring Batch 2 di cbt.sevima.com: Ujian Teknis 90 soal dalam 60 menit (09.45–10.45), jeda 5 menit, lalu Ujian TPA 60 soal dalam 30 menit (10.50–11.20)</span></li>
       <li><strong>10 Nov 2026, 22.00 WIB</strong><span>Pengumuman hasil CBT</span></li>
       <li><strong>12 Nov 2026</strong><span>Asesmen psikologi</span></li>
       <li><strong>13 sampai 15 Nov 2026</strong><span>Wawancara</span></li>
@@ -81,8 +81,8 @@
       <div>
         <h3>Hari ujian dan alur aplikasi</h3>
         <ul>
-          <li>Masuk ke aplikasi 30 menit sebelum jadwal. Untuk Batch 2: Senin 9 Nov 2026 pukul 09.45–11.20 WIB (95 menit).</li>
-          <li>Ujian terbagi dua paket berurutan: Ujian Teknis (Basic Science dan Wawasan Migas Hilir), lalu Ujian TPA, sesuai jadwal pada dashboard aplikasi.</li>
+          <li>Masuk ke aplikasi 30 menit sebelum jadwal. Untuk Batch 2: Senin 9 Nov 2026, Ujian Teknis pukul 09.45–10.45 WIB lalu Ujian TPA pukul 10.50–11.20 WIB.</li>
+          <li>Ujian terbagi dua paket berurutan: Ujian Teknis (Basic Science dan Wawasan Migas Hilir) berisi 90 soal dalam 60 menit, rata-rata 40 detik per soal; lalu Ujian TPA berisi 60 soal dalam 30 menit, rata-rata 30 detik per soal, sesuai jadwal pada dashboard aplikasi.</li>
           <li>Saat waktu pengerjaan tiba, muat ulang halaman (refresh/F5) lalu klik "Mulai Ujian". Sistem menjalankan pengecekan teknis (perangkat, koneksi, transmisi layar, kamera), kemudian centang pernyataan persetujuan dan klik "Mulai Mengerjakan".</li>
           <li>Pengecekan terakhir adalah berbagi layar: pilih "Entire Screen" lalu klik "Share" agar dapat lanjut mengerjakan.</li>
           <li>Bila koneksi terputus di tengah ujian, muat ulang halaman untuk melanjutkan dari soal terakhir. Gangguan koneksi tidak memberi tambahan waktu, dan keterlambatan tidak ditoleransi.</li>
@@ -451,6 +451,15 @@
         <button class="btn btn-primary" type="submit">Mulai latihan</button>
         <p class="history-note" id="historyNote" hidden></p>
       </form>
+      <div class="sim-box">
+        <h4>Simulasi sesuai ujian asli (Batch 2)</h4>
+        <p>Soal berjalan satu arah seperti ujian sebenarnya: tidak ada tombol kembali dan tidak ada palet nomor. Timer per soal aktif; bila waktu satu soal habis, soal itu dilewati otomatis dan tidak bisa diulang. Mengklik jawaban langsung mengunci dan lanjut ke soal berikutnya. Ujian Teknis berisi 90 soal dalam 60 menit (40 detik per soal; campuran Wawasan Migas Hilir dan Basic Science mengikuti proporsi bank soal). Ujian TPA berisi 60 soal dalam 30 menit (30 detik per soal).</p>
+        <div class="sim-btns">
+          <button class="btn btn-primary" id="btnSimTeknis" type="button">Simulasi Ujian Teknis · 90 soal · 60 menit</button>
+          <button class="btn btn-primary" id="btnSimTPA" type="button">Simulasi Ujian TPA · 60 soal · 30 menit</button>
+          <button class="btn btn-ghost" id="btnSimFull" type="button">Simulasi Penuh · Teknis lalu TPA</button>
+        </div>
+      </div>
     </div>
 
     <div class="quiz-box" id="quizRun" hidden>
@@ -478,6 +487,7 @@
       <p class="result-score" id="resultScore">0 dari 20 benar</p>
       <div id="resultBreakdown"></div>
       <div class="quiz-nav">
+        <button class="btn btn-primary" id="btnSimNext" type="button" hidden>Lanjut ke Ujian TPA · 60 soal · 30 menit</button>
         <button class="btn btn-primary" id="btnRetry" type="button">Latihan lagi</button>
         <button class="btn btn-ghost" id="btnReviewToggle" type="button" aria-expanded="false">Lihat pembahasan</button>
       </div>

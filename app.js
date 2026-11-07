@@ -13,7 +13,7 @@
   function isFokus(q) {
     return q.cat === 'Wawasan Migas Hilir' && FOKUS_RE.test(q.q + ' ' + (q.explain || ''));
   }
-  var MODE_LABEL = { 'fokus-distribusi': 'Fokus Distribusi JBT dan JBKP' };
+  var MODE_LABEL = { 'fokus-distribusi': 'Fokus Distribusi JBT dan JBKP', 'simulasi-teknis': 'Simulasi Ujian Teknis', 'simulasi-tpa': 'Simulasi Ujian TPA' };
 
   function shuffle(arr) {
     var a = arr.slice();
@@ -111,6 +111,7 @@
       secondsLeft: useTimer ? pool.length * 60 : null,
       confirmSubmit: false
     };
+    sim = null; simChainResult = null; stopSimTimer(); resetQuizChrome();
     $('quizSetup').hidden = true;
     $('quizResult').hidden = true;
     $('quizRun').hidden = false;
@@ -291,6 +292,169 @@
     });
   }
 
+
+  /* ---------- Mode simulasi ujian asli: satu arah, timer per soal, auto-skip ---------- */
+  var sim = null;
+  var simTimerId = null;
+  var simChainResult = null;
+
+  function stopSimTimer() { if (simTimerId) { clearInterval(simTimerId); simTimerId = null; } }
+
+  function resetQuizChrome() {
+    var pal = $('quizPalette'); if (pal) pal.hidden = false;
+    $('btnPrev').hidden = false;
+    $('btnFlag').hidden = false;
+    $('btnNext').textContent = 'Berikutnya';
+    $('btnSubmit').textContent = 'Kumpulkan';
+    var nx = $('btnSimNext'); if (nx) nx.hidden = true;
+  }
+
+  function startSim(kind, chained) {
+    if (typeof QUESTIONS === 'undefined' || !Array.isArray(QUESTIONS) || QUESTIONS.length === 0) {
+      window.alert('Bank soal utama gagal dimuat, jadi simulasi tidak dimulai. Muat ulang halaman ini (Ctrl+Shift+R) lalu coba lagi.');
+      return;
+    }
+    var b = bank();
+    var pool = kind === 'teknis'
+      ? shuffle(b.filter(function (q) { return q.cat === 'Wawasan Migas Hilir' || q.cat === 'Basic Science'; })).slice(0, 90)
+      : shuffle(b.filter(function (q) { return q.cat === 'TPA'; })).slice(0, 60);
+    var items = pool.map(function (q) {
+      var order = shuffle(q.options.map(function (_, i) { return i; }));
+      return {
+        q: q.q, img: q.img || '', cat: q.cat, explain: q.explain || '', src: q.src || '',
+        options: order.map(function (i) { return q.options[i]; }),
+        answer: order.indexOf(q.answer)
+      };
+    });
+    stopTimer(); stopSimTimer();
+    var perQ = kind === 'teknis' ? 40 : 30;
+    var totalSec = kind === 'teknis' ? 3600 : 1800;
+    var now = Date.now();
+    sim = {
+      kind: kind, items: items,
+      answers: items.map(function () { return null; }),
+      idx: 0, perQ: perQ,
+      qEnd: now + perQ * 1000, end: now + totalSec * 1000,
+      chained: !!chained, confirmEnd: false, locked: false
+    };
+    quiz = {
+      mode: kind === 'teknis' ? 'simulasi-teknis' : 'simulasi-tpa',
+      items: items, answers: sim.answers,
+      flags: items.map(function () { return false; }),
+      idx: 0, secondsLeft: null, confirmSubmit: false
+    };
+    $('quizSetup').hidden = true;
+    $('quizResult').hidden = true;
+    $('quizRun').hidden = false;
+    $('quizWarn').hidden = true;
+    $('quizPalette').hidden = true;
+    $('btnPrev').hidden = true;
+    $('btnFlag').hidden = true;
+    $('btnNext').textContent = 'Lewati soal';
+    $('btnSubmit').textContent = 'Akhiri paket';
+    var nx = $('btnSimNext'); if (nx) nx.hidden = true;
+    simTimerId = setInterval(simTick, 250);
+    renderSimTimer();
+    renderSimQuestion();
+    $('quizRun').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  function renderSimTimer() {
+    var el = $('quizTimer');
+    if (!sim) return;
+    var now = Date.now();
+    var qLeft = Math.max(0, Math.ceil((sim.qEnd - now) / 1000));
+    var totalLeft = Math.max(0, Math.ceil((sim.end - now) / 1000));
+    el.textContent = 'Sisa paket: ' + fmtTime(totalLeft) + ' · Soal ini: ' + qLeft + ' detik';
+    el.classList.toggle('timer-low', qLeft <= 10);
+  }
+
+  function renderSimQuestion() {
+    var item = sim.items[sim.idx];
+    var total = sim.items.length;
+    $('quizProgress').textContent = (sim.kind === 'teknis' ? 'Ujian Teknis' : 'Ujian TPA') + ' · Soal ' + (sim.idx + 1) + ' dari ' + total;
+    $('progressFill').style.width = ((sim.idx + 1) / total * 100) + '%';
+    $('quizCat').textContent = item.cat;
+    mathText($('quizQ'), item.q);
+    var fig = $('quizFig');
+    if (fig) {
+      if (item.img) { $('quizImg').src = item.img; fig.hidden = false; }
+      else { fig.hidden = true; $('quizImg').removeAttribute('src'); }
+    }
+    var box = $('quizOpts');
+    box.innerHTML = '';
+    item.options.forEach(function (opt, i) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'opt-btn';
+      btn.setAttribute('role', 'radio');
+      btn.setAttribute('aria-checked', 'false');
+      var letter = document.createElement('span');
+      letter.className = 'opt-letter';
+      letter.textContent = 'ABCDE'[i] + '.';
+      btn.appendChild(letter);
+      var optText = document.createElement('span');
+      optText.className = 'opt-text';
+      mathText(optText, opt);
+      btn.appendChild(optText);
+      btn.addEventListener('click', function () {
+        if (!sim || sim.locked) return;
+        sim.locked = true;
+        sim.answers[sim.idx] = i;
+        btn.classList.add('selected');
+        btn.setAttribute('aria-checked', 'true');
+        setTimeout(function () { simAdvance(); }, 350);
+      });
+      box.appendChild(btn);
+    });
+  }
+
+  function simAdvance() {
+    if (!sim) return;
+    sim.locked = false;
+    sim.confirmEnd = false;
+    $('quizWarn').hidden = true;
+    sim.idx += 1;
+    if (sim.idx >= sim.items.length) { finishSim(); return; }
+    sim.qEnd = Date.now() + sim.perQ * 1000;
+    renderSimTimer();
+    renderSimQuestion();
+  }
+
+  function simTick() {
+    if (!sim) { stopSimTimer(); return; }
+    var now = Date.now();
+    if (now >= sim.end) { finishSim(); return; }
+    if (now >= sim.qEnd) { simAdvance(); return; }
+    renderSimTimer();
+  }
+
+  function finishSim() {
+    if (!sim) return;
+    var kind = sim.kind;
+    var chained = sim.chained;
+    var items = sim.items, answers = sim.answers;
+    stopSimTimer();
+    var correct = 0;
+    items.forEach(function (item, i) { if (answers[i] === item.answer) correct += 1; });
+    var pct = items.length ? Math.round(correct / items.length * 100) : 0;
+    if (kind === 'teknis') simChainResult = { benar: correct, total: items.length, pct: pct };
+    sim = null;
+    finishQuiz();
+    var bd = $('resultBreakdown');
+    if (kind === 'teknis' && chained) {
+      var p = document.createElement('p');
+      p.textContent = 'Paket Ujian Teknis selesai. Pada hari ujian, jeda menuju Ujian TPA hanya 5 menit (pukul 10.45 ke 10.50 WIB). Klik tombol Lanjut ke Ujian TPA untuk menyelesaikan simulasi penuh.';
+      bd.appendChild(p);
+      var nx = $('btnSimNext'); if (nx) nx.hidden = false;
+    } else if (kind === 'tpa' && simChainResult) {
+      var p2 = document.createElement('p');
+      p2.textContent = 'Simulasi penuh selesai. Ujian Teknis: ' + simChainResult.benar + ' dari ' + simChainResult.total + ' benar (' + simChainResult.pct + ' persen). Ujian TPA: ' + correct + ' dari ' + items.length + ' benar (' + pct + ' persen).';
+      bd.appendChild(p2);
+      simChainResult = null;
+    }
+  }
+
   /* ---------- Quiz wiring ---------- */
   var setupForm = $('setupForm');
   if (setupForm) {
@@ -314,13 +478,24 @@
     } catch (e) { /* abaikan */ }
   }
   $('btnPrev').addEventListener('click', function () { if (quiz && quiz.idx > 0) { quiz.idx -= 1; renderQuestion(); } });
-  $('btnNext').addEventListener('click', function () { if (quiz && quiz.idx < quiz.items.length - 1) { quiz.idx += 1; renderQuestion(); } });
+  $('btnNext').addEventListener('click', function () { if (sim) { simAdvance(); return; } if (quiz && quiz.idx < quiz.items.length - 1) { quiz.idx += 1; renderQuestion(); } });
   $('btnFlag').addEventListener('click', function () {
     if (!quiz) return;
     quiz.flags[quiz.idx] = !quiz.flags[quiz.idx];
     renderQuestion();
   });
   $('btnSubmit').addEventListener('click', function () {
+    if (sim) {
+      if (!sim.confirmEnd) {
+        sim.confirmEnd = true;
+        var w = $('quizWarn');
+        w.hidden = false;
+        w.textContent = 'Akhiri paket simulasi sekarang? Soal yang belum terlewati akan tercatat kosong. Klik Akhiri paket sekali lagi untuk selesai.';
+        return;
+      }
+      finishSim();
+      return;
+    }
     if (!quiz) return;
     var unanswered = quiz.answers.filter(function (a) { return a === null; }).length;
     if (unanswered > 0 && !quiz.confirmSubmit) {
@@ -333,10 +508,15 @@
     finishQuiz();
   });
   $('btnRetry').addEventListener('click', function () {
+    sim = null; simChainResult = null; stopSimTimer(); resetQuizChrome();
     $('quizResult').hidden = true;
     $('quizSetup').hidden = false;
     $('quizSetup').scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
+  var bT = $('btnSimTeknis'); if (bT) bT.addEventListener('click', function () { startSim('teknis', false); });
+  var bP = $('btnSimTPA'); if (bP) bP.addEventListener('click', function () { startSim('tpa', false); });
+  var bF = $('btnSimFull'); if (bF) bF.addEventListener('click', function () { startSim('teknis', true); });
+  var bN = $('btnSimNext'); if (bN) bN.addEventListener('click', function () { startSim('tpa', true); });
   $('btnReviewToggle').addEventListener('click', function () {
     var list = $('reviewList');
     var show = list.hidden;

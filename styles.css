@@ -446,3 +446,9 @@ a:hover { color: var(--navy); }
 .visitor-line { display: flex; align-items: center; gap: 7px; color: #b9c8dd; font-size: 0.9rem; margin: 0 0 12px; }
 .visitor-line[hidden] { display: none; }
 .visitor-line svg { width: 18px; height: 18px; flex: none; }
+
+/* Kotak mode simulasi ujian asli di panel latihan. */
+.sim-box { border: 1.5px solid var(--line, #d8dee8); border-radius: 12px; padding: 16px 18px; margin-top: 20px; background: #f7fafd; }
+.sim-box h4 { margin: 0 0 8px; color: var(--navy); font-family: Georgia, "Times New Roman", serif; }
+.sim-box p { margin: 0 0 14px; }
+.sim-btns { display: flex; flex-wrap: wrap; gap: 10px; }
