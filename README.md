@@ -1,6 +1,6 @@
 # Latihan CBT Pengawal Energi 2026, Verifikator Lapangan
 
-Situs belajar statis untuk persiapan CBT Pengawal Energi (Kementerian ESDM, BPH Migas, PEM Akamigas), posisi Verifikator Lapangan. Ujian CBT: Senin, 9 November 2026.
+Situs belajar statis untuk persiapan CBT Pengawal Energi (Kementerian ESDM, BPH Migas, PEM Akamigas), posisi Verifikator Lapangan. Ujian CBT: November 2026.
 
 ## Isi
 

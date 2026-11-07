@@ -44,17 +44,6 @@
     });
   }
 
-  /* ---------- Countdown ---------- */
-  function tickCountdown() {
-    var el = $('countdown'); if (!el) return;
-    var target = new Date('2026-11-09T09:45:00+07:00').getTime();
-    var diff = target - Date.now();
-    if (diff <= 0) { el.textContent = 'hari ujian tiba'; return; }
-    var days = Math.floor(diff / 86400000);
-    var hours = Math.floor((diff % 86400000) / 3600000);
-    el.textContent = days + ' hari ' + hours + ' jam lagi';
-  }
-
   /* ---------- Mobile menu ---------- */
   var menuBtn = $('menuBtn'), mainNav = $('mainNav');
   if (menuBtn && mainNav) {
@@ -475,7 +464,7 @@
     var bd = $('resultBreakdown');
     if (kind === 'teknis' && chained) {
       var p = document.createElement('p');
-      p.textContent = 'Paket Ujian Teknis selesai. Pada hari ujian, jeda menuju Ujian TPA hanya 5 menit (pukul 10.45 ke 10.50 WIB). Klik tombol Lanjut ke Ujian TPA untuk menyelesaikan simulasi penuh.';
+      p.textContent = 'Paket Ujian Teknis selesai. Pada hari ujian, jeda menuju Ujian TPA hanya 5 menit. Klik tombol Lanjut ke Ujian TPA untuk menyelesaikan simulasi penuh.';
       bd.appendChild(p);
       var nx = $('btnSimNext'); if (nx) { nx.hidden = false; nx.style.display = ''; }
     } else if (kind === 'tpa' && simChainResult) {
@@ -563,6 +552,4 @@
   });
 
   refreshCounts();
-  tickCountdown();
-  setInterval(tickCountdown, 3600000);
 })();
