@@ -452,3 +452,6 @@ a:hover { color: var(--navy); }
 .sim-box h4 { margin: 0 0 8px; color: var(--navy); font-family: Georgia, "Times New Roman", serif; }
 .sim-box p { margin: 0 0 14px; }
 .sim-btns { display: flex; flex-wrap: wrap; gap: 10px; }
+
+/* Atribut hidden harus selalu menang atas aturan display komponen. */
+[hidden] { display: none !important; }

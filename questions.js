@@ -3097,17 +3097,31 @@ const QUESTIONS = [
   "src": "buku-tpa"
  },
  {
-  "q": "Mana yang kelompoknya? tidak masuk dalam 30. Mana yang kelompoknya? tidak masuk dalam",
+  "q": "Mana yang tidak masuk dalam kelompoknya?",
   "options": [
-   "Hot Dog A. Pertempuran Surabaya",
-   "Burger B. Puputan Margarana",
-   "Pizza C. Bandung Lautan Api",
-   "Tiramisu D. Perang Tujuh Tahun",
-   "French Fries E. Padri"
+   "Hot Dog",
+   "Burger",
+   "Pizza",
+   "Tiramisu",
+   "French Fries"
   ],
   "answer": 3,
   "cat": "TPA",
   "explain": "Kelompok makanan cepat saji (fast food). Tiramisu bukan makanan cepat saji karena pembuatannya memerlukan waktu lama.",
+  "src": "buku-tpa"
+ },
+ {
+  "q": "Mana yang tidak masuk dalam kelompoknya?",
+  "options": [
+   "Pertempuran Surabaya",
+   "Puputan Margarana",
+   "Bandung Lautan Api",
+   "Perang Tujuh Tahun",
+   "Padri"
+  ],
+  "answer": 3,
+  "cat": "TPA",
+  "explain": "Kelompok nama pertempuran di Indonesia. Perang Tujuh Tahun bukan pertempuran di Indonesia, melainkan pertempuran yang terjadi di Eropa, Afrika, India, Amerika Utara, Amerika Selatan, dan Filipina.",
   "src": "buku-tpa"
  },
  {
