@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.18.9/dist/katex.min.css">
 </head>
 <body>
+<div class="wm-layer" aria-hidden="true"></div>
 <header class="site-header">
   <div class="wrap header-in">
     <a class="brand" href="#beranda">CBT Pengawal Energi</a>
@@ -583,7 +584,7 @@
     </div>
     <p><strong>Tentang situs ini.</strong> Materi dan soal disusun bersumber dari FAQ resmi PEM Akamigas, publikasi BPH Migas, Ditjen Migas, dan BPSDM ESDM. Situs ini alat belajar pribadi, bukan situs resmi Kementerian ESDM, BPH Migas, atau PEM Akamigas. Jadwal dan kisi-kisi mengikuti portal peserta per 3 Nov 2026; panduan CBT resmi terbit 5 Nov 2026 dan menjadi acuan terakhir.</p>
     <p class="foot-small">Bank soal bawaan: soal latihan buatan untuk persiapan, bukan soal ujian asli.</p>
-    <p class="visitor-line" id="visitorLine" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span id="visitorCount"></span></p><p class="copyright">© 2026 M.Al Ghazali</p>
+    <p class="visitor-line" id="visitorLine" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg><span id="visitorCount"></span></p><p class="free-line">Situs ini gratis untuk semua peserta. Dilarang memperjualbelikan situs, tautan, dan seluruh isinya.</p><p class="copyright">© 2026 M.Al Ghazali</p>
   </div>
 </footer>
 
@@ -593,5 +594,32 @@
 <script src="math-format.js" defer></script>
 <script src="app.js" defer></script>
 <script src="kunjungan.js" defer></script>
+
+<div class="warn-backdrop" id="warnPop" hidden>
+  <div class="warn-card" role="dialog" aria-modal="true" aria-labelledby="warnTitle">
+    <p class="warn-kicker">Pengumuman</p>
+    <h2 id="warnTitle">Situs ini gratis, jangan diperjualbelikan</h2>
+    <p>Seluruh materi dan latihan di situs ini kubagikan <strong>gratis</strong> untuk membantu sesama peserta Pengawal Energi 2026 belajar. Situs ini, tautannya, dan seluruh isinya <strong>dilarang diperjualbelikan</strong> dalam bentuk apa pun.</p>
+    <p>Bila ada pihak yang memungut bayaran untuk akses ke situs ini, itu bukan dariku dan kamu sedang ditipu. Akses yang benar hanya lewat alamat resmi situs ini, dan selalu gratis.</p>
+    <p class="warn-sign">— M.Al Ghazali</p>
+    <button class="btn btn-primary warn-btn" id="warnClose" type="button">Mengerti, lanjut belajar</button>
+  </div>
+</div>
+<script>
+(function () {
+  try {
+    var kunci = 'pe_warned_v1';
+    if (sessionStorage.getItem(kunci)) return;
+    var pop = document.getElementById('warnPop');
+    if (!pop) return;
+    pop.hidden = false;
+    sessionStorage.setItem(kunci, '1');
+    function tutup() { pop.hidden = true; }
+    document.getElementById('warnClose').addEventListener('click', tutup);
+    pop.addEventListener('click', function (e) { if (e.target === pop) tutup(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') tutup(); });
+  } catch (e) {}
+})();
+</script>
 </body>
 </html>
