@@ -3,6 +3,18 @@
 
   var HISTORY_KEY = 'pe_quiz_history';
 
+  /* Bank soal tiba terenkode (base64) agar tidak mudah diambil massal; didekode di sini saat halaman dibuka. */
+  function decodeBank(b64) {
+    try {
+      var bin = atob(b64);
+      var bytes = new Uint8Array(bin.length);
+      for (var i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      return JSON.parse(new TextDecoder('utf-8').decode(bytes));
+    } catch (e) { return []; }
+  }
+  var QUESTIONS = (typeof QUESTIONS_DATA !== 'undefined') ? decodeBank(QUESTIONS_DATA) : [];
+  var EXTRA_QUESTIONS = (typeof EXTRA_DATA !== 'undefined') ? decodeBank(EXTRA_DATA) : [];
+
   function bank() {
     var base = (typeof QUESTIONS !== 'undefined' && Array.isArray(QUESTIONS)) ? QUESTIONS : [];
     var extra = (typeof EXTRA_QUESTIONS !== 'undefined' && Array.isArray(EXTRA_QUESTIONS)) ? EXTRA_QUESTIONS : [];

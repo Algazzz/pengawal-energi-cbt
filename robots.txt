@@ -1,0 +1,16 @@
+# Situs belajar gratis untuk peserta Pengawal Energi 2026.
+# Mohon tidak merayapi atau mengambil isi situs secara massal untuk diperjualbelikan.
+User-agent: GPTBot
+Disallow: /
+User-agent: ClaudeBot
+Disallow: /
+User-agent: CCBot
+Disallow: /
+User-agent: Google-Extended
+Disallow: /
+User-agent: PerplexityBot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
+User-agent: *
+Allow: /
